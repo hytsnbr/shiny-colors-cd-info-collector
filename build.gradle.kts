@@ -31,7 +31,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web-services")
 
     // jsoup
-    implementation("org.jsoup:jsoup:1.15.4")
+    implementation("org.jsoup:jsoup:1.16.1")
 
     // Jackson
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
