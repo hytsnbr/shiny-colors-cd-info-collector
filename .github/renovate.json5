@@ -1,0 +1,75 @@
+{
+  // JSONスキーマで入力補完できるようにする
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [],
+  // pnpm でパッケージのバージョン指定にキャレット(^)を使ったときに更新処理が動かない問題の対応
+  // 参考: https://zenn.dev/ikemo/articles/renovate-pnpm
+  "rangeStrategy": "bump",
+  //タイムゾーン
+  "timezone": "Asia/Tokyo",
+  // スケジュール設定（タイムゾーン未設定の場合はUTCで設定する）
+  "schedule": [
+    "after 0:00 and before 23:00"
+  ],
+  // 1時間で作成できるPRの上限（0で上限無し）
+  "prHourlyLimit": 0,
+  // 作成できるPR/ブランチの上限（0で上限無し）
+  "prConcurrentLimit": 0,
+  // Renovate のコミット上限（デフォルトは無制限）
+  "prCommitsPerRunLimit": 0,
+  // アサイン
+  "assignees": [
+    "hytsnbr"
+  ],
+  // レビュアー
+  "reviewers": [
+    "hytsnbr"
+  ],
+  // ベースブランチ名
+  "branchPrefix": "dependency/",
+  // Issue に Dependency Dashboard を作成するか
+  "dependencyDashboard": true,
+  // Dependency Dashboard の Issueタイトル
+  "dependencyDashboardTitle": "Dependency Dashboard",
+  // CVE のリストアップ条件
+  "dependencyDashboardOSVVulnerabilitySummary": "unresolved",
+  "dependencyDashboardLabels": [
+    "dependencies",
+    "renovate"
+  ], // PRに付けるラベル
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
+  "prBodyNotes": [],
+  // 細かいルール
+  "packageRules": [
+    // github-actions 特有の設定
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "addLabels": [
+        "github-actions"
+      ],
+      "additionalBranchPrefix": "github-actions/"
+    },
+    // npm 特有の設定
+    {
+      "matchManagers": [
+        "gradle"
+      ],
+      "addLabels": [
+        "gradle"
+      ],
+      "additionalBranchPrefix": "gradle/"
+    },
+    // メジャーバージョンのアップデートにはラベルを付与する
+    {
+      "matchUpdateTypes": "major",
+      "addLabels": [
+        "major"
+      ]
+    }
+  ]
+}
