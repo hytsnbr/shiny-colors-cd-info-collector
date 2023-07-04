@@ -153,12 +153,25 @@ public enum Store {
     ),
     ;
     
+    /** ストア名 */
     private final String storeName;
     
+    /** Webサイトドメインリスト */
     private final List<String> domainList;
     
+    /** ハイレゾ対応可否 */
     private final boolean isHiRes;
     
+    /**
+     * 指定URLからショップを逆引きする<br>
+     * ショップ検索はURLと定義済みドメインリストで行う
+     *
+     * @param url 検索に使用するURL
+     *
+     * @return {@link Store}
+     *
+     * @throws IllegalArgumentException 合致するストアが見つからなかった場合
+     */
     public static Store getByDomain(String url) {
         return Arrays.stream(Store.values())
                      .filter(e -> StringUtils.containsAny(url, e.domainList.toArray(new String[0])))
