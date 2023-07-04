@@ -22,30 +22,34 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.TextNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.hytsnbr.shiny_test.config.ApplicationConfig;
 import com.hytsnbr.shiny_test.constant.Store;
 import com.hytsnbr.shiny_test.dto.JsonData;
 import com.hytsnbr.shiny_test.dto.JsonData.CDInfo;
 import com.hytsnbr.shiny_test.dto.JsonData.StoreSite;
 import com.hytsnbr.shiny_test.exception.SystemException;
 
+@Component
 public class GenerateJson {
     
-    private static final String URL = "https://shinycolors.lantis.jp/discography/";
-    
-    private static final String JSON_FILE_PATH = "result/data.json";
-    
-    private static final DateTimeFormatter releaseDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/M/d");
+    private final ApplicationConfig appConfig;
     
     private static final ObjectMapper objectMapper;
     
+    private static final DateTimeFormatter releaseDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/M/d");
+    
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateJson.class);
     
-    /**
-     * staticイニシャライザー
-     */
+    /** コンストラクタ */
+    public GenerateJson(ApplicationConfig appConfig) {
+        this.appConfig = appConfig;
+    }
+    
+    /* staticイニシャライザー */
     static {
         objectMapper = new ObjectMapper();
         // Jacksonで Java8 の LocalDate 関係を処理できるようにする
@@ -61,7 +65,7 @@ public class GenerateJson {
         }
         
         List<CDInfo> cdInfoList = new ArrayList<>();
-        var document = this.connectJsoup(URL);
+        var document = this.connectJsoup(this.appConfig.getTargetUrl());
         
         var discographySection = document.getElementById("discographys");
         if (Objects.isNull(discographySection)) {
@@ -224,7 +228,7 @@ public class GenerateJson {
      * JSONファイルに出力
      */
     private void outputToJsonFile(List<CDInfo> cdInfoList) {
-        Path path = Paths.get(JSON_FILE_PATH);
+        Path path = Paths.get(this.appConfig.getJsonPath());
         try {
             if (Files.notExists(path)) {
                 Files.createFile(path);
@@ -261,7 +265,8 @@ public class GenerateJson {
      */
     private JsonData readJsonFile() {
         try {
-            return objectMapper.readValue(Paths.get(JSON_FILE_PATH).toFile(), JsonData.class);
+            var jsonFile = Paths.get(this.appConfig.getJsonPath()).toFile();
+            return objectMapper.readValue(jsonFile, JsonData.class);
         } catch (FileNotFoundException e) {
             return null;
         } catch (IOException e) {

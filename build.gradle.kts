@@ -17,6 +17,10 @@ repositories {
     mavenCentral()
 }
 
+tasks.compileJava {
+    dependsOn("processResources")
+}
+
 dependencies {
     // Apache Commons
     implementation("org.apache.commons:commons-lang3:3.12.0")
@@ -29,6 +33,7 @@ dependencies {
     // Spring Boot Starter
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web-services")
+    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
     // jsoup
     implementation("org.jsoup:jsoup:1.16.1")
