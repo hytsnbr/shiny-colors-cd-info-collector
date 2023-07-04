@@ -1,6 +1,5 @@
 package com.hytsnbr.shiny_test;
 
-import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -18,13 +17,15 @@ import java.util.Objects;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.nodes.TextNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import com.fasterxml.jackson.core.util.DefaultIndenter;
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.hytsnbr.shiny_test.config.ApplicationConfig;
 import com.hytsnbr.shiny_test.constant.Store;
@@ -54,6 +55,7 @@ public class GenerateJson {
         objectMapper = new ObjectMapper();
         // Jacksonで Java8 の LocalDate 関係を処理できるようにする
         objectMapper.registerModule(new JavaTimeModule());
+        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
     }
     
     public void generate() {
@@ -152,9 +154,9 @@ public class GenerateJson {
                 
                 // ダウンロードサイト & CDショップサイト URL取得
                 // 片方だけの場合にも対応
-                String downloadSiteLinkPageUrl = "";
-                String shopSiteLinkPageUrl = "";
-                for (Element storeLinkPage : storeLinkPageList) {
+                var downloadSiteLinkPageUrl = "";
+                var shopSiteLinkPageUrl = "";
+                for (var storeLinkPage : storeLinkPageList) {
                     if (StringUtils.equals(storeLinkPage.childNode(0).attr("alt"), "配信サイトで購入")) {
                         downloadSiteLinkPageUrl = storeLinkPage.attr("href");
                     }
@@ -165,12 +167,12 @@ public class GenerateJson {
                 
                 // ダウンロードサイトリスト
                 LOGGER.debug("ダウンロードサイト");
-                List<StoreSite> downloadSiteList = this.getStoreData(downloadSiteLinkPageUrl);
+                var downloadSiteList = this.getStoreData(downloadSiteLinkPageUrl);
                 cdInfo.setDownloadSiteList(downloadSiteList);
                 
                 // CDショップサイト
                 LOGGER.debug("ショップサイト");
-                List<StoreSite> purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
+                var purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
                 cdInfo.setPurchaseSiteList(purchaseSiteList);
                 
                 cdInfoList.add(cdInfo);
@@ -213,11 +215,11 @@ public class GenerateJson {
         var siteLinkPage = this.connectJsoup(url);
         var siteLinkList = siteLinkPage.select(".music-service-list__item > a");
         List<StoreSite> siteList = new ArrayList<>();
-        for (Element e : siteLinkList) {
+        for (var e : siteLinkList) {
             var siteUrl = e.attr("href");
             LOGGER.debug("{}: {}", e.attr("data-label"), siteUrl);
-            Store store = Store.getByDomain(siteUrl);
-            StoreSite storeSite = new StoreSite(store.getStoreName(), siteUrl);
+            var store = Store.getByDomain(siteUrl);
+            var storeSite = new StoreSite(store.getStoreName(), siteUrl);
             siteList.add(storeSite);
         }
         
@@ -237,8 +239,10 @@ public class GenerateJson {
             throw new SystemException(e);
         }
         
-        try (BufferedWriter bufferedWriter = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
-            String jsonText = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(JsonData.of(cdInfoList));
+        try (var bufferedWriter = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
+            var prettyPrinter = new DefaultPrettyPrinter();
+            prettyPrinter.indentArraysWith(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE);
+            var jsonText = objectMapper.writer(prettyPrinter).writeValueAsString(JsonData.of(cdInfoList));
             bufferedWriter.write(jsonText);
         } catch (Exception e) {
             throw new SystemException(e);
@@ -256,8 +260,12 @@ public class GenerateJson {
             return false;
         }
         
-        final var today = LocalDate.now().toEpochDay();
-        return data.getCreatedAt() == today;
+        final var createdAt = LocalDate.ofEpochDay(data.getCreatedAt());
+        final var today = LocalDate.now();
+        LOGGER.info("前回処理日: {}", createdAt);
+        LOGGER.info("本処理日  : {}", today);
+        
+        return data.getCreatedAt() == today.toEpochDay();
     }
     
     /**
@@ -287,7 +295,7 @@ public class GenerateJson {
             return false;
         }
         
-        for (CDInfo cdInfo : cdInfoList) {
+        for (var cdInfo : cdInfoList) {
             if (!data.getCdInfoList().contains(cdInfo)) {
                 return false;
             }

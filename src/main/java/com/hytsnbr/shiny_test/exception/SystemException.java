@@ -6,10 +6,6 @@ public class SystemException extends RuntimeException {
     
     private static final String MSG = "システムエラー";
     
-    public SystemException() {
-        super();
-    }
-    
     public SystemException(String msg) {
         super(StringUtils.isNotBlank(msg) ? msg : MSG);
     }
