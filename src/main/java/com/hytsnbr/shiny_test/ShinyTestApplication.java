@@ -9,15 +9,21 @@ import com.hytsnbr.shiny_test.exception.SystemException;
 @SpringBootApplication
 public class ShinyTestApplication implements CommandLineRunner {
     
+    private final GenerateJson generateJson;
+    
+    /** コンストラクタ */
+    public ShinyTestApplication(GenerateJson generateJson) {
+        this.generateJson = generateJson;
+    }
+    
     public static void main(String[] args) {
         SpringApplication.run(ShinyTestApplication.class, args);
     }
     
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         try {
-            GenerateJson generateJson = new GenerateJson();
-            generateJson.generate();
+            this.generateJson.generate();
         } catch (SystemException e) {
             e.printStackTrace();
         }

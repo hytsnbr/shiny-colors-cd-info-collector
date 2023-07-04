@@ -1,5 +1,12 @@
 spring:
   main:
+    # Tomcat を使用しないようにする
     web-application-type: none
+    # Spring の起動時バナーを出力させないようにする
     banner-mode: off
+    # Spring の起動時ログを出力させないようにする
     log-startup-info: false
+
+app-config:
+  target-url: https://shinycolors.lantis.jp/discography/
+  json-path: result/data.json
