@@ -63,6 +63,7 @@ public class JsonData {
         /** CD販売サイトリスト */
         private List<StoreSite> purchaseSiteList = Collections.emptyList();
         
+        @SuppressWarnings("EmptyMethod")
         @Override
         public int hashCode() {
             return super.hashCode();
@@ -80,12 +81,12 @@ public class JsonData {
             if (!StringUtils.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
             if (this.limited != cdInfo.limited) return false;
             if (!StringUtils.equals(this.artist, cdInfo.artist)) return false;
-            for (StoreSite storeSite : cdInfo.downloadSiteList) {
+            for (var storeSite : cdInfo.downloadSiteList) {
                 if (!this.downloadSiteList.contains(storeSite)) {
                     return false;
                 }
             }
-            for (StoreSite storeSite : cdInfo.purchaseSiteList) {
+            for (var storeSite : cdInfo.purchaseSiteList) {
                 if (!this.purchaseSiteList.contains(storeSite)) {
                     return false;
                 }
@@ -107,6 +108,7 @@ public class JsonData {
         /** ショップページURL */
         private String url;
         
+        @SuppressWarnings("EmptyMethod")
         @Override
         public int hashCode() {
             return super.hashCode();
