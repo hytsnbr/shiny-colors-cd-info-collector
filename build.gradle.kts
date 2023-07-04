@@ -40,4 +40,11 @@ dependencies {
 
     // Jackson
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+
+    // Unit Test
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
