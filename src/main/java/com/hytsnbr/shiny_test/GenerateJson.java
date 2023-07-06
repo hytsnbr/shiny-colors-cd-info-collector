@@ -4,7 +4,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -230,11 +229,10 @@ public class GenerateJson {
      * JSONファイルに出力
      */
     private void outputToJsonFile(List<CDInfo> cdInfoList) {
-        Path path = Paths.get(this.appConfig.getJsonPath());
+        var path = Paths.get(this.appConfig.getJsonPath());
         try {
-            if (Files.notExists(path)) {
-                Files.createFile(path);
-            }
+            Files.deleteIfExists(path);
+            Files.createFile(path);
         } catch (IOException e) {
             throw new SystemException(e);
         }
