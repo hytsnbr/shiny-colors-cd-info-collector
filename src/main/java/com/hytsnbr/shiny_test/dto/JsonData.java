@@ -63,6 +63,7 @@ public class JsonData {
         /** CD販売サイトリスト */
         private List<StoreSite> purchaseSiteList = Collections.emptyList();
         
+        // NOTE: 未定義の場合 SonarLint が警告を出すので対策として定義
         @SuppressWarnings("EmptyMethod")
         @Override
         public int hashCode() {
@@ -108,6 +109,7 @@ public class JsonData {
         /** ショップページURL */
         private String url;
         
+        // NOTE: 未定義の場合 SonarLint が警告を出すので対策として定義
         @SuppressWarnings("EmptyMethod")
         @Override
         public int hashCode() {
@@ -117,6 +119,7 @@ public class JsonData {
         @Override
         public boolean equals(Object obj) {
             if (obj instanceof StoreSite storeSite) {
+                // NOTE: ショップサイトURlLはページ読み込みごとに異なるクエリパラメータが付与される事例があったので比較対象にしない
                 return StringUtils.equals(this.name, storeSite.name);
             }
             

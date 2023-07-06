@@ -57,6 +57,9 @@ public class GenerateJson {
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
     }
     
+    /**
+     * 生成処理
+     */
     public void generate() {
         // 前回作成したファイルの作成日チェック
         if (this.isCreationDateToday()) {
@@ -132,7 +135,7 @@ public class GenerateJson {
                     }
                 }
                 
-                // 品番（たまに違う位置にある場合の対応）
+                // 品番（表記の関係で違う位置にある場合の対応）
                 try {
                     var recordNumber = infoTexts.get(1).childNode(2).toString().replaceAll("[\r\n]", "")
                                                 .trim().replace("品番：", "");
@@ -178,7 +181,7 @@ public class GenerateJson {
             }
         }
         
-        // 前回データ一致する場合はファイル出力しない
+        // 前回処理後のデータと一致する場合はファイル出力しない
         if (!this.matchPrevCDInfoList(cdInfoList)) {
             this.outputToJsonFile(cdInfoList);
             
@@ -260,8 +263,8 @@ public class GenerateJson {
         
         final var createdAt = LocalDate.ofEpochDay(data.getCreatedAt());
         final var today = LocalDate.now();
-        LOGGER.info("前回処理日: {}", createdAt);
-        LOGGER.info("本処理日  : {}", today);
+        LOGGER.info("ファイル作成日: {}", createdAt);
+        LOGGER.info("        処理日: {}", today);
         
         return data.getCreatedAt() == today.toEpochDay();
     }
