@@ -82,11 +82,13 @@ public class JsonData {
             if (!StringUtils.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
             if (this.limited != cdInfo.limited) return false;
             if (!StringUtils.equals(this.artist, cdInfo.artist)) return false;
+            if (this.downloadSiteList.size() != cdInfo.downloadSiteList.size()) return false;
             for (var storeSite : cdInfo.downloadSiteList) {
                 if (!this.downloadSiteList.contains(storeSite)) {
                     return false;
                 }
             }
+            if (this.purchaseSiteList.size() != cdInfo.purchaseSiteList.size()) return false;
             for (var storeSite : cdInfo.purchaseSiteList) {
                 if (!this.purchaseSiteList.contains(storeSite)) {
                     return false;
