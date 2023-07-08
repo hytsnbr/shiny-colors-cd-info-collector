@@ -1,6 +1,8 @@
 name: Process
 
 on:
+  workflow_dispatch:
+
   schedule:
     - cron: "0 6 * * *"
 
@@ -8,8 +10,25 @@ jobs:
   Process:
     runs-on: ubuntu-latest
 
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      LABEL_NAME: "JSONデータ更新"
+
     steps:
-      - uses: actions/checkout@v3
+      - name: set Env value
+        run: |
+          echo "process_date=`date '+%Y-%m-%d %H:%M:%S'`" >> "$GITHUB_ENV"
+          echo "branch_name=update/update_data_`date '+%Y-%m-%d_%H-%M-%S'`" >> "$GITHUB_ENV"
+
+      - name: check Env value
+        run: |
+          echo "${{ env.process_date }}"
+          echo "${{ env.branch_name }}"
+
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
@@ -34,13 +53,34 @@ jobs:
         run: git diff --name-only --exit-code
         continue-on-error: true
 
+      - name: Create Branch & Checkout
+        run: git checkout -b "${{ env.branch_name }}"
+
       - name: Commit & Push
+        id: commit_push
+        if: steps.diff.outcome == 'failure'
         run: |
           set -x
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
-          date=`date '+%Y-%m-%d %H:%M:%S'`
-          git commit -m "Update Data: ${date}"
-          git push
-        if: steps.diff.outcome == 'failure'
+          git commit -m "Update: ${{ env.process_date }}"
+          git push --set-upstream origin ${{ env.branch_name }}
+
+      - name: Label Create
+        run: |
+          gh label create "${{ env.LABEL_NAME }}" \
+            --color "#5d9469" \
+            --description "${{ env.LABEL_NAME }}" \
+            --force
+        continue-on-error: true
+
+      - name: Create Pull Request
+        run: |
+          gh pr create \
+            --assignee hytsnbr \
+            --reviewer hytsnbr \
+            --base main \
+            --title "データ更新: ${{ env.process_date }}" \
+            --body "${{ env.process_date }} 時点 更新データ" \
+            --label "${{ env.LABEL_NAME }}"
