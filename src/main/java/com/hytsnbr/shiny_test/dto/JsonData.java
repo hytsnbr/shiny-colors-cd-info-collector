@@ -54,6 +54,9 @@ public class JsonData {
         /** 限定販売か */
         private boolean limited;
         
+        /** シリーズ名 */
+        private String series;
+        
         /** アーティスト名 */
         private String artist;
         
@@ -81,6 +84,7 @@ public class JsonData {
             if (!Objects.equals(this.releaseDate, cdInfo.releaseDate)) return false;
             if (!StringUtils.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
             if (this.limited != cdInfo.limited) return false;
+            if (!StringUtils.equals(this.series, cdInfo.series)) return false;
             if (!StringUtils.equals(this.artist, cdInfo.artist)) return false;
             if (this.downloadSiteList.size() != cdInfo.downloadSiteList.size()) return false;
             for (var storeSite : cdInfo.downloadSiteList) {
