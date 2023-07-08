@@ -16,6 +16,8 @@ jobs:
 
     steps:
       - name: set Env value
+        env:
+          TZ: 'Asia/Tokyo' # タイムゾーン指定
         run: |
           echo "process_date=`date '+%Y-%m-%d %H:%M:%S'`" >> "$GITHUB_ENV"
           echo "branch_name=update/update_data_`date '+%Y-%m-%d_%H-%M-%S'`" >> "$GITHUB_ENV"
