@@ -2,7 +2,7 @@ name: Process
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: "0 6 * * *"
 
 jobs:
   Process:
@@ -16,7 +16,7 @@ jobs:
         with:
           java-version: 17
           distribution: adopt
-          cache: 'gradle'
+          cache: "gradle"
 
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@v1
@@ -26,17 +26,14 @@ jobs:
         with:
           gradle-version: wrapper
 
-      - name: Build with Gradle
-        run: gradle build
-
       - name: BootRun
         run: gradle bootRun --quiet
-      
+
       - name: Diff
         id: diff
         run: git diff --name-only --exit-code
         continue-on-error: true
-        
+
       - name: Commit & Push
         run: |
           set -x
