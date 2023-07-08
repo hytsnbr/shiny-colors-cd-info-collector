@@ -1,20 +1,18 @@
 package com.hytsnbr.shiny_test.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
-@Setter
-@Component
+@AllArgsConstructor
 @ConfigurationProperties(prefix = "app-config")
 public class ApplicationConfig {
     
     /** 対象URL */
-    private String targetUrl;
+    private final String targetUrl;
     
     /** JSONファイル生成先パス */
-    private String jsonPath;
+    private final String jsonPath;
 }

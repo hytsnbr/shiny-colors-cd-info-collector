@@ -3,10 +3,12 @@ package com.hytsnbr.shiny_test;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
 import com.hytsnbr.shiny_test.exception.SystemException;
 
 @SpringBootApplication
+@ConfigurationPropertiesScan
 public class ShinyTestApplication implements CommandLineRunner {
     
     private final GenerateJson generateJson;
