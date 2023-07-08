@@ -79,9 +79,13 @@ public class GenerateJson {
         var cdArea = discographySection.getElementsByClass("CD_area").get(0);
         var dscBox = cdArea.getElementsByClass("dsc_box");
         for (var dscBoxElement : dscBox) {
+            var seriesName = dscBoxElement.select("h4 > span").text().replace("■", "");
+            LOGGER.info("Series Name: {}", seriesName);
+            
             var dscList = dscBoxElement.select("a");
             for (var dsc : dscList) {
                 var cdInfo = new CDInfo();
+                cdInfo.setSeries(seriesName);
                 
                 var detailPage = this.connectJsoup(dsc.attr("href"));
                 var releaseSection = detailPage.getElementById("release");
