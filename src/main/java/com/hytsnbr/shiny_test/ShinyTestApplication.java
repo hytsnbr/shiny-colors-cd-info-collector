@@ -41,6 +41,8 @@ public class ShinyTestApplication implements CommandLineRunner {
         // 前回作成したファイルの作成日チェック
         if (this.isCreationDateToday()) {
             LOGGER.info("前回のファイル作成処理から日付が変わっていないため処理は中止されました");
+            
+            return;
         }
         
         var cdInfoList = this.generateJson.createCDInfoList();
