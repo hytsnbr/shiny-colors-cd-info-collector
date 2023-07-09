@@ -84,8 +84,8 @@ public class GenerateJson {
             
             var dscList = dscBoxElement.select("a");
             for (var dsc : dscList) {
-                var cdInfo = new CDInfo();
-                cdInfo.setSeries(seriesName);
+                var cdInfoBuilder = CDInfo.builder();
+                cdInfoBuilder.series(seriesName);
                 
                 var detailPage = this.connectJsoup(dsc.attr("href"));
                 var releaseSection = detailPage.getElementById("release");
@@ -94,14 +94,14 @@ public class GenerateJson {
                 }
                 
                 var releaseImg = releaseSection.select(".release_box > .release_img > img").attr("src");
-                cdInfo.setJacketUrl(releaseImg);
-                LOGGER.debug("Jacket Image: {}", cdInfo.getJacketUrl());
+                cdInfoBuilder.jacketUrl(releaseImg);
+                LOGGER.debug("Jacket Image: {}", releaseImg);
                 
                 var titleBox = releaseSection.getElementsByClass("titles").get(0);
                 var title = titleBox.getElementsByTag("h2").text();
                 LOGGER.info("CD Name: {}", title);
                 LOGGER.debug("CD URL: {}", dsc.attr("href"));
-                cdInfo.setTitle(title);
+                cdInfoBuilder.title(title);
                 
                 var releaseContentsBox = releaseSection.getElementsByClass("release_contents").get(0);
                 var infoTexts = releaseContentsBox.children();
@@ -116,7 +116,7 @@ public class GenerateJson {
                     if (StringUtils.contains(childNode.toString(), "アーティスト：")) {
                         var artistText = childNode.toString().replace("アーティスト：", "");
                         LOGGER.debug("CD Artist Name: {}", artistText);
-                        cdInfo.setArtist(artistText);
+                        cdInfoBuilder.artist(artistText);
                     }
                     
                     // 品番
@@ -124,7 +124,7 @@ public class GenerateJson {
                         var recordNumber = childNode.toString().replaceAll("[\r\n]", "")
                                                     .trim().replace("品番：", "");
                         LOGGER.debug("CD Record Number: {}", recordNumber);
-                        cdInfo.setRecordNumber(recordNumber);
+                        cdInfoBuilder.recordNumber(recordNumber);
                     }
                 }
                 
@@ -133,7 +133,7 @@ public class GenerateJson {
                 LOGGER.debug("CD Release Date: {}", releaseDateText);
                 if (StringUtils.isNotBlank(releaseDateText)) {
                     try {
-                        cdInfo.setReleaseDate(LocalDate.parse(releaseDateText, releaseDateTimeFormatter));
+                        cdInfoBuilder.releaseDate(LocalDate.parse(releaseDateText, releaseDateTimeFormatter));
                     } catch (DateTimeParseException e) {
                         throw new SystemException("リリース日：日付変換に失敗しました");
                     }
@@ -144,7 +144,7 @@ public class GenerateJson {
                     var recordNumber = infoTexts.get(1).childNode(2).toString().replaceAll("[\r\n]", "")
                                                 .trim().replace("品番：", "");
                     LOGGER.debug("CD Record Number: {}", recordNumber);
-                    cdInfo.setRecordNumber(recordNumber);
+                    cdInfoBuilder.recordNumber(recordNumber);
                 } catch (IndexOutOfBoundsException e) {
                     // NOTE: イレギュラーでない場合は例外が発生するが正常なので何もしない
                 }
@@ -152,8 +152,8 @@ public class GenerateJson {
                 var storeLinkPageList = infoTexts.select(".shopbanc > .banshopint");
                 // ショップサイトのリンクが無い場合は限定販売とする
                 if (storeLinkPageList.isEmpty()) {
-                    cdInfo.setLimited(true);
-                    cdInfoList.add(cdInfo);
+                    cdInfoBuilder.limited(true);
+                    cdInfoList.add(CDInfo.builder().build());
                     
                     continue;
                 }
@@ -174,14 +174,14 @@ public class GenerateJson {
                 // ダウンロードサイトリスト
                 LOGGER.debug("ダウンロードサイト");
                 var downloadSiteList = this.getStoreData(downloadSiteLinkPageUrl);
-                cdInfo.setDownloadSiteList(downloadSiteList);
+                cdInfoBuilder.downloadSiteList(downloadSiteList);
                 
                 // CDショップサイト
                 LOGGER.debug("ショップサイト");
                 var purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
-                cdInfo.setPurchaseSiteList(purchaseSiteList);
+                cdInfoBuilder.purchaseSiteList(purchaseSiteList);
                 
-                cdInfoList.add(cdInfo);
+                cdInfoList.add(CDInfo.builder().build());
             }
         }
         
