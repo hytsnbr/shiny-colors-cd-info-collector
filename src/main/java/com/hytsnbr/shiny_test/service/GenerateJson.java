@@ -1,10 +1,6 @@
-package com.hytsnbr.shiny_test;
+package com.hytsnbr.shiny_test.service;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
@@ -21,36 +17,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.core.util.DefaultIndenter;
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.hytsnbr.shiny_test.config.ApplicationConfig;
 import com.hytsnbr.shiny_test.constant.Store;
 import com.hytsnbr.shiny_test.dto.CDInfo;
-import com.hytsnbr.shiny_test.dto.JsonData;
 import com.hytsnbr.shiny_test.dto.StoreSite;
 import com.hytsnbr.shiny_test.exception.SystemException;
 
+/**
+ * JSONデータ作成
+ */
 @Component
 public class GenerateJson {
-    
-    private static final ObjectMapper objectMapper;
     
     private static final DateTimeFormatter releaseDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/M/d");
     
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateJson.class);
     
     private final ApplicationConfig appConfig;
-    
-    /* staticイニシャライザー */
-    static {
-        objectMapper = new ObjectMapper();
-        // Jacksonで Java8 の LocalDate 関係を処理できるようにする
-        objectMapper.registerModule(new JavaTimeModule());
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-    }
     
     /** コンストラクタ */
     public GenerateJson(ApplicationConfig appConfig) {
@@ -60,14 +43,7 @@ public class GenerateJson {
     /**
      * 生成処理
      */
-    public void generate() {
-        // 前回作成したファイルの作成日チェック
-        if (this.isCreationDateToday()) {
-            LOGGER.info("前回のファイル作成処理から日付が変わっていないため処理は中止されました");
-            
-            return;
-        }
-        
+    public List<CDInfo> createCDInfoList() {
         List<CDInfo> cdInfoList = new ArrayList<>();
         var document = this.connectJsoup(this.appConfig.getTargetUrl());
         
@@ -184,14 +160,7 @@ public class GenerateJson {
             }
         }
         
-        // 前回処理後のデータと一致する場合はファイル出力しない
-        if (!this.matchPrevCDInfoList(cdInfoList)) {
-            this.outputToJsonFile(cdInfoList);
-            
-            LOGGER.info("ファイルを作成しました");
-        } else {
-            LOGGER.info("前回処理時とデータ内容に変化がないためファイルは作成されませんでした");
-        }
+        return cdInfoList;
     }
     
     /**
@@ -271,82 +240,5 @@ public class GenerateJson {
         }
         
         return siteList;
-    }
-    
-    /**
-     * JSONファイルに出力
-     */
-    private void outputToJsonFile(List<CDInfo> cdInfoList) {
-        var path = Paths.get(this.appConfig.getJsonPath());
-        try {
-            Files.deleteIfExists(path);
-            Files.createFile(path);
-        } catch (IOException e) {
-            throw new SystemException("ファイル作成に失敗しました", e);
-        }
-        
-        try (var bufferedWriter = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
-            var prettyPrinter = new DefaultPrettyPrinter();
-            prettyPrinter.indentArraysWith(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE);
-            var jsonText = objectMapper.writer(prettyPrinter).writeValueAsString(JsonData.of(cdInfoList));
-            bufferedWriter.write(jsonText);
-        } catch (Exception e) {
-            throw new SystemException(e);
-        }
-    }
-    
-    /**
-     * 作成済みのファイルの作成日が現在日と一致するか<br>
-     * 一致する場合：<code>true</code><br>
-     * 一致しない場合、ファイルが存在しない・読み込みに失敗した場合：<code>false</code>
-     */
-    private boolean isCreationDateToday() {
-        var data = this.readJsonFile();
-        if (Objects.isNull(data)) {
-            return false;
-        }
-        
-        final var createdAt = LocalDate.ofEpochDay(data.getCreatedAt());
-        final var today = LocalDate.now();
-        LOGGER.info("ファイル作成日: {}", createdAt);
-        LOGGER.info("        処理日: {}", today);
-        
-        return data.getCreatedAt() == today.toEpochDay();
-    }
-    
-    /**
-     * JSONファイルを読み取ってオブジェクトで返却する
-     */
-    private JsonData readJsonFile() {
-        try {
-            var jsonFile = Paths.get(this.appConfig.getJsonPath()).toFile();
-            return objectMapper.readValue(jsonFile, JsonData.class);
-        } catch (FileNotFoundException e) {
-            return null;
-        } catch (IOException e) {
-            throw new SystemException("生成ファイルの読み込みに失敗しました", e);
-        }
-    }
-    
-    /**
-     * 前回処理時のデータと一致するか
-     *
-     * @param cdInfoList CD情報リスト
-     *
-     * @return 一致する場合は true
-     */
-    private boolean matchPrevCDInfoList(List<CDInfo> cdInfoList) {
-        var data = this.readJsonFile();
-        if (Objects.isNull(data)) {
-            return false;
-        }
-        
-        for (var cdInfo : cdInfoList) {
-            if (!data.getCdInfoList().contains(cdInfo)) {
-                return false;
-            }
-        }
-        
-        return true;
     }
 }
