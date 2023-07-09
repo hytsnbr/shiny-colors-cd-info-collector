@@ -107,7 +107,6 @@ public class GenerateJson {
                 var infoTexts = releaseContentsBox.children();
                 
                 for (Object childNode : infoTexts.get(0).childNodes()) {
-                    
                     if (!(childNode instanceof TextNode)) {
                         continue;
                     }
@@ -263,10 +262,11 @@ public class GenerateJson {
         var siteLinkList = siteLinkPage.select(".music-service-list__item > a");
         List<StoreSite> siteList = new ArrayList<>();
         for (var e : siteLinkList) {
+            // TODO: ハイレゾ対応可否を確認する処理
             var siteUrl = e.attr("href");
             LOGGER.debug("{}: {}", e.attr("data-label"), siteUrl);
-            var store = Store.getByDomain(siteUrl);
-            var storeSite = new StoreSite(store.getStoreName(), siteUrl);
+            var storeEnum = Store.getByDomain(siteUrl);
+            var storeSite = new StoreSite(storeEnum, siteUrl);
             siteList.add(storeSite);
         }
         
