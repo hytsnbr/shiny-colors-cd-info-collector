@@ -202,7 +202,10 @@ public class GenerateJson {
      */
     private Document connectJsoup(String url) {
         try {
-            return Jsoup.connect(url).get();
+            var connection = Jsoup.connect(url);
+            connection.timeout(appConfig.getJsoup().getTimeout());
+            
+            return connection.get();
         } catch (IOException e) {
             throw new SystemException(e);
         }
