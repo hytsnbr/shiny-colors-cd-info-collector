@@ -28,9 +28,9 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.hytsnbr.shiny_test.config.ApplicationConfig;
 import com.hytsnbr.shiny_test.constant.Store;
+import com.hytsnbr.shiny_test.dto.CDInfo;
 import com.hytsnbr.shiny_test.dto.JsonData;
-import com.hytsnbr.shiny_test.dto.JsonData.CDInfo;
-import com.hytsnbr.shiny_test.dto.JsonData.StoreSite;
+import com.hytsnbr.shiny_test.dto.StoreSite;
 import com.hytsnbr.shiny_test.exception.SystemException;
 
 @Component
