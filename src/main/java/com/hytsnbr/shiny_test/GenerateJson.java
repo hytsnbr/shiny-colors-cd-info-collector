@@ -36,18 +36,13 @@ import com.hytsnbr.shiny_test.exception.SystemException;
 @Component
 public class GenerateJson {
     
-    private final ApplicationConfig appConfig;
-    
     private static final ObjectMapper objectMapper;
     
     private static final DateTimeFormatter releaseDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/M/d");
     
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateJson.class);
     
-    /** コンストラクタ */
-    public GenerateJson(ApplicationConfig appConfig) {
-        this.appConfig = appConfig;
-    }
+    private final ApplicationConfig appConfig;
     
     /* staticイニシャライザー */
     static {
@@ -55,6 +50,11 @@ public class GenerateJson {
         // Jacksonで Java8 の LocalDate 関係を処理できるようにする
         objectMapper.registerModule(new JavaTimeModule());
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+    }
+    
+    /** コンストラクタ */
+    public GenerateJson(ApplicationConfig appConfig) {
+        this.appConfig = appConfig;
     }
     
     /**
@@ -135,7 +135,7 @@ public class GenerateJson {
                     try {
                         cdInfoBuilder.releaseDate(LocalDate.parse(releaseDateText, releaseDateTimeFormatter));
                     } catch (DateTimeParseException e) {
-                        throw new SystemException("リリース日：日付変換に失敗しました");
+                        throw new SystemException("リリース日：日付変換に失敗しました", e);
                     }
                 }
                 
@@ -282,7 +282,7 @@ public class GenerateJson {
             Files.deleteIfExists(path);
             Files.createFile(path);
         } catch (IOException e) {
-            throw new SystemException(e);
+            throw new SystemException("ファイル作成に失敗しました", e);
         }
         
         try (var bufferedWriter = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
@@ -324,7 +324,7 @@ public class GenerateJson {
         } catch (FileNotFoundException e) {
             return null;
         } catch (IOException e) {
-            throw new SystemException(e);
+            throw new SystemException("生成ファイルの読み込みに失敗しました", e);
         }
     }
     
