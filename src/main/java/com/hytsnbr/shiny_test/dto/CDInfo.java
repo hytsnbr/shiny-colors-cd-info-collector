@@ -47,9 +47,11 @@ public class CDInfo {
     private String artist;
     
     /** ダウンロード・ストリーミングサイトリスト */
+    @Builder.Default
     private List<StoreSite> downloadSiteList = Collections.emptyList();
     
     /** CD販売サイトリスト */
+    @Builder.Default
     private List<StoreSite> purchaseSiteList = Collections.emptyList();
     
     // NOTE: 未定義の場合 SonarLint が警告を出すので対策として定義
