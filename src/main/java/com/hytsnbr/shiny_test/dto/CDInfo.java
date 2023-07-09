@@ -27,7 +27,7 @@ public class CDInfo {
     private String title;
     
     /** 品番 */
-    private String recordNumber;
+    private List<String> recordNumbers;
     
     /** リリース日 */
     @JsonDeserialize(using = LocalDateDeserializer.class)
@@ -68,7 +68,12 @@ public class CDInfo {
         }
         
         if (!StringUtils.equals(this.title, cdInfo.title)) return false;
-        if (!StringUtils.equals(this.recordNumber, cdInfo.recordNumber)) return false;
+        if (this.recordNumbers.size() != cdInfo.recordNumbers.size()) return false;
+        for (var recordNumber : cdInfo.recordNumbers) {
+            if (!this.recordNumbers.contains(recordNumber)) {
+                return false;
+            }
+        }
         if (!Objects.equals(this.releaseDate, cdInfo.releaseDate)) return false;
         if (!StringUtils.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
         if (this.limited != cdInfo.limited) return false;
