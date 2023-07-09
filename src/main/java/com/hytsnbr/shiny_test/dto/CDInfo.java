@@ -13,10 +13,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
-import com.hytsnbr.shiny_test.constant.Unit;
 
 /** CD情報 */
 @Getter
@@ -48,12 +46,6 @@ public class CDInfo {
     /** アーティスト名 */
     private String artist;
     
-    @Builder.Default
-    private List<Unit> units = Collections.emptyList();
-    
-    @Builder.Default
-    private List<Character> characters = Collections.emptyList();
-    
     /** ダウンロード・ストリーミングサイトリスト */
     @Builder.Default
     private List<StoreSite> downloadSiteList = Collections.emptyList();
@@ -61,17 +53,6 @@ public class CDInfo {
     /** CD販売サイトリスト */
     @Builder.Default
     private List<StoreSite> purchaseSiteList = Collections.emptyList();
-    
-    @JsonGetter("units")
-    public List<String> getUnits() {
-        if (this.units.isEmpty()) {
-            return Collections.emptyList();
-        }
-        
-        return this.units.stream()
-                         .map(Unit::getReadingName)
-                         .toList();
-    }
     
     // NOTE: 未定義の場合 SonarLint が警告を出すので対策として定義
     @SuppressWarnings("EmptyMethod")
@@ -96,6 +77,7 @@ public class CDInfo {
         if (!Objects.equals(this.releaseDate, cdInfo.releaseDate)) return false;
         if (!StringUtils.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
         if (this.limited != cdInfo.limited) return false;
+        if (!StringUtils.equals(this.series, cdInfo.series)) return false;
         if (!StringUtils.equals(this.artist, cdInfo.artist)) return false;
         if (this.downloadSiteList.size() != cdInfo.downloadSiteList.size()) return false;
         for (var storeSite : cdInfo.downloadSiteList) {

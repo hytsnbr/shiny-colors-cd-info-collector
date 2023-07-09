@@ -1,5 +1,6 @@
 package com.hytsnbr.shiny_test.dto;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import lombok.AllArgsConstructor;
@@ -17,7 +18,7 @@ public class JsonData {
     
     /** ファイル作成日（エポック日） */
     @JsonProperty("createdAt")
-    private final long createdAt = 1;
+    private final long createdAt = LocalDate.now().toEpochDay();
     
     /** CD情報リスト */
     @JsonProperty("info")

@@ -1,14 +1,11 @@
 package com.hytsnbr.shiny_test.dto;
 
-import java.util.Objects;
+import org.apache.commons.lang3.StringUtils;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-import com.fasterxml.jackson.annotation.JsonGetter;
-import com.hytsnbr.shiny_test.constant.Store;
 
 /** ショップ情報 */
 @Getter
@@ -17,15 +14,8 @@ import com.hytsnbr.shiny_test.constant.Store;
 @AllArgsConstructor
 public class StoreSite {
     
-    private Store store;
-    
     /** ショップ名 */
-    @JsonGetter("name")
-    public String getStoreName() {
-        Objects.requireNonNull(this.store);
-        
-        return this.store.getStoreName();
-    }
+    private String name;
     
     /** ショップページURL */
     private String url;
@@ -41,7 +31,7 @@ public class StoreSite {
     public boolean equals(Object obj) {
         if (obj instanceof StoreSite storeSite) {
             // NOTE: ショップサイトURLはページ読み込みごとに異なるクエリパラメータが付与される事例があったので比較対象にしない
-            return this.store == storeSite.store;
+            return StringUtils.equals(this.name, storeSite.name);
         }
         
         return super.equals(obj);
