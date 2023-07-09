@@ -3,11 +3,13 @@ package com.hytsnbr.shiny_test.dto;
 import org.apache.commons.lang3.StringUtils;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /** ショップ情報 */
 @Getter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class StoreSite {
