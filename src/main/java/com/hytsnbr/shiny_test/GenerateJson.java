@@ -36,18 +36,13 @@ import com.hytsnbr.shiny_test.exception.SystemException;
 @Component
 public class GenerateJson {
     
-    private final ApplicationConfig appConfig;
-    
     private static final ObjectMapper objectMapper;
     
     private static final DateTimeFormatter releaseDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/M/d");
     
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateJson.class);
     
-    /** コンストラクタ */
-    public GenerateJson(ApplicationConfig appConfig) {
-        this.appConfig = appConfig;
-    }
+    private final ApplicationConfig appConfig;
     
     /* staticイニシャライザー */
     static {
@@ -55,6 +50,11 @@ public class GenerateJson {
         // Jacksonで Java8 の LocalDate 関係を処理できるようにする
         objectMapper.registerModule(new JavaTimeModule());
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+    }
+    
+    /** コンストラクタ */
+    public GenerateJson(ApplicationConfig appConfig) {
+        this.appConfig = appConfig;
     }
     
     /**
@@ -119,12 +119,12 @@ public class GenerateJson {
                         cdInfoBuilder.artist(artistText);
                     }
                     
-                    // 品番
+                    // 品番（表記の関係で違う位置にある場合）
                     if (StringUtils.contains(childNode.toString(), "品番：")) {
-                        var recordNumber = childNode.toString().replaceAll("[\r\n]", "")
-                                                    .trim().replace("品番：", "");
-                        LOGGER.debug("CD Record Number: {}", recordNumber);
-                        cdInfoBuilder.recordNumber(recordNumber);
+                        var recordNumberText = childNode.toString().replaceAll("[\r\n]", "")
+                                                        .trim().replace("品番：", "");
+                        LOGGER.debug("CD Record Number: {}", recordNumberText);
+                        cdInfoBuilder.recordNumbers(this.getRecordNumberList(recordNumberText));
                     }
                 }
                 
@@ -135,25 +135,25 @@ public class GenerateJson {
                     try {
                         cdInfoBuilder.releaseDate(LocalDate.parse(releaseDateText, releaseDateTimeFormatter));
                     } catch (DateTimeParseException e) {
-                        throw new SystemException("リリース日：日付変換に失敗しました");
+                        throw new SystemException("リリース日：日付変換に失敗しました", e);
                     }
                 }
                 
-                // 品番（表記の関係で違う位置にある場合の対応）
+                // 品番（通常位置に記載されている場合）
                 try {
-                    var recordNumber = infoTexts.get(1).childNode(2).toString().replaceAll("[\r\n]", "")
-                                                .trim().replace("品番：", "");
-                    LOGGER.debug("CD Record Number: {}", recordNumber);
-                    cdInfoBuilder.recordNumber(recordNumber);
+                    var recordNumberText = infoTexts.get(1).childNode(2).toString().replaceAll("[\r\n]", "")
+                                                    .trim().replace("品番：", "");
+                    LOGGER.debug("CD Record Number: {}", recordNumberText);
+                    cdInfoBuilder.recordNumbers(this.getRecordNumberList(recordNumberText));
                 } catch (IndexOutOfBoundsException e) {
-                    // NOTE: イレギュラーでない場合は例外が発生するが正常なので何もしない
+                    // NOTE: 表記の関係で通常位置に記載されていない場合は例外が発生するが正常なので何もしない
                 }
                 
                 var storeLinkPageList = infoTexts.select(".shopbanc > .banshopint");
                 // ショップサイトのリンクが無い場合は限定販売とする
                 if (storeLinkPageList.isEmpty()) {
                     cdInfoBuilder.limited(true);
-                    cdInfoList.add(CDInfo.builder().build());
+                    cdInfoList.add(cdInfoBuilder.build());
                     
                     continue;
                 }
@@ -181,7 +181,7 @@ public class GenerateJson {
                 var purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
                 cdInfoBuilder.purchaseSiteList(purchaseSiteList);
                 
-                cdInfoList.add(CDInfo.builder().build());
+                cdInfoList.add(cdInfoBuilder.build());
             }
         }
         
@@ -209,6 +209,44 @@ public class GenerateJson {
         } catch (IOException e) {
             throw new SystemException(e);
         }
+    }
+    
+    /**
+     * 品番リストを取得する
+     *
+     * @param recordNumberText 品番テキスト
+     *
+     * @return 品番リスト
+     */
+    private List<String> getRecordNumberList(String recordNumberText) {
+        if (StringUtils.isBlank(recordNumberText)) {
+            return Collections.emptyList();
+        }
+        
+        var recordNumberList = new ArrayList<String>();
+        var recordNumberTexts = recordNumberText.split("～");
+        if (recordNumberTexts.length == 1) {
+            return List.of(recordNumberText);
+        }
+        
+        final var code = recordNumberTexts[0].split("-")[0];
+        var number = Integer.parseInt(recordNumberTexts[0].split("-")[1]);
+        final var numberText = String.valueOf(number);
+        final var lastIndex = recordNumberTexts.length - 1;
+        try {
+            for (
+                var i = Integer.parseInt(String.valueOf(numberText.charAt(numberText.length() - 1)));
+                i <= Integer.parseInt(recordNumberTexts[lastIndex]);
+                i++
+            ) {
+                recordNumberList.add(String.format("%s-%d", code, number));
+                number++;
+            }
+        } catch (Exception e) {
+            throw new SystemException("品番リストの作成に失敗しました", e);
+        }
+        
+        return recordNumberList;
     }
     
     /**
@@ -244,7 +282,7 @@ public class GenerateJson {
             Files.deleteIfExists(path);
             Files.createFile(path);
         } catch (IOException e) {
-            throw new SystemException(e);
+            throw new SystemException("ファイル作成に失敗しました", e);
         }
         
         try (var bufferedWriter = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
@@ -286,7 +324,7 @@ public class GenerateJson {
         } catch (FileNotFoundException e) {
             return null;
         } catch (IOException e) {
-            throw new SystemException(e);
+            throw new SystemException("生成ファイルの読み込みに失敗しました", e);
         }
     }
     

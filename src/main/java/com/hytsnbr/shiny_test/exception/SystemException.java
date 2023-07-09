@@ -7,10 +7,14 @@ public class SystemException extends RuntimeException {
     private static final String MSG = "システムエラー";
     
     public SystemException(String msg) {
-        super(StringUtils.isNotBlank(msg) ? msg : MSG);
+        this(msg, null);
     }
     
     public SystemException(Exception exception) {
-        super(exception.getMessage());
+        this(null, exception);
+    }
+    
+    public SystemException(String msg, Exception exception) {
+        super(StringUtils.isNotBlank(msg) ? msg : MSG, exception);
     }
 }
