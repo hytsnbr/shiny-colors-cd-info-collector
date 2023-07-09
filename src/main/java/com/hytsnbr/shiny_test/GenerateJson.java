@@ -107,7 +107,6 @@ public class GenerateJson {
                 var infoTexts = releaseContentsBox.children();
                 
                 for (Object childNode : infoTexts.get(0).childNodes()) {
-                    
                     if (!(childNode instanceof TextNode)) {
                         continue;
                     }
@@ -266,7 +265,8 @@ public class GenerateJson {
             var siteUrl = e.attr("href");
             LOGGER.debug("{}: {}", e.attr("data-label"), siteUrl);
             var store = Store.getByDomain(siteUrl);
-            var storeSite = new StoreSite(store.getStoreName(), siteUrl);
+            var isHiRes = StringUtils.equals(e.select(".btn.music-service-list__btn").text(), "ハイレゾDL");
+            var storeSite = new StoreSite(store.getStoreName(), siteUrl, isHiRes);
             siteList.add(storeSite);
         }
         
