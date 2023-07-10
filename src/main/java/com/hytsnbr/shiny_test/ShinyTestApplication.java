@@ -6,6 +6,7 @@ import java.util.Objects;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,6 +26,10 @@ public class ShinyTestApplication implements CommandLineRunner {
     private final GenerateJson generateJson;
     
     private final FileOperator fileOperator;
+    
+    /** 強制更新 */
+    @Value("${app-config.force}")
+    private boolean isForce;
     
     /** コンストラクタ */
     public ShinyTestApplication(GenerateJson generateJson, FileOperator fileOperator) {
@@ -63,6 +68,8 @@ public class ShinyTestApplication implements CommandLineRunner {
      * 一致しない場合、ファイルが存在しない・読み込みに失敗した場合：<code>false</code>
      */
     private boolean isCreationDateToday() {
+        if (this.isForce) return false;
+        
         var data = this.fileOperator.readJsonFile();
         if (Objects.isNull(data)) {
             return false;
@@ -84,6 +91,8 @@ public class ShinyTestApplication implements CommandLineRunner {
      * @return 一致する場合は true
      */
     private boolean matchPrevCDInfoList(List<CDInfo> cdInfoList) {
+        if (this.isForce) return false;
+        
         var data = this.fileOperator.readJsonFile();
         if (Objects.isNull(data)) {
             return false;
