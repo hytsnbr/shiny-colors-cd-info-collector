@@ -2,9 +2,12 @@ name: Build
 
 on:
   push:
+    branches:
+      - "**"
+      - "!json_update"
 
 jobs:
-  Build:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,7 +18,7 @@ jobs:
         with:
           java-version: 17
           distribution: adopt
-          cache: 'gradle'
+          cache: "gradle"
 
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@v1
