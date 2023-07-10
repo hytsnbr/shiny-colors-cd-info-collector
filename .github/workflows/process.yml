@@ -2,6 +2,12 @@ name: Process
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        type: boolean
+        required: true
+        default: false
+        description: "強制データ更新"
 
   schedule:
     - cron: "0 6 * * *"
@@ -17,7 +23,7 @@ jobs:
     steps:
       - name: set Env value
         env:
-          TZ: 'Asia/Tokyo' # タイムゾーン指定
+          TZ: "Asia/Tokyo" # タイムゾーン指定
         run: |
           echo "process_date=`date '+%Y-%m-%d %H:%M:%S'`" >> "$GITHUB_ENV"
           echo "branch_name=update/update_data_`date '+%Y-%m-%d_%H-%M-%S'`" >> "$GITHUB_ENV"
@@ -48,7 +54,7 @@ jobs:
           gradle-version: wrapper
 
       - name: BootRun
-        run: gradle bootRun --quiet
+        run: gradle bootRun --quiet --args='--app-config.force=${{ inputs.force }}'
 
       - name: Diff
         id: diff
