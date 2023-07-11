@@ -54,6 +54,11 @@ jobs:
           gradle-version: wrapper
 
       - name: BootRun
+        if: inputs.force == ''
+        run: gradle bootRun --quiet
+
+      - name: BootRun [force]
+        if: inputs.force != ''
         run: gradle bootRun --quiet --args='--app-config.force=${{ inputs.force }}'
 
       - name: Diff
