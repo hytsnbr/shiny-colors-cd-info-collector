@@ -46,6 +46,9 @@ public class CDInfo {
     /** アーティスト名 */
     private String artist;
     
+    /** 楽曲リスト */
+    private List<TrackInfo> trackList;
+    
     /** ダウンロード・ストリーミングサイトリスト */
     @Builder.Default
     private List<StoreSite> downloadSiteList = Collections.emptyList();
@@ -79,6 +82,12 @@ public class CDInfo {
         if (this.limited != cdInfo.limited) return false;
         if (!StringUtils.equals(this.series, cdInfo.series)) return false;
         if (!StringUtils.equals(this.artist, cdInfo.artist)) return false;
+        if (this.trackList.size() != cdInfo.trackList.size()) return false;
+        for (var trackInfo : cdInfo.trackList) {
+            if (!this.trackList.contains(trackInfo)) {
+                return false;
+            }
+        }
         if (this.downloadSiteList.size() != cdInfo.downloadSiteList.size()) return false;
         for (var storeSite : cdInfo.downloadSiteList) {
             if (!this.downloadSiteList.contains(storeSite)) {
