@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
@@ -21,6 +22,7 @@ import com.hytsnbr.shiny_test.config.ApplicationConfig;
 import com.hytsnbr.shiny_test.constant.Store;
 import com.hytsnbr.shiny_test.dto.CDInfo;
 import com.hytsnbr.shiny_test.dto.StoreSite;
+import com.hytsnbr.shiny_test.dto.TrackInfo;
 import com.hytsnbr.shiny_test.exception.SystemException;
 
 /**
@@ -123,6 +125,23 @@ public class GenerateJson {
                 } catch (IndexOutOfBoundsException e) {
                     // NOTE: 表記の関係で通常位置に記載されていない場合は例外が発生するが正常なので何もしない
                 }
+                
+                // 楽曲情報リスト
+                List<TrackInfo> trackInfoList = new ArrayList<>();
+                final var trackPattern = Pattern.compile("^(\\d)．(.+)");
+                for (var trackText : infoTexts.select("p")) {
+                    final var matcher = trackPattern.matcher(trackText.childNode(0).toString());
+                    if (!matcher.find()) {
+                        continue;
+                    }
+                    
+                    final var trackName = matcher.group(2);
+                    final var trackNo = Integer.parseInt(matcher.group(1));
+                    final var isOffVocal = trackName.contains("Off Vocal");
+                    var trackInfo = new TrackInfo(trackName, trackNo, isOffVocal);
+                    trackInfoList.add(trackInfo);
+                }
+                cdInfoBuilder.trackList(trackInfoList);
                 
                 var storeLinkPageList = infoTexts.select(".shopbanc > .banshopint");
                 // ショップサイトのリンクが無い場合は限定販売とする
