@@ -1,6 +1,8 @@
 package com.hytsnbr.shiny_test.dto;
 
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.web.util.UriComponentsBuilder;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -26,6 +28,14 @@ public class StoreSite {
     /** ハイレゾ対応可否 */
     @JsonProperty("isHiRes")
     private boolean isHiRes;
+    
+    @JsonGetter("url")
+    public String getUrl() {
+        // NOTE: クエリパラメータを削除
+        return UriComponentsBuilder.fromUriString(this.url)
+                                   .replaceQueryParams(new LinkedMultiValueMap<>())
+                                   .toUriString();
+    }
     
     @JsonGetter("isHiRes")
     private boolean isHiRes() {
