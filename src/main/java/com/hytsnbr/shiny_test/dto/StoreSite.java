@@ -1,9 +1,8 @@
 package com.hytsnbr.shiny_test.dto;
 
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.util.LinkedMultiValueMap;
-import org.springframework.web.util.UriComponentsBuilder;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,6 +14,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @Getter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class StoreSite {
     
     /** ショップ名 */
@@ -26,16 +26,6 @@ public class StoreSite {
     /** ハイレゾ対応可否 */
     @JsonProperty("isHiRes")
     private boolean isHiRes;
-    
-    /** コンストラクタ */
-    public StoreSite(String name, String url, boolean isHiRes) {
-        this.name = name;
-        this.isHiRes = isHiRes;
-        
-        this.url = UriComponentsBuilder.fromUriString(url)
-                                       .replaceQueryParams(new LinkedMultiValueMap<>())
-                                       .toUriString();
-    }
     
     @JsonGetter("isHiRes")
     private boolean isHiRes() {
@@ -55,8 +45,8 @@ public class StoreSite {
             return super.equals(obj);
         }
         
+        // NOTE: ショップサイトURLはページ読み込みごとに異なるクエリパラメータが付与される事例があったので比較対象にしない
         if (!StringUtils.equals(this.name, storeSite.name)) return false;
-        if (!StringUtils.equals(this.getUrl(), storeSite.getUrl())) return false;
-        return this.isHiRes == storeSite.isHiRes;
+        return this.isHiRes != storeSite.isHiRes;
     }
 }
