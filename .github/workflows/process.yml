@@ -12,6 +12,11 @@ on:
   schedule:
     - cron: "0 6 * * *"
 
+# 多重起動防止
+concurrency:
+  group: "process"
+  cancel-in-progress: true
+
 jobs:
   process:
     runs-on: ubuntu-latest
