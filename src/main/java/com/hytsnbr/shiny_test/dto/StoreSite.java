@@ -4,7 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,7 +15,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @Getter
 @Builder
 @NoArgsConstructor
-@AllArgsConstructor
 public class StoreSite {
     
     /** ショップ名 */
@@ -29,12 +27,14 @@ public class StoreSite {
     @JsonProperty("isHiRes")
     private boolean isHiRes;
     
-    @JsonGetter("url")
-    public String getUrl() {
-        // NOTE: クエリパラメータを削除
-        return UriComponentsBuilder.fromUriString(this.url)
-                                   .replaceQueryParams(new LinkedMultiValueMap<>())
-                                   .toUriString();
+    /** コンストラクタ */
+    public StoreSite(String name, String url, boolean isHiRes) {
+        this.name = name;
+        this.isHiRes = isHiRes;
+        
+        this.url = UriComponentsBuilder.fromUriString(url)
+                                       .replaceQueryParams(new LinkedMultiValueMap<>())
+                                       .toUriString();
     }
     
     @JsonGetter("isHiRes")
@@ -55,8 +55,8 @@ public class StoreSite {
             return super.equals(obj);
         }
         
-        // NOTE: ショップサイトURLはページ読み込みごとに異なるクエリパラメータが付与される事例があったので比較対象にしない
         if (!StringUtils.equals(this.name, storeSite.name)) return false;
-        return this.isHiRes != storeSite.isHiRes;
+        if (!StringUtils.equals(this.getUrl(), storeSite.getUrl())) return false;
+        return this.isHiRes == storeSite.isHiRes;
     }
 }
