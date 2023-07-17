@@ -6,12 +6,10 @@ import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor(staticName = "of")
 public class JsonData {
