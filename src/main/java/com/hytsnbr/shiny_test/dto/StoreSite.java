@@ -47,6 +47,6 @@ public class StoreSite {
         
         // NOTE: ショップサイトURLはページ読み込みごとに異なるクエリパラメータが付与される事例があったので比較対象にしない
         if (!StringUtils.equals(this.name, storeSite.name)) return false;
-        return this.isHiRes != storeSite.isHiRes;
+        return this.isHiRes == storeSite.isHiRes;
     }
 }
