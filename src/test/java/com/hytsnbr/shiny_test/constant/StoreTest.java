@@ -10,7 +10,7 @@ class StoreTest {
     @Test
     void success_getByDomain() {
         final var targetHtmlName = "Yodobashi";
-        final var excepted = Store.ASOBI_STORE;
+        final var excepted = Store.YODOBASHI;
         final var actual = Store.getByHtmlName(targetHtmlName);
         
         assertEquals(excepted, actual);
