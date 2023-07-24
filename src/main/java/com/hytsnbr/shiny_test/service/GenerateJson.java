@@ -232,10 +232,10 @@ public class GenerateJson {
         List<StoreSite> siteList = new ArrayList<>();
         for (var e : siteLinkList) {
             var siteUrl = e.attr("href");
-            LOGGER.debug("{}: {}", e.attr("data-label"), siteUrl);
-            var store = Store.getByDomain(siteUrl);
+            var name = Store.getByHtmlName(e.select(".music-service-list__content > img").attr("alt")).getName();
             var isHiRes = StringUtils.equals(e.select(".btn.music-service-list__btn").text(), "ハイレゾDL");
-            var storeSite = new StoreSite(store.getStoreName(), siteUrl, isHiRes);
+            var storeSite = new StoreSite(name, siteUrl, isHiRes);
+            LOGGER.debug("{}: {}", name, siteUrl);
             siteList.add(storeSite);
         }
         
