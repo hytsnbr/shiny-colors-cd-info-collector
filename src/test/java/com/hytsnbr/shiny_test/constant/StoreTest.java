@@ -9,17 +9,17 @@ class StoreTest {
     
     @Test
     void success_getByDomain() {
-        final var targetStoreName = "shop.asobistore.jp";
-        final var excepted = Store.ASOBI_STORE;
-        final var actual = Store.getByDomain(targetStoreName);
+        final var targetHtmlName = "Yodobashi";
+        final var excepted = Store.YODOBASHI;
+        final var actual = Store.getByHtmlName(targetHtmlName);
         
         assertEquals(excepted, actual);
     }
     
     @Test
     void throwException_getByDomain() {
-        final var targetStoreName = "TEST";
+        final var targetHtmlName = "TEST";
         
-        assertThrows(IllegalArgumentException.class, () -> Store.getByDomain(targetStoreName));
+        assertThrows(IllegalArgumentException.class, () -> Store.getByHtmlName(targetHtmlName));
     }
 }   
