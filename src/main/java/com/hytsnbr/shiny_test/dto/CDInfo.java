@@ -13,6 +13,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 
@@ -21,6 +22,17 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@JsonPropertyOrder({
+    "title",
+    "recordNumbers",
+    "releaseDate",
+    "jacketUrl",
+    "limited",
+    "series",
+    "artist",
+    "downloadSiteList",
+    "purchaseSiteList"
+})
 public class CDInfo {
     
     /** CDタイトル */

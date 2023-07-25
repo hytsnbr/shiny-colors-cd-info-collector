@@ -9,12 +9,18 @@ import lombok.NoArgsConstructor;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 /** ショップ情報 */
 @Getter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@JsonPropertyOrder({
+    "name",
+    "url",
+    "isHiRes"
+})
 public class StoreSite {
     
     /** ショップ名 */
