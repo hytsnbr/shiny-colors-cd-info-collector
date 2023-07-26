@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 import org.apache.commons.lang3.StringUtils;
+import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.TextNode;
@@ -45,7 +46,12 @@ public class GenerateJson {
      */
     public List<CDInfo> createCDInfoList() {
         List<CDInfo> cdInfoList = new ArrayList<>();
-        var document = this.connectJsoup(this.appConfig.getTargetUrl());
+        Document document;
+        try {
+            document = this.connectJsoup(this.appConfig.getTargetUrl());
+        } catch (HttpStatusException e) {
+            throw new SystemException("ディスコグラフィーページの取得に失敗しました");
+        }
         
         var discographySection = document.getElementById("discographys");
         if (Objects.isNull(discographySection)) {
@@ -63,7 +69,12 @@ public class GenerateJson {
                 var cdInfoBuilder = CDInfo.builder();
                 cdInfoBuilder.series(seriesName);
                 
-                var detailPage = this.connectJsoup(dsc.attr("href"));
+                Document detailPage;
+                try {
+                    detailPage = this.connectJsoup(dsc.attr("href"));
+                } catch (HttpStatusException e) {
+                    throw new SystemException("CD詳細ページの取得に失敗しました");
+                }
                 var releaseSection = detailPage.getElementById("release");
                 if (Objects.isNull(releaseSection)) {
                     throw new SystemException("CD情報がページ内に存在しません");
@@ -167,13 +178,17 @@ public class GenerateJson {
      * ページ取得
      *
      * @param url ページURL
+     *
+     * @throws HttpStatusException ページ情報の取得に失敗した場合
      */
-    private Document connectJsoup(String url) {
+    private Document connectJsoup(String url) throws HttpStatusException {
         try {
             var connection = Jsoup.connect(url);
             connection.timeout(appConfig.getJsoup().getTimeout());
             
             return connection.get();
+        } catch (HttpStatusException e) {
+            throw e;
         } catch (IOException e) {
             throw new SystemException(e);
         }
@@ -220,14 +235,24 @@ public class GenerateJson {
     /**
      * ストアページ情報取得
      *
-     * @param url ストアページURL
+     * @param url ストア一覧ページURL
+     *
+     * @return ストア情報リスト<br>
+     * ストア一覧ページURLが空の場合、ストア一覧ページ情報の取得に失敗した場合は空のリストを返却する
      */
     private List<StoreSite> getStoreData(String url) {
         if (StringUtils.isBlank(url)) {
             return Collections.emptyList();
         }
         
-        var siteLinkPage = this.connectJsoup(url);
+        Document siteLinkPage;
+        try {
+            siteLinkPage = this.connectJsoup(url);
+        } catch (HttpStatusException e) {
+            LOGGER.info("ストア一覧ページの取得に失敗しました：{}", url);
+            
+            return Collections.emptyList();
+        }
         var siteLinkList = siteLinkPage.select(".music-service-list__item > a");
         List<StoreSite> siteList = new ArrayList<>();
         for (var e : siteLinkList) {
