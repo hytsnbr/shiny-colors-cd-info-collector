@@ -1,14 +1,6 @@
 name: Process
 
 on:
-  workflow_dispatch:
-    inputs:
-      force:
-        type: boolean
-        required: true
-        default: false
-        description: "強制データ更新"
-
   schedule:
     - cron: "0 6 * * *"
 
