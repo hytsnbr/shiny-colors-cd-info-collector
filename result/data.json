@@ -1,5 +1,5 @@
 {
-  "createdAt" : 19655,
+  "createdAt" : 19658,
   "info" : [
     {
       "title" : "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -14,12 +14,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675421830?ls=1&at=1l3vpUI&app=music&ct=LFV_85f3aa50ef2dfb3a256bd8c99a288366&itscg=30440&itsct=catchall_p1&lId=28120685&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421830?ls=1&at=1l3vpUI&app=music&ct=LFV_0c29fbc1e3467f1597479e2cff6a1407&itscg=30440&itsct=catchall_p1&lId=28120685&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBC351C?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=85f3aa50ef2dfb3a256bd8c99a288366&ref=dmm_acq_soc_us_u_lfire_lp_x_85f3aa50ef2dfb3a256bd8c99a288366",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBC351C?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=0c29fbc1e3467f1597479e2cff6a1407&ref=dmm_acq_soc_us_u_lfire_lp_x_0c29fbc1e3467f1597479e2cff6a1407",
           "isHiRes" : false
         },
         {
@@ -39,7 +39,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/ccce421852d497660c33?t=1678021204&lf=85f3aa50ef2dfb3a256bd8c99a288366",
+          "url" : "https://s.awa.fm/album/ccce421852d497660c33?t=1678021204&lf=0c29fbc1e3467f1597479e2cff6a1407",
           "isHiRes" : false
         },
         {
@@ -49,7 +49,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675421830?ls=1&at=1l3vpUI&app=music&ct=LFV_85f3aa50ef2dfb3a256bd8c99a288366&itscg=30440&itsct=catchall_p8&lId=28120685&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421830?ls=1&at=1l3vpUI&app=music&ct=LFV_0c29fbc1e3467f1597479e2cff6a1407&itscg=30440&itsct=catchall_p8&lId=28120685&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -69,7 +69,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2294/?lf=85f3aa50ef2dfb3a256bd8c99a288366",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2294/?lf=0c29fbc1e3467f1597479e2cff6a1407",
           "isHiRes" : true
         },
         {
@@ -96,7 +96,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E3%80%8FBRILLI-WING-01%E3%80%8CSpread-Wings/dp/B07BBT25VM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14781&qid=1617680258&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=709b6457661a6bdbbd4cecc619f666f4&ref=dmm_acq_soc_us_u_lfire_lp_x_709b6457661a6bdbbd4cecc619f666f4",
+          "url" : "https://www.amazon.co.jp/%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E3%80%8FBRILLI-WING-01%E3%80%8CSpread-Wings/dp/B07BBT25VM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14781&qid=1617680258&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=30de2342f6c76c55040e9045a2e33f0f&ref=dmm_acq_soc_us_u_lfire_lp_x_30de2342f6c76c55040e9045a2e33f0f",
           "isHiRes" : false
         },
         {
@@ -144,12 +144,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675480422?ls=1&app=music&at=1l3vpUI&ct=LFV_64a23e822baf651e736f38dbc96ede63&itscg=30440&itsct=catchall_p1&lId=28120688&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675480422?ls=1&at=1l3vpUI&app=music&ct=LFV_dca1dd57e9ffb246401376a8f53f18da&itscg=30440&itsct=catchall_p1&lId=28120688&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBBYCW9?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=64a23e822baf651e736f38dbc96ede63&ref=dmm_acq_soc_us_u_lfire_lp_x_64a23e822baf651e736f38dbc96ede63",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBBYCW9?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=dca1dd57e9ffb246401376a8f53f18da&ref=dmm_acq_soc_us_u_lfire_lp_x_dca1dd57e9ffb246401376a8f53f18da",
           "isHiRes" : false
         },
         {
@@ -169,7 +169,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/905d9c054364594c2539?t=1678021204&lf=64a23e822baf651e736f38dbc96ede63",
+          "url" : "https://s.awa.fm/album/905d9c054364594c2539?t=1678021204&lf=dca1dd57e9ffb246401376a8f53f18da",
           "isHiRes" : false
         },
         {
@@ -179,7 +179,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675480422?ls=1&app=itunes&at=1l3vpUI&ct=LFV_64a23e822baf651e736f38dbc96ede63&itscg=30440&itsct=catchall_p8&lId=28120688&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675480422?ls=1&at=1l3vpUI&app=music&ct=LFV_dca1dd57e9ffb246401376a8f53f18da&itscg=30440&itsct=catchall_p8&lId=28120688&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -199,7 +199,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14782/?lf=64a23e822baf651e736f38dbc96ede63",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14782/?lf=dca1dd57e9ffb246401376a8f53f18da",
           "isHiRes" : true
         },
         {
@@ -221,7 +221,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E3%80%8FBRILLI-WING-02%E3%80%8C%E3%83%92%E3%82%AB%E3%83%AA%E3%81%AEdestination%E3%80%8D-%E7%89%B9%E5%85%B8%E3%81%AA%E3%81%97/dp/B07BBSKTV4/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14782&qid=1617681465&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=361e7745949cdbf673553eb9d980b78c&ref=dmm_acq_soc_us_u_lfire_lp_x_361e7745949cdbf673553eb9d980b78c",
+          "url" : "https://www.amazon.co.jp/%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E3%80%8FBRILLI-WING-02%E3%80%8C%E3%83%92%E3%82%AB%E3%83%AA%E3%81%AEdestination%E3%80%8D-%E7%89%B9%E5%85%B8%E3%81%AA%E3%81%97/dp/B07BBSKTV4/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14782&qid=1617681465&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5c5950807a26d2e55b49ba43406bac64&ref=dmm_acq_soc_us_u_lfire_lp_x_5c5950807a26d2e55b49ba43406bac64",
           "isHiRes" : false
         },
         {
@@ -269,12 +269,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675851858?ls=1&at=1l3vpUI&app=music&ct=LFV_028073c8f205965a5252c2daea31b3c3&itscg=30440&itsct=catchall_p1&lId=28120691&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675851858?ls=1&at=1l3vpUI&app=music&ct=LFV_44ee798b8d91a68a54971e29d5ac7e8f&itscg=30440&itsct=catchall_p1&lId=28120691&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXFHMPV5?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=028073c8f205965a5252c2daea31b3c3&ref=dmm_acq_soc_us_u_lfire_lp_x_028073c8f205965a5252c2daea31b3c3",
+          "url" : "http://music.amazon.co.jp/albums/B0BXFHMPV5?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=44ee798b8d91a68a54971e29d5ac7e8f&ref=dmm_acq_soc_us_u_lfire_lp_x_44ee798b8d91a68a54971e29d5ac7e8f",
           "isHiRes" : false
         },
         {
@@ -294,7 +294,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/8aca5c182b59e9318d45?t=1678021204&lf=028073c8f205965a5252c2daea31b3c3",
+          "url" : "https://s.awa.fm/album/8aca5c182b59e9318d45?t=1678021204&lf=44ee798b8d91a68a54971e29d5ac7e8f",
           "isHiRes" : false
         },
         {
@@ -304,7 +304,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675851858?ls=1&at=1l3vpUI&app=music&ct=LFV_028073c8f205965a5252c2daea31b3c3&itscg=30440&itsct=catchall_p8&lId=28120691&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675851858?ls=1&at=1l3vpUI&app=music&ct=LFV_44ee798b8d91a68a54971e29d5ac7e8f&itscg=30440&itsct=catchall_p8&lId=28120691&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -324,7 +324,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2295/?lf=028073c8f205965a5252c2daea31b3c3",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2295/?lf=44ee798b8d91a68a54971e29d5ac7e8f",
           "isHiRes" : true
         },
         {
@@ -351,7 +351,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E3%80%8FBRILLI-WING-%E3%80%8C%E3%83%90%E3%83%99%E3%83%AB%E3%82%B7%E3%83%86%E3%82%A3%E3%83%BB%E3%82%B0%E3%83%AC%E3%82%A4%E3%82%B9%E3%80%8D-%E7%89%B9%E5%85%B8%E3%81%AA%E3%81%97/dp/B07BBSKR74/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14783&qid=1617682005&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a8f1e92eb6d10767af65339d4c19eef8&ref=dmm_acq_soc_us_u_lfire_lp_x_a8f1e92eb6d10767af65339d4c19eef8",
+          "url" : "https://www.amazon.co.jp/%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E3%80%8FBRILLI-WING-%E3%80%8C%E3%83%90%E3%83%99%E3%83%AB%E3%82%B7%E3%83%86%E3%82%A3%E3%83%BB%E3%82%B0%E3%83%AC%E3%82%A4%E3%82%B9%E3%80%8D-%E7%89%B9%E5%85%B8%E3%81%AA%E3%81%97/dp/B07BBSKR74/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14783&qid=1617682005&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=1926ec6562576b094815942563697989&ref=dmm_acq_soc_us_u_lfire_lp_x_1926ec6562576b094815942563697989",
           "isHiRes" : false
         },
         {
@@ -394,12 +394,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675550818?ls=1&at=1l3vpUI&app=music&ct=LFV_a533a33ac8063f2e7776e7cfbe630dda&itscg=30440&itsct=catchall_p1&lId=28120692&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675550818?ls=1&at=1l3vpUI&app=music&ct=LFV_2030ce177cce654c481ee9b526a55c87&itscg=30440&itsct=catchall_p1&lId=28120692&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBDCP6S?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a533a33ac8063f2e7776e7cfbe630dda&ref=dmm_acq_soc_us_u_lfire_lp_x_a533a33ac8063f2e7776e7cfbe630dda",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBDCP6S?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=2030ce177cce654c481ee9b526a55c87&ref=dmm_acq_soc_us_u_lfire_lp_x_2030ce177cce654c481ee9b526a55c87",
           "isHiRes" : false
         },
         {
@@ -419,7 +419,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/98729649763bc5805b51?t=1678021204&lf=a533a33ac8063f2e7776e7cfbe630dda",
+          "url" : "https://s.awa.fm/album/98729649763bc5805b51?t=1678021204&lf=2030ce177cce654c481ee9b526a55c87",
           "isHiRes" : false
         },
         {
@@ -429,7 +429,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675550818?ls=1&at=1l3vpUI&app=music&ct=LFV_a533a33ac8063f2e7776e7cfbe630dda&itscg=30440&itsct=catchall_p8&lId=28120692&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675550818?ls=1&at=1l3vpUI&app=music&ct=LFV_2030ce177cce654c481ee9b526a55c87&itscg=30440&itsct=catchall_p8&lId=28120692&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -449,7 +449,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14784/?lf=a533a33ac8063f2e7776e7cfbe630dda",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14784/?lf=2030ce177cce654c481ee9b526a55c87",
           "isHiRes" : true
         },
         {
@@ -476,7 +476,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-COLORS-BRILLI-%E5%A4%A2%E5%92%B2%E3%81%8DAfter-school/dp/B07BBWBDQB/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14784&qid=1617682569&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d73a955b2b9767f9bceca2e4648e5b53&ref=dmm_acq_soc_us_u_lfire_lp_x_d73a955b2b9767f9bceca2e4648e5b53",
+          "url" : "https://www.amazon.co.jp/IDOLM-COLORS-BRILLI-%E5%A4%A2%E5%92%B2%E3%81%8DAfter-school/dp/B07BBWBDQB/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14784&qid=1617682569&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=0d0ef706c675ba9ea010fc45cb8f572c&ref=dmm_acq_soc_us_u_lfire_lp_x_0d0ef706c675ba9ea010fc45cb8f572c",
           "isHiRes" : false
         },
         {
@@ -519,12 +519,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675550939?ls=1&app=music&at=1l3vpUI&ct=LFV_0773b82f2bf13565c5cdc09fed7699e8&itscg=30440&itsct=catchall_p1&lId=28120693&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675550939?ls=1&at=1l3vpUI&app=music&ct=LFV_c54f737e4f4c53fbd3c6db0300974972&itscg=30440&itsct=catchall_p1&lId=28120693&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBDVDXN?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=0773b82f2bf13565c5cdc09fed7699e8&ref=dmm_acq_soc_us_u_lfire_lp_x_0773b82f2bf13565c5cdc09fed7699e8",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBDVDXN?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c54f737e4f4c53fbd3c6db0300974972&ref=dmm_acq_soc_us_u_lfire_lp_x_c54f737e4f4c53fbd3c6db0300974972",
           "isHiRes" : false
         },
         {
@@ -544,7 +544,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/19e61616ead481719354?t=1678021204&lf=0773b82f2bf13565c5cdc09fed7699e8",
+          "url" : "https://s.awa.fm/album/19e61616ead481719354?t=1678021204&lf=c54f737e4f4c53fbd3c6db0300974972",
           "isHiRes" : false
         },
         {
@@ -554,7 +554,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675550939?ls=1&app=itunes&at=1l3vpUI&ct=LFV_0773b82f2bf13565c5cdc09fed7699e8&itscg=30440&itsct=catchall_p8&lId=28120693&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675550939?ls=1&at=1l3vpUI&app=music&ct=LFV_c54f737e4f4c53fbd3c6db0300974972&itscg=30440&itsct=catchall_p8&lId=28120693&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -574,7 +574,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14785/?lf=0773b82f2bf13565c5cdc09fed7699e8",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14785/?lf=c54f737e4f4c53fbd3c6db0300974972",
           "isHiRes" : true
         },
         {
@@ -601,7 +601,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-BRILLI-%E3%82%A2%E3%83%AB%E3%82%B9%E3%83%88%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2/dp/B07BBVVS19/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14785&qid=1617682914&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=30d813dc9589fb3fad968ba27ca259e9&ref=dmm_acq_soc_us_u_lfire_lp_x_30d813dc9589fb3fad968ba27ca259e9",
+          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-BRILLI-%E3%82%A2%E3%83%AB%E3%82%B9%E3%83%88%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2/dp/B07BBVVS19/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14785&qid=1617682914&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e361ff163ad0f34b9b563bb7e20a1aec&ref=dmm_acq_soc_us_u_lfire_lp_x_e361ff163ad0f34b9b563bb7e20a1aec",
           "isHiRes" : false
         },
         {
@@ -644,12 +644,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675425098?ls=1&at=1l3vpUI&app=music&ct=LFV_74d3e8df5b7887e5fa30908f8b2ddd5a&itscg=30440&itsct=catchall_p1&lId=28120695&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425098?ls=1&at=1l3vpUI&app=music&ct=LFV_753b78294efb5380ee98b5a398497297&itscg=30440&itsct=catchall_p1&lId=28120695&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBKB5C7?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=74d3e8df5b7887e5fa30908f8b2ddd5a&ref=dmm_acq_soc_us_u_lfire_lp_x_74d3e8df5b7887e5fa30908f8b2ddd5a",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBKB5C7?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=753b78294efb5380ee98b5a398497297&ref=dmm_acq_soc_us_u_lfire_lp_x_753b78294efb5380ee98b5a398497297",
           "isHiRes" : false
         },
         {
@@ -669,7 +669,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/52d89920f9090f604c34?t=1678021204&lf=74d3e8df5b7887e5fa30908f8b2ddd5a",
+          "url" : "https://s.awa.fm/album/52d89920f9090f604c34?t=1678021204&lf=753b78294efb5380ee98b5a398497297",
           "isHiRes" : false
         },
         {
@@ -679,7 +679,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675425098?ls=1&at=1l3vpUI&app=music&ct=LFV_74d3e8df5b7887e5fa30908f8b2ddd5a&itscg=30440&itsct=catchall_p8&lId=28120695&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425098?ls=1&at=1l3vpUI&app=music&ct=LFV_753b78294efb5380ee98b5a398497297&itscg=30440&itsct=catchall_p8&lId=28120695&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -694,7 +694,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2296/?lf=74d3e8df5b7887e5fa30908f8b2ddd5a",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2296/?lf=753b78294efb5380ee98b5a398497297",
           "isHiRes" : true
         },
         {
@@ -721,7 +721,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYHJNZ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14861&qid=1617684696&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=853cee0d01d6d6056c8b02b0988c4f7b&ref=dmm_acq_soc_us_u_lfire_lp_x_853cee0d01d6d6056c8b02b0988c4f7b",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYHJNZ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14861&qid=1617684696&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=2f72193a31d8ca25aae70871a11eae1d&ref=dmm_acq_soc_us_u_lfire_lp_x_2f72193a31d8ca25aae70871a11eae1d",
           "isHiRes" : false
         },
         {
@@ -769,12 +769,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675421429?ls=1&at=1l3vpUI&app=music&ct=LFV_bce39ae1239bc8ce532eb84a8e164e10&itscg=30440&itsct=catchall_p1&lId=28120696&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421429?ls=1&at=1l3vpUI&app=music&ct=LFV_da04a827a3a163142b1c10976f50be75&itscg=30440&itsct=catchall_p1&lId=28120696&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXCJX1SC?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=bce39ae1239bc8ce532eb84a8e164e10&ref=dmm_acq_soc_us_u_lfire_lp_x_bce39ae1239bc8ce532eb84a8e164e10",
+          "url" : "http://music.amazon.co.jp/albums/B0BXCJX1SC?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=da04a827a3a163142b1c10976f50be75&ref=dmm_acq_soc_us_u_lfire_lp_x_da04a827a3a163142b1c10976f50be75",
           "isHiRes" : false
         },
         {
@@ -794,7 +794,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/43bf09d0099bdd7cd040?t=1678021204&lf=bce39ae1239bc8ce532eb84a8e164e10",
+          "url" : "https://s.awa.fm/album/43bf09d0099bdd7cd040?t=1678021204&lf=da04a827a3a163142b1c10976f50be75",
           "isHiRes" : false
         },
         {
@@ -804,7 +804,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675421429?ls=1&at=1l3vpUI&app=music&ct=LFV_bce39ae1239bc8ce532eb84a8e164e10&itscg=30440&itsct=catchall_p8&lId=28120696&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421429?ls=1&at=1l3vpUI&app=music&ct=LFV_da04a827a3a163142b1c10976f50be75&itscg=30440&itsct=catchall_p8&lId=28120696&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -824,7 +824,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14862/?lf=bce39ae1239bc8ce532eb84a8e164e10",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14862/?lf=da04a827a3a163142b1c10976f50be75",
           "isHiRes" : true
         },
         {
@@ -851,7 +851,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MDJNWTG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14862&qid=1617685148&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=fe085c744b7ec28226072021b8ea55b6&ref=dmm_acq_soc_us_u_lfire_lp_x_fe085c744b7ec28226072021b8ea55b6",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MDJNWTG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14862&qid=1617685148&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=7d22153e59527fc633938db753fd3f73&ref=dmm_acq_soc_us_u_lfire_lp_x_7d22153e59527fc633938db753fd3f73",
           "isHiRes" : false
         },
         {
@@ -899,12 +899,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675834442?ls=1&at=1l3vpUI&app=music&ct=LFV_68d0cc6ca58cf4b2f4665a9ed3383a25&itscg=30440&itsct=catchall_p1&lId=28120697&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675834442?ls=1&at=1l3vpUI&app=music&ct=LFV_135bc7b03aa03c367d6841fc86a4e74e&itscg=30440&itsct=catchall_p1&lId=28120697&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXF9GZ38?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=68d0cc6ca58cf4b2f4665a9ed3383a25&ref=dmm_acq_soc_us_u_lfire_lp_x_68d0cc6ca58cf4b2f4665a9ed3383a25",
+          "url" : "http://music.amazon.co.jp/albums/B0BXF9GZ38?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=135bc7b03aa03c367d6841fc86a4e74e&ref=dmm_acq_soc_us_u_lfire_lp_x_135bc7b03aa03c367d6841fc86a4e74e",
           "isHiRes" : false
         },
         {
@@ -924,7 +924,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/2fcbddf41f263e4bda46?t=1678021204&lf=68d0cc6ca58cf4b2f4665a9ed3383a25",
+          "url" : "https://s.awa.fm/album/2fcbddf41f263e4bda46?t=1678021204&lf=135bc7b03aa03c367d6841fc86a4e74e",
           "isHiRes" : false
         },
         {
@@ -934,7 +934,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675834442?ls=1&at=1l3vpUI&app=music&ct=LFV_68d0cc6ca58cf4b2f4665a9ed3383a25&itscg=30440&itsct=catchall_p8&lId=28120697&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675834442?ls=1&at=1l3vpUI&app=music&ct=LFV_135bc7b03aa03c367d6841fc86a4e74e&itscg=30440&itsct=catchall_p8&lId=28120697&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -954,7 +954,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2297/?lf=68d0cc6ca58cf4b2f4665a9ed3383a25",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2297/?lf=135bc7b03aa03c367d6841fc86a4e74e",
           "isHiRes" : true
         },
         {
@@ -981,7 +981,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYTZ3X/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14863&qid=1617685864&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f9f4e29399e1ad94889c47488fa7327c&ref=dmm_acq_soc_us_u_lfire_lp_x_f9f4e29399e1ad94889c47488fa7327c",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYTZ3X/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14863&qid=1617685864&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=bb0b2762d072ec473472961767c183b1&ref=dmm_acq_soc_us_u_lfire_lp_x_bb0b2762d072ec473472961767c183b1",
           "isHiRes" : false
         },
         {
@@ -1029,12 +1029,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675425454?ls=1&at=1l3vpUI&app=music&ct=LFV_6ed5036deb38903a1659b5c1fe36c303&itscg=30440&itsct=catchall_p1&lId=28120699&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425454?ls=1&at=1l3vpUI&app=music&ct=LFV_f06b9646c121456351c16c324ec70e91&itscg=30440&itsct=catchall_p1&lId=28120699&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBZYYW7?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=6ed5036deb38903a1659b5c1fe36c303&ref=dmm_acq_soc_us_u_lfire_lp_x_6ed5036deb38903a1659b5c1fe36c303",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBZYYW7?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f06b9646c121456351c16c324ec70e91&ref=dmm_acq_soc_us_u_lfire_lp_x_f06b9646c121456351c16c324ec70e91",
           "isHiRes" : false
         },
         {
@@ -1054,7 +1054,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/b20ce6949fbc04335652?t=1678021204&lf=6ed5036deb38903a1659b5c1fe36c303",
+          "url" : "https://s.awa.fm/album/b20ce6949fbc04335652?t=1678021204&lf=f06b9646c121456351c16c324ec70e91",
           "isHiRes" : false
         },
         {
@@ -1064,7 +1064,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675425454?ls=1&at=1l3vpUI&app=music&ct=LFV_6ed5036deb38903a1659b5c1fe36c303&itscg=30440&itsct=catchall_p8&lId=28120699&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425454?ls=1&at=1l3vpUI&app=music&ct=LFV_f06b9646c121456351c16c324ec70e91&itscg=30440&itsct=catchall_p8&lId=28120699&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1084,7 +1084,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14864/?lf=6ed5036deb38903a1659b5c1fe36c303",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14864/?lf=f06b9646c121456351c16c324ec70e91",
           "isHiRes" : true
         },
         {
@@ -1111,7 +1111,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYR3VM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14864&qid=1617686268&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=09babb0d515e3fbbed2deca94775d6e3&ref=dmm_acq_soc_us_u_lfire_lp_x_09babb0d515e3fbbed2deca94775d6e3",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYR3VM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14864&qid=1617686268&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c1467d8224208eb185f423539658bf03&ref=dmm_acq_soc_us_u_lfire_lp_x_c1467d8224208eb185f423539658bf03",
           "isHiRes" : false
         },
         {
@@ -1159,12 +1159,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675427799?ls=1&at=1l3vpUI&app=music&ct=LFV_ddbf835be2fa0293e37b25cac9210cd2&itscg=30440&itsct=catchall_p1&lId=28120700&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675427799?ls=1&at=1l3vpUI&app=music&ct=LFV_4615c12435fbec7814ee8f21fdf4a96d&itscg=30440&itsct=catchall_p1&lId=28120700&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBKMBXZ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ddbf835be2fa0293e37b25cac9210cd2&ref=dmm_acq_soc_us_u_lfire_lp_x_ddbf835be2fa0293e37b25cac9210cd2",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBKMBXZ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4615c12435fbec7814ee8f21fdf4a96d&ref=dmm_acq_soc_us_u_lfire_lp_x_4615c12435fbec7814ee8f21fdf4a96d",
           "isHiRes" : false
         },
         {
@@ -1184,7 +1184,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/59cdcc62bddfef781455?t=1678021204&lf=ddbf835be2fa0293e37b25cac9210cd2",
+          "url" : "https://s.awa.fm/album/59cdcc62bddfef781455?t=1678021204&lf=4615c12435fbec7814ee8f21fdf4a96d",
           "isHiRes" : false
         },
         {
@@ -1194,7 +1194,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675427799?ls=1&at=1l3vpUI&app=music&ct=LFV_ddbf835be2fa0293e37b25cac9210cd2&itscg=30440&itsct=catchall_p8&lId=28120700&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675427799?ls=1&at=1l3vpUI&app=music&ct=LFV_4615c12435fbec7814ee8f21fdf4a96d&itscg=30440&itsct=catchall_p8&lId=28120700&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1214,7 +1214,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14865/?lf=ddbf835be2fa0293e37b25cac9210cd2",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14865/?lf=4615c12435fbec7814ee8f21fdf4a96d",
           "isHiRes" : true
         },
         {
@@ -1241,7 +1241,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MH4HDPV/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14865&qid=1617686651&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=2227c964170b02ac44530de20f5492fc&ref=dmm_acq_soc_us_u_lfire_lp_x_2227c964170b02ac44530de20f5492fc",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MH4HDPV/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14865&qid=1617686651&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=2d3e8a74e07ac2d445ed0a0511c3a354&ref=dmm_acq_soc_us_u_lfire_lp_x_2d3e8a74e07ac2d445ed0a0511c3a354",
           "isHiRes" : false
         },
         {
@@ -1289,12 +1289,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675420956?ls=1&at=1l3vpUI&app=music&ct=LFV_ce014252789161a2ed3c2b7201025b34&itscg=30440&itsct=catchall_p1&lId=28120703&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675420956?ls=1&at=1l3vpUI&app=music&ct=LFV_e578a34dbea635c5a28219248d6c8cb2&itscg=30440&itsct=catchall_p1&lId=28120703&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMRKJJ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ce014252789161a2ed3c2b7201025b34&ref=dmm_acq_soc_us_u_lfire_lp_x_ce014252789161a2ed3c2b7201025b34",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBMRKJJ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e578a34dbea635c5a28219248d6c8cb2&ref=dmm_acq_soc_us_u_lfire_lp_x_e578a34dbea635c5a28219248d6c8cb2",
           "isHiRes" : false
         },
         {
@@ -1314,7 +1314,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/e7b4293b7db9c726c858?t=1678021204&lf=ce014252789161a2ed3c2b7201025b34",
+          "url" : "https://s.awa.fm/album/e7b4293b7db9c726c858?t=1678021204&lf=e578a34dbea635c5a28219248d6c8cb2",
           "isHiRes" : false
         },
         {
@@ -1324,7 +1324,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675420956?ls=1&at=1l3vpUI&app=music&ct=LFV_ce014252789161a2ed3c2b7201025b34&itscg=30440&itsct=catchall_p8&lId=28120703&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675420956?ls=1&at=1l3vpUI&app=music&ct=LFV_e578a34dbea635c5a28219248d6c8cb2&itscg=30440&itsct=catchall_p8&lId=28120703&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1344,7 +1344,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14866/?lf=ce014252789161a2ed3c2b7201025b34",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14866/?lf=e578a34dbea635c5a28219248d6c8cb2",
           "isHiRes" : true
         },
         {
@@ -1371,7 +1371,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07PKB91G4/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14866&qid=1617686916&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=1df35d86ecb17f506199c36beb7f180a&ref=dmm_acq_soc_us_u_lfire_lp_x_1df35d86ecb17f506199c36beb7f180a",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07PKB91G4/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14866&qid=1617686916&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c466be327ab2fce851e444456f674ca2&ref=dmm_acq_soc_us_u_lfire_lp_x_c466be327ab2fce851e444456f674ca2",
           "isHiRes" : false
         },
         {
@@ -1419,12 +1419,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675428149?ls=1&at=1l3vpUI&app=music&ct=LFV_849737bb3420d63c16b95535deaab426&itscg=30440&itsct=catchall_p1&lId=28120704&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675428149?ls=1&at=1l3vpUI&app=music&ct=LFV_310fe5343f5e0b50b3ff2e50f16c915f&itscg=30440&itsct=catchall_p1&lId=28120704&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBKZVZM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=849737bb3420d63c16b95535deaab426&ref=dmm_acq_soc_us_u_lfire_lp_x_849737bb3420d63c16b95535deaab426",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBKZVZM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=310fe5343f5e0b50b3ff2e50f16c915f&ref=dmm_acq_soc_us_u_lfire_lp_x_310fe5343f5e0b50b3ff2e50f16c915f",
           "isHiRes" : false
         },
         {
@@ -1444,7 +1444,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/bd25e3cf9f9f908f6d35?t=1678021204&lf=849737bb3420d63c16b95535deaab426",
+          "url" : "https://s.awa.fm/album/bd25e3cf9f9f908f6d35?t=1678021204&lf=310fe5343f5e0b50b3ff2e50f16c915f",
           "isHiRes" : false
         },
         {
@@ -1454,7 +1454,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675428149?ls=1&at=1l3vpUI&app=music&ct=LFV_849737bb3420d63c16b95535deaab426&itscg=30440&itsct=catchall_p8&lId=28120704&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675428149?ls=1&at=1l3vpUI&app=music&ct=LFV_310fe5343f5e0b50b3ff2e50f16c915f&itscg=30440&itsct=catchall_p8&lId=28120704&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1474,7 +1474,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2298/?lf=849737bb3420d63c16b95535deaab426",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2298/?lf=310fe5343f5e0b50b3ff2e50f16c915f",
           "isHiRes" : true
         },
         {
@@ -1501,7 +1501,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833BFD9V/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14982&qid=1617688327&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4845aadda0a439e9d8a199d7bb3a931e&ref=dmm_acq_soc_us_u_lfire_lp_x_4845aadda0a439e9d8a199d7bb3a931e",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833BFD9V/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14982&qid=1617688327&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=56397919f8a5ed94a915965238d6498a&ref=dmm_acq_soc_us_u_lfire_lp_x_56397919f8a5ed94a915965238d6498a",
           "isHiRes" : false
         },
         {
@@ -1549,12 +1549,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675428520?ls=1&at=1l3vpUI&app=music&ct=LFV_5f14a333159ebf986859d404611a1bd2&itscg=30440&itsct=catchall_p1&lId=28120705&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675428520?ls=1&at=1l3vpUI&app=music&ct=LFV_77471ac8456e698cbb7cf56849c56b93&itscg=30440&itsct=catchall_p1&lId=28120705&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBL3MZH?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5f14a333159ebf986859d404611a1bd2&ref=dmm_acq_soc_us_u_lfire_lp_x_5f14a333159ebf986859d404611a1bd2",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBL3MZH?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=77471ac8456e698cbb7cf56849c56b93&ref=dmm_acq_soc_us_u_lfire_lp_x_77471ac8456e698cbb7cf56849c56b93",
           "isHiRes" : false
         },
         {
@@ -1574,7 +1574,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/7d58a28d95115690c641?t=1678021204&lf=5f14a333159ebf986859d404611a1bd2",
+          "url" : "https://s.awa.fm/album/7d58a28d95115690c641?t=1678021204&lf=77471ac8456e698cbb7cf56849c56b93",
           "isHiRes" : false
         },
         {
@@ -1584,7 +1584,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675428520?ls=1&at=1l3vpUI&app=music&ct=LFV_5f14a333159ebf986859d404611a1bd2&itscg=30440&itsct=catchall_p8&lId=28120705&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675428520?ls=1&at=1l3vpUI&app=music&ct=LFV_77471ac8456e698cbb7cf56849c56b93&itscg=30440&itsct=catchall_p8&lId=28120705&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1604,7 +1604,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14983/?lf=5f14a333159ebf986859d404611a1bd2",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14983/?lf=77471ac8456e698cbb7cf56849c56b93",
           "isHiRes" : true
         },
         {
@@ -1631,7 +1631,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833CH84B/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14983&qid=1617688754&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=fbd9f0053ce928601202091263fba858&ref=dmm_acq_soc_us_u_lfire_lp_x_fbd9f0053ce928601202091263fba858",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833CH84B/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14983&qid=1617688754&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=952df58de8ed58d0e01a3689534d2205&ref=dmm_acq_soc_us_u_lfire_lp_x_952df58de8ed58d0e01a3689534d2205",
           "isHiRes" : false
         },
         {
@@ -1679,12 +1679,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675602863?ls=1&at=1l3vpUI&app=music&ct=LFV_70cfc7c297390f3df829c8b95dea6410&itscg=30440&itsct=catchall_p1&lId=28120707&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675602863?ls=1&at=1l3vpUI&app=music&ct=LFV_4450c579587791af9bd8f8ac658e8a03&itscg=30440&itsct=catchall_p1&lId=28120707&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXF7S1JT?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=70cfc7c297390f3df829c8b95dea6410&ref=dmm_acq_soc_us_u_lfire_lp_x_70cfc7c297390f3df829c8b95dea6410",
+          "url" : "http://music.amazon.co.jp/albums/B0BXF7S1JT?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4450c579587791af9bd8f8ac658e8a03&ref=dmm_acq_soc_us_u_lfire_lp_x_4450c579587791af9bd8f8ac658e8a03",
           "isHiRes" : false
         },
         {
@@ -1704,7 +1704,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/366cef1fcfcc2e131547?t=1678021204&lf=70cfc7c297390f3df829c8b95dea6410",
+          "url" : "https://s.awa.fm/album/366cef1fcfcc2e131547?t=1678021204&lf=4450c579587791af9bd8f8ac658e8a03",
           "isHiRes" : false
         },
         {
@@ -1714,7 +1714,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675602863?ls=1&at=1l3vpUI&app=music&ct=LFV_70cfc7c297390f3df829c8b95dea6410&itscg=30440&itsct=catchall_p8&lId=28120707&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675602863?ls=1&at=1l3vpUI&app=music&ct=LFV_4450c579587791af9bd8f8ac658e8a03&itscg=30440&itsct=catchall_p8&lId=28120707&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1734,7 +1734,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2299/?lf=70cfc7c297390f3df829c8b95dea6410",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2299/?lf=4450c579587791af9bd8f8ac658e8a03",
           "isHiRes" : true
         },
         {
@@ -1761,7 +1761,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833C7TZZ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14984&qid=1617688965&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=50bbb6c1bf741efbbf69416111c5b68f&ref=dmm_acq_soc_us_u_lfire_lp_x_50bbb6c1bf741efbbf69416111c5b68f",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833C7TZZ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14984&qid=1617688965&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=52bf07d7b561ba6b494cdb5cd2f61670&ref=dmm_acq_soc_us_u_lfire_lp_x_52bf07d7b561ba6b494cdb5cd2f61670",
           "isHiRes" : false
         },
         {
@@ -1809,12 +1809,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675425674?ls=1&at=1l3vpUI&app=music&ct=LFV_d634216b8520c0051ea17a64e75dc4db&itscg=30440&itsct=catchall_p1&lId=28120708&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425674?ls=1&at=1l3vpUI&app=music&ct=LFV_e74c95d8ca48652b4c95ca467173c26a&itscg=30440&itsct=catchall_p1&lId=28120708&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMB31X?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d634216b8520c0051ea17a64e75dc4db&ref=dmm_acq_soc_us_u_lfire_lp_x_d634216b8520c0051ea17a64e75dc4db",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBMB31X?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e74c95d8ca48652b4c95ca467173c26a&ref=dmm_acq_soc_us_u_lfire_lp_x_e74c95d8ca48652b4c95ca467173c26a",
           "isHiRes" : false
         },
         {
@@ -1834,7 +1834,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/c41f7e34a32cfb747736?t=1678107608&lf=d634216b8520c0051ea17a64e75dc4db",
+          "url" : "https://s.awa.fm/album/c41f7e34a32cfb747736?t=1678107608&lf=e74c95d8ca48652b4c95ca467173c26a",
           "isHiRes" : false
         },
         {
@@ -1844,7 +1844,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675425674?ls=1&at=1l3vpUI&app=music&ct=LFV_d634216b8520c0051ea17a64e75dc4db&itscg=30440&itsct=catchall_p8&lId=28120708&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425674?ls=1&at=1l3vpUI&app=music&ct=LFV_e74c95d8ca48652b4c95ca467173c26a&itscg=30440&itsct=catchall_p8&lId=28120708&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1864,7 +1864,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14985/?lf=d634216b8520c0051ea17a64e75dc4db",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14985/?lf=e74c95d8ca48652b4c95ca467173c26a",
           "isHiRes" : true
         },
         {
@@ -1891,7 +1891,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833BLP4R/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14985&qid=1617689708&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=964cdf4fb41e0f27dcdb4db8158761fc&ref=dmm_acq_soc_us_u_lfire_lp_x_964cdf4fb41e0f27dcdb4db8158761fc",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833BLP4R/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14985&qid=1617689708&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=374d222de27420ac5fdee306d6f054dc&ref=dmm_acq_soc_us_u_lfire_lp_x_374d222de27420ac5fdee306d6f054dc",
           "isHiRes" : false
         },
         {
@@ -1939,12 +1939,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675427884?ls=1&at=1l3vpUI&app=music&ct=LFV_1c22093deb8604aef886b34ece3a52a4&itscg=30440&itsct=catchall_p1&lId=28120709&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675427884?ls=1&at=1l3vpUI&app=music&ct=LFV_11646d084ebdc61a013d184ff4ef9236&itscg=30440&itsct=catchall_p1&lId=28120709&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMF35V?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=1c22093deb8604aef886b34ece3a52a4&ref=dmm_acq_soc_us_u_lfire_lp_x_1c22093deb8604aef886b34ece3a52a4",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBMF35V?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=11646d084ebdc61a013d184ff4ef9236&ref=dmm_acq_soc_us_u_lfire_lp_x_11646d084ebdc61a013d184ff4ef9236",
           "isHiRes" : false
         },
         {
@@ -1964,7 +1964,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/f9c6e9e20eb6bbb17556?t=1678021204&lf=1c22093deb8604aef886b34ece3a52a4",
+          "url" : "https://s.awa.fm/album/f9c6e9e20eb6bbb17556?t=1678021204&lf=11646d084ebdc61a013d184ff4ef9236",
           "isHiRes" : false
         },
         {
@@ -1974,7 +1974,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675427884?ls=1&at=1l3vpUI&app=music&ct=LFV_1c22093deb8604aef886b34ece3a52a4&itscg=30440&itsct=catchall_p8&lId=28120709&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675427884?ls=1&at=1l3vpUI&app=music&ct=LFV_11646d084ebdc61a013d184ff4ef9236&itscg=30440&itsct=catchall_p8&lId=28120709&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -1994,7 +1994,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14986/?lf=1c22093deb8604aef886b34ece3a52a4",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14986/?lf=11646d084ebdc61a013d184ff4ef9236",
           "isHiRes" : true
         },
         {
@@ -2021,7 +2021,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833CH84C/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14986&qid=1617690018&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5be227be6bce9b4d0788f6d8b000c229&ref=dmm_acq_soc_us_u_lfire_lp_x_5be227be6bce9b4d0788f6d8b000c229",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833CH84C/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14986&qid=1617690018&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d46a5c671716c9bb001f124e935fdc96&ref=dmm_acq_soc_us_u_lfire_lp_x_d46a5c671716c9bb001f124e935fdc96",
           "isHiRes" : false
         },
         {
@@ -2069,12 +2069,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675425192?ls=1&at=1l3vpUI&app=music&ct=LFV_b865ef5754bdce41ae39df5c1c87f4d0&itscg=30440&itsct=catchall_p1&lId=28120711&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425192?ls=1&at=1l3vpUI&app=music&ct=LFV_bfc58724f006d28981f1b1b15a4a0e1b&itscg=30440&itsct=catchall_p1&lId=28120711&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBJT43H?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=b865ef5754bdce41ae39df5c1c87f4d0&ref=dmm_acq_soc_us_u_lfire_lp_x_b865ef5754bdce41ae39df5c1c87f4d0",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBJT43H?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=bfc58724f006d28981f1b1b15a4a0e1b&ref=dmm_acq_soc_us_u_lfire_lp_x_bfc58724f006d28981f1b1b15a4a0e1b",
           "isHiRes" : false
         },
         {
@@ -2094,7 +2094,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/ca5b45ed1bd1bf7eb259?t=1678021205&lf=b865ef5754bdce41ae39df5c1c87f4d0",
+          "url" : "https://s.awa.fm/album/ca5b45ed1bd1bf7eb259?t=1678021205&lf=bfc58724f006d28981f1b1b15a4a0e1b",
           "isHiRes" : false
         },
         {
@@ -2104,7 +2104,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675425192?ls=1&at=1l3vpUI&app=music&ct=LFV_b865ef5754bdce41ae39df5c1c87f4d0&itscg=30440&itsct=catchall_p8&lId=28120711&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675425192?ls=1&at=1l3vpUI&app=music&ct=LFV_bfc58724f006d28981f1b1b15a4a0e1b&itscg=30440&itsct=catchall_p8&lId=28120711&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -2124,7 +2124,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm14987/?lf=b865ef5754bdce41ae39df5c1c87f4d0",
+          "url" : "https://www.e-onkyo.com/music/album/lacm14987/?lf=bfc58724f006d28981f1b1b15a4a0e1b",
           "isHiRes" : true
         },
         {
@@ -2151,7 +2151,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833B5NNR/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14987&qid=1617691683&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=712616905097342003e913c71391b5a4&ref=dmm_acq_soc_us_u_lfire_lp_x_712616905097342003e913c71391b5a4",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0833B5NNR/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14987&qid=1617691683&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c3a3abd30a2881876f7e1a74c393ffc8&ref=dmm_acq_soc_us_u_lfire_lp_x_c3a3abd30a2881876f7e1a74c393ffc8",
           "isHiRes" : false
         },
         {
@@ -2199,12 +2199,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675421330?ls=1&at=1l3vpUI&app=music&ct=LFV_51b96490f0bf417d5cbdf211d56091c9&itscg=30440&itsct=catchall_p1&lId=28120713&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421330?ls=1&at=1l3vpUI&app=music&ct=LFV_a02f00f35bf277c318ce9b215c24b346&itscg=30440&itsct=catchall_p1&lId=28120713&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBJRGH5?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=51b96490f0bf417d5cbdf211d56091c9&ref=dmm_acq_soc_us_u_lfire_lp_x_51b96490f0bf417d5cbdf211d56091c9",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBJRGH5?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a02f00f35bf277c318ce9b215c24b346&ref=dmm_acq_soc_us_u_lfire_lp_x_a02f00f35bf277c318ce9b215c24b346",
           "isHiRes" : false
         },
         {
@@ -2224,7 +2224,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/b8e2e58648d5b3844567?t=1678021205&lf=51b96490f0bf417d5cbdf211d56091c9",
+          "url" : "https://s.awa.fm/album/b8e2e58648d5b3844567?t=1678021205&lf=a02f00f35bf277c318ce9b215c24b346",
           "isHiRes" : false
         },
         {
@@ -2234,7 +2234,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675421330?ls=1&at=1l3vpUI&app=music&ct=LFV_51b96490f0bf417d5cbdf211d56091c9&itscg=30440&itsct=catchall_p8&lId=28120713&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421330?ls=1&at=1l3vpUI&app=music&ct=LFV_a02f00f35bf277c318ce9b215c24b346&itscg=30440&itsct=catchall_p8&lId=28120713&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -2254,7 +2254,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24005/?lf=51b96490f0bf417d5cbdf211d56091c9",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24005/?lf=a02f00f35bf277c318ce9b215c24b346",
           "isHiRes" : true
         },
         {
@@ -2276,7 +2276,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0863S9YCG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-24005&qid=1617691987&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=9e6b5943560ca4cbbca9e7030aee6165&ref=dmm_acq_soc_us_u_lfire_lp_x_9e6b5943560ca4cbbca9e7030aee6165",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-DATE/dp/B0863S9YCG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-24005&qid=1617691987&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=53b034c4867d933b2fe992d039060164&ref=dmm_acq_soc_us_u_lfire_lp_x_53b034c4867d933b2fe992d039060164",
           "isHiRes" : false
         },
         {
@@ -2329,12 +2329,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675600823?ls=1&at=1l3vpUI&app=music&ct=LFV_c187f0e7db5e4f6310837c19ccd8cfa8&itscg=30440&itsct=catchall_p1&lId=28120718&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675600823?ls=1&at=1l3vpUI&app=music&ct=LFV_bd393bfda83885b2f43f7bda664a0dfc&itscg=30440&itsct=catchall_p1&lId=28120718&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXFP63NM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c187f0e7db5e4f6310837c19ccd8cfa8&ref=dmm_acq_soc_us_u_lfire_lp_x_c187f0e7db5e4f6310837c19ccd8cfa8",
+          "url" : "http://music.amazon.co.jp/albums/B0BXFP63NM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=bd393bfda83885b2f43f7bda664a0dfc&ref=dmm_acq_soc_us_u_lfire_lp_x_bd393bfda83885b2f43f7bda664a0dfc",
           "isHiRes" : false
         },
         {
@@ -2354,7 +2354,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/b7a4bd0818b495868432?t=1678021204&lf=c187f0e7db5e4f6310837c19ccd8cfa8",
+          "url" : "https://s.awa.fm/album/b7a4bd0818b495868432?t=1678021204&lf=bd393bfda83885b2f43f7bda664a0dfc",
           "isHiRes" : false
         },
         {
@@ -2364,7 +2364,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675600823?ls=1&at=1l3vpUI&app=music&ct=LFV_c187f0e7db5e4f6310837c19ccd8cfa8&itscg=30440&itsct=catchall_p8&lId=28120718&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675600823?ls=1&at=1l3vpUI&app=music&ct=LFV_bd393bfda83885b2f43f7bda664a0dfc&itscg=30440&itsct=catchall_p8&lId=28120718&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -2384,7 +2384,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2301/?lf=c187f0e7db5e4f6310837c19ccd8cfa8",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2301/?lf=bd393bfda83885b2f43f7bda664a0dfc",
           "isHiRes" : true
         },
         {
@@ -2411,7 +2411,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFFBLML/ref=tmm_acd_title_0?_encoding=UTF8&qid=1617270519&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=664a286d849a01175ff334f86dd4f0c5&ref=dmm_acq_soc_us_u_lfire_lp_x_664a286d849a01175ff334f86dd4f0c5",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFFBLML/ref=tmm_acd_title_0?_encoding=UTF8&qid=1617270519&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e78888d5000c6720122d9ca60952ddf3&ref=dmm_acq_soc_us_u_lfire_lp_x_e78888d5000c6720122d9ca60952ddf3",
           "isHiRes" : false
         },
         {
@@ -2464,12 +2464,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675421302?ls=1&at=1l3vpUI&app=music&ct=LFV_a55d5ce56f3eb0a7de73c2c8d7e79460&itscg=30440&itsct=catchall_p1&lId=28120720&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421302?ls=1&at=1l3vpUI&app=music&ct=LFV_6f828150e84c71cd2bfe2677caff555f&itscg=30440&itsct=catchall_p1&lId=28120720&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBKGYDV?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a55d5ce56f3eb0a7de73c2c8d7e79460&ref=dmm_acq_soc_us_u_lfire_lp_x_a55d5ce56f3eb0a7de73c2c8d7e79460",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBKGYDV?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=6f828150e84c71cd2bfe2677caff555f&ref=dmm_acq_soc_us_u_lfire_lp_x_6f828150e84c71cd2bfe2677caff555f",
           "isHiRes" : false
         },
         {
@@ -2489,7 +2489,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/3562720a52d80376e238?t=1678021204&lf=a55d5ce56f3eb0a7de73c2c8d7e79460",
+          "url" : "https://s.awa.fm/album/3562720a52d80376e238?t=1678021204&lf=6f828150e84c71cd2bfe2677caff555f",
           "isHiRes" : false
         },
         {
@@ -2499,7 +2499,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675421302?ls=1&at=1l3vpUI&app=music&ct=LFV_a55d5ce56f3eb0a7de73c2c8d7e79460&itscg=30440&itsct=catchall_p8&lId=28120720&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421302?ls=1&at=1l3vpUI&app=music&ct=LFV_6f828150e84c71cd2bfe2677caff555f&itscg=30440&itsct=catchall_p8&lId=28120720&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -2519,7 +2519,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24112/?lf=a55d5ce56f3eb0a7de73c2c8d7e79460",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24112/?lf=6f828150e84c71cd2bfe2677caff555f",
           "isHiRes" : true
         },
         {
@@ -2546,7 +2546,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFF81CZ/ref=tmm_acd_title_0?_encoding=UTF8&qid=1618971912&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=961a716fc5c027e2389b65b63c757802&ref=dmm_acq_soc_us_u_lfire_lp_x_961a716fc5c027e2389b65b63c757802",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFF81CZ/ref=tmm_acd_title_0?_encoding=UTF8&qid=1618971912&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=82b9f659383cd2513adbcc6b49fca4d5&ref=dmm_acq_soc_us_u_lfire_lp_x_82b9f659383cd2513adbcc6b49fca4d5",
           "isHiRes" : false
         },
         {
@@ -2594,12 +2594,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675842449?ls=1&at=1l3vpUI&app=music&ct=LFV_e9d77a10f2eb1badda41b25813c58c50&itscg=30440&itsct=catchall_p1&lId=28120721&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675842449?ls=1&at=1l3vpUI&app=music&ct=LFV_ace89c12304ed0486cf92ea37367da95&itscg=30440&itsct=catchall_p1&lId=28120721&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXFGZKHZ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e9d77a10f2eb1badda41b25813c58c50&ref=dmm_acq_soc_us_u_lfire_lp_x_e9d77a10f2eb1badda41b25813c58c50",
+          "url" : "http://music.amazon.co.jp/albums/B0BXFGZKHZ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ace89c12304ed0486cf92ea37367da95&ref=dmm_acq_soc_us_u_lfire_lp_x_ace89c12304ed0486cf92ea37367da95",
           "isHiRes" : false
         },
         {
@@ -2619,7 +2619,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/96b2c56c6fe5664f3644?t=1678021204&lf=e9d77a10f2eb1badda41b25813c58c50",
+          "url" : "https://s.awa.fm/album/96b2c56c6fe5664f3644?t=1678021204&lf=ace89c12304ed0486cf92ea37367da95",
           "isHiRes" : false
         },
         {
@@ -2629,7 +2629,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675842449?ls=1&at=1l3vpUI&app=music&ct=LFV_e9d77a10f2eb1badda41b25813c58c50&itscg=30440&itsct=catchall_p8&lId=28120721&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675842449?ls=1&at=1l3vpUI&app=music&ct=LFV_ace89c12304ed0486cf92ea37367da95&itscg=30440&itsct=catchall_p8&lId=28120721&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -2649,7 +2649,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2302/?lf=e9d77a10f2eb1badda41b25813c58c50",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2302/?lf=ace89c12304ed0486cf92ea37367da95",
           "isHiRes" : true
         },
         {
@@ -2676,7 +2676,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDKCDZ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=THE+IDOLM%40STER+SHINY+COLORS+L%40YERED+WING+03&qid=1620273149&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d12689fae24517f314aaeb0913ff956b&ref=dmm_acq_soc_us_u_lfire_lp_x_d12689fae24517f314aaeb0913ff956b",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDKCDZ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=THE+IDOLM%40STER+SHINY+COLORS+L%40YERED+WING+03&qid=1620273149&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=01d838a012fde518030bc3f8a4e3e7b6&ref=dmm_acq_soc_us_u_lfire_lp_x_01d838a012fde518030bc3f8a4e3e7b6",
           "isHiRes" : false
         },
         {
@@ -2724,12 +2724,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675429082?ls=1&at=1l3vpUI&app=music&ct=LFV_494e90171d1a32ee1059bda7473c7212&itscg=30440&itsct=catchall_p1&lId=28120722&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675429082?ls=1&at=1l3vpUI&app=music&ct=LFV_74aacc162c0d0892630dd7161876c15e&itscg=30440&itsct=catchall_p1&lId=28120722&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMFHLF?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=494e90171d1a32ee1059bda7473c7212&ref=dmm_acq_soc_us_u_lfire_lp_x_494e90171d1a32ee1059bda7473c7212",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBMFHLF?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=74aacc162c0d0892630dd7161876c15e&ref=dmm_acq_soc_us_u_lfire_lp_x_74aacc162c0d0892630dd7161876c15e",
           "isHiRes" : false
         },
         {
@@ -2749,7 +2749,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/704e2bd745d90f3c4450?t=1678021204&lf=494e90171d1a32ee1059bda7473c7212",
+          "url" : "https://s.awa.fm/album/704e2bd745d90f3c4450?t=1678021204&lf=74aacc162c0d0892630dd7161876c15e",
           "isHiRes" : false
         },
         {
@@ -2759,7 +2759,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675429082?ls=1&at=1l3vpUI&app=music&ct=LFV_494e90171d1a32ee1059bda7473c7212&itscg=30440&itsct=catchall_p8&lId=28120722&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675429082?ls=1&at=1l3vpUI&app=music&ct=LFV_74aacc162c0d0892630dd7161876c15e&itscg=30440&itsct=catchall_p8&lId=28120722&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -2779,7 +2779,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24114/?lf=494e90171d1a32ee1059bda7473c7212",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24114/?lf=74aacc162c0d0892630dd7161876c15e",
           "isHiRes" : true
         },
         {
@@ -2806,7 +2806,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDGPZ5/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=L%40YERED+WING&qid=1624280971&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f5fd1850c9b9da5e40c4eb56466c054f&ref=dmm_acq_soc_us_u_lfire_lp_x_f5fd1850c9b9da5e40c4eb56466c054f",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDGPZ5/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=L%40YERED+WING&qid=1624280971&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=7986e548a5f28261a59f27da0f7db679&ref=dmm_acq_soc_us_u_lfire_lp_x_7986e548a5f28261a59f27da0f7db679",
           "isHiRes" : false
         },
         {
@@ -2859,12 +2859,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675426134?ls=1&at=1l3vpUI&app=music&ct=LFV_239aa8d2c0dbe7eb7a59c5e61a362112&itscg=30440&itsct=catchall_p1&lId=28120724&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675426134?ls=1&app=music&at=1l3vpUI&ct=LFV_be9dd10803023fbd4a15e397d08ada7e&itscg=30440&itsct=catchall_p1&lId=28120724&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBKX8LS?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=239aa8d2c0dbe7eb7a59c5e61a362112&ref=dmm_acq_soc_us_u_lfire_lp_x_239aa8d2c0dbe7eb7a59c5e61a362112",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBKX8LS?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=be9dd10803023fbd4a15e397d08ada7e&ref=dmm_acq_soc_us_u_lfire_lp_x_be9dd10803023fbd4a15e397d08ada7e",
           "isHiRes" : false
         },
         {
@@ -2884,7 +2884,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/9603eb58bac699104a53?t=1678021204&lf=239aa8d2c0dbe7eb7a59c5e61a362112",
+          "url" : "https://s.awa.fm/album/9603eb58bac699104a53?t=1678021204&lf=be9dd10803023fbd4a15e397d08ada7e",
           "isHiRes" : false
         },
         {
@@ -2894,7 +2894,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675426134?ls=1&at=1l3vpUI&app=music&ct=LFV_239aa8d2c0dbe7eb7a59c5e61a362112&itscg=30440&itsct=catchall_p8&lId=28120724&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675426134?ls=1&app=itunes&at=1l3vpUI&ct=LFV_be9dd10803023fbd4a15e397d08ada7e&itscg=30440&itsct=catchall_p8&lId=28120724&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -2914,7 +2914,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24115/?lf=239aa8d2c0dbe7eb7a59c5e61a362112",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24115/?lf=be9dd10803023fbd4a15e397d08ada7e",
           "isHiRes" : true
         },
         {
@@ -2941,7 +2941,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDNL96/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=SHINY+COLORS+L%40YERED&qid=1626834275&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=30e43cb9101c0747a81b41a0c69db7e3&ref=dmm_acq_soc_us_u_lfire_lp_x_30e43cb9101c0747a81b41a0c69db7e3",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDNL96/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=SHINY+COLORS+L%40YERED&qid=1626834275&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ecfb891925363ba86944ef5d30ed21c4&ref=dmm_acq_soc_us_u_lfire_lp_x_ecfb891925363ba86944ef5d30ed21c4",
           "isHiRes" : false
         },
         {
@@ -2994,12 +2994,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675421745?ls=1&at=1l3vpUI&app=music&ct=LFV_b08fa7051e73db0e7ccc97e714134aca&itscg=30440&itsct=catchall_p1&lId=28120726&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421745?ls=1&at=1l3vpUI&app=music&ct=LFV_412598edd3db73e137b87eca5e7fc72c&itscg=30440&itsct=catchall_p1&lId=28120726&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMPXT9?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=b08fa7051e73db0e7ccc97e714134aca&ref=dmm_acq_soc_us_u_lfire_lp_x_b08fa7051e73db0e7ccc97e714134aca",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBMPXT9?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=412598edd3db73e137b87eca5e7fc72c&ref=dmm_acq_soc_us_u_lfire_lp_x_412598edd3db73e137b87eca5e7fc72c",
           "isHiRes" : false
         },
         {
@@ -3019,7 +3019,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/f7ee28307cf7c927e057?t=1678021204&lf=b08fa7051e73db0e7ccc97e714134aca",
+          "url" : "https://s.awa.fm/album/f7ee28307cf7c927e057?t=1678021204&lf=412598edd3db73e137b87eca5e7fc72c",
           "isHiRes" : false
         },
         {
@@ -3029,7 +3029,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675421745?ls=1&at=1l3vpUI&app=music&ct=LFV_b08fa7051e73db0e7ccc97e714134aca&itscg=30440&itsct=catchall_p8&lId=28120726&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675421745?ls=1&at=1l3vpUI&app=music&ct=LFV_412598edd3db73e137b87eca5e7fc72c&itscg=30440&itsct=catchall_p8&lId=28120726&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3049,7 +3049,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24116/?lf=b08fa7051e73db0e7ccc97e714134aca",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24116/?lf=412598edd3db73e137b87eca5e7fc72c",
           "isHiRes" : true
         },
         {
@@ -3076,7 +3076,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDPJVW/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=THE+IDOLM%40STER+SHINY+COLORS+L%40YERED+WING+06&qid=1628578418&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c735eda1f045c9595cafec99527f1a6c&ref=dmm_acq_soc_us_u_lfire_lp_x_c735eda1f045c9595cafec99527f1a6c",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFDPJVW/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=THE+IDOLM%40STER+SHINY+COLORS+L%40YERED+WING+06&qid=1628578418&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=53279cf453b6556ab86f7c29f55f7721&ref=dmm_acq_soc_us_u_lfire_lp_x_53279cf453b6556ab86f7c29f55f7721",
           "isHiRes" : false
         },
         {
@@ -3129,12 +3129,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675429330?ls=1&at=1l3vpUI&app=music&ct=LFV_5988c59e84a2e97a33b375ef01948694&itscg=30440&itsct=catchall_p1&lId=28120727&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675429330?ls=1&at=1l3vpUI&app=music&ct=LFV_05a68a6d688826beaba7549f13dc930f&itscg=30440&itsct=catchall_p1&lId=28120727&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBLFX86?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5988c59e84a2e97a33b375ef01948694&ref=dmm_acq_soc_us_u_lfire_lp_x_5988c59e84a2e97a33b375ef01948694",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBLFX86?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=05a68a6d688826beaba7549f13dc930f&ref=dmm_acq_soc_us_u_lfire_lp_x_05a68a6d688826beaba7549f13dc930f",
           "isHiRes" : false
         },
         {
@@ -3154,7 +3154,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/02fb67f4a678f7116666?t=1678021205&lf=5988c59e84a2e97a33b375ef01948694",
+          "url" : "https://s.awa.fm/album/02fb67f4a678f7116666?t=1678021205&lf=05a68a6d688826beaba7549f13dc930f",
           "isHiRes" : false
         },
         {
@@ -3164,7 +3164,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675429330?ls=1&at=1l3vpUI&app=music&ct=LFV_5988c59e84a2e97a33b375ef01948694&itscg=30440&itsct=catchall_p8&lId=28120727&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675429330?ls=1&at=1l3vpUI&app=music&ct=LFV_05a68a6d688826beaba7549f13dc930f&itscg=30440&itsct=catchall_p8&lId=28120727&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3184,7 +3184,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24117/?lf=5988c59e84a2e97a33b375ef01948694",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24117/?lf=05a68a6d688826beaba7549f13dc930f",
           "isHiRes" : true
         },
         {
@@ -3211,7 +3211,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFF47QB/ref=tmm_acd_title_0?_encoding=UTF8&&qid=1632204835&&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=69f80f254dfe29955d26f5e030bc3f72&ref=dmm_acq_soc_us_u_lfire_lp_x_69f80f254dfe29955d26f5e030bc3f72",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFF47QB/ref=tmm_acd_title_0?_encoding=UTF8&&qid=1632204835&&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=40d1c7f0a9529815241b6c412d6e73a8&ref=dmm_acq_soc_us_u_lfire_lp_x_40d1c7f0a9529815241b6c412d6e73a8",
           "isHiRes" : false
         },
         {
@@ -3264,12 +3264,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675426298?ls=1&at=1l3vpUI&app=music&ct=LFV_01635fa67546c2274aaa48b93d33accc&itscg=30440&itsct=catchall_p1&lId=28120729&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675426298?ls=1&at=1l3vpUI&app=music&ct=LFV_010fac501ea21b62cdfe08d7ab7fdd77&itscg=30440&itsct=catchall_p1&lId=28120729&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBK4FB2?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=01635fa67546c2274aaa48b93d33accc&ref=dmm_acq_soc_us_u_lfire_lp_x_01635fa67546c2274aaa48b93d33accc",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBK4FB2?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=010fac501ea21b62cdfe08d7ab7fdd77&ref=dmm_acq_soc_us_u_lfire_lp_x_010fac501ea21b62cdfe08d7ab7fdd77",
           "isHiRes" : false
         },
         {
@@ -3289,7 +3289,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/fd13274e97836b632868?t=1678021205&lf=01635fa67546c2274aaa48b93d33accc",
+          "url" : "https://s.awa.fm/album/fd13274e97836b632868?t=1678021205&lf=010fac501ea21b62cdfe08d7ab7fdd77",
           "isHiRes" : false
         },
         {
@@ -3299,7 +3299,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675426298?ls=1&at=1l3vpUI&app=music&ct=LFV_01635fa67546c2274aaa48b93d33accc&itscg=30440&itsct=catchall_p8&lId=28120729&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675426298?ls=1&at=1l3vpUI&app=music&ct=LFV_010fac501ea21b62cdfe08d7ab7fdd77&itscg=30440&itsct=catchall_p8&lId=28120729&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3319,7 +3319,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24118/?lf=01635fa67546c2274aaa48b93d33accc",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24118/?lf=010fac501ea21b62cdfe08d7ab7fdd77",
           "isHiRes" : true
         },
         {
@@ -3346,7 +3346,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08ZKFVGDH/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=L%40YERED+WING+08&qid=1633312117&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=1600df13d31a0dda84151dae4aea33c4&ref=dmm_acq_soc_us_u_lfire_lp_x_1600df13d31a0dda84151dae4aea33c4",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08ZKFVGDH/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=L%40YERED+WING+08&qid=1633312117&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ecf72a5da173a83e86e03008c4cd057f&ref=dmm_acq_soc_us_u_lfire_lp_x_ecf72a5da173a83e86e03008c4cd057f",
           "isHiRes" : false
         },
         {
@@ -3399,7 +3399,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1621031121?ls=1&at=1l3vpUI&app=music&ct=LFV_3dac4ed2709fe0f9a85319317a777317&itscg=30440&itsct=catchall_p1&lId=26707372&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1621031121?ls=1&at=1l3vpUI&app=music&ct=LFV_63e464b37082c823c0ad434d2cea8af5&itscg=30440&itsct=catchall_p1&lId=26707372&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3409,7 +3409,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B09YV3MQ5Z?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=3dac4ed2709fe0f9a85319317a777317&ref=dmm_acq_soc_us_u_lfire_lp_x_3dac4ed2709fe0f9a85319317a777317",
+          "url" : "http://music.amazon.co.jp/albums/B09YV3MQ5Z?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=63e464b37082c823c0ad434d2cea8af5&ref=dmm_acq_soc_us_u_lfire_lp_x_63e464b37082c823c0ad434d2cea8af5",
           "isHiRes" : false
         },
         {
@@ -3424,7 +3424,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/96b2c8686ee56d4f3644?t=1652432522&lf=3dac4ed2709fe0f9a85319317a777317",
+          "url" : "https://s.awa.fm/album/96b2c8686ee56d4f3644?t=1652432522&lf=63e464b37082c823c0ad434d2cea8af5",
           "isHiRes" : false
         },
         {
@@ -3434,7 +3434,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1621031121?ls=1&at=1l3vpUI&app=music&ct=LFV_3dac4ed2709fe0f9a85319317a777317&itscg=30440&itsct=catchall_p8&lId=26707372&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1621031121?ls=1&at=1l3vpUI&app=music&ct=LFV_63e464b37082c823c0ad434d2cea8af5&itscg=30440&itsct=catchall_p8&lId=26707372&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3454,7 +3454,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24251/?lf=3dac4ed2709fe0f9a85319317a777317",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24251/?lf=63e464b37082c823c0ad434d2cea8af5",
           "isHiRes" : true
         },
         {
@@ -3471,7 +3471,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8CQDTL/ref=sr_1_13?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-13&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=3f4680eec091689948cce8eb37d1584e&ref=dmm_acq_soc_us_u_lfire_lp_x_3f4680eec091689948cce8eb37d1584e",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8CQDTL/ref=sr_1_13?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-13&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=1132841f1ef8645bd9421bc3d3850412&ref=dmm_acq_soc_us_u_lfire_lp_x_1132841f1ef8645bd9421bc3d3850412",
           "isHiRes" : false
         },
         {
@@ -3519,7 +3519,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1626962805?ls=1&at=1l3vpUI&app=music&ct=LFV_7275ab277caff8f65129deb0ac09dd47&itscg=30440&itsct=catchall_p1&lId=26707387&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1626962805?ls=1&at=1l3vpUI&app=music&ct=LFV_3986e6340696ea31fdb07953d6757139&itscg=30440&itsct=catchall_p1&lId=26707387&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3529,7 +3529,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B2TF361Y?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=7275ab277caff8f65129deb0ac09dd47&ref=dmm_acq_soc_us_u_lfire_lp_x_7275ab277caff8f65129deb0ac09dd47",
+          "url" : "http://music.amazon.co.jp/albums/B0B2TF361Y?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=3986e6340696ea31fdb07953d6757139&ref=dmm_acq_soc_us_u_lfire_lp_x_3986e6340696ea31fdb07953d6757139",
           "isHiRes" : false
         },
         {
@@ -3544,7 +3544,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/0d40ed946ba300691d13?t=1655110901&lf=7275ab277caff8f65129deb0ac09dd47",
+          "url" : "https://s.awa.fm/album/0d40ed946ba300691d13?t=1655110901&lf=3986e6340696ea31fdb07953d6757139",
           "isHiRes" : false
         },
         {
@@ -3554,7 +3554,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1626962805?ls=1&at=1l3vpUI&app=music&ct=LFV_7275ab277caff8f65129deb0ac09dd47&itscg=30440&itsct=catchall_p8&lId=26707387&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1626962805?ls=1&at=1l3vpUI&app=music&ct=LFV_3986e6340696ea31fdb07953d6757139&itscg=30440&itsct=catchall_p8&lId=26707387&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3574,7 +3574,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24252/?lf=7275ab277caff8f65129deb0ac09dd47",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24252/?lf=3986e6340696ea31fdb07953d6757139",
           "isHiRes" : true
         },
         {
@@ -3591,7 +3591,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8G32NJ/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-6&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=62e1ee36a4ac29d41506dbf0639bcf5e&ref=dmm_acq_soc_us_u_lfire_lp_x_62e1ee36a4ac29d41506dbf0639bcf5e",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8G32NJ/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-6&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=274c8e8f567618d284b0d6033260d494&ref=dmm_acq_soc_us_u_lfire_lp_x_274c8e8f567618d284b0d6033260d494",
           "isHiRes" : false
         },
         {
@@ -3639,7 +3639,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1634024880?ls=1&at=1l3vpUI&app=music&ct=LFV_dcad15587b46cb5fba90319a2d197587&itscg=30440&itsct=catchall_p1&lId=26707395&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1634024880?ls=1&at=1l3vpUI&app=music&ct=LFV_fd786a5a2329d26c52ecfaad3082c833&itscg=30440&itsct=catchall_p1&lId=26707395&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3649,7 +3649,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B69HRVYY?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=dcad15587b46cb5fba90319a2d197587&ref=dmm_acq_soc_us_u_lfire_lp_x_dcad15587b46cb5fba90319a2d197587",
+          "url" : "http://music.amazon.co.jp/albums/B0B69HRVYY?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=fd786a5a2329d26c52ecfaad3082c833&ref=dmm_acq_soc_us_u_lfire_lp_x_fd786a5a2329d26c52ecfaad3082c833",
           "isHiRes" : false
         },
         {
@@ -3664,7 +3664,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/ca5b48ef1ad1b07eb259?t=1658048533&lf=dcad15587b46cb5fba90319a2d197587",
+          "url" : "https://s.awa.fm/album/ca5b48ef1ad1b07eb259?t=1658048533&lf=fd786a5a2329d26c52ecfaad3082c833",
           "isHiRes" : false
         },
         {
@@ -3674,7 +3674,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1634024880?ls=1&at=1l3vpUI&app=music&ct=LFV_dcad15587b46cb5fba90319a2d197587&itscg=30440&itsct=catchall_p8&lId=26707395&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1634024880?ls=1&at=1l3vpUI&app=music&ct=LFV_fd786a5a2329d26c52ecfaad3082c833&itscg=30440&itsct=catchall_p8&lId=26707395&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3694,7 +3694,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24253/?lf=dcad15587b46cb5fba90319a2d197587",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24253/?lf=fd786a5a2329d26c52ecfaad3082c833",
           "isHiRes" : true
         },
         {
@@ -3711,7 +3711,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8CZR7T/ref=sr_1_11?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-11&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=3980357d8beb0339ef13bf1786c42b4b&ref=dmm_acq_soc_us_u_lfire_lp_x_3980357d8beb0339ef13bf1786c42b4b",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8CZR7T/ref=sr_1_11?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-11&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=eb99779f3e8206ed81d27088c45b1228&ref=dmm_acq_soc_us_u_lfire_lp_x_eb99779f3e8206ed81d27088c45b1228",
           "isHiRes" : false
         },
         {
@@ -3759,7 +3759,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1637705026?ls=1&at=1l3vpUI&app=music&ct=LFV_73d8497327d15287ab05cfb9eb2b0612&itscg=30440&itsct=catchall_p1&lId=26707412&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1637705026?ls=1&at=1l3vpUI&app=music&ct=LFV_5662ed0f489a5ceda312ad7c27b02d85&itscg=30440&itsct=catchall_p1&lId=26707412&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3769,7 +3769,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B8G4HXFM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=73d8497327d15287ab05cfb9eb2b0612&ref=dmm_acq_soc_us_u_lfire_lp_x_73d8497327d15287ab05cfb9eb2b0612",
+          "url" : "http://music.amazon.co.jp/albums/B0B8G4HXFM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5662ed0f489a5ceda312ad7c27b02d85&ref=dmm_acq_soc_us_u_lfire_lp_x_5662ed0f489a5ceda312ad7c27b02d85",
           "isHiRes" : false
         },
         {
@@ -3784,7 +3784,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/1d0a0e4cc9a6f30b5b07?t=1660381298&lf=73d8497327d15287ab05cfb9eb2b0612",
+          "url" : "https://s.awa.fm/album/1d0a0e4cc9a6f30b5b07?t=1660381298&lf=5662ed0f489a5ceda312ad7c27b02d85",
           "isHiRes" : false
         },
         {
@@ -3794,7 +3794,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1637705026?ls=1&at=1l3vpUI&app=music&ct=LFV_73d8497327d15287ab05cfb9eb2b0612&itscg=30440&itsct=catchall_p8&lId=26707412&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1637705026?ls=1&at=1l3vpUI&app=music&ct=LFV_5662ed0f489a5ceda312ad7c27b02d85&itscg=30440&itsct=catchall_p8&lId=26707412&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3814,7 +3814,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24254/?lf=73d8497327d15287ab05cfb9eb2b0612",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24254/?lf=5662ed0f489a5ceda312ad7c27b02d85",
           "isHiRes" : true
         },
         {
@@ -3831,7 +3831,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8CXCBG/ref=sr_1_12?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-12&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=18c648ba0b4147823a8d818a30f63915&ref=dmm_acq_soc_us_u_lfire_lp_x_18c648ba0b4147823a8d818a30f63915",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8CXCBG/ref=sr_1_12?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-12&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=06a15e7ba5e31af8c337a5f05cf4c90c&ref=dmm_acq_soc_us_u_lfire_lp_x_06a15e7ba5e31af8c337a5f05cf4c90c",
           "isHiRes" : false
         },
         {
@@ -3879,7 +3879,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1643095930?ls=1&at=1l3vpUI&app=music&ct=LFV_8300a08476cf37bc94e1947310748dfe&itscg=30440&itsct=catchall_p1&lId=26707444&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1643095930?ls=1&at=1l3vpUI&app=music&ct=LFV_5f9d5b95c59bcf4bd8dfc0cbfaa21dc3&itscg=30440&itsct=catchall_p1&lId=26707444&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3889,7 +3889,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BCX6HXWS?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=8300a08476cf37bc94e1947310748dfe&ref=dmm_acq_soc_us_u_lfire_lp_x_8300a08476cf37bc94e1947310748dfe",
+          "url" : "http://music.amazon.co.jp/albums/B0BCX6HXWS?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5f9d5b95c59bcf4bd8dfc0cbfaa21dc3&ref=dmm_acq_soc_us_u_lfire_lp_x_5f9d5b95c59bcf4bd8dfc0cbfaa21dc3",
           "isHiRes" : false
         },
         {
@@ -3904,7 +3904,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/0d40ee9368a305691d13?t=1662714133&lf=8300a08476cf37bc94e1947310748dfe",
+          "url" : "https://s.awa.fm/album/0d40ee9368a305691d13?t=1662714133&lf=5f9d5b95c59bcf4bd8dfc0cbfaa21dc3",
           "isHiRes" : false
         },
         {
@@ -3914,7 +3914,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1643095930?ls=1&at=1l3vpUI&app=music&ct=LFV_8300a08476cf37bc94e1947310748dfe&itscg=30440&itsct=catchall_p8&lId=26707444&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1643095930?ls=1&at=1l3vpUI&app=music&ct=LFV_5f9d5b95c59bcf4bd8dfc0cbfaa21dc3&itscg=30440&itsct=catchall_p8&lId=26707444&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -3934,7 +3934,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24255/?lf=8300a08476cf37bc94e1947310748dfe",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24255/?lf=5f9d5b95c59bcf4bd8dfc0cbfaa21dc3",
           "isHiRes" : true
         },
         {
@@ -3951,7 +3951,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8FFS68/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-8&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=7c1e44ebdff8c6212903dd7022a13fa4&ref=dmm_acq_soc_us_u_lfire_lp_x_7c1e44ebdff8c6212903dd7022a13fa4",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8FFS68/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-8&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f60cbf0086b761383c3be6ad21882497&ref=dmm_acq_soc_us_u_lfire_lp_x_f60cbf0086b761383c3be6ad21882497",
           "isHiRes" : false
         },
         {
@@ -3999,7 +3999,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1642475209?ls=1&at=1l3vpUI&app=music&ct=LFV_069cbe4ac9a9941cd035b57b37e30b56&itscg=30440&itsct=catchall_p1&lId=26707450&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1642475209?ls=1&at=1l3vpUI&app=music&ct=LFV_6e45d1ca420d4b0619d1d04dbc010df7&itscg=30440&itsct=catchall_p1&lId=26707450&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4009,7 +4009,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BCG444FD?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=069cbe4ac9a9941cd035b57b37e30b56&ref=dmm_acq_soc_us_u_lfire_lp_x_069cbe4ac9a9941cd035b57b37e30b56",
+          "url" : "http://music.amazon.co.jp/albums/B0BCG444FD?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=6e45d1ca420d4b0619d1d04dbc010df7&ref=dmm_acq_soc_us_u_lfire_lp_x_6e45d1ca420d4b0619d1d04dbc010df7",
           "isHiRes" : false
         },
         {
@@ -4024,7 +4024,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/691db2f9372eafb8d626?t=1663059710&lf=069cbe4ac9a9941cd035b57b37e30b56",
+          "url" : "https://s.awa.fm/album/691db2f9372eafb8d626?t=1663059710&lf=6e45d1ca420d4b0619d1d04dbc010df7",
           "isHiRes" : false
         },
         {
@@ -4034,7 +4034,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1642475209?ls=1&at=1l3vpUI&app=music&ct=LFV_069cbe4ac9a9941cd035b57b37e30b56&itscg=30440&itsct=catchall_p8&lId=26707450&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1642475209?ls=1&at=1l3vpUI&app=music&ct=LFV_6e45d1ca420d4b0619d1d04dbc010df7&itscg=30440&itsct=catchall_p8&lId=26707450&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4054,7 +4054,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24256/?lf=069cbe4ac9a9941cd035b57b37e30b56",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24256/?lf=6e45d1ca420d4b0619d1d04dbc010df7",
           "isHiRes" : true
         },
         {
@@ -4071,7 +4071,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8D5PCC/ref=sr_1_10?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-10&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=0850c159f30e25d598fa5c4f2ef3e90b&ref=dmm_acq_soc_us_u_lfire_lp_x_0850c159f30e25d598fa5c4f2ef3e90b",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8D5PCC/ref=sr_1_10?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-10&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ef625638c3af5457cec6bdcd1446e233&ref=dmm_acq_soc_us_u_lfire_lp_x_ef625638c3af5457cec6bdcd1446e233",
           "isHiRes" : false
         },
         {
@@ -4119,7 +4119,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655633924?ls=1&at=1l3vpUI&app=music&ct=LFV_5ee1a83d116431466e8dfbaca2b21946&itscg=30440&itsct=catchall_p1&lId=26707455&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1655633924?ls=1&at=1l3vpUI&app=music&ct=LFV_96d47722b1a31c64ce776edbdfd623d5&itscg=30440&itsct=catchall_p1&lId=26707455&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4129,7 +4129,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BNF9S2ZQ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5ee1a83d116431466e8dfbaca2b21946&ref=dmm_acq_soc_us_u_lfire_lp_x_5ee1a83d116431466e8dfbaca2b21946",
+          "url" : "http://music.amazon.co.jp/albums/B0BNF9S2ZQ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=96d47722b1a31c64ce776edbdfd623d5&ref=dmm_acq_soc_us_u_lfire_lp_x_96d47722b1a31c64ce776edbdfd623d5",
           "isHiRes" : false
         },
         {
@@ -4144,7 +4144,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/d9a569a5b510b06aa983?t=1669474878&lf=5ee1a83d116431466e8dfbaca2b21946",
+          "url" : "https://s.awa.fm/album/d9a569a5b510b06aa983?t=1669474878&lf=96d47722b1a31c64ce776edbdfd623d5",
           "isHiRes" : false
         },
         {
@@ -4154,7 +4154,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1655633924?ls=1&at=1l3vpUI&app=music&ct=LFV_5ee1a83d116431466e8dfbaca2b21946&itscg=30440&itsct=catchall_p8&lId=26707455&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1655633924?ls=1&at=1l3vpUI&app=music&ct=LFV_96d47722b1a31c64ce776edbdfd623d5&itscg=30440&itsct=catchall_p8&lId=26707455&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4174,7 +4174,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24257/?lf=5ee1a83d116431466e8dfbaca2b21946",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24257/?lf=96d47722b1a31c64ce776edbdfd623d5",
           "isHiRes" : true
         },
         {
@@ -4191,7 +4191,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8DWLKN/ref=sr_1_9?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-9&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5598098e79ba74f8c7d704e204c66585&ref=dmm_acq_soc_us_u_lfire_lp_x_5598098e79ba74f8c7d704e204c66585",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8DWLKN/ref=sr_1_9?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-9&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=999d5eee0e156b1f4bfe080d63b69d8c&ref=dmm_acq_soc_us_u_lfire_lp_x_999d5eee0e156b1f4bfe080d63b69d8c",
           "isHiRes" : false
         },
         {
@@ -4239,7 +4239,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655633131?ls=1&at=1l3vpUI&app=music&ct=LFV_538d93a6f39e56cddde45a4fdeb5b485&itscg=30440&itsct=catchall_p1&lId=26707458&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1655633131?ls=1&at=1l3vpUI&app=music&ct=LFV_415f630665aaff7b993da21d94dae32b&itscg=30440&itsct=catchall_p1&lId=26707458&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4249,7 +4249,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BNDQJCTZ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=538d93a6f39e56cddde45a4fdeb5b485&ref=dmm_acq_soc_us_u_lfire_lp_x_538d93a6f39e56cddde45a4fdeb5b485",
+          "url" : "http://music.amazon.co.jp/albums/B0BNDQJCTZ?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=415f630665aaff7b993da21d94dae32b&ref=dmm_acq_soc_us_u_lfire_lp_x_415f630665aaff7b993da21d94dae32b",
           "isHiRes" : false
         },
         {
@@ -4264,7 +4264,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/9b1abeff260d8c188f84?t=1669494547&lf=538d93a6f39e56cddde45a4fdeb5b485",
+          "url" : "https://s.awa.fm/album/9b1abeff260d8c188f84?t=1669494547&lf=415f630665aaff7b993da21d94dae32b",
           "isHiRes" : false
         },
         {
@@ -4274,7 +4274,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1655633131?ls=1&at=1l3vpUI&app=music&ct=LFV_538d93a6f39e56cddde45a4fdeb5b485&itscg=30440&itsct=catchall_p8&lId=26707458&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1655633131?ls=1&at=1l3vpUI&app=music&ct=LFV_415f630665aaff7b993da21d94dae32b&itscg=30440&itsct=catchall_p8&lId=26707458&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4294,7 +4294,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24258/?lf=538d93a6f39e56cddde45a4fdeb5b485",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24258/?lf=415f630665aaff7b993da21d94dae32b",
           "isHiRes" : true
         },
         {
@@ -4311,7 +4311,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8FNCFN/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-7&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=537427bbf1358cea167c39c812424297&ref=dmm_acq_soc_us_u_lfire_lp_x_537427bbf1358cea167c39c812424297",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B09P8FNCFN/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=THE+IDOLM%40STER+SHINY+COLORS+PANOR%40MA+WING&qid=1640703615&sr=8-7&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c1a07ad10a374170100b9322228b7b39&ref=dmm_acq_soc_us_u_lfire_lp_x_c1a07ad10a374170100b9322228b7b39",
           "isHiRes" : false
         },
         {
@@ -4364,12 +4364,12 @@
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1679823084?ls=1&app=music&at=1l3vpUI&ct=LFV_1d1097f4a2b84be65870bc1c3d1c5f9b&itscg=30440&itsct=catchall_p2&lId=28597705&cId=none&sr=2&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1679823084?ls=1&at=1l3vpUI&app=music&ct=LFV_ee2998dbbdb55e0685cb7a37e0e560f2&itscg=30440&itsct=catchall_p2&lId=28597705&cId=none&sr=2&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BZWPG9DF?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=1d1097f4a2b84be65870bc1c3d1c5f9b&ref=dmm_acq_soc_us_u_lfire_lp_x_1d1097f4a2b84be65870bc1c3d1c5f9b",
+          "url" : "http://music.amazon.co.jp/albums/B0BZWPG9DF?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ee2998dbbdb55e0685cb7a37e0e560f2&ref=dmm_acq_soc_us_u_lfire_lp_x_ee2998dbbdb55e0685cb7a37e0e560f2",
           "isHiRes" : false
         },
         {
@@ -4384,7 +4384,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/bc15997a13f64f4ce886?t=1681327687&lf=1d1097f4a2b84be65870bc1c3d1c5f9b",
+          "url" : "https://s.awa.fm/album/bc15997a13f64f4ce886?t=1681327687&lf=ee2998dbbdb55e0685cb7a37e0e560f2",
           "isHiRes" : false
         },
         {
@@ -4394,7 +4394,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1679823084?ls=1&app=itunes&at=1l3vpUI&ct=LFV_1d1097f4a2b84be65870bc1c3d1c5f9b&itscg=30440&itsct=catchall_p8&lId=28597705&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1679823084?ls=1&at=1l3vpUI&app=music&ct=LFV_ee2998dbbdb55e0685cb7a37e0e560f2&itscg=30440&itsct=catchall_p8&lId=28597705&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4436,7 +4436,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NVJ5Z/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=16KTABZHOOI68&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D+01&qid=1679238515&sprefix=the+idolm+ster+shiny+colors+canvas+01%2Caps%2C151&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=2f0e584fdf57510aa4f0914ce59bc06e&ref=dmm_acq_soc_us_u_lfire_lp_x_2f0e584fdf57510aa4f0914ce59bc06e",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NVJ5Z/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=16KTABZHOOI68&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D+01&qid=1679238515&sprefix=the+idolm+ster+shiny+colors+canvas+01%2Caps%2C151&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=137403e6fb80a2b0f1db96db7e9f7911&ref=dmm_acq_soc_us_u_lfire_lp_x_137403e6fb80a2b0f1db96db7e9f7911",
           "isHiRes" : false
         },
         {
@@ -4484,7 +4484,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1686941736?ls=1&at=1l3vpUI&app=music&ct=LFV_56947080cd749300c5a2c48a14cdaf0d&itscg=30440&itsct=catchall_p1&lId=28648366&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1686941736?ls=1&at=1l3vpUI&app=music&ct=LFV_d9dd8a59f66035a5596589119f8388b9&itscg=30440&itsct=catchall_p1&lId=28648366&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4519,12 +4519,12 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0C4LCMV7G?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=56947080cd749300c5a2c48a14cdaf0d&ref=dmm_acq_soc_us_u_lfire_lp_x_56947080cd749300c5a2c48a14cdaf0d",
+          "url" : "http://music.amazon.co.jp/albums/B0C4LCMV7G?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d9dd8a59f66035a5596589119f8388b9&ref=dmm_acq_soc_us_u_lfire_lp_x_d9dd8a59f66035a5596589119f8388b9",
           "isHiRes" : false
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1686941736?ls=1&at=1l3vpUI&app=music&ct=LFV_56947080cd749300c5a2c48a14cdaf0d&itscg=30440&itsct=catchall_p9&lId=28648366&cId=none&sr=9&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1686941736?ls=1&at=1l3vpUI&app=music&ct=LFV_d9dd8a59f66035a5596589119f8388b9&itscg=30440&itsct=catchall_p9&lId=28648366&cId=none&sr=9&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4534,7 +4534,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/02fb66f4a372f8116666?t=1683874629&lf=56947080cd749300c5a2c48a14cdaf0d",
+          "url" : "https://s.awa.fm/album/02fb66f4a372f8116666?t=1683874629&lf=d9dd8a59f66035a5596589119f8388b9",
           "isHiRes" : false
         },
         {
@@ -4561,7 +4561,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NVDQM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=17B8G0WN1QOZN&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D+02&qid=1679313403&sprefix=%2Caps%2C484&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=9ccd937be926d381160a0554417bd07a&ref=dmm_acq_soc_us_u_lfire_lp_x_9ccd937be926d381160a0554417bd07a",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NVDQM/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=17B8G0WN1QOZN&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D+02&qid=1679313403&sprefix=%2Caps%2C484&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=48db736e7a617e24248deab252a56be8&ref=dmm_acq_soc_us_u_lfire_lp_x_48db736e7a617e24248deab252a56be8",
           "isHiRes" : false
         },
         {
@@ -4609,7 +4609,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1689767801?ls=1&at=1l3vpUI&app=music&ct=LFV_50fbce5e0fafbbf76d1780fb0b3e27f0&itscg=30440&itsct=catchall_p1&lId=28875835&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1689767801?ls=1&at=1l3vpUI&app=music&ct=LFV_8144772ed741a460d0b3727cc4fa7979&itscg=30440&itsct=catchall_p1&lId=28875835&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4634,7 +4634,7 @@
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1689767801?ls=1&at=1l3vpUI&app=music&ct=LFV_50fbce5e0fafbbf76d1780fb0b3e27f0&itscg=30440&itsct=catchall_p6&lId=28875835&cId=none&sr=6&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1689767801?ls=1&at=1l3vpUI&app=music&ct=LFV_8144772ed741a460d0b3727cc4fa7979&itscg=30440&itsct=catchall_p6&lId=28875835&cId=none&sr=6&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4654,7 +4654,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/18807b3d6233f25b5364?t=1686801790&lf=50fbce5e0fafbbf76d1780fb0b3e27f0",
+          "url" : "https://s.awa.fm/album/18807b3d6233f25b5364?t=1686801790&lf=8144772ed741a460d0b3727cc4fa7979",
           "isHiRes" : false
         },
         {
@@ -4664,7 +4664,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0C6FHVYRH?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=50fbce5e0fafbbf76d1780fb0b3e27f0&ref=dmm_acq_soc_us_u_lfire_lp_x_50fbce5e0fafbbf76d1780fb0b3e27f0",
+          "url" : "http://music.amazon.co.jp/albums/B0C6FHVYRH?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=8144772ed741a460d0b3727cc4fa7979&ref=dmm_acq_soc_us_u_lfire_lp_x_8144772ed741a460d0b3727cc4fa7979",
           "isHiRes" : false
         }
       ],
@@ -4681,7 +4681,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NYJDY/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a85a5635b1a9cc5484d50513548b809e&ref=dmm_acq_soc_us_u_lfire_lp_x_a85a5635b1a9cc5484d50513548b809e",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NYJDY/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c6f2bc0dbc277c69ec3fdcec3a9f3612&ref=dmm_acq_soc_us_u_lfire_lp_x_c6f2bc0dbc277c69ec3fdcec3a9f3612",
           "isHiRes" : false
         },
         {
@@ -4724,7 +4724,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1694293919?ls=1&at=1l3vpUI&app=music&ct=LFV_2f5a5a84941aeb355da88a17e0fff06f&itscg=30440&itsct=catchall_p1&lId=29100160&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1694293919?ls=1&app=itunes&at=1l3vpUI&ct=LFV_91e532970e80b8b4aeb9415f163eee4d&itscg=30440&itsct=catchall_p1&lId=29100160&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4749,7 +4749,7 @@
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1694293919?ls=1&at=1l3vpUI&app=music&ct=LFV_2f5a5a84941aeb355da88a17e0fff06f&itscg=30440&itsct=catchall_p6&lId=29100160&cId=none&sr=6&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1694293919?ls=1&app=music&at=1l3vpUI&ct=LFV_91e532970e80b8b4aeb9415f163eee4d&itscg=30440&itsct=catchall_p6&lId=29100160&cId=none&sr=6&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4764,12 +4764,12 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0C9BZJRV6?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=2f5a5a84941aeb355da88a17e0fff06f&ref=dmm_acq_soc_us_u_lfire_lp_x_2f5a5a84941aeb355da88a17e0fff06f",
+          "url" : "http://music.amazon.co.jp/albums/B0C9BZJRV6?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=91e532970e80b8b4aeb9415f163eee4d&ref=dmm_acq_soc_us_u_lfire_lp_x_91e532970e80b8b4aeb9415f163eee4d",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/653cb4ad2ed31e855f30?t=1689227170&lf=2f5a5a84941aeb355da88a17e0fff06f",
+          "url" : "https://s.awa.fm/album/653cb4ad2ed31e855f30?t=1689227170&lf=91e532970e80b8b4aeb9415f163eee4d",
           "isHiRes" : false
         },
         {
@@ -4796,7 +4796,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NYT7H/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-5&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d6ceae9ae4c8afac279be737ecb9766f&ref=dmm_acq_soc_us_u_lfire_lp_x_d6ceae9ae4c8afac279be737ecb9766f",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NYT7H/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-5&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4404235d24caed8150b296c7e87b4f00&ref=dmm_acq_soc_us_u_lfire_lp_x_4404235d24caed8150b296c7e87b4f00",
           "isHiRes" : false
         },
         {
@@ -4844,7 +4844,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1699417403?ls=1&at=1l3vpUI&app=music&ct=LFV_61ff0145a720c79dc7253f6ef10c57f6&itscg=30440&itsct=catchall_p1&lId=29244575&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1699417403?ls=1&at=1l3vpUI&app=music&ct=LFV_a4cb9dd317efe627a8313fbd20f8202f&itscg=30440&itsct=catchall_p1&lId=29244575&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4869,7 +4869,7 @@
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1699417403?ls=1&at=1l3vpUI&app=music&ct=LFV_61ff0145a720c79dc7253f6ef10c57f6&itscg=30440&itsct=catchall_p6&lId=29244575&cId=none&sr=6&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1699417403?ls=1&at=1l3vpUI&app=music&ct=LFV_a4cb9dd317efe627a8313fbd20f8202f&itscg=30440&itsct=catchall_p6&lId=29244575&cId=none&sr=6&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4879,12 +4879,12 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CCW5XFYD?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=61ff0145a720c79dc7253f6ef10c57f6&ref=dmm_acq_soc_us_u_lfire_lp_x_61ff0145a720c79dc7253f6ef10c57f6",
+          "url" : "http://music.amazon.co.jp/albums/B0CCW5XFYD?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a4cb9dd317efe627a8313fbd20f8202f&ref=dmm_acq_soc_us_u_lfire_lp_x_a4cb9dd317efe627a8313fbd20f8202f",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/ab317a0aef598c59a869?t=1691625130&lf=61ff0145a720c79dc7253f6ef10c57f6",
+          "url" : "https://s.awa.fm/album/ab317a0aef598c59a869?t=1691625130&lf=a4cb9dd317efe627a8313fbd20f8202f",
           "isHiRes" : false
         },
         {
@@ -4916,7 +4916,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NYF11/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a3c37955d215160cc973580fe024f5e6&ref=dmm_acq_soc_us_u_lfire_lp_x_a3c37955d215160cc973580fe024f5e6",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NYF11/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=75ebcf29737a13afe2e23865decb581e&ref=dmm_acq_soc_us_u_lfire_lp_x_75ebcf29737a13afe2e23865decb581e",
           "isHiRes" : false
         },
         {
@@ -4964,7 +4964,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1707372645?ls=1&at=1l3vpUI&app=music&ct=LFV_851a98edf0cd5ed02eaca6775a2cd03e&itscg=30440&itsct=catchall_p1&lId=29368086&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1707372645?ls=1&at=1l3vpUI&app=music&ct=LFV_95fa7652c46e1a90e4c256f8a0384eb0&itscg=30440&itsct=catchall_p1&lId=29368086&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -4989,7 +4989,7 @@
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1707372645?ls=1&at=1l3vpUI&app=music&ct=LFV_851a98edf0cd5ed02eaca6775a2cd03e&itscg=30440&itsct=catchall_p6&lId=29368086&cId=none&sr=6&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1707372645?ls=1&at=1l3vpUI&app=music&ct=LFV_95fa7652c46e1a90e4c256f8a0384eb0&itscg=30440&itsct=catchall_p6&lId=29368086&cId=none&sr=6&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5004,7 +5004,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/fd102e4d998760632868?t=1695879550&lf=851a98edf0cd5ed02eaca6775a2cd03e",
+          "url" : "https://s.awa.fm/album/fd102e4d998760632868?t=1695879550&lf=95fa7652c46e1a90e4c256f8a0384eb0",
           "isHiRes" : false
         },
         {
@@ -5014,7 +5014,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CJ382CTN?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=851a98edf0cd5ed02eaca6775a2cd03e&ref=dmm_acq_soc_us_u_lfire_lp_x_851a98edf0cd5ed02eaca6775a2cd03e",
+          "url" : "http://music.amazon.co.jp/albums/B0CJ382CTN?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=95fa7652c46e1a90e4c256f8a0384eb0&ref=dmm_acq_soc_us_u_lfire_lp_x_95fa7652c46e1a90e4c256f8a0384eb0",
           "isHiRes" : false
         }
       ],
@@ -5031,7 +5031,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NKK8H/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-7&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=bed67e5093be35414597d37ee646323a&ref=dmm_acq_soc_us_u_lfire_lp_x_bed67e5093be35414597d37ee646323a",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3NKK8H/ref=sr_1_7?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-7&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=93167dc2851084814fa6c1a8716d41bf&ref=dmm_acq_soc_us_u_lfire_lp_x_93167dc2851084814fa6c1a8716d41bf",
           "isHiRes" : false
         },
         {
@@ -5090,7 +5090,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3MSM2L/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=b9522a087b6977973a9a5240d5306756&ref=dmm_acq_soc_us_u_lfire_lp_x_b9522a087b6977973a9a5240d5306756",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3MSM2L/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=15XVQ31Y4A8JB&keywords=THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D&qid=1679313638&sprefix=the+idolm+ster+shiny+colors+canvas+%2Caps%2C140&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4d5b3e19b7103965c55ef164ac39b747&ref=dmm_acq_soc_us_u_lfire_lp_x_4d5b3e19b7103965c55ef164ac39b747",
           "isHiRes" : false
         },
         {
@@ -5144,7 +5144,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-%E2%80%9CCANVAS%E2%80%9D/dp/B0CCJRXP87/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=W486WVCUEHJO&keywords=LACM-24368&qid=1693977143&sprefix=lacm-24368%2Caps%2C188&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d970b8cb3928aeb5a1824b845409f2e0&ref=dmm_acq_soc_us_u_lfire_lp_x_d970b8cb3928aeb5a1824b845409f2e0",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-%E2%80%9CCANVAS%E2%80%9D/dp/B0CCJRXP87/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=W486WVCUEHJO&keywords=LACM-24368&qid=1693977143&sprefix=lacm-24368%2Caps%2C188&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a017d42d4b40831801757ec17bedd56c&ref=dmm_acq_soc_us_u_lfire_lp_x_a017d42d4b40831801757ec17bedd56c",
           "isHiRes" : false
         },
         {
@@ -5183,7 +5183,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0CBKPVHG8/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1CXP7HE5EQTQG&keywords=LACM-24437&qid=1693408266&sprefix=lacm-2443%2Caps%2C184&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a2ff36a56b7285eb5bbb37e09df27450&ref=dmm_acq_soc_us_u_lfire_lp_x_a2ff36a56b7285eb5bbb37e09df27450",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0CBKPVHG8/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1CXP7HE5EQTQG&keywords=LACM-24437&qid=1693408266&sprefix=lacm-2443%2Caps%2C184&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c715a3a744e6e20b0ce49f1a84715cff&ref=dmm_acq_soc_us_u_lfire_lp_x_c715a3a744e6e20b0ce49f1a84715cff",
           "isHiRes" : false
         },
         {
@@ -5232,7 +5232,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-SONAL-WINTER/dp/B07H7PNJ28/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14820&qid=1617683852&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c459777cab37c7ffd28b244b08b2c549&ref=dmm_acq_soc_us_u_lfire_lp_x_c459777cab37c7ffd28b244b08b2c549",
+          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-SONAL-WINTER/dp/B07H7PNJ28/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14820&qid=1617683852&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=cb94c5e3b25ac150bb788c936fa07785&ref=dmm_acq_soc_us_u_lfire_lp_x_cb94c5e3b25ac150bb788c936fa07785",
           "isHiRes" : false
         },
         {
@@ -5275,12 +5275,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675339132?ls=1&at=1l3vpUI&app=music&ct=LFV_42c9a7fc668d9d6fdbed176cd077a409&itscg=30440&itsct=catchall_p1&lId=28120715&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675339132?ls=1&at=1l3vpUI&app=music&ct=LFV_5111b1ace7ebbf0e9831e81235ccee46&itscg=30440&itsct=catchall_p1&lId=28120715&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXB9FM2X?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=42c9a7fc668d9d6fdbed176cd077a409&ref=dmm_acq_soc_us_u_lfire_lp_x_42c9a7fc668d9d6fdbed176cd077a409",
+          "url" : "http://music.amazon.co.jp/albums/B0BXB9FM2X?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=5111b1ace7ebbf0e9831e81235ccee46&ref=dmm_acq_soc_us_u_lfire_lp_x_5111b1ace7ebbf0e9831e81235ccee46",
           "isHiRes" : false
         },
         {
@@ -5300,7 +5300,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/b5dd9c15a671c9171e70?t=1678021205&lf=42c9a7fc668d9d6fdbed176cd077a409",
+          "url" : "https://s.awa.fm/album/b5dd9c15a671c9171e70?t=1678021205&lf=5111b1ace7ebbf0e9831e81235ccee46",
           "isHiRes" : false
         },
         {
@@ -5310,7 +5310,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675339132?ls=1&at=1l3vpUI&app=music&ct=LFV_42c9a7fc668d9d6fdbed176cd077a409&itscg=30440&itsct=catchall_p8&lId=28120715&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675339132?ls=1&at=1l3vpUI&app=music&ct=LFV_5111b1ace7ebbf0e9831e81235ccee46&itscg=30440&itsct=catchall_p8&lId=28120715&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5330,7 +5330,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/laca15861/?lf=42c9a7fc668d9d6fdbed176cd077a409",
+          "url" : "https://www.e-onkyo.com/music/album/laca15861/?lf=5111b1ace7ebbf0e9831e81235ccee46",
           "isHiRes" : true
         },
         {
@@ -5357,7 +5357,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-Stella/dp/B08L6ZDXLW/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACA-15861&qid=1617692531&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=29808d09f0422e96c337ca06ec531cf0&ref=dmm_acq_soc_us_u_lfire_lp_x_29808d09f0422e96c337ca06ec531cf0",
+          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-Stella/dp/B08L6ZDXLW/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACA-15861&qid=1617692531&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=8c35d765a6c08cc1b11bc1ed0734af4e&ref=dmm_acq_soc_us_u_lfire_lp_x_8c35d765a6c08cc1b11bc1ed0734af4e",
           "isHiRes" : false
         },
         {
@@ -5405,12 +5405,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675518486?ls=1&at=1l3vpUI&app=music&ct=LFV_67ed2f9cc718ef0ff64d317dc615f2fc&itscg=30440&itsct=catchall_p1&lId=28120716&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675518486?ls=1&at=1l3vpUI&app=music&ct=LFV_86842496025dbd28c31ab47d1f4ce944&itscg=30440&itsct=catchall_p1&lId=28120716&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXFBD7F1?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=67ed2f9cc718ef0ff64d317dc615f2fc&ref=dmm_acq_soc_us_u_lfire_lp_x_67ed2f9cc718ef0ff64d317dc615f2fc",
+          "url" : "http://music.amazon.co.jp/albums/B0BXFBD7F1?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=86842496025dbd28c31ab47d1f4ce944&ref=dmm_acq_soc_us_u_lfire_lp_x_86842496025dbd28c31ab47d1f4ce944",
           "isHiRes" : false
         },
         {
@@ -5430,7 +5430,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/ee5ada160efd360e4f71?t=1678021205&lf=67ed2f9cc718ef0ff64d317dc615f2fc",
+          "url" : "https://s.awa.fm/album/ee5ada160efd360e4f71?t=1678021205&lf=86842496025dbd28c31ab47d1f4ce944",
           "isHiRes" : false
         },
         {
@@ -5440,7 +5440,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675518486?ls=1&at=1l3vpUI&app=music&ct=LFV_67ed2f9cc718ef0ff64d317dc615f2fc&itscg=30440&itsct=catchall_p8&lId=28120716&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675518486?ls=1&at=1l3vpUI&app=music&ct=LFV_86842496025dbd28c31ab47d1f4ce944&itscg=30440&itsct=catchall_p8&lId=28120716&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5460,7 +5460,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2300/?lf=67ed2f9cc718ef0ff64d317dc615f2fc",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2300/?lf=86842496025dbd28c31ab47d1f4ce944",
           "isHiRes" : true
         },
         {
@@ -5487,7 +5487,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-Luna/dp/B08M6ZQGPJ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACA-15862&qid=1617692775&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e551a083d04d5bfa2a061ff8bd10b855&ref=dmm_acq_soc_us_u_lfire_lp_x_e551a083d04d5bfa2a061ff8bd10b855",
+          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-Luna/dp/B08M6ZQGPJ/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACA-15862&qid=1617692775&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c3989cb39d88943120d451836ae342b8&ref=dmm_acq_soc_us_u_lfire_lp_x_c3989cb39d88943120d451836ae342b8",
           "isHiRes" : false
         },
         {
@@ -5535,7 +5535,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655619000?ls=1&at=1l3vpUI&app=music&ct=LFV_edcce1baffd0f9e1a458f9cdab2d4edf&itscg=30440&itsct=catchall_p1&lId=26758775&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1655619000?ls=1&at=1l3vpUI&app=music&ct=LFV_e680f9fe0feaf906444cd6b8471bfa7a&itscg=30440&itsct=catchall_p1&lId=26758775&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5545,7 +5545,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BNGR7TXB?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=edcce1baffd0f9e1a458f9cdab2d4edf&ref=dmm_acq_soc_us_u_lfire_lp_x_edcce1baffd0f9e1a458f9cdab2d4edf",
+          "url" : "http://music.amazon.co.jp/albums/B0BNGR7TXB?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e680f9fe0feaf906444cd6b8471bfa7a&ref=dmm_acq_soc_us_u_lfire_lp_x_e680f9fe0feaf906444cd6b8471bfa7a",
           "isHiRes" : false
         },
         {
@@ -5560,7 +5560,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/3ab1018bae91d2262085?t=1669466407&lf=edcce1baffd0f9e1a458f9cdab2d4edf",
+          "url" : "https://s.awa.fm/album/3ab1018bae91d2262085?t=1669466407&lf=e680f9fe0feaf906444cd6b8471bfa7a",
           "isHiRes" : false
         },
         {
@@ -5570,7 +5570,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://itunes.apple.com/jp/album/1655619000?ls=1&at=1l3vpUI&app=itunes&ct=LFV_edcce1baffd0f9e1a458f9cdab2d4edf&itscg=30440&itsct=catchall_p8&lId=26758775&cId=none&sr=8&src=Linkfire",
+          "url" : "https://itunes.apple.com/jp/album/1655619000?ls=1&at=1l3vpUI&app=itunes&ct=LFV_e680f9fe0feaf906444cd6b8471bfa7a&itscg=30440&itsct=catchall_p8&lId=26758775&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5590,7 +5590,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/laca15863/?lf=edcce1baffd0f9e1a458f9cdab2d4edf",
+          "url" : "https://www.e-onkyo.com/music/album/laca15863/?lf=e680f9fe0feaf906444cd6b8471bfa7a",
           "isHiRes" : true
         },
         {
@@ -5617,7 +5617,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-THERS/dp/B08M6WDVYC/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACA-15863&qid=1617694590&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f100bdb5549815fd69e4ebbe0d5bcdec&ref=dmm_acq_soc_us_u_lfire_lp_x_f100bdb5549815fd69e4ebbe0d5bcdec",
+          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-THERS/dp/B08M6WDVYC/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACA-15863&qid=1617694590&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=7b18f3e184e3b649a12b9fb6c7f07f0b&ref=dmm_acq_soc_us_u_lfire_lp_x_7b18f3e184e3b649a12b9fb6c7f07f0b",
           "isHiRes" : false
         },
         {
@@ -5665,7 +5665,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1696128291?ls=1&at=1l3vpUI&app=music&ct=LFV_3a57668b3aaf195642ea270d39da76b6&itscg=30440&itsct=catchall_p1&lId=29228412&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1696128291?ls=1&at=1l3vpUI&app=music&ct=LFV_a863cedb8ca0f23639c294f8981bf34e&itscg=30440&itsct=catchall_p1&lId=29228412&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5697,7 +5697,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-SHHis/dp/B0C4SKVWXL/ref=tmm_acd_title_0?_encoding=UTF8&&qid=&&sr=&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a3a62dd84152b00d42b6692c865dda3b&ref=dmm_acq_soc_us_u_lfire_lp_x_a3a62dd84152b00d42b6692c865dda3b",
+          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-SHHis/dp/B0C4SKVWXL/ref=tmm_acd_title_0?_encoding=UTF8&&qid=&&sr=&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e826eaf85c7cd9265184ebdd11d3f350&ref=dmm_acq_soc_us_u_lfire_lp_x_e826eaf85c7cd9265184ebdd11d3f350",
           "isHiRes" : false
         },
         {
@@ -5740,7 +5740,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1627485946?ls=1&at=1l3vpUI&app=music&ct=LFV_ef1cba653fd21cbe5ded0a1cd957efa8&itscg=30440&itsct=catchall_p1&lId=26707347&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1627485946?ls=1&at=1l3vpUI&app=music&ct=LFV_0223c1ed682f4033bcf74f6adcf8dc16&itscg=30440&itsct=catchall_p1&lId=26707347&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5755,7 +5755,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B338Z762?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=ef1cba653fd21cbe5ded0a1cd957efa8&ref=dmm_acq_soc_us_u_lfire_lp_x_ef1cba653fd21cbe5ded0a1cd957efa8",
+          "url" : "http://music.amazon.co.jp/albums/B0B338Z762?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=0223c1ed682f4033bcf74f6adcf8dc16&ref=dmm_acq_soc_us_u_lfire_lp_x_0223c1ed682f4033bcf74f6adcf8dc16",
           "isHiRes" : false
         },
         {
@@ -5765,7 +5765,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/9603e659b5c699104a53?t=1669573267&lf=ef1cba653fd21cbe5ded0a1cd957efa8",
+          "url" : "https://s.awa.fm/album/9603e659b5c699104a53?t=1669573267&lf=0223c1ed682f4033bcf74f6adcf8dc16",
           "isHiRes" : false
         },
         {
@@ -5775,7 +5775,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1627485946?ls=1&at=1l3vpUI&app=music&ct=LFV_ef1cba653fd21cbe5ded0a1cd957efa8&itscg=30440&itsct=catchall_p8&lId=26707347&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1627485946?ls=1&at=1l3vpUI&app=music&ct=LFV_0223c1ed682f4033bcf74f6adcf8dc16&itscg=30440&itsct=catchall_p8&lId=26707347&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5795,7 +5795,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24244/?lf=ef1cba653fd21cbe5ded0a1cd957efa8",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24244/?lf=0223c1ed682f4033bcf74f6adcf8dc16",
           "isHiRes" : true
         },
         {
@@ -5812,7 +5812,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-Synthe-Side/dp/B09YRDH981/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IWSBPN5BAJK0&keywords=Synthe-Side&qid=1655178931&sprefix=synthe-side%2Caps%2C192&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4ba636295622d8d18fc3163ae8d0dd51&ref=dmm_acq_soc_us_u_lfire_lp_x_4ba636295622d8d18fc3163ae8d0dd51",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-Synthe-Side/dp/B09YRDH981/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IWSBPN5BAJK0&keywords=Synthe-Side&qid=1655178931&sprefix=synthe-side%2Caps%2C192&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=1b28fd43b513997c02ac06ea9491975b&ref=dmm_acq_soc_us_u_lfire_lp_x_1b28fd43b513997c02ac06ea9491975b",
           "isHiRes" : false
         },
         {
@@ -5840,7 +5840,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1633024722?ls=1&at=1l3vpUI&app=music&ct=LFV_4470ebcda56b996ac04d03443b77fb23&itscg=30440&itsct=catchall_p1&lId=26707360&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1633024722?ls=1&at=1l3vpUI&app=music&ct=LFV_b0daf84998211f4db6b1386ce4a40808&itscg=30440&itsct=catchall_p1&lId=26707360&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5850,7 +5850,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B5TT4SND?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4470ebcda56b996ac04d03443b77fb23&ref=dmm_acq_soc_us_u_lfire_lp_x_4470ebcda56b996ac04d03443b77fb23",
+          "url" : "http://music.amazon.co.jp/albums/B0B5TT4SND?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=b0daf84998211f4db6b1386ce4a40808&ref=dmm_acq_soc_us_u_lfire_lp_x_b0daf84998211f4db6b1386ce4a40808",
           "isHiRes" : false
         },
         {
@@ -5865,7 +5865,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/1b9518911311b3ce8073?t=1657789275&lf=4470ebcda56b996ac04d03443b77fb23",
+          "url" : "https://s.awa.fm/album/1b9518911311b3ce8073?t=1657789275&lf=b0daf84998211f4db6b1386ce4a40808",
           "isHiRes" : false
         },
         {
@@ -5875,7 +5875,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1633024722?ls=1&at=1l3vpUI&app=music&ct=LFV_4470ebcda56b996ac04d03443b77fb23&itscg=30440&itsct=catchall_p8&lId=26707360&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1633024722?ls=1&at=1l3vpUI&app=music&ct=LFV_b0daf84998211f4db6b1386ce4a40808&itscg=30440&itsct=catchall_p8&lId=26707360&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5895,7 +5895,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24245/?lf=4470ebcda56b996ac04d03443b77fb23",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24245/?lf=b0daf84998211f4db6b1386ce4a40808",
           "isHiRes" : true
         },
         {
@@ -5912,7 +5912,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-Synthe-Side/dp/B09YRFDQZZ/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IWSBPN5BAJK0&keywords=Synthe-Side&qid=1655178931&sprefix=synthe-side%2Caps%2C192&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=9446896bc9a9ab01e1ec2f680e069e04&ref=dmm_acq_soc_us_u_lfire_lp_x_9446896bc9a9ab01e1ec2f680e069e04",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-Synthe-Side/dp/B09YRFDQZZ/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IWSBPN5BAJK0&keywords=Synthe-Side&qid=1655178931&sprefix=synthe-side%2Caps%2C192&sr=8-2&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=45a3ee099753e3279c76753c9bce1c97&ref=dmm_acq_soc_us_u_lfire_lp_x_45a3ee099753e3279c76753c9bce1c97",
           "isHiRes" : false
         },
         {
@@ -5940,7 +5940,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1635865942?ls=1&at=1l3vpUI&app=music&ct=LFV_cea5bcfb94034819e442a08bb493666b&itscg=30440&itsct=catchall_p1&lId=26707368&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1635865942?ls=1&at=1l3vpUI&app=music&ct=LFV_3a59f819a48c159e7163a470132f6a40&itscg=30440&itsct=catchall_p1&lId=26707368&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5950,7 +5950,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B7CPT85K?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=cea5bcfb94034819e442a08bb493666b&ref=dmm_acq_soc_us_u_lfire_lp_x_cea5bcfb94034819e442a08bb493666b",
+          "url" : "http://music.amazon.co.jp/albums/B0B7CPT85K?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=3a59f819a48c159e7163a470132f6a40&ref=dmm_acq_soc_us_u_lfire_lp_x_3a59f819a48c159e7163a470132f6a40",
           "isHiRes" : false
         },
         {
@@ -5965,7 +5965,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/59cdc267b9dce1781455?t=1660035663&lf=cea5bcfb94034819e442a08bb493666b",
+          "url" : "https://s.awa.fm/album/59cdc267b9dce1781455?t=1660035663&lf=3a59f819a48c159e7163a470132f6a40",
           "isHiRes" : false
         },
         {
@@ -5975,7 +5975,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1635865942?ls=1&at=1l3vpUI&app=music&ct=LFV_cea5bcfb94034819e442a08bb493666b&itscg=30440&itsct=catchall_p8&lId=26707368&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1635865942?ls=1&at=1l3vpUI&app=music&ct=LFV_3a59f819a48c159e7163a470132f6a40&itscg=30440&itsct=catchall_p8&lId=26707368&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -5995,7 +5995,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24246/?lf=cea5bcfb94034819e442a08bb493666b",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24246/?lf=3a59f819a48c159e7163a470132f6a40",
           "isHiRes" : true
         },
         {
@@ -6012,7 +6012,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-Synthe-Side/dp/B09YRFBG5K/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IWSBPN5BAJK0&keywords=Synthe-Side&qid=1655178931&sprefix=synthe-side%2Caps%2C192&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=7e4a4ac07b81944310ccc8bd2262492d&ref=dmm_acq_soc_us_u_lfire_lp_x_7e4a4ac07b81944310ccc8bd2262492d",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-Synthe-Side/dp/B09YRFBG5K/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=IWSBPN5BAJK0&keywords=Synthe-Side&qid=1655178931&sprefix=synthe-side%2Caps%2C192&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=05bc1ec40d3924a5a9489383bc267664&ref=dmm_acq_soc_us_u_lfire_lp_x_05bc1ec40d3924a5a9489383bc267664",
           "isHiRes" : false
         },
         {
@@ -6042,12 +6042,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675432286?ls=1&app=music&at=1l3vpUI&ct=LFV_4a001099129c887fcc0b9d863a16a8e5&itscg=30440&itsct=catchall_p1&lId=28120732&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675432286?ls=1&at=1l3vpUI&app=music&ct=LFV_51b6acbd3419ea349469b6f22128bcc9&itscg=30440&itsct=catchall_p1&lId=28120732&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBJS2NS?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4a001099129c887fcc0b9d863a16a8e5&ref=dmm_acq_soc_us_u_lfire_lp_x_4a001099129c887fcc0b9d863a16a8e5",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBJS2NS?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=51b6acbd3419ea349469b6f22128bcc9&ref=dmm_acq_soc_us_u_lfire_lp_x_51b6acbd3419ea349469b6f22128bcc9",
           "isHiRes" : false
         },
         {
@@ -6067,7 +6067,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/60de807811e433f51229?t=1678021204&lf=4a001099129c887fcc0b9d863a16a8e5",
+          "url" : "https://s.awa.fm/album/60de807811e433f51229?t=1678021204&lf=51b6acbd3419ea349469b6f22128bcc9",
           "isHiRes" : false
         },
         {
@@ -6077,7 +6077,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675432286?ls=1&app=itunes&at=1l3vpUI&ct=LFV_4a001099129c887fcc0b9d863a16a8e5&itscg=30440&itsct=catchall_p8&lId=28120732&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675432286?ls=1&at=1l3vpUI&app=music&ct=LFV_51b6acbd3419ea349469b6f22128bcc9&itscg=30440&itsct=catchall_p8&lId=28120732&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -6097,7 +6097,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/laca9872/?lf=4a001099129c887fcc0b9d863a16a8e5",
+          "url" : "https://www.e-onkyo.com/music/album/laca9872/?lf=51b6acbd3419ea349469b6f22128bcc9",
           "isHiRes" : true
         },
         {
@@ -6119,7 +6119,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E7%89%B9%E5%85%B8%E3%81%82%E3%82%8A%E3%80%91-COLORS-COLLECTION-A3%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%88BRILLI-WING%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%EF%BC%9A%E5%85%A818%E7%A8%AE%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A01%E7%A8%AE%EF%BC%89%E4%BB%98%E3%81%8D/dp/B09KNHDTZS/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=SHINY+OFF+VOCAL&qid=1637678461&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=cd508d935cdc2bf0c3ff6e364d6064d0&ref=dmm_acq_soc_us_u_lfire_lp_x_cd508d935cdc2bf0c3ff6e364d6064d0",
+          "url" : "https://www.amazon.co.jp/%E3%80%90%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E7%89%B9%E5%85%B8%E3%81%82%E3%82%8A%E3%80%91-COLORS-COLLECTION-A3%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%88BRILLI-WING%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%EF%BC%9A%E5%85%A818%E7%A8%AE%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A01%E7%A8%AE%EF%BC%89%E4%BB%98%E3%81%8D/dp/B09KNHDTZS/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=SHINY+OFF+VOCAL&qid=1637678461&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=0df7891d24b1cb098b3c627a9a3f76b0&ref=dmm_acq_soc_us_u_lfire_lp_x_0df7891d24b1cb098b3c627a9a3f76b0",
           "isHiRes" : false
         },
         {
@@ -6163,12 +6163,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1658268662?ls=1&app=music&at=1l3vpUI&ct=LFV_dd7216a37b32f2be56c83ea94d299867&itscg=30440&itsct=catchall_p1&lId=28120733&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1658268662?ls=1&at=1l3vpUI&app=music&ct=LFV_a5913c9128b2ae56f2e656a1335b2631&itscg=30440&itsct=catchall_p1&lId=28120733&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "https://music.amazon.co.jp/albums/B0BP7PFDHM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=dd7216a37b32f2be56c83ea94d299867&ref=dmm_acq_soc_us_u_lfire_lp_x_dd7216a37b32f2be56c83ea94d299867",
+          "url" : "https://music.amazon.co.jp/albums/B0BP7PFDHM?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a5913c9128b2ae56f2e656a1335b2631&ref=dmm_acq_soc_us_u_lfire_lp_x_a5913c9128b2ae56f2e656a1335b2631",
           "isHiRes" : false
         },
         {
@@ -6188,7 +6188,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/02fb68f5a17eff116666?t=1678006910&lf=dd7216a37b32f2be56c83ea94d299867",
+          "url" : "https://s.awa.fm/album/02fb68f5a17eff116666?t=1678006910&lf=a5913c9128b2ae56f2e656a1335b2631",
           "isHiRes" : false
         },
         {
@@ -6198,7 +6198,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1658268662?ls=1&app=itunes&at=1l3vpUI&ct=LFV_dd7216a37b32f2be56c83ea94d299867&itscg=30440&itsct=catchall_p8&lId=28120733&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1658268662?ls=1&at=1l3vpUI&app=music&ct=LFV_a5913c9128b2ae56f2e656a1335b2631&itscg=30440&itsct=catchall_p8&lId=28120733&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -6218,7 +6218,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/laca9944/?lf=dd7216a37b32f2be56c83ea94d299867",
+          "url" : "https://www.e-onkyo.com/music/album/laca9944/?lf=a5913c9128b2ae56f2e656a1335b2631",
           "isHiRes" : true
         },
         {
@@ -6240,7 +6240,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E7%89%B9%E5%85%B8%E3%81%82%E3%82%8A%E3%80%91-IDOLM-COLORS-COLLECTION-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E7%89%B9%E5%85%B8%EF%BC%9A%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E5%8F%8E%E7%B4%8DBOX/dp/B0BDFP9YGW/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2ZU6RVVAH80SO&keywords=SHINY+COLORS+OFF&qid=1662905734&sprefix=shiny+colors+off%2Caps%2C214&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=bd49d7bd944da3f058c7f594b87b7756&ref=dmm_acq_soc_us_u_lfire_lp_x_bd49d7bd944da3f058c7f594b87b7756",
+          "url" : "https://www.amazon.co.jp/%E3%80%90%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E7%89%B9%E5%85%B8%E3%81%82%E3%82%8A%E3%80%91-IDOLM-COLORS-COLLECTION-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E7%89%B9%E5%85%B8%EF%BC%9A%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E5%8F%8E%E7%B4%8DBOX/dp/B0BDFP9YGW/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2ZU6RVVAH80SO&keywords=SHINY+COLORS+OFF&qid=1662905734&sprefix=shiny+colors+off%2Caps%2C214&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=6454c58d71a059f832c928b47ef1a103&ref=dmm_acq_soc_us_u_lfire_lp_x_6454c58d71a059f832c928b47ef1a103",
           "isHiRes" : false
         },
         {
@@ -6274,12 +6274,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1665694055?ls=1&at=1l3vpUI&app=music&ct=LFV_61fb6a446180918f670240275459e690&itscg=30440&itsct=catchall_p1&lId=28120736&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1665694055?ls=1&at=1l3vpUI&app=music&ct=LFV_855b94c0fe005f6fcf01640f9d56c452&itscg=30440&itsct=catchall_p1&lId=28120736&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "https://music.amazon.co.jp/albums/B0BSG1DD73?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=61fb6a446180918f670240275459e690&ref=dmm_acq_soc_us_u_lfire_lp_x_61fb6a446180918f670240275459e690",
+          "url" : "https://music.amazon.co.jp/albums/B0BSG1DD73?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=855b94c0fe005f6fcf01640f9d56c452&ref=dmm_acq_soc_us_u_lfire_lp_x_855b94c0fe005f6fcf01640f9d56c452",
           "isHiRes" : false
         },
         {
@@ -6299,7 +6299,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://mf.awa.fm/3JjFcQZ?lf=61fb6a446180918f670240275459e690",
+          "url" : "https://mf.awa.fm/3JjFcQZ?lf=855b94c0fe005f6fcf01640f9d56c452",
           "isHiRes" : false
         },
         {
@@ -6309,7 +6309,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1665694055?ls=1&at=1l3vpUI&app=music&ct=LFV_61fb6a446180918f670240275459e690&itscg=30440&itsct=catchall_p8&lId=28120736&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1665694055?ls=1&at=1l3vpUI&app=music&ct=LFV_855b94c0fe005f6fcf01640f9d56c452&itscg=30440&itsct=catchall_p8&lId=28120736&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -6329,7 +6329,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/laca9946/?lf=61fb6a446180918f670240275459e690",
+          "url" : "https://www.e-onkyo.com/music/album/laca9946/?lf=855b94c0fe005f6fcf01640f9d56c452",
           "isHiRes" : true
         },
         {
@@ -6351,7 +6351,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/dp/B0BK9BZVJK/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3NPJA6GU7AAJF&keywords=THE+IDOLM%40STER+SHINY+COLORS+WING+COLLECTION&qid=1666624553&sprefix=the+idolm+ster+shiny+colors+wing+collection%2Caps%2C352&sr=8-8&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=76603899fdd4c71d9a646bcac2d6ff6e&ref=dmm_acq_soc_us_u_lfire_lp_x_76603899fdd4c71d9a646bcac2d6ff6e",
+          "url" : "https://www.amazon.co.jp/dp/B0BK9BZVJK/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3NPJA6GU7AAJF&keywords=THE+IDOLM%40STER+SHINY+COLORS+WING+COLLECTION&qid=1666624553&sprefix=the+idolm+ster+shiny+colors+wing+collection%2Caps%2C352&sr=8-8&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f7753c133dcd3b783e13640c805165a7&ref=dmm_acq_soc_us_u_lfire_lp_x_f7753c133dcd3b783e13640c805165a7",
           "isHiRes" : false
         },
         {
@@ -6405,12 +6405,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1677546023?at=1l3vpUI&app=music&ct=LFV_63616d43a2b94903d2eb4f7ebe765dc8&itscg=30440&itsct=catchall_p1&lId=28120738&cId=none&sr=1&src=Linkfire&ls=1",
+          "url" : "https://music.apple.com/jp/album/1677546023?app=music&at=1l3vpUI&ct=LFV_108db02cccfea997faca880226019b45&itscg=30440&itsct=catchall_p1&lId=28120738&cId=none&sr=1&src=Linkfire&ls=1",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "https://music.amazon.co.jp/albums/B0BYNSSYP2?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=63616d43a2b94903d2eb4f7ebe765dc8&ref=dmm_acq_soc_us_u_lfire_lp_x_63616d43a2b94903d2eb4f7ebe765dc8",
+          "url" : "https://music.amazon.co.jp/albums/B0BYNSSYP2?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=108db02cccfea997faca880226019b45&ref=dmm_acq_soc_us_u_lfire_lp_x_108db02cccfea997faca880226019b45",
           "isHiRes" : false
         },
         {
@@ -6430,7 +6430,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://mf.awa.fm/41SaghP?lf=63616d43a2b94903d2eb4f7ebe765dc8",
+          "url" : "https://mf.awa.fm/41SaghP?lf=108db02cccfea997faca880226019b45",
           "isHiRes" : false
         },
         {
@@ -6440,7 +6440,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1677546023?at=1l3vpUI&app=music&ct=LFV_63616d43a2b94903d2eb4f7ebe765dc8&itscg=30440&itsct=catchall_p8&lId=28120738&cId=none&sr=8&src=Linkfire&ls=1",
+          "url" : "https://music.apple.com/jp/album/1677546023?app=itunes&at=1l3vpUI&ct=LFV_108db02cccfea997faca880226019b45&itscg=30440&itsct=catchall_p8&lId=28120738&cId=none&sr=8&src=Linkfire&ls=1",
           "isHiRes" : false
         },
         {
@@ -6460,7 +6460,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/laca9948/?lf=63616d43a2b94903d2eb4f7ebe765dc8",
+          "url" : "https://www.e-onkyo.com/music/album/laca9948/?lf=108db02cccfea997faca880226019b45",
           "isHiRes" : true
         },
         {
@@ -6482,7 +6482,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/dp/B0BK9DH3CF/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3NPJA6GU7AAJF&keywords=THE+IDOLM%40STER+SHINY+COLORS+WING+COLLECTION&qid=1666624553&sprefix=the+idolm+ster+shiny+colors+wing+collection%2Caps%2C352&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d0d421e3991c5b25c79569c7ea454cbf&ref=dmm_acq_soc_us_u_lfire_lp_x_d0d421e3991c5b25c79569c7ea454cbf",
+          "url" : "https://www.amazon.co.jp/dp/B0BK9DH3CF/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3NPJA6GU7AAJF&keywords=THE+IDOLM%40STER+SHINY+COLORS+WING+COLLECTION&qid=1666624553&sprefix=the+idolm+ster+shiny+colors+wing+collection%2Caps%2C352&sr=8-3&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=78c3d9a7965fd95d2e92716eaada8062&ref=dmm_acq_soc_us_u_lfire_lp_x_78c3d9a7965fd95d2e92716eaada8062",
           "isHiRes" : false
         },
         {
@@ -6769,7 +6769,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-FUTURITY-SMILE/dp/B07XQNVHM7/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14906&qid=1617687244&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=fd8aee554cd37762b5caf1fd08a72cd2&ref=dmm_acq_soc_us_u_lfire_lp_x_fd8aee554cd37762b5caf1fd08a72cd2",
+          "url" : "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-FUTURITY-SMILE/dp/B07XQNVHM7/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14906&qid=1617687244&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f1de98dcb4d2c1ae87048abf9d583e2b&ref=dmm_acq_soc_us_u_lfire_lp_x_f1de98dcb4d2c1ae87048abf9d583e2b",
           "isHiRes" : false
         },
         {
@@ -6833,7 +6833,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-SWEETSTEP/dp/B07ZKWBTW8/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14965&qid=1617688056&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=3f7975ada79b1a6db9a839bbbc1cd7a6&ref=dmm_acq_soc_us_u_lfire_lp_x_3f7975ada79b1a6db9a839bbbc1cd7a6",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-SWEETSTEP/dp/B07ZKWBTW8/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-14965&qid=1617688056&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=9f1cbcfb6aeb0a4786def1046f2707cd&ref=dmm_acq_soc_us_u_lfire_lp_x_9f1cbcfb6aeb0a4786def1046f2707cd",
           "isHiRes" : false
         },
         {
@@ -6894,12 +6894,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675430026?ls=1&at=1l3vpUI&app=music&ct=LFV_a4ca6125bc33364f6d26eb98e732e2a3&itscg=30440&itsct=catchall_p1&lId=28120739&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675430026?ls=1&at=1l3vpUI&app=music&ct=LFV_c00c00254339afd5abc930839fcbd62a&itscg=30440&itsct=catchall_p1&lId=28120739&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMVG7R?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a4ca6125bc33364f6d26eb98e732e2a3&ref=dmm_acq_soc_us_u_lfire_lp_x_a4ca6125bc33364f6d26eb98e732e2a3",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBMVG7R?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c00c00254339afd5abc930839fcbd62a&ref=dmm_acq_soc_us_u_lfire_lp_x_c00c00254339afd5abc930839fcbd62a",
           "isHiRes" : false
         },
         {
@@ -6919,7 +6919,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://mf.awa.fm/3JtJXYt?lf=a4ca6125bc33364f6d26eb98e732e2a3",
+          "url" : "https://mf.awa.fm/3JtJXYt?lf=c00c00254339afd5abc930839fcbd62a",
           "isHiRes" : false
         },
         {
@@ -6929,7 +6929,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675430026?ls=1&at=1l3vpUI&app=music&ct=LFV_a4ca6125bc33364f6d26eb98e732e2a3&itscg=30440&itsct=catchall_p8&lId=28120739&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675430026?ls=1&at=1l3vpUI&app=music&ct=LFV_c00c00254339afd5abc930839fcbd62a&itscg=30440&itsct=catchall_p8&lId=28120739&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -6949,7 +6949,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24027/?lf=a4ca6125bc33364f6d26eb98e732e2a3",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24027/?lf=c00c00254339afd5abc930839fcbd62a",
           "isHiRes" : true
         },
         {
@@ -6971,7 +6971,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/IDOLM-STER%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA15%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5%E6%9B%B2%E3%80%8C%E3%81%AA%E3%82%93%E3%81%A9%E3%81%A7%E3%82%82%E7%AC%91%E3%81%8A%E3%81%86%E3%80%8D-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E7%9B%A4-STER-STARS/dp/B08CS23DFV/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-24027&qid=1617694899&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a6c8ce063ac4254a92b85e67b936f3cc&ref=dmm_acq_soc_us_u_lfire_lp_x_a6c8ce063ac4254a92b85e67b936f3cc",
+          "url" : "https://www.amazon.co.jp/IDOLM-STER%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA15%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5%E6%9B%B2%E3%80%8C%E3%81%AA%E3%82%93%E3%81%A9%E3%81%A7%E3%82%82%E7%AC%91%E3%81%8A%E3%81%86%E3%80%8D-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E7%9B%A4-STER-STARS/dp/B08CS23DFV/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LACM-24027&qid=1617694899&sr=8-1&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=f355a531d7db99bc3bfa8e611d8d132a&ref=dmm_acq_soc_us_u_lfire_lp_x_f355a531d7db99bc3bfa8e611d8d132a",
           "isHiRes" : false
         },
         {
@@ -7019,12 +7019,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675550146?ls=1&at=1l3vpUI&app=music&ct=LFV_4764ff5efcca1e503ac9cc0af4320c61&itscg=30440&itsct=catchall_p1&lId=28120730&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675550146?ls=1&at=1l3vpUI&app=music&ct=LFV_2115c50b25d2dd57f19d73136c5241c1&itscg=30440&itsct=catchall_p1&lId=28120730&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMFGBX?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=4764ff5efcca1e503ac9cc0af4320c61&ref=dmm_acq_soc_us_u_lfire_lp_x_4764ff5efcca1e503ac9cc0af4320c61",
+          "url" : "http://music.amazon.co.jp/albums/B0BXBMFGBX?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=2115c50b25d2dd57f19d73136c5241c1&ref=dmm_acq_soc_us_u_lfire_lp_x_2115c50b25d2dd57f19d73136c5241c1",
           "isHiRes" : false
         },
         {
@@ -7044,7 +7044,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/bd70b7698ba79e823e31?t=1678021204&lf=4764ff5efcca1e503ac9cc0af4320c61",
+          "url" : "https://s.awa.fm/album/bd70b7698ba79e823e31?t=1678021204&lf=2115c50b25d2dd57f19d73136c5241c1",
           "isHiRes" : false
         },
         {
@@ -7054,7 +7054,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675550146?ls=1&at=1l3vpUI&app=music&ct=LFV_4764ff5efcca1e503ac9cc0af4320c61&itscg=30440&itsct=catchall_p8&lId=28120730&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1675550146?ls=1&at=1l3vpUI&app=music&ct=LFV_2115c50b25d2dd57f19d73136c5241c1&itscg=30440&itsct=catchall_p8&lId=28120730&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7074,7 +7074,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lacm24165/?lf=4764ff5efcca1e503ac9cc0af4320c61",
+          "url" : "https://www.e-onkyo.com/music/album/lacm24165/?lf=2115c50b25d2dd57f19d73136c5241c1",
           "isHiRes" : true
         },
         {
@@ -7106,7 +7106,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-STER%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%B3%E3%82%B02021%E3%80%8CVOY-GER%E3%80%8D%E3%80%90%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E7%9B%A4%E3%80%91-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B099B46X4K/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=VOY%40GER&qid=1628053550&sr=8-4&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=80b3e5273f61d9514ff8c3cfe577c8a4&ref=dmm_acq_soc_us_u_lfire_lp_x_80b3e5273f61d9514ff8c3cfe577c8a4",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-STER%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%B3%E3%82%B02021%E3%80%8CVOY-GER%E3%80%8D%E3%80%90%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E7%9B%A4%E3%80%91-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B099B46X4K/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=VOY%40GER&qid=1628053550&sr=8-4&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=a861f36bff259bb87127f8d420015c9c&ref=dmm_acq_soc_us_u_lfire_lp_x_a861f36bff259bb87127f8d420015c9c",
           "isHiRes" : false
         },
         {
@@ -7154,7 +7154,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655632835?ls=1&at=1l3vpUI&app=music&ct=LFV_3f5d150cfef16c9be3dd81da7bdd4955&itscg=30440&itsct=catchall_p1&lId=26758769&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1655632835?ls=1&at=1l3vpUI&app=music&ct=LFV_d195e19dd0fd0e2405c528cdd572fe9e&itscg=30440&itsct=catchall_p1&lId=26758769&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7164,7 +7164,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BN87VC1C?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=3f5d150cfef16c9be3dd81da7bdd4955&ref=dmm_acq_soc_us_u_lfire_lp_x_3f5d150cfef16c9be3dd81da7bdd4955",
+          "url" : "http://music.amazon.co.jp/albums/B0BN87VC1C?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=d195e19dd0fd0e2405c528cdd572fe9e&ref=dmm_acq_soc_us_u_lfire_lp_x_d195e19dd0fd0e2405c528cdd572fe9e",
           "isHiRes" : false
         },
         {
@@ -7179,7 +7179,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/bc1597781cf44a4ce886?t=1669474878&lf=3f5d150cfef16c9be3dd81da7bdd4955",
+          "url" : "https://s.awa.fm/album/bc1597781cf44a4ce886?t=1669474878&lf=d195e19dd0fd0e2405c528cdd572fe9e",
           "isHiRes" : false
         },
         {
@@ -7189,7 +7189,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1655632835?ls=1&at=1l3vpUI&app=music&ct=LFV_3f5d150cfef16c9be3dd81da7bdd4955&itscg=30440&itsct=catchall_p8&lId=26758769&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1655632835?ls=1&at=1l3vpUI&app=music&ct=LFV_d195e19dd0fd0e2405c528cdd572fe9e&itscg=30440&itsct=catchall_p8&lId=26758769&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7209,7 +7209,7 @@
         },
         {
           "name" : "e-onkyo music",
-          "url" : "https://www.e-onkyo.com/music/album/lzc2059/?lf=3f5d150cfef16c9be3dd81da7bdd4955",
+          "url" : "https://www.e-onkyo.com/music/album/lzc2059/?lf=d195e19dd0fd0e2405c528cdd572fe9e",
           "isHiRes" : true
         },
         {
@@ -7246,7 +7246,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1683525811?ls=1&at=1l3vpUI&app=music&ct=LFV_998be4f358d75a4da2b34e135f1276ee&itscg=30440&itsct=catchall_p1&lId=28648737&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1683525811?ls=1&at=1l3vpUI&app=music&ct=LFV_661553d00f4d5843e39bfdf70dda2f4f&itscg=30440&itsct=catchall_p1&lId=28648737&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7256,7 +7256,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0C1P48LHN?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=998be4f358d75a4da2b34e135f1276ee&ref=dmm_acq_soc_us_u_lfire_lp_x_998be4f358d75a4da2b34e135f1276ee",
+          "url" : "http://music.amazon.co.jp/albums/B0C1P48LHN?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=661553d00f4d5843e39bfdf70dda2f4f&ref=dmm_acq_soc_us_u_lfire_lp_x_661553d00f4d5843e39bfdf70dda2f4f",
           "isHiRes" : false
         },
         {
@@ -7266,7 +7266,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/fd132648928864632868?t=1682499658&lf=998be4f358d75a4da2b34e135f1276ee",
+          "url" : "https://s.awa.fm/album/fd132648928864632868?t=1682499658&lf=661553d00f4d5843e39bfdf70dda2f4f",
           "isHiRes" : false
         },
         {
@@ -7276,7 +7276,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1683525811?ls=1&at=1l3vpUI&app=music&ct=LFV_998be4f358d75a4da2b34e135f1276ee&itscg=30440&itsct=catchall_p7&lId=28648737&cId=none&sr=7&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1683525811?ls=1&at=1l3vpUI&app=music&ct=LFV_661553d00f4d5843e39bfdf70dda2f4f&itscg=30440&itsct=catchall_p7&lId=28648737&cId=none&sr=7&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7320,7 +7320,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1696124919?ls=1&at=1l3vpUI&app=music&ct=LFV_dcaf6b35f02a47958de909513a675626&itscg=30440&itsct=catchall_p1&lId=29228406&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1696124919?ls=1&at=1l3vpUI&app=music&ct=LFV_a7d5ce8cb43269082e38dfe1a23724ad&itscg=30440&itsct=catchall_p1&lId=29228406&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7352,7 +7352,7 @@
         },
         {
           "name" : "Amazon CD",
-          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-Stories%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0C4SJG1W3/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=MMV4QI1NEGDP&keywords=THE+IDOLM%40STER+SHINY+COLORS+Shiny+Stories&qid=1690069772&sprefix=the+idolm+ster+shiny+colors+shiny+stories%2Caps%2C310&sr=8-4&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=cc614463690b59474bc83e78faff12dd&ref=dmm_acq_soc_us_u_lfire_lp_x_cc614463690b59474bc83e78faff12dd",
+          "url" : "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-Stories%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0C4SJG1W3/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=MMV4QI1NEGDP&keywords=THE+IDOLM%40STER+SHINY+COLORS+Shiny+Stories&qid=1690069772&sprefix=the+idolm+ster+shiny+colors+shiny+stories%2Caps%2C310&sr=8-4&tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=358d6ab8cb1b91ab1e57d7cb04ef6919&ref=dmm_acq_soc_us_u_lfire_lp_x_358d6ab8cb1b91ab1e57d7cb04ef6919",
           "isHiRes" : false
         },
         {
@@ -7395,7 +7395,7 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1705391021?ls=1&at=1l3vpUI&app=music&ct=LFV_c4ed626cbbc0b77a6bb2e07f1bf5f6d0&itscg=30440&itsct=catchall_p1&lId=29368095&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1705391021?ls=1&at=1l3vpUI&app=music&ct=LFV_79d9cc949e4bbf39f8b205ebc1048a5d&itscg=30440&itsct=catchall_p1&lId=29368095&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7420,7 +7420,7 @@
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1705391021?ls=1&at=1l3vpUI&app=music&ct=LFV_c4ed626cbbc0b77a6bb2e07f1bf5f6d0&itscg=30440&itsct=catchall_p6&lId=29368095&cId=none&sr=6&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1705391021?ls=1&at=1l3vpUI&app=music&ct=LFV_79d9cc949e4bbf39f8b205ebc1048a5d&itscg=30440&itsct=catchall_p6&lId=29368095&cId=none&sr=6&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7430,7 +7430,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CH345HQ4?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=c4ed626cbbc0b77a6bb2e07f1bf5f6d0&ref=dmm_acq_soc_us_u_lfire_lp_x_c4ed626cbbc0b77a6bb2e07f1bf5f6d0",
+          "url" : "http://music.amazon.co.jp/albums/B0CH345HQ4?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=79d9cc949e4bbf39f8b205ebc1048a5d&ref=dmm_acq_soc_us_u_lfire_lp_x_79d9cc949e4bbf39f8b205ebc1048a5d",
           "isHiRes" : false
         },
         {
@@ -7440,7 +7440,7 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/1b07fecb8f470e729e43?t=1695281505&lf=c4ed626cbbc0b77a6bb2e07f1bf5f6d0",
+          "url" : "https://s.awa.fm/album/1b07fecb8f470e729e43?t=1695281505&lf=79d9cc949e4bbf39f8b205ebc1048a5d",
           "isHiRes" : false
         },
         {
@@ -7469,12 +7469,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1709694080?ls=1&at=1l3vpUI&app=music&ct=LFV_12faff228c56ec26e5b67365ea498539&itscg=30440&itsct=catchall_p1&lId=29368101&cId=none&sr=1&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1709694080?ls=1&at=1l3vpUI&app=music&ct=LFV_dae93e91ad7685da286305c839259cce&itscg=30440&itsct=catchall_p1&lId=29368101&cId=none&sr=1&src=Linkfire",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CK52KS3J?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=12faff228c56ec26e5b67365ea498539&ref=dmm_acq_soc_us_u_lfire_lp_x_12faff228c56ec26e5b67365ea498539",
+          "url" : "http://music.amazon.co.jp/albums/B0CK52KS3J?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=dae93e91ad7685da286305c839259cce&ref=dmm_acq_soc_us_u_lfire_lp_x_dae93e91ad7685da286305c839259cce",
           "isHiRes" : false
         },
         {
@@ -7504,7 +7504,7 @@
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1709694080?ls=1&at=1l3vpUI&app=music&ct=LFV_12faff228c56ec26e5b67365ea498539&itscg=30440&itsct=catchall_p8&lId=29368101&cId=none&sr=8&src=Linkfire",
+          "url" : "https://music.apple.com/jp/album/1709694080?ls=1&at=1l3vpUI&app=music&ct=LFV_dae93e91ad7685da286305c839259cce&itscg=30440&itsct=catchall_p8&lId=29368101&cId=none&sr=8&src=Linkfire",
           "isHiRes" : false
         },
         {
@@ -7524,10 +7524,23 @@
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/32761341886983d26748?t=1696554032&lf=12faff228c56ec26e5b67365ea498539",
+          "url" : "https://s.awa.fm/album/32761341886983d26748?t=1696554032&lf=dae93e91ad7685da286305c839259cce",
           "isHiRes" : false
         }
       ],
+      "purchaseSiteList" : [ ]
+    },
+    {
+      "title" : "平行線の美学",
+      "recordNumbers" : [
+        "LZC-2563"
+      ],
+      "releaseDate" : "2023-11-03",
+      "jacketUrl" : "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2023/10/LZC-2563.jpg",
+      "limited" : true,
+      "series" : "OTHER",
+      "artist" : "コメティック",
+      "downloadSiteList" : [ ],
       "purchaseSiteList" : [ ]
     }
   ]
