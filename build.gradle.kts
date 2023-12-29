@@ -36,7 +36,7 @@ dependencies {
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
     // jsoup
-    implementation("org.jsoup:jsoup:1.17.1")
+    implementation("org.jsoup:jsoup:1.17.2")
 
     // Jackson
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
