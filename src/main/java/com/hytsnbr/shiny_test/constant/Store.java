@@ -38,6 +38,7 @@ public enum Store {
     TSUTAYA("TSUTAYA オンラインショッピング", "Tsutaya Online"),
     YODOBASHI("ヨドバシ.com", "Yodobashi"),
     YOUTUBE_MUSIC("Youtube Music", "YouTube Music"),
+    KKBOX("KKBOX", "KKBOX"),
     ;
     
     /** ストア名 */
