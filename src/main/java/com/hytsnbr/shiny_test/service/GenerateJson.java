@@ -253,15 +253,24 @@ public class GenerateJson {
             
             return Collections.emptyList();
         }
+        
+        final var RETRY_LIMIT = 5;
         var siteLinkList = siteLinkPage.select(".music-service-list__item > a");
         List<StoreSite> siteList = new ArrayList<>();
-        for (var e : siteLinkList) {
-            var siteUrl = e.attr("href");
-            var name = Store.getByHtmlName(e.select(".music-service-list__content > img").attr("alt")).getName();
-            var isHiRes = StringUtils.equals(e.select(".btn.music-service-list__btn").text(), "ハイレゾDL");
-            var storeSite = new StoreSite(name, siteUrl, isHiRes);
-            LOGGER.debug("{}: {}", name, siteUrl);
-            siteList.add(storeSite);
+        for (var i = 1; i <= RETRY_LIMIT; i++) {
+            for (var e : siteLinkList) {
+                var siteUrl = e.attr("href");
+                var name = Store.getByHtmlName(e.select(".music-service-list__content > img").attr("alt")).getName();
+                var isHiRes = StringUtils.equals(e.select(".btn.music-service-list__btn").text(), "ハイレゾDL");
+                var storeSite = new StoreSite(name, siteUrl, isHiRes);
+                LOGGER.debug("{}: {}", name, siteUrl);
+                siteList.add(storeSite);
+            }
+            
+            // サイトリストが空でない場合は処理終了
+            if (!siteList.isEmpty()) {
+                break;
+            }
         }
         
         return siteList;
