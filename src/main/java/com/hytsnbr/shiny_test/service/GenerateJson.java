@@ -115,13 +115,15 @@ public class GenerateJson {
                 }
                 
                 // リリース日
-                var releaseDateText = infoTexts.get(1).childNode(0).toString().replace("発売日：", "");
-                LOGGER.debug("CD Release Date: {}", releaseDateText);
-                if (StringUtils.isNotBlank(releaseDateText)) {
-                    try {
-                        cdInfoBuilder.releaseDate(LocalDate.parse(releaseDateText, releaseDateTimeFormatter));
-                    } catch (DateTimeParseException e) {
-                        throw new SystemException("リリース日：日付変換に失敗しました", e);
+                if (StringUtils.contains(infoTexts.get(1).childNode(0).toString(), "発売日：")) {
+                    var releaseDateText = infoTexts.get(1).childNode(0).toString().replace("発売日：", "");
+                    LOGGER.debug("CD Release Date: {}", releaseDateText);
+                    if (StringUtils.isNotBlank(releaseDateText)) {
+                        try {
+                            cdInfoBuilder.releaseDate(LocalDate.parse(releaseDateText, releaseDateTimeFormatter));
+                        } catch (DateTimeParseException e) {
+                            throw new SystemException("リリース日：日付変換に失敗しました", e);
+                        }
                     }
                 }
                 
