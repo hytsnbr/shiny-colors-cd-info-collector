@@ -25,5 +25,5 @@ public class JsonData {
     
     /** CD情報リスト */
     @JsonProperty("info")
-    private List<CDInfo> cdInfoList;
+    private List<CdInfo> cdInfoList;
 }

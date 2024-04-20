@@ -1,4 +1,4 @@
-package com.hytsnbr.shiny_test;
+package com.hytsnbr.shiny_test.tasklet;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -6,22 +6,22 @@ import java.util.Objects;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.batch.core.StepContribution;
+import org.springframework.batch.core.scope.context.ChunkContext;
+import org.springframework.batch.core.step.tasklet.Tasklet;
+import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
+import org.springframework.stereotype.Component;
 
-import com.hytsnbr.shiny_test.dto.CDInfo;
-import com.hytsnbr.shiny_test.exception.SystemException;
+import com.hytsnbr.shiny_test.dto.CdInfo;
 import com.hytsnbr.shiny_test.service.FileOperator;
 import com.hytsnbr.shiny_test.service.GenerateJson;
 
-@SpringBootApplication
-@ConfigurationPropertiesScan
-public class ShinyTestApplication implements CommandLineRunner {
+@Component
+public class MainTasklet implements Tasklet {
     
-    private static final Logger LOGGER = LoggerFactory.getLogger(ShinyTestApplication.class);
+    /** ロガー */
+    private static final Logger logger = LoggerFactory.getLogger(MainTasklet.class);
     
     private final GenerateJson generateJson;
     
@@ -32,34 +32,32 @@ public class ShinyTestApplication implements CommandLineRunner {
     private boolean isForce;
     
     /** コンストラクタ */
-    public ShinyTestApplication(GenerateJson generateJson, FileOperator fileOperator) {
+    public MainTasklet(GenerateJson generateJson, FileOperator fileOperator) {
         this.generateJson = generateJson;
         this.fileOperator = fileOperator;
     }
     
-    public static void main(String[] args) {
-        SpringApplication.run(ShinyTestApplication.class, args);
-    }
-    
     @Override
-    public void run(String... args) throws SystemException {
+    public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) {
         // 前回作成したファイルの作成日チェック
         if (this.isCreationDateToday()) {
-            LOGGER.info("前回のファイル作成処理から日付が変わっていないため処理は中止されました");
+            logger.info("前回のファイル作成処理から日付が変わっていないため処理は中止されました");
             
-            return;
+            return RepeatStatus.FINISHED;
         }
         
-        var cdInfoList = this.generateJson.createCDInfoList();
+        var cdInfoList = this.generateJson.createCdInfoList();
         
         // 前回処理後のデータと一致する場合はファイル出力しない
-        if (!this.matchPrevCDInfoList(cdInfoList)) {
+        if (!this.matchPrevCdInfoList(cdInfoList)) {
             this.fileOperator.outputToJsonFile(cdInfoList);
             
-            LOGGER.info("ファイルを作成しました");
+            logger.info("ファイルを作成しました");
         } else {
-            LOGGER.info("前回処理時とデータ内容に変化がないためファイルは作成されませんでした");
+            logger.info("前回処理時とデータ内容に変化がないためファイルは作成されませんでした");
         }
+        
+        return RepeatStatus.FINISHED;
     }
     
     /**
@@ -77,8 +75,8 @@ public class ShinyTestApplication implements CommandLineRunner {
         
         final var createdAt = LocalDate.ofEpochDay(data.getCreatedAt());
         final var today = LocalDate.now();
-        LOGGER.info("ファイル作成日: {}", createdAt);
-        LOGGER.info("処理日: {}", today);
+        logger.info("ファイル作成日: {}", createdAt);
+        logger.info("処理日: {}", today);
         
         return data.getCreatedAt() == today.toEpochDay();
     }
@@ -90,7 +88,7 @@ public class ShinyTestApplication implements CommandLineRunner {
      *
      * @return 一致する場合は true
      */
-    private boolean matchPrevCDInfoList(List<CDInfo> cdInfoList) {
+    private boolean matchPrevCdInfoList(List<CdInfo> cdInfoList) {
         if (this.isForce) return false;
         
         var data = this.fileOperator.readJsonFile();

@@ -17,7 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.hytsnbr.shiny_test.config.ApplicationConfig;
-import com.hytsnbr.shiny_test.dto.CDInfo;
+import com.hytsnbr.shiny_test.dto.CdInfo;
 import com.hytsnbr.shiny_test.dto.JsonData;
 import com.hytsnbr.shiny_test.exception.SystemException;
 
@@ -29,7 +29,8 @@ public class FileOperator {
     
     private static final ObjectMapper objectMapper;
     
-    private static final Logger LOGGER = LoggerFactory.getLogger(FileOperator.class);
+    /** ロガー */
+    private static final Logger logger = LoggerFactory.getLogger(FileOperator.class);
     
     private final ApplicationConfig appConfig;
     
@@ -54,7 +55,7 @@ public class FileOperator {
             var jsonFile = Paths.get(this.appConfig.getJsonPath()).toFile();
             return objectMapper.readValue(jsonFile, JsonData.class);
         } catch (FileNotFoundException e) {
-            LOGGER.debug("生成ファイルが存在しません");
+            logger.debug("生成ファイルが存在しません");
             
             return null;
         } catch (IOException e) {
@@ -65,7 +66,7 @@ public class FileOperator {
     /**
      * JSONファイルに出力
      */
-    public void outputToJsonFile(List<CDInfo> cdInfoList) {
+    public void outputToJsonFile(List<CdInfo> cdInfoList) {
         var path = Paths.get(this.appConfig.getJsonPath());
         try {
             Files.deleteIfExists(path);

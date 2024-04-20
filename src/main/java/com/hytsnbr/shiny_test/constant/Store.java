@@ -1,6 +1,7 @@
 package com.hytsnbr.shiny_test.constant;
 
 import java.util.Arrays;
+import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -10,35 +11,152 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum Store {
     
-    AMAZON_CD("Amazon CD", "Amazon CD"),
-    AMAZON_MUSIC("Amazon Music", "Amazon Music (Streaming)"),
-    ANIMATE("animate", "animate"),
-    ANIMELO_MIX("animelo mix", "animelomix"),
-    APPLE_MUSIC("Apple Music", "Apple Music"),
-    ASOBI_STORE("アソビストア", "asobistore"),
-    AWA("AWA", "AWA"),
-    A_ON_STORE("A-on STORE", "A-on store"),
-    A_ON_STORE_POWERED_BY_ASMART("A-on STORE Powered by A!SMART", "A-on STORE Powered by A!SMART"),
-    E_ONKYO_MUSIC("e-onkyo music", "Eonkyo"),
-    GAMERS("GAMERS", "GAMERS"),
-    HMV("HMV&BOOKS online", "HMV Japan"),
-    ITUNES("iTunes", "iTunes"),
-    LINE_MUSIC("LINE MUSIC", "LINE MUSIC"),
-    MORA("mora", "Mora"),
-    MORA_HIRES("mora", "Mora 2"),
-    MUSIC_JP("music.jp", "music.jp"),
-    RAKUTEN_BOOKS_JAPAN("Rakuten ブックス", "Rakuten Books Japan"),
-    RECOCHOKU("レコチョク", "RECOCHOKU"),
-    SEVEN_NET("セブンネットショッピング", "7net"),
-    SOFMAP("ソフマップ", "Sofmap"),
-    SPOTIFY("Spotify", "Spotify"),
-    TORANOANA("とらのあな", "Toranoana"),
-    TOWER_RECORDS_MUSIC("TOWER RECORDS MUSIC", "TOWER RECORDS MUSIC"),
-    TOWER_RECORDS_ONLINE("TOWER RECORDS ONLINE", "Tower Records Online"),
-    TSUTAYA("TSUTAYA オンラインショッピング", "Tsutaya Online"),
-    YODOBASHI("ヨドバシ.com", "Yodobashi"),
-    YOUTUBE_MUSIC("Youtube Music", "YouTube Music"),
-    KKBOX("KKBOX", "KKBOX"),
+    AMAZON_CD(
+        "Amazon CD",
+        "Amazon CD",
+        List.of()
+    ),
+    AMAZON_MUSIC(
+        "Amazon Music",
+        "Amazon Music (Streaming)",
+        List.of()
+    ),
+    ANIMATE(
+        "animate",
+        "animate",
+        List.of()
+    ),
+    ANIMELO_MIX(
+        "animelo mix",
+        "animelomix",
+        List.of("id")
+    ),
+    APPLE_MUSIC(
+        "Apple Music",
+        "Apple Music",
+        List.of()
+    ),
+    ASOBI_STORE(
+        "アソビストア",
+        "asobistore",
+        List.of()
+    ),
+    AWA(
+        "AWA",
+        "AWA",
+        List.of()
+    ),
+    A_ON_STORE(
+        "A-on STORE",
+        "A-on store",
+        List.of()
+    ),
+    A_ON_STORE_POWERED_BY_ASMART(
+        "A-on STORE Powered by A!SMART",
+        "A-on STORE Powered by A!SMART",
+        List.of("pid")
+    ),
+    E_ONKYO_MUSIC(
+        "e-onkyo music",
+        "Eonkyo",
+        List.of()
+    ),
+    GAMERS(
+        "GAMERS",
+        "GAMERS",
+        List.of()
+    ),
+    HMV(
+        "HMV&BOOKS online",
+        "HMV Japan",
+        List.of()
+    ),
+    ITUNES(
+        "iTunes",
+        "iTunes",
+        List.of()
+    ),
+    LINE_MUSIC(
+        "LINE MUSIC",
+        "LINE MUSIC",
+        List.of("target", "item")
+    ),
+    MORA(
+        "mora",
+        "Mora",
+        List.of()
+    ),
+    MORA_HIRES(
+        "mora",
+        "Mora 2",
+        List.of()
+    ),
+    MUSIC_JP(
+        "music.jp",
+        "music.jp",
+        List.of()
+    ),
+    RAKUTEN_BOOKS_JAPAN(
+        "Rakuten ブックス",
+        "Rakuten Books Japan",
+        List.of()
+    ),
+    RECOCHOKU(
+        "レコチョク",
+        "RECOCHOKU",
+        List.of()
+    ),
+    SEVEN_NET(
+        "セブンネットショッピング",
+        "7net",
+        List.of()
+    ),
+    SOFMAP(
+        "ソフマップ",
+        "Sofmap",
+        List.of()
+    ),
+    SPOTIFY(
+        "Spotify",
+        "Spotify",
+        List.of()
+    ),
+    TORANOANA(
+        "とらのあな",
+        "Toranoana",
+        List.of()
+    ),
+    TOWER_RECORDS_MUSIC(
+        "TOWER RECORDS MUSIC",
+        "TOWER RECORDS MUSIC",
+        List.of()
+    ),
+    TOWER_RECORDS_ONLINE(
+        "TOWER RECORDS ONLINE",
+        "Tower Records Online",
+        List.of()
+    ),
+    TSUTAYA(
+        "TSUTAYA オンラインショッピング",
+        "Tsutaya Online",
+        List.of()
+    ),
+    YODOBASHI(
+        "ヨドバシ.com",
+        "Yodobashi",
+        List.of()
+    ),
+    YOUTUBE_MUSIC(
+        "Youtube Music",
+        "YouTube Music",
+        List.of()
+    ),
+    KKBOX(
+        "KKBOX",
+        "KKBOX",
+        List.of()
+    ),
+    
     ;
     
     /** ストア名 */
