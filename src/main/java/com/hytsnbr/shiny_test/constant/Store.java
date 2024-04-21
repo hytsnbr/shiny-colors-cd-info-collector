@@ -13,148 +13,120 @@ public enum Store {
     
     AMAZON_CD(
         "Amazon CD",
-        "Amazon CD",
-        List.of()
+        "Amazon CD"
     ),
     AMAZON_MUSIC(
         "Amazon Music",
-        "Amazon Music (Streaming)",
-        List.of()
+        "Amazon Music (Streaming)"
     ),
     ANIMATE(
         "animate",
-        "animate",
-        List.of()
+        "animate"
     ),
     ANIMELO_MIX(
         "animelo mix",
-        "animelomix",
-        List.of("id")
+        "animelomix"
     ),
     APPLE_MUSIC(
         "Apple Music",
-        "Apple Music",
-        List.of()
+        "Apple Music"
     ),
     ASOBI_STORE(
         "アソビストア",
-        "asobistore",
-        List.of()
+        "asobistore"
     ),
     AWA(
         "AWA",
-        "AWA",
-        List.of()
+        "AWA"
     ),
     A_ON_STORE(
         "A-on STORE",
-        "A-on store",
-        List.of()
+        "A-on store"
     ),
     A_ON_STORE_POWERED_BY_ASMART(
         "A-on STORE Powered by A!SMART",
-        "A-on STORE Powered by A!SMART",
-        List.of("pid")
+        "A-on STORE Powered by A!SMART"
     ),
     E_ONKYO_MUSIC(
         "e-onkyo music",
-        "Eonkyo",
-        List.of()
+        "Eonkyo"
+    
     ),
     GAMERS(
         "GAMERS",
-        "GAMERS",
-        List.of()
+        "GAMERS"
     ),
     HMV(
         "HMV&BOOKS online",
-        "HMV Japan",
-        List.of()
+        "HMV Japan"
     ),
     ITUNES(
         "iTunes",
-        "iTunes",
-        List.of()
+        "iTunes"
     ),
     LINE_MUSIC(
         "LINE MUSIC",
-        "LINE MUSIC",
-        List.of("target", "item")
+        "LINE MUSIC"
     ),
     MORA(
         "mora",
-        "Mora",
-        List.of()
+        "Mora"
     ),
     MORA_HIRES(
         "mora",
-        "Mora 2",
-        List.of()
+        "Mora 2"
     ),
     MUSIC_JP(
         "music.jp",
-        "music.jp",
-        List.of()
+        "music.jp"
     ),
     RAKUTEN_BOOKS_JAPAN(
         "Rakuten ブックス",
-        "Rakuten Books Japan",
-        List.of()
+        "Rakuten Books Japan"
     ),
     RECOCHOKU(
         "レコチョク",
-        "RECOCHOKU",
-        List.of()
+        "RECOCHOKU"
     ),
     SEVEN_NET(
         "セブンネットショッピング",
-        "7net",
-        List.of()
+        "7net"
     ),
     SOFMAP(
         "ソフマップ",
-        "Sofmap",
-        List.of()
+        "Sofmap"
     ),
     SPOTIFY(
         "Spotify",
-        "Spotify",
-        List.of()
+        "Spotify"
     ),
     TORANOANA(
         "とらのあな",
-        "Toranoana",
-        List.of()
+        "Toranoana"
     ),
     TOWER_RECORDS_MUSIC(
         "TOWER RECORDS MUSIC",
-        "TOWER RECORDS MUSIC",
-        List.of()
+        "TOWER RECORDS MUSIC"
     ),
     TOWER_RECORDS_ONLINE(
         "TOWER RECORDS ONLINE",
-        "Tower Records Online",
-        List.of()
+        "Tower Records Online"
     ),
     TSUTAYA(
         "TSUTAYA オンラインショッピング",
-        "Tsutaya Online",
-        List.of()
+        "Tsutaya Online"
     ),
     YODOBASHI(
         "ヨドバシ.com",
-        "Yodobashi",
-        List.of()
+        "Yodobashi"
     ),
     YOUTUBE_MUSIC(
         "Youtube Music",
-        "YouTube Music",
-        List.of()
+        "YouTube Music"
     ),
     KKBOX(
         "KKBOX",
-        "KKBOX",
-        List.of()
+        "KKBOX"
     ),
     
     ;
