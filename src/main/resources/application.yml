@@ -12,3 +12,6 @@ app-config:
   json-path: result/data.json
   jsoup:
     timeout: 60000 # 60秒
+  process:
+    retry-limit: 5
+    cool-time: 5000 # 5秒
