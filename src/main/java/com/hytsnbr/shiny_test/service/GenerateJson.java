@@ -1,10 +1,13 @@
 package com.hytsnbr.shiny_test.service;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
@@ -333,13 +336,24 @@ public class GenerateJson {
         var siteLinkList = siteLinkPage.select(".music-service-list__item > a");
         List<StoreSite> siteList = new ArrayList<>();
         for (var i = 1; i <= retryLimit; i++) {
-            for (var e : siteLinkList) {
-                var siteUrl = e.attr("href");
-                var name = Store.getByHtmlName(e.select(".music-service-list__content > img").attr("alt")).getName();
-                var isHiRes = StringUtils.equals(e.select(".btn.music-service-list__btn").text(), "ハイレゾDL");
-                var storeSite = new StoreSite(name, siteUrl, isHiRes);
-                logger.debug("{}: {}", name, siteUrl);
-                siteList.add(storeSite);
+            for (var siteLink : siteLinkList) {
+                try {
+                    var store = Store.getByHtmlName(
+                        siteLink.select(".music-service-list__content > img")
+                                .attr("alt")
+                    );
+                    var name = store.getName();
+                    var siteUrl = this.getNormalizationSiteUrl(new URL(siteLink.attr("href")), store);
+                    var isHiRes = StringUtils.equals(
+                        siteLink.select(".btn.music-service-list__btn").text(),
+                        "ハイレゾDL"
+                    );
+                    var storeSite = new StoreSite(name, siteUrl, isHiRes);
+                    logger.debug("{}: {}", name, siteUrl);
+                    siteList.add(storeSite);
+                } catch (MalformedURLException e) {
+                    throw new SystemException(e);
+                }
             }
             
             // サイトリストが空でない場合は処理終了
@@ -352,6 +366,29 @@ public class GenerateJson {
         }
         
         return siteList;
+    }
+    
+    /**
+     * サイトURLから不要なクエリパラメータを削除して正規化する
+     *
+     * @param siteUrl 正規化前のサイトURL
+     * @param store   サイトURLの属するサイト情報
+     *
+     * @return 正規化後のサイトURL
+     */
+    private String getNormalizationSiteUrl(URL siteUrl, Store store) {
+        List<String> queryParams = List.of();
+        if (StringUtils.isNoneEmpty(siteUrl.getQuery())) {
+            queryParams = Arrays
+                .stream(siteUrl.getQuery().split("&"))
+                .filter(queryParam -> {
+                    var key = queryParam.split("=")[0];
+                    return store.getIncludeQueryParams().contains(key);
+                }).toList();
+        }
+        
+        return siteUrl.getProtocol() + "://" + siteUrl.getHost() + siteUrl.getPath()
+            + (!queryParams.isEmpty() ? "?" + StringUtils.join(queryParams, "&") : "");
     }
     
     /**

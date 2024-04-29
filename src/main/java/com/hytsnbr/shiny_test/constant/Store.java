@@ -167,6 +167,7 @@ public enum Store {
     private final String htmlName;
     
     /** URLに含むクエリパラメータ名 */
+    @Getter
     private final List<String> includeQueryParams;
     
     /**
