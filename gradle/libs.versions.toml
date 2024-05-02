@@ -1,0 +1,30 @@
+[versions]
+springframeworkBoot = "3.2.5"
+springDependencyManagement = "1.1.0"
+commonsLang = "3.14.0"
+commonsCollections = "4.4"
+jsoup = "1.17.2"
+
+[libraries]
+spring-boot-starter-batch = { group = "org.springframework.boot", name = "spring-boot-starter-batch" }
+spring-boot-starter-validation = { group = "org.springframework.boot", name = "spring-boot-starter-validation" }
+spring-boot-configuration-processor = { group = "org.springframework.boot", name = "spring-boot-configuration-processor" }
+
+spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
+spring-batch-test = { group = "org.springframework.batch", name = "spring-batch-test" }
+
+commons-lang3 = { group = "org.apache.commons", name = "commons-lang3", version.ref = "commonsLang" }
+commons-collections4 = { group = "org.apache.commons", name = "commons-collections4", version.ref = "commonsCollections" }
+
+lombok = { group = "org.projectlombok", name = "lombok" }
+
+h2 = { group = "com.h2database", name = "h2" }
+
+jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoup" }
+
+jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310" }
+
+
+[plugins]
+springframework-boot = { id = "org.springframework.boot", version.ref = "springframeworkBoot" }
+spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "springDependencyManagement" }
