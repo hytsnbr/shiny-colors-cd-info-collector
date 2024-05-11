@@ -1,5 +1,5 @@
 {
-  "createdAt" : 19852,
+  "createdAt" : 19854,
   "info" : [
     {
       "title" : "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6314,6 +6314,74 @@
       ]
     },
     {
+      "title" : "THE IDOLM@STER SHINY COLORS Song for Prism ニューシングル【A盤】",
+      "recordNumbers" : [
+        "LACM-24552"
+      ],
+      "releaseDate" : "2024-07-24",
+      "jacketUrl" : "/images/nowprinting.jpg",
+      "limited" : false,
+      "series" : "Song for Prism",
+      "artist" : "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList" : [ ],
+      "purchaseSiteList" : [
+        {
+          "name" : "animate",
+          "url" : "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91/pd/2566166/",
+          "isHiRes" : false
+        },
+        {
+          "name" : "GAMERS",
+          "url" : "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB+%E3%80%90A%E7%9B%A4%E3%80%91/pd/10728536/",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS ONLINE",
+          "url" : "https://tower.jp/item/6360949/THE-IDOLM@STER-SHINY-COLORS-Song-for-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%EF%BC%9CA%E7%9B%A4%EF%BC%9E",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Rakuten ブックス",
+          "url" : "https://books.rakuten.co.jp/rb/17875947/",
+          "isHiRes" : false
+        }
+      ]
+    },
+    {
+      "title" : "THE IDOLM@STER SHINY COLORS Song for Prism ニューシングル【B盤】",
+      "recordNumbers" : [
+        "LACM-24553"
+      ],
+      "releaseDate" : "2024-07-24",
+      "jacketUrl" : "/images/nowprinting.jpg",
+      "limited" : false,
+      "series" : "Song for Prism",
+      "artist" : "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList" : [ ],
+      "purchaseSiteList" : [
+        {
+          "name" : "animate",
+          "url" : "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90B%E7%9B%A4%E3%80%91/pd/2566167/",
+          "isHiRes" : false
+        },
+        {
+          "name" : "GAMERS",
+          "url" : "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB+%E3%80%90B%E7%9B%A4%E3%80%91/pd/10728537/",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS ONLINE",
+          "url" : "https://tower.jp/item/6360952/THE-IDOLM@STER-SHINY-COLORS-Song-for-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%EF%BC%9CB%E7%9B%A4%EF%BC%9E",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Rakuten ブックス",
+          "url" : "https://books.rakuten.co.jp/rb/17876268/",
+          "isHiRes" : false
+        }
+      ]
+    },
+    {
       "title" : "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
       "recordNumbers" : [
         "LACM-14820"
@@ -7643,6 +7711,41 @@
       "series" : "アニメ",
       "artist" : "シャイニーカラーズ",
       "downloadSiteList" : [
+        {
+          "name" : "Spotify",
+          "url" : "https://open.spotify.com/album/66rKfGrv8i88TSSqvBPxSE",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Apple Music",
+          "url" : "https://music.apple.com/jp/album/1738371610",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Amazon Music",
+          "url" : "http://music.amazon.co.jp/albums/B0CZ8H3Z89",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Youtube Music",
+          "url" : "https://music.youtube.com/playlist",
+          "isHiRes" : false
+        },
+        {
+          "name" : "AWA",
+          "url" : "https://s.awa.fm/album/cda84318f2b3f89a1f91",
+          "isHiRes" : false
+        },
+        {
+          "name" : "LINE MUSIC",
+          "url" : "https://music.line.me/launch?target=album&item=mb000000000386abcc",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS MUSIC",
+          "url" : "https://music.tower.jp/album/detail/1035026999",
+          "isHiRes" : false
+        },
         {
           "name" : "iTunes",
           "url" : "https://itunes.apple.com/jp/album/id1738371610",
