@@ -1,5 +1,5 @@
 {
-  "createdAt" : 19854,
+  "createdAt" : 19860,
   "info" : [
     {
       "title" : "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -7802,8 +7802,43 @@
       "artist" : "大崎甘奈(CV.黒木ほの香)、市川雛菜(CV.岡咲美保)、田中摩美々(CV.菅沼千紗)",
       "downloadSiteList" : [
         {
+          "name" : "Apple Music",
+          "url" : "https://music.apple.com/jp/album/1739526457",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Spotify",
+          "url" : "https://open.spotify.com/album/3roqxdn9XK4XfN6856Xb6N",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Youtube Music",
+          "url" : "https://music.youtube.com/playlist",
+          "isHiRes" : false
+        },
+        {
+          "name" : "AWA",
+          "url" : "https://s.awa.fm/album/948a4ba1c477c5c9ee19",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS MUSIC",
+          "url" : "https://music.tower.jp/album/detail/1035125056",
+          "isHiRes" : false
+        },
+        {
+          "name" : "LINE MUSIC",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000038b9bde",
+          "isHiRes" : false
+        },
+        {
           "name" : "iTunes",
           "url" : "https://itunes.apple.com/jp/album/id1739526457",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Amazon Music",
+          "url" : "http://music.amazon.co.jp/albums/B0CZT4MDV5",
           "isHiRes" : false
         },
         {
@@ -7866,6 +7901,41 @@
       "series" : "シャイニーPRオファー",
       "artist" : "小宮果穂(CV.河野ひより)、黛 冬優子(CV.幸村恵理)、和泉愛依(CV.北原沙弥香)",
       "downloadSiteList" : [
+        {
+          "name" : "Apple Music",
+          "url" : "https://music.apple.com/jp/album/1739526828",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Amazon Music",
+          "url" : "http://music.amazon.co.jp/albums/B0CZT5NHHD",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Spotify",
+          "url" : "https://open.spotify.com/album/6C9W1zDkMKQqRkRiCUnsDA",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Youtube Music",
+          "url" : "https://music.youtube.com/playlist",
+          "isHiRes" : false
+        },
+        {
+          "name" : "LINE MUSIC",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000038b9c5c",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS MUSIC",
+          "url" : "https://music.tower.jp/album/detail/1035125035",
+          "isHiRes" : false
+        },
+        {
+          "name" : "AWA",
+          "url" : "https://s.awa.fm/album/17c27c535f7b20fb0620",
+          "isHiRes" : false
+        },
         {
           "name" : "iTunes",
           "url" : "https://itunes.apple.com/jp/album/id1739526828",
@@ -7931,6 +8001,41 @@
       "series" : "シャイニーPRオファー",
       "artist" : "芹沢あさひ(CV.田中有紀)、八宮めぐる(CV.峯田茉優)、西城樹里(CV.永井真里子)",
       "downloadSiteList" : [
+        {
+          "name" : "Apple Music",
+          "url" : "https://music.apple.com/jp/album/1739526583",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Spotify",
+          "url" : "https://open.spotify.com/album/3AFNLwiYXxiLhGeqi0wWDY",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Amazon Music",
+          "url" : "http://music.amazon.co.jp/albums/B0CZT5JTH9",
+          "isHiRes" : false
+        },
+        {
+          "name" : "AWA",
+          "url" : "https://s.awa.fm/album/d950a1a7d69d13f29b21",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Youtube Music",
+          "url" : "https://music.youtube.com/playlist",
+          "isHiRes" : false
+        },
+        {
+          "name" : "LINE MUSIC",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000038b9c25",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS MUSIC",
+          "url" : "https://music.tower.jp/album/detail/1035125128",
+          "isHiRes" : false
+        },
         {
           "name" : "iTunes",
           "url" : "https://itunes.apple.com/jp/album/id1739526583",
