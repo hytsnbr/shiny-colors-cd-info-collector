@@ -2,7 +2,7 @@ name: Data Update
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6,15 * * *"
 
 # 多重起動防止
 concurrency:
