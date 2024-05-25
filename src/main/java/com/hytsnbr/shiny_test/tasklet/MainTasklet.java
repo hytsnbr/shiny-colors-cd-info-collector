@@ -1,9 +1,13 @@
 package com.hytsnbr.shiny_test.tasklet;
 
-import java.time.LocalDate;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Objects;
 
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.StepContribution;
@@ -73,12 +77,17 @@ public class MainTasklet implements Tasklet {
             return false;
         }
         
-        final var createdAt = LocalDate.ofEpochDay(data.getCreatedAt());
-        final var today = LocalDate.now();
+        final var formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+        final var createdAt = LocalDateTime.ofInstant(
+            Instant.ofEpochSecond(data.getCreatedAt()),
+            ZoneId.systemDefault()
+        ).format(formatter);
+        final var today = LocalDateTime.now().format(formatter);
+        
         logger.info("ファイル作成日: {}", createdAt);
         logger.info("処理日: {}", today);
         
-        return data.getCreatedAt() == today.toEpochDay();
+        return StringUtils.equals(createdAt, today);
     }
     
     /**
