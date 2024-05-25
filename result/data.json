@@ -1,5 +1,5 @@
 {
-  "createdAt": 1716618810,
+  "createdAt" : 1716651383,
   "info" : [
     {
       "title" : "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -14,17 +14,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551461",
+          "url" : "https://music.apple.com/jp/album/1734551461",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX7ZX8FH",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7ZX8FH",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/5DPEs2nU0qICTuZvvngs2o",
+          "url" : "https://open.spotify.com/album/5DPEs2nU0qICTuZvvngs2o",
           "isHiRes" : false
         },
         {
@@ -34,32 +34,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43bd",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43bd",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url": "https://s.awa.fm/album/905d9c054364594c2539",
+          "url" : "https://s.awa.fm/album/905d9c054364594c2539",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034161363",
+          "url" : "https://music.tower.jp/album/detail/1034161363",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551461",
+          "url" : "https://itunes.apple.com/jp/album/id1734551461",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14782B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14782B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034161363/",
+          "url" : "https://recochoku.jp/album/A1034161363/",
           "isHiRes" : false
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14782B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14782B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -269,17 +269,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551412",
+          "url" : "https://music.apple.com/jp/album/1734551412",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX7XKYWW",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7XKYWW",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/2W4430dGSTmDYKQYg6d7Dr",
+          "url" : "https://open.spotify.com/album/2W4430dGSTmDYKQYg6d7Dr",
           "isHiRes" : false
         },
         {
@@ -289,7 +289,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43c0",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43c0",
           "isHiRes" : false
         },
         {
@@ -299,22 +299,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034171574",
+          "url" : "https://music.tower.jp/album/detail/1034171574",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551412",
+          "url" : "https://itunes.apple.com/jp/album/id1734551412",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02295B00Z/",
+          "url" : "https://mora.jp/package/43000087/LAZC02295B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034171574/",
+          "url" : "https://recochoku.jp/album/A1034171574/",
           "isHiRes" : false
         },
         {
@@ -329,7 +329,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02295B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02295B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -394,17 +394,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551755",
+          "url" : "https://music.apple.com/jp/album/1734551755",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8KBM66",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8KBM66",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/08XF1Mykt1IgoorhbaS0jp",
+          "url" : "https://open.spotify.com/album/08XF1Mykt1IgoorhbaS0jp",
           "isHiRes" : false
         },
         {
@@ -414,7 +414,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43bc",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43bc",
           "isHiRes" : false
         },
         {
@@ -424,22 +424,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034170304",
+          "url" : "https://music.tower.jp/album/detail/1034170304",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551755",
+          "url" : "https://itunes.apple.com/jp/album/id1734551755",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14784B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14784B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034170304/",
+          "url" : "https://recochoku.jp/album/A1034170304/",
           "isHiRes" : false
         },
         {
@@ -454,7 +454,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14784B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14784B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -519,17 +519,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551408",
+          "url" : "https://music.apple.com/jp/album/1734551408",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8KCH7D",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8KCH7D",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/07TTHF1foWAoogdrrtnsif",
+          "url" : "https://open.spotify.com/album/07TTHF1foWAoogdrrtnsif",
           "isHiRes" : false
         },
         {
@@ -539,7 +539,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d440b",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d440b",
           "isHiRes" : false
         },
         {
@@ -549,22 +549,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034161978",
+          "url" : "https://music.tower.jp/album/detail/1034161978",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551408",
+          "url" : "https://itunes.apple.com/jp/album/id1734551408",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14785B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14785B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034161978/",
+          "url" : "https://recochoku.jp/album/A1034161978/",
           "isHiRes" : false
         },
         {
@@ -579,7 +579,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14785B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14785B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -644,17 +644,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734552349",
+          "url" : "https://music.apple.com/jp/album/1734552349",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8LTZY6",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8LTZY6",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/2ZmvRVaR6N9ILj6uzEr1ey",
+          "url" : "https://open.spotify.com/album/2ZmvRVaR6N9ILj6uzEr1ey",
           "isHiRes" : false
         },
         {
@@ -664,7 +664,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43b9",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43b9",
           "isHiRes" : false
         },
         {
@@ -674,22 +674,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034166526",
+          "url" : "https://music.tower.jp/album/detail/1034166526",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734552349",
-          "isHiRes": false
+          "url" : "https://itunes.apple.com/jp/album/id1734552349",
+          "isHiRes" : false
         },
         {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02296B00Z/",
+          "name" : "mora",
+          "url" : "https://mora.jp/package/43000087/LAZC02296B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034166526/",
+          "url" : "https://recochoku.jp/album/A1034166526/",
           "isHiRes" : false
         },
         {
@@ -704,7 +704,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02296B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02296B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -774,17 +774,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734552060",
+          "url" : "https://music.apple.com/jp/album/1734552060",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX7T6F8S",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7T6F8S",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/4JI7pAxSmCkeaoYayioTnC",
+          "url" : "https://open.spotify.com/album/4JI7pAxSmCkeaoYayioTnC",
           "isHiRes" : false
         },
         {
@@ -794,7 +794,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d5",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43d5",
           "isHiRes" : false
         },
         {
@@ -804,22 +804,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034171052",
+          "url" : "https://music.tower.jp/album/detail/1034171052",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734552060",
+          "url" : "https://itunes.apple.com/jp/album/id1734552060",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14862B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14862B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034171052/",
+          "url" : "https://recochoku.jp/album/A1034171052/",
           "isHiRes" : false
         },
         {
@@ -834,7 +834,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14862B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14862B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -904,17 +904,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734552402",
+          "url" : "https://music.apple.com/jp/album/1734552402",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8NSNFT",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8NSNFT",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/0a4UWvFaBcf8lNBSeo5yrT",
+          "url" : "https://open.spotify.com/album/0a4UWvFaBcf8lNBSeo5yrT",
           "isHiRes" : false
         },
         {
@@ -924,7 +924,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d2",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43d2",
           "isHiRes" : false
         },
         {
@@ -934,22 +934,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034169915",
+          "url" : "https://music.tower.jp/album/detail/1034169915",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734552402",
+          "url" : "https://itunes.apple.com/jp/album/id1734552402",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02297B00Z/",
+          "url" : "https://mora.jp/package/43000087/LAZC02297B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034169915/",
+          "url" : "https://recochoku.jp/album/A1034169915/",
           "isHiRes" : false
         },
         {
@@ -964,7 +964,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02297B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02297B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1034,17 +1034,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734552664",
+          "url" : "https://music.apple.com/jp/album/1734552664",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX7T623J",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7T623J",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/1pThNRe1Lx18CRVpS93gkg",
+          "url" : "https://open.spotify.com/album/1pThNRe1Lx18CRVpS93gkg",
           "isHiRes" : false
         },
         {
@@ -1054,7 +1054,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d4",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43d4",
           "isHiRes" : false
         },
         {
@@ -1064,22 +1064,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034169612",
+          "url" : "https://music.tower.jp/album/detail/1034169612",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734552664",
+          "url" : "https://itunes.apple.com/jp/album/id1734552664",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14864B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14864B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034169612/",
+          "url" : "https://recochoku.jp/album/A1034169612/",
           "isHiRes" : false
         },
         {
@@ -1094,7 +1094,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14864B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14864B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1164,17 +1164,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551173",
+          "url" : "https://music.apple.com/jp/album/1734551173",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8HFNFH",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8HFNFH",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/3SSFE8fwAHa7LEhFAnIvkn",
+          "url" : "https://open.spotify.com/album/3SSFE8fwAHa7LEhFAnIvkn",
           "isHiRes" : false
         },
         {
@@ -1184,7 +1184,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43bf",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43bf",
           "isHiRes" : false
         },
         {
@@ -1194,22 +1194,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034163341",
+          "url" : "https://music.tower.jp/album/detail/1034163341",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551173",
+          "url" : "https://itunes.apple.com/jp/album/id1734551173",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14865B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14865B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034163341/",
+          "url" : "https://recochoku.jp/album/A1034163341/",
           "isHiRes" : false
         },
         {
@@ -1224,7 +1224,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14865B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14865B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1294,17 +1294,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551807",
+          "url" : "https://music.apple.com/jp/album/1734551807",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX7ZRNSJ",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7ZRNSJ",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/1IqktXr6II3o5QD0YtOhF8",
+          "url" : "https://open.spotify.com/album/1IqktXr6II3o5QD0YtOhF8",
           "isHiRes" : false
         },
         {
@@ -1314,7 +1314,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43bb",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43bb",
           "isHiRes" : false
         },
         {
@@ -1324,22 +1324,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034171101",
+          "url" : "https://music.tower.jp/album/detail/1034171101",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551807",
+          "url" : "https://itunes.apple.com/jp/album/id1734551807",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14866B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14866B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034171101/",
+          "url" : "https://recochoku.jp/album/A1034171101/",
           "isHiRes" : false
         },
         {
@@ -1354,7 +1354,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14866B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14866B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1424,17 +1424,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551272",
+          "url" : "https://music.apple.com/jp/album/1734551272",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8Q9124",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8Q9124",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/5VvOmSraBZK34lkF8P2YEc",
+          "url" : "https://open.spotify.com/album/5VvOmSraBZK34lkF8P2YEc",
           "isHiRes" : false
         },
         {
@@ -1444,7 +1444,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43b5",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43b5",
           "isHiRes" : false
         },
         {
@@ -1454,22 +1454,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034164052",
+          "url" : "https://music.tower.jp/album/detail/1034164052",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551272",
+          "url" : "https://itunes.apple.com/jp/album/id1734551272",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02298B00Z/",
+          "url" : "https://mora.jp/package/43000087/LAZC02298B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034164052/",
+          "url" : "https://recochoku.jp/album/A1034164052/",
           "isHiRes" : false
         },
         {
@@ -1484,7 +1484,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02298B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02298B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1554,17 +1554,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734550603",
+          "url" : "https://music.apple.com/jp/album/1734550603",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8D87MQ",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8D87MQ",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/1rxdIv1pPWNkUDMs6GCwXx",
+          "url" : "https://open.spotify.com/album/1rxdIv1pPWNkUDMs6GCwXx",
           "isHiRes" : false
         },
         {
@@ -1574,7 +1574,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43c5",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43c5",
           "isHiRes" : false
         },
         {
@@ -1584,22 +1584,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034165852",
+          "url" : "https://music.tower.jp/album/detail/1034165852",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734550603",
+          "url" : "https://itunes.apple.com/jp/album/id1734550603",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14983B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14983B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034165852/",
+          "url" : "https://recochoku.jp/album/A1034165852/",
           "isHiRes" : false
         },
         {
@@ -1614,7 +1614,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14983B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14983B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1684,17 +1684,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734554436",
+          "url" : "https://music.apple.com/jp/album/1734554436",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8D4KTN",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8D4KTN",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/7Bv0AWy0P6L77AEvuDUH3Z",
+          "url" : "https://open.spotify.com/album/7Bv0AWy0P6L77AEvuDUH3Z",
           "isHiRes" : false
         },
         {
@@ -1704,7 +1704,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d440c",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d440c",
           "isHiRes" : false
         },
         {
@@ -1714,22 +1714,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034168273",
+          "url" : "https://music.tower.jp/album/detail/1034168273",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734554436",
+          "url" : "https://itunes.apple.com/jp/album/id1734554436",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02299B00Z/",
+          "url" : "https://mora.jp/package/43000087/LAZC02299B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034168273/",
+          "url" : "https://recochoku.jp/album/A1034168273/",
           "isHiRes" : false
         },
         {
@@ -1744,7 +1744,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02299B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02299B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1814,17 +1814,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551259",
+          "url" : "https://music.apple.com/jp/album/1734551259",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX7SWN1F",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7SWN1F",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/39Gph4tiA66mywXvLrMbdZ",
+          "url" : "https://open.spotify.com/album/39Gph4tiA66mywXvLrMbdZ",
           "isHiRes" : false
         },
         {
@@ -1834,7 +1834,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43ba",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43ba",
           "isHiRes" : false
         },
         {
@@ -1844,22 +1844,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034166581",
+          "url" : "https://music.tower.jp/album/detail/1034166581",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551259",
+          "url" : "https://itunes.apple.com/jp/album/id1734551259",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14985B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14985B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034166581/",
+          "url" : "https://recochoku.jp/album/A1034166581/",
           "isHiRes" : false
         },
         {
@@ -1874,7 +1874,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14985B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14985B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -1944,17 +1944,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551901",
+          "url" : "https://music.apple.com/jp/album/1734551901",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8K5LKS",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8K5LKS",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/5cZAkYR4FnidPXupcyH8EU",
+          "url" : "https://open.spotify.com/album/5cZAkYR4FnidPXupcyH8EU",
           "isHiRes" : false
         },
         {
@@ -1964,7 +1964,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d3",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43d3",
           "isHiRes" : false
         },
         {
@@ -1974,22 +1974,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034170330",
+          "url" : "https://music.tower.jp/album/detail/1034170330",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551901",
+          "url" : "https://itunes.apple.com/jp/album/id1734551901",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14986B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14986B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034170330/",
+          "url" : "https://recochoku.jp/album/A1034170330/",
           "isHiRes" : false
         },
         {
@@ -2004,7 +2004,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14986B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14986B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2074,17 +2074,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551533",
+          "url" : "https://music.apple.com/jp/album/1734551533",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8K5LHS",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8K5LHS",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/1gHouIdBUDAU29PdmJdxNG",
+          "url" : "https://open.spotify.com/album/1gHouIdBUDAU29PdmJdxNG",
           "isHiRes" : false
         },
         {
@@ -2094,7 +2094,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d1",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43d1",
           "isHiRes" : false
         },
         {
@@ -2104,22 +2104,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034164648",
+          "url" : "https://music.tower.jp/album/detail/1034164648",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551533",
+          "url" : "https://itunes.apple.com/jp/album/id1734551533",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM14987B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM14987B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034164648/",
+          "url" : "https://recochoku.jp/album/A1034164648/",
           "isHiRes" : false
         },
         {
@@ -2134,7 +2134,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14987B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX14987B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2204,17 +2204,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734552151",
+          "url" : "https://music.apple.com/jp/album/1734552151",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX82THBR",
+          "url" : "http://music.amazon.co.jp/albums/B0CX82THBR",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url": "https://open.spotify.com/album/3KsyYoGSbeGgEmsvYTK3BI",
+          "url" : "https://open.spotify.com/album/3KsyYoGSbeGgEmsvYTK3BI",
           "isHiRes" : false
         },
         {
@@ -2224,7 +2224,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d1",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43d1",
           "isHiRes" : false
         },
         {
@@ -2234,22 +2234,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034168852",
+          "url" : "https://music.tower.jp/album/detail/1034168852",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734552151",
+          "url" : "https://itunes.apple.com/jp/album/id1734552151",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000087/LACM24005B00Z/",
+          "url" : "https://mora.jp/package/43000087/LACM24005B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url": "https://recochoku.jp/album/A1034168852/",
+          "url" : "https://recochoku.jp/album/A1034168852/",
           "isHiRes" : false
         },
         {
@@ -2264,7 +2264,7 @@
         },
         {
           "name" : "mora",
-          "url": "https://mora.jp/package/43000100/LAXX24005B00Z_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24005B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2334,17 +2334,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675600823",
+          "url" : "https://music.apple.com/jp/album/1734551848",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXFP63NM",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8JJFC7",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/7qcLv64oEec8pzNK4OPm8T",
+          "url" : "https://open.spotify.com/album/3yMpwMv5JCIddFx2OeNPYG",
           "isHiRes" : false
         },
         {
@@ -2354,7 +2354,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53228",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43d9",
           "isHiRes" : false
         },
         {
@@ -2364,22 +2364,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025512329",
+          "url" : "https://music.tower.jp/album/detail/1034168828",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675600823",
+          "url" : "https://itunes.apple.com/jp/album/id1734551848",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011224/",
+          "url" : "https://mora.jp/package/43000087/LAZC02301B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025512329",
+          "url" : "https://recochoku.jp/album/A1034168828/",
           "isHiRes" : false
         },
         {
@@ -2394,7 +2394,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LZC-2301_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02301B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2469,17 +2469,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675421302",
+          "url" : "https://music.apple.com/jp/album/1734552517",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBKGYDV",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7VH4HF",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/1QswR39yCNXJBA6ojDtBHl",
+          "url" : "https://open.spotify.com/album/1IawLjCESQEVvfn4W5IcAB",
           "isHiRes" : false
         },
         {
@@ -2489,7 +2489,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c5322e",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4500",
           "isHiRes" : false
         },
         {
@@ -2499,22 +2499,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025491904",
+          "url" : "https://music.tower.jp/album/detail/1034169649",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675421302",
+          "url" : "https://itunes.apple.com/jp/album/id1734552517",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011231/",
+          "url" : "https://mora.jp/package/43000087/LACM24112B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025491904",
+          "url" : "https://recochoku.jp/album/A1034169649/",
           "isHiRes" : false
         },
         {
@@ -2529,7 +2529,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24112_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24112B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2599,17 +2599,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675842449",
+          "url" : "https://music.apple.com/jp/album/1734552712",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXFGZKHZ",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7XM976",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/6H0pUpoITkHIMVePzUGiUF",
+          "url" : "https://open.spotify.com/album/6N6oEwipfLw92DwEh0osh6",
           "isHiRes" : false
         },
         {
@@ -2619,7 +2619,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53044",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43e7",
           "isHiRes" : false
         },
         {
@@ -2629,22 +2629,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025508354",
+          "url" : "https://music.tower.jp/album/detail/1034171010",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675842449",
+          "url" : "https://itunes.apple.com/jp/album/id1734552712",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011248/",
+          "url" : "https://mora.jp/package/43000087/LAZC02302B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025508354",
+          "url" : "https://recochoku.jp/album/A1034171010/",
           "isHiRes" : false
         },
         {
@@ -2659,7 +2659,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LZC-2302_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02302B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2729,17 +2729,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675429082",
+          "url" : "https://music.apple.com/jp/album/1734551569",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMFHLF",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8M8NLR",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/36YCUUkmkgONI4vyaFFfzE",
+          "url" : "https://open.spotify.com/album/62vFHxWgcV0dXFmtzZNGDY",
           "isHiRes" : false
         },
         {
@@ -2749,7 +2749,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c5322c",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44b1",
           "isHiRes" : false
         },
         {
@@ -2759,22 +2759,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025492545",
+          "url" : "https://music.tower.jp/album/detail/1034169909",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675429082",
+          "url" : "https://itunes.apple.com/jp/album/id1734551569",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011255/",
+          "url" : "https://mora.jp/package/43000087/LACM24114B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025492545",
+          "url" : "https://recochoku.jp/album/A1034169909/",
           "isHiRes" : false
         },
         {
@@ -2789,7 +2789,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24114_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24114B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2864,17 +2864,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675426134",
+          "url" : "https://music.apple.com/jp/album/1734552566",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBKX8LS",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7XPYVV",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/5QndRvH8n01jpqNf4gDhbe",
+          "url" : "https://open.spotify.com/album/2Tl1QJz4YLatqveC7NRBLh",
           "isHiRes" : false
         },
         {
@@ -2884,7 +2884,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53080",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44a6",
           "isHiRes" : false
         },
         {
@@ -2894,22 +2894,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025491935",
+          "url" : "https://music.tower.jp/album/detail/1034165828",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675426134",
+          "url" : "https://itunes.apple.com/jp/album/id1734552566",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011262/",
+          "url" : "https://mora.jp/package/43000087/LACM24115B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025491935",
+          "url" : "https://recochoku.jp/album/A1034165828/",
           "isHiRes" : false
         },
         {
@@ -2924,7 +2924,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24115_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24115B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -2999,17 +2999,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675421745",
+          "url" : "https://music.apple.com/jp/album/1734552359",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMPXT9",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8D98TY",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/0zgAxjnwrYfek0bxi2aISp",
+          "url" : "https://open.spotify.com/album/13S3FEwEUU3IDIL8FkNZv1",
           "isHiRes" : false
         },
         {
@@ -3019,7 +3019,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53230",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43e6",
           "isHiRes" : false
         },
         {
@@ -3029,22 +3029,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025492539",
+          "url" : "https://music.tower.jp/album/detail/1034169903",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675421745",
+          "url" : "https://itunes.apple.com/jp/album/id1734552359",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011279/",
+          "url" : "https://mora.jp/package/43000087/LACM24116B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025492539",
+          "url" : "https://recochoku.jp/album/A1034169903/",
           "isHiRes" : false
         },
         {
@@ -3059,7 +3059,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24116_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24116B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -3134,17 +3134,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675429330",
+          "url" : "https://music.apple.com/jp/album/1734551395",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBLFX86",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8Q9RTV",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/4bRs74VKNeAnUu0lUcT4nJ",
+          "url" : "https://open.spotify.com/album/4u4yUaqgbCoLPafRZvuNaF",
           "isHiRes" : false
         },
         {
@@ -3154,7 +3154,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c530c4",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43e0",
           "isHiRes" : false
         },
         {
@@ -3164,22 +3164,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025492555",
+          "url" : "https://music.tower.jp/album/detail/1034171090",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675429330",
+          "url" : "https://itunes.apple.com/jp/album/id1734551395",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011286/",
+          "url" : "https://mora.jp/package/43000087/LACM24117B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025492555",
+          "url" : "https://recochoku.jp/album/A1034171090/",
           "isHiRes" : false
         },
         {
@@ -3194,7 +3194,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24117_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24117B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -3269,17 +3269,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675426298",
+          "url" : "https://music.apple.com/jp/album/1734552685",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBK4FB2",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8D2QP4",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/1Wd36SK5i0M9tCAwHQJBTv",
+          "url" : "https://open.spotify.com/album/0Wz6gTO1gAo8su9LebSqcV",
           "isHiRes" : false
         },
         {
@@ -3289,7 +3289,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53071",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44ef",
           "isHiRes" : false
         },
         {
@@ -3299,22 +3299,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025491929",
+          "url" : "https://music.tower.jp/album/detail/1034171056",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675426298",
+          "url" : "https://itunes.apple.com/jp/album/id1734552685",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011293/",
+          "url" : "https://mora.jp/package/43000087/LACM24118B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025491929",
+          "url" : "https://recochoku.jp/album/A1034171056/",
           "isHiRes" : false
         },
         {
@@ -3329,7 +3329,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24118_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24118B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -3404,17 +3404,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1621031121",
+          "url" : "https://music.apple.com/jp/album/1734552827",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/2nINsRjHFbz5oWMG4zJo2i",
+          "url" : "https://open.spotify.com/album/5rhSZGDbm0uzG9ZHlAikDl",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B09YV3MQ5Z",
+          "url" : "http://music.amazon.co.jp/albums/B0CX81NX4H",
           "isHiRes" : false
         },
         {
@@ -3424,7 +3424,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a92e3d",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43e3",
           "isHiRes" : false
         },
         {
@@ -3434,22 +3434,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1021487578",
+          "url" : "https://music.tower.jp/album/detail/1034168796",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1621031121",
+          "url" : "https://itunes.apple.com/jp/album/id1734552827",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533005179/",
+          "url" : "https://mora.jp/package/43000087/LACM24251B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1021487578",
+          "url" : "https://recochoku.jp/album/A1034168796/",
           "isHiRes" : false
         },
         {
@@ -3464,7 +3464,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24251_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24251B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -3524,17 +3524,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1626962805",
+          "url" : "https://music.apple.com/jp/album/1734552524",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/4CSSUlAhyx3mbZmwRLSMQj",
+          "url" : "https://open.spotify.com/album/5Hll5j0jNgYlh7Cnm9sZty",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B2TF361Y",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8H3N3Y",
           "isHiRes" : false
         },
         {
@@ -3544,7 +3544,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a9634f",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43e8",
           "isHiRes" : false
         },
         {
@@ -3554,22 +3554,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1021968728",
+          "url" : "https://music.tower.jp/album/detail/1034164021",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1626962805",
+          "url" : "https://itunes.apple.com/jp/album/id1734552524",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533005520/",
+          "url" : "https://mora.jp/package/43000087/LACM24252B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1021968728",
+          "url" : "https://recochoku.jp/album/A1034164021/",
           "isHiRes" : false
         },
         {
@@ -3584,7 +3584,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24252_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24252B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -3644,17 +3644,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1634024880",
+          "url" : "https://music.apple.com/jp/album/1734555067",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/1amhjTEry84P4TaaXupGGl",
+          "url" : "https://open.spotify.com/album/3oNzvKYehkdL7G97BZv3yv",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B69HRVYY",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7VVQ8B",
           "isHiRes" : false
         },
         {
@@ -3664,7 +3664,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a95055",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43f4",
           "isHiRes" : false
         },
         {
@@ -3674,22 +3674,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1022694464",
+          "url" : "https://music.tower.jp/album/detail/1034168916",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1634024880",
+          "url" : "https://itunes.apple.com/jp/album/id1734555067",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533006138/",
+          "url" : "https://mora.jp/package/43000087/LACM24253B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1022694464",
+          "url" : "https://recochoku.jp/album/A1034168916/",
           "isHiRes" : false
         },
         {
@@ -3704,7 +3704,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24253_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24253B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -3764,17 +3764,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1637705026",
+          "url" : "https://music.apple.com/jp/album/1734550878",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/5vFeizkVQA7PqDIuSr4cH6",
+          "url" : "https://open.spotify.com/album/1G3hV1BSmc1VGbnyjPVQBc",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B8G4HXFM",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8PZ63Z",
           "isHiRes" : false
         },
         {
@@ -3784,7 +3784,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a992d7",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43eb",
           "isHiRes" : false
         },
         {
@@ -3794,22 +3794,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1023224245",
+          "url" : "https://music.tower.jp/album/detail/1034167099",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1637705026",
+          "url" : "https://itunes.apple.com/jp/album/id1734550878",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533006596/",
+          "url" : "https://mora.jp/package/43000087/LACM24254B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1023224245",
+          "url" : "https://recochoku.jp/album/A1034167099/",
           "isHiRes" : false
         },
         {
@@ -3824,7 +3824,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24254_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24254B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -3884,17 +3884,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1643095930",
+          "url" : "https://music.apple.com/jp/album/1734550590",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/3UigZQb1RxyalZQMokQdNV",
+          "url" : "https://open.spotify.com/album/0llmE1gatqsKw1Ltv8WRpb",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BCX6HXWS",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8LMR8N",
           "isHiRes" : false
         },
         {
@@ -3904,7 +3904,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a95110",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43ea",
           "isHiRes" : false
         },
         {
@@ -3914,22 +3914,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1023613422",
+          "url" : "https://music.tower.jp/album/detail/1034164027",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1643095930",
+          "url" : "https://itunes.apple.com/jp/album/id1734550590",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533006947/",
+          "url" : "https://mora.jp/package/43000087/LACM24255B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1023613422",
+          "url" : "https://recochoku.jp/album/A1034164027/",
           "isHiRes" : false
         },
         {
@@ -3944,7 +3944,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24255_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24255B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -4004,17 +4004,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1642475209",
+          "url" : "https://music.apple.com/jp/album/1734550711",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/40jerhrEfhhYjWUh9AA4EU",
+          "url" : "https://open.spotify.com/album/3245egoVuEzscaEVhs5lVc",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BCG444FD",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8K5Y8W",
           "isHiRes" : false
         },
         {
@@ -4024,7 +4024,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/webapp/album/mb0000000002a9cd6f",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43e2",
           "isHiRes" : false
         },
         {
@@ -4034,22 +4034,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1023587877",
+          "url" : "https://music.tower.jp/album/detail/1034168265",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1642475209",
+          "url" : "https://itunes.apple.com/jp/album/id1734550711",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533007371/",
+          "url" : "https://mora.jp/package/43000087/LACM24256B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1023587877",
+          "url" : "https://recochoku.jp/album/A1034168265/",
           "isHiRes" : false
         },
         {
@@ -4064,7 +4064,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24256_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24256B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -4124,17 +4124,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655633924",
+          "url" : "https://music.apple.com/jp/album/1734550784",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/4WwTB9xJxqOqAS6kmMyqtz",
+          "url" : "https://open.spotify.com/album/0H5A8sbKwG2bLpV0xLsazK",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BNF9S2ZQ",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7X2QC2",
           "isHiRes" : false
         },
         {
@@ -4144,7 +4144,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a8013c",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43dd",
           "isHiRes" : false
         },
         {
@@ -4154,22 +4154,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1024378152",
+          "url" : "https://music.tower.jp/album/detail/1034170338",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1655633924",
+          "url" : "https://itunes.apple.com/jp/album/id1734550784",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533007982/",
+          "url" : "https://mora.jp/package/43000087/LACM24257B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1024378152",
+          "url" : "https://recochoku.jp/album/A1034170338/",
           "isHiRes" : false
         },
         {
@@ -4184,7 +4184,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24257_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24257B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -4244,17 +4244,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655633131",
+          "url" : "https://music.apple.com/jp/album/1734550952",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/4fifEAU2mSmSaEXKccsjRF",
+          "url" : "https://open.spotify.com/album/69stEIrbaSjf5ciYhyiDlD",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BNDQJCTZ",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7VVQ29",
           "isHiRes" : false
         },
         {
@@ -4264,7 +4264,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a80240",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43e9",
           "isHiRes" : false
         },
         {
@@ -4274,22 +4274,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1024378146",
+          "url" : "https://music.tower.jp/album/detail/1034171046",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1655633131",
+          "url" : "https://itunes.apple.com/jp/album/id1734550952",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533008453/",
+          "url" : "https://mora.jp/package/43000087/LACM24258B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1024378146",
+          "url" : "https://recochoku.jp/album/A1034171046/",
           "isHiRes" : false
         },
         {
@@ -4304,7 +4304,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24258_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24258B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -4364,17 +4364,17 @@
       "downloadSiteList" : [
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/6sAK3pEDDuGfgUmQR1op0w",
+          "url" : "https://open.spotify.com/album/7t0uLxweKctD40vM5vddPJ",
           "isHiRes" : false
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1679823084",
+          "url" : "https://music.apple.com/jp/album/1734552848",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BZWPG9DF",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8FK63M",
           "isHiRes" : false
         },
         {
@@ -4384,7 +4384,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002da958e",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44e9",
           "isHiRes" : false
         },
         {
@@ -4394,22 +4394,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1026042082",
+          "url" : "https://music.tower.jp/album/detail/1034169836",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1679823084",
+          "url" : "https://itunes.apple.com/jp/album/id1734552848",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533012962/",
+          "url" : "https://mora.jp/package/43000087/LACM24361B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1026042082",
+          "url" : "https://recochoku.jp/album/A1034169836/",
           "isHiRes" : false
         },
         {
@@ -4424,7 +4424,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24361_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24361B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -4489,17 +4489,17 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1686941736",
+          "url" : "https://itunes.apple.com/jp/album/id1734550996",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533013174/",
+          "url" : "https://mora.jp/package/43000087/LACM24362B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1026948023",
+          "url" : "https://recochoku.jp/album/A1034165813/",
           "isHiRes" : false
         },
         {
@@ -4514,22 +4514,22 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24362_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24362B00Z_96/",
           "isHiRes" : true
         },
         {
           "name" : "Spotify",
-          "url" : "https://open.spotify.com/album/2GJ9WsBpkibxIe8vMKI4Yr",
+          "url" : "https://open.spotify.com/album/3i4BWx4gbO8WIIzz3TFEbD",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0C4LCMV7G",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8JL943",
           "isHiRes" : false
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1686941736",
+          "url" : "https://music.apple.com/jp/album/1734550996",
           "isHiRes" : false
         },
         {
@@ -4544,12 +4544,12 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002e4763a",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44d1",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1026948023",
+          "url" : "https://music.tower.jp/album/detail/1034165813",
           "isHiRes" : false
         }
       ],
@@ -4614,17 +4614,17 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1689767801",
+          "url" : "https://itunes.apple.com/jp/album/id1734556303",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533013556/",
+          "url" : "https://mora.jp/package/43000087/LACM24363B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1027406028",
+          "url" : "https://recochoku.jp/album/A1034168244/",
           "isHiRes" : false
         },
         {
@@ -4634,17 +4634,17 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24363_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24363B00Z_96/",
           "isHiRes" : true
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1689767801",
+          "url" : "https://music.apple.com/jp/album/1734556303",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "https://open.spotify.com/album/2VWsU3SNlScdb1DQXVl5GJ",
+          "url" : "https://open.spotify.com/album/7t1RYyJBNhdazZRuVMnTd2",
           "isHiRes" : false
         },
         {
@@ -4654,7 +4654,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002f034d6",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43f0",
           "isHiRes" : false
         },
         {
@@ -4664,12 +4664,12 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1027406028",
+          "url" : "https://music.tower.jp/album/detail/1034168244",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0C6FHVYRH",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8HK8RV",
           "isHiRes" : false
         }
       ],
@@ -4729,17 +4729,17 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1694293919",
+          "url" : "https://itunes.apple.com/jp/album/id1734552458",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533014133/",
+          "url" : "https://mora.jp/package/43000087/LACM24364B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1028163938",
+          "url" : "https://recochoku.jp/album/A1034165307/",
           "isHiRes" : false
         },
         {
@@ -4749,17 +4749,17 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24364_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24364B00Z_96/",
           "isHiRes" : true
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1694293919",
+          "url" : "https://music.apple.com/jp/album/1734552458",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "https://open.spotify.com/album/3VGtdqoBVfUQxjJb4vO6dd",
+          "url" : "https://open.spotify.com/album/4baruGdJPpLKWELqfPBuq1",
           "isHiRes" : false
         },
         {
@@ -4769,7 +4769,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0C9BZJRV6",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8JL9HB",
           "isHiRes" : false
         },
         {
@@ -4779,12 +4779,12 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002fcb305",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43ed",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1028163938",
+          "url" : "https://music.tower.jp/album/detail/1034165307",
           "isHiRes" : false
         }
       ],
@@ -4849,17 +4849,17 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1699417403",
+          "url" : "https://itunes.apple.com/jp/album/id1734552092",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533014539/",
+          "url" : "https://mora.jp/package/43000087/LACM24365B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1028581923",
+          "url" : "https://recochoku.jp/album/A1034170315/",
           "isHiRes" : false
         },
         {
@@ -4869,22 +4869,22 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24365_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24365B00Z_96/",
           "isHiRes" : true
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1699417403",
+          "url" : "https://music.apple.com/jp/album/1734552092",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "https://open.spotify.com/album/1V2XKud3WLAvGy1NlukjPw",
+          "url" : "https://open.spotify.com/album/02rwryCVGmhEX09P59BThj",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CCW5XFYD",
+          "url" : "http://music.amazon.co.jp/albums/B0CX816Z31",
           "isHiRes" : false
         },
         {
@@ -4899,12 +4899,12 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1028581923",
+          "url" : "https://music.tower.jp/album/detail/1034170315",
           "isHiRes" : false
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000003093c68",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44be",
           "isHiRes" : false
         }
       ],
@@ -4969,17 +4969,22 @@
       "downloadSiteList" : [
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1707372645",
+          "url" : "https://itunes.apple.com/jp/album/id1734551676",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533014997/",
+          "url" : "https://mora.jp/package/43000087/LACM24366B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1029491550",
+          "url" : "https://recochoku.jp/album/A1034166495/",
+          "isHiRes" : false
+        },
+        {
+          "name" : "LINE MUSIC",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43f6",
           "isHiRes" : false
         },
         {
@@ -4989,17 +4994,17 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24366_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24366B00Z_96/",
           "isHiRes" : true
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1707372645",
+          "url" : "https://music.apple.com/jp/album/1734551676",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "https://open.spotify.com/album/3EarCSn4p3bjZfE5dEvXFd",
+          "url" : "https://open.spotify.com/album/0RmqQ49opJtSYjx0GLKTah",
           "isHiRes" : false
         },
         {
@@ -5014,12 +5019,12 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1029491550",
+          "url" : "https://music.tower.jp/album/detail/1034166495",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CJ382CTN",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8B2GLB",
           "isHiRes" : false
         }
       ],
@@ -5084,12 +5089,12 @@
       "downloadSiteList" : [
         {
           "name" : "Spotify",
-          "url" : "https://open.spotify.com/album/65qZAuFzFHcbU0KZMy2q3z",
+          "url" : "https://open.spotify.com/album/5sVEOqydYy4DbRnxo5fDZm",
           "isHiRes" : false
         },
         {
           "name" : "Apple Music",
-          "url": "https://music.apple.com/jp/album/1710011695",
+          "url" : "https://music.apple.com/jp/album/1734550532",
           "isHiRes" : false
         },
         {
@@ -5099,7 +5104,7 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CK8G3YL7",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8NVDS3",
           "isHiRes" : false
         },
         {
@@ -5108,33 +5113,28 @@
           "isHiRes" : false
         },
         {
-          "name": "KKBOX",
-          "url": "https://www.kkbox.com/jp/ja/album/HYph34lgU1EtVjYkCO",
-          "isHiRes": false
-        },
-        {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb00000000032e0c9f",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43f7",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1029788440",
+          "url" : "https://music.tower.jp/album/detail/1034171018",
           "isHiRes" : false
         },
         {
-          "name": "iTunes",
-          "url": "https://music.apple.com/jp/album/1710011695",
-          "isHiRes": false
+          "name" : "iTunes",
+          "url" : "https://itunes.apple.com/jp/album/id1734550532",
+          "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533015512/",
+          "url" : "https://mora.jp/package/43000087/LACM24367B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1029788440",
+          "url" : "https://recochoku.jp/album/A1034171018/",
           "isHiRes" : false
         },
         {
@@ -5144,7 +5144,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24367_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24367B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -5209,17 +5209,17 @@
       "downloadSiteList" : [
         {
           "name" : "Spotify",
-          "url" : "https://open.spotify.com/album/1yHDHmI9GOKVa15ye4sYk8",
+          "url" : "https://open.spotify.com/album/4fEBChYDmfbCjnItjY8KRq",
           "isHiRes" : false
         },
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1713420580",
+          "url" : "https://music.apple.com/jp/album/1734552412",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0CLPLNVPB",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8D6HST",
           "isHiRes" : false
         },
         {
@@ -5229,32 +5229,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb00000000032cea50",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43c7",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1030171682",
+          "url" : "https://music.tower.jp/album/detail/1034165374",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1713420580",
+          "url" : "https://itunes.apple.com/jp/album/id1734552412",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533015642/",
+          "url" : "https://mora.jp/package/43000087/LACM24368B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24368_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24368B00Z_96/",
           "isHiRes" : true
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1030171682",
+          "url" : "https://recochoku.jp/album/A1034165374/",
           "isHiRes" : false
         },
         {
@@ -6468,17 +6468,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675339132",
+          "url" : "https://music.apple.com/jp/album/1734555460",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXB9FM2X",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8NZR5Q",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/4LNCaJ2SQh27tRtaZGzmT9",
+          "url" : "https://open.spotify.com/album/74prwHEgq8jNAtlOzotmFR",
           "isHiRes" : false
         },
         {
@@ -6488,7 +6488,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53255",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44c9",
           "isHiRes" : false
         },
         {
@@ -6498,22 +6498,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025490680",
+          "url" : "https://music.tower.jp/album/detail/1034171622",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675339132",
+          "url" : "https://itunes.apple.com/jp/album/id1734555460",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011194/",
+          "url" : "https://mora.jp/package/43000087/LACA15861B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025490680",
+          "url" : "https://recochoku.jp/album/A1034171622/",
           "isHiRes" : false
         },
         {
@@ -6528,7 +6528,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACA-15861_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX15861B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -6598,17 +6598,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675518486",
+          "url" : "https://music.apple.com/jp/album/1734551773",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXFBD7F1",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8QBXDK",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/0PC9a1J3ae1N0yrTXJS2kT",
+          "url" : "https://open.spotify.com/album/6MaXi555q3x0l7OTIIz0ks",
           "isHiRes" : false
         },
         {
@@ -6618,7 +6618,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c530cc",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43fa",
           "isHiRes" : false
         },
         {
@@ -6628,22 +6628,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025508428",
+          "url" : "https://music.tower.jp/album/detail/1034168963",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675518486",
+          "url" : "https://itunes.apple.com/jp/album/id1734551773",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011200/",
+          "url" : "https://mora.jp/package/43000087/LAZC02300B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025508428",
+          "url" : "https://recochoku.jp/album/A1034168963/",
           "isHiRes" : false
         },
         {
@@ -6658,7 +6658,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LZC-2300_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02300B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -6728,17 +6728,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655619000",
+          "url" : "https://music.apple.com/jp/album/1734563895",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/6gEqUT48U8C9GK6QhpoJeG",
+          "url" : "https://open.spotify.com/album/3Sm0fX9sIOb6hlHNJgbzh3",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BNGR7TXB",
+          "url" : "http://music.amazon.co.jp/albums/B0CX89P68Q",
           "isHiRes" : false
         },
         {
@@ -6748,32 +6748,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a80190",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d44d9",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/3ab1018bae91d2262085",
+          "url" : "https://s.awa.fm/album/9beb1a26a8d98a3e8382",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1024377591",
+          "url" : "https://music.tower.jp/album/detail/1034169919",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1655619000",
+          "url" : "https://itunes.apple.com/jp/album/id1734563895",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011217/",
+          "url" : "https://mora.jp/package/43000087/LACA15863B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1024377591",
+          "url" : "https://recochoku.jp/album/A1034169919/",
           "isHiRes" : false
         },
         {
@@ -6788,7 +6788,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACA-15863_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX15863B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -6857,18 +6857,53 @@
       "artist" : "シーズ",
       "downloadSiteList" : [
         {
+          "name" : "Apple Music",
+          "url" : "https://music.apple.com/jp/album/1734552367",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Spotify",
+          "url" : "https://open.spotify.com/album/3GNm6Qe7Fjz9xlWthUF7ic",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Amazon Music",
+          "url" : "http://music.amazon.co.jp/albums/B0CX84735P",
+          "isHiRes" : false
+        },
+        {
+          "name" : "AWA",
+          "url" : "https://s.awa.fm/album/5155cdd5c08a20e94010",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Youtube Music",
+          "url" : "https://music.youtube.com/playlist",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS MUSIC",
+          "url" : "https://music.tower.jp/album/detail/1034172162",
+          "isHiRes" : false
+        },
+        {
+          "name" : "LINE MUSIC",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43df",
+          "isHiRes" : false
+        },
+        {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1696128291",
+          "url" : "https://itunes.apple.com/jp/album/id1734552367",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533014409/",
+          "url" : "https://mora.jp/package/43000087/LACM24395B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1028353969",
+          "url" : "https://recochoku.jp/album/A1034172162/",
           "isHiRes" : false
         },
         {
@@ -6878,7 +6913,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24395_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24395B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -6933,12 +6968,12 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1627485946",
+          "url" : "https://music.apple.com/jp/album/1734557139",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/2AtVxlrMgKVDsrqA6onKYJ",
+          "url" : "https://open.spotify.com/album/0XXj3Dc2II8ZJ8lE7G6FXF",
           "isHiRes" : false
         },
         {
@@ -6948,37 +6983,37 @@
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B338Z762",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8JNW5M",
           "isHiRes" : false
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a902fc",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4401",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/9603e659b5c699104a53",
+          "url" : "https://s.awa.fm/album/1d090c4eccabf60b5b07",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1022008626",
+          "url" : "https://music.tower.jp/album/detail/1034172169",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1627485946",
+          "url" : "https://itunes.apple.com/jp/album/id1734557139",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533006237/",
+          "url" : "https://mora.jp/package/43000087/LACM24244B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1022008626",
+          "url" : "https://recochoku.jp/album/A1034172169/",
           "isHiRes" : false
         },
         {
@@ -6993,7 +7028,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24244_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24244B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -7033,17 +7068,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1633024722",
+          "url" : "https://music.apple.com/jp/album/1734556468",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/7rg9RfJGUbH8aLeqHLGBst",
+          "url" : "https://open.spotify.com/album/4T2ygH7rcCeCn7DoeITYyH",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B5TT4SND",
+          "url" : "http://music.amazon.co.jp/albums/B0CX81814Z",
           "isHiRes" : false
         },
         {
@@ -7053,32 +7088,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a92e4a",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4510",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/1b9518911311b3ce8073",
+          "url" : "https://s.awa.fm/album/31acc92ec625678caa11",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1022594588",
+          "url" : "https://music.tower.jp/album/detail/1034164626",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1633024722",
+          "url" : "https://itunes.apple.com/jp/album/id1734556468",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533006503/",
+          "url" : "https://mora.jp/package/43000087/LACM24245B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1022594588",
+          "url" : "https://recochoku.jp/album/A1034164626/",
           "isHiRes" : false
         },
         {
@@ -7093,7 +7128,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24245_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24245B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -7133,17 +7168,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1635865942",
+          "url" : "https://music.apple.com/jp/album/1734555968",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/5VWEYE7ttilS4rRwoDk6HS",
+          "url" : "https://open.spotify.com/album/59IJYU0NyJu5xuBnWsWVre",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0B7CPT85K",
+          "url" : "http://music.amazon.co.jp/albums/B0CX88MT1D",
           "isHiRes" : false
         },
         {
@@ -7153,32 +7188,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a92e40",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4402",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/59cdc267b9dce1781455",
+          "url" : "https://s.awa.fm/album/702d53a8ae219cf01008",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1022933852",
+          "url" : "https://music.tower.jp/album/detail/1034167076",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1635865942",
+          "url" : "https://itunes.apple.com/jp/album/id1734555968",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533006985/",
+          "url" : "https://mora.jp/package/43000087/LACM24246B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1022933852",
+          "url" : "https://recochoku.jp/album/A1034167076/",
           "isHiRes" : false
         },
         {
@@ -7193,7 +7228,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24246_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24246B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -7235,17 +7270,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675432286",
+          "url" : "https://music.apple.com/jp/album/1734553225",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBJS2NS",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8RNZJT",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/1F9N0jDwLcY7PfSDtoD7E4",
+          "url" : "https://open.spotify.com/album/66Hx81hfd0gqTbV0YYtTiY",
           "isHiRes" : false
         },
         {
@@ -7255,7 +7290,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c532d6",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4579",
           "isHiRes" : false
         },
         {
@@ -7265,22 +7300,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025492724",
+          "url" : "https://music.tower.jp/album/detail/1034169718",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675432286",
+          "url" : "https://itunes.apple.com/jp/album/id1734553225",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011316/",
+          "url" : "https://mora.jp/package/43000087/LACA09872B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025492724",
+          "url" : "https://recochoku.jp/album/A1034169718/",
           "isHiRes" : false
         },
         {
@@ -7295,7 +7330,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACA-9872_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX09872B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -7356,17 +7391,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1658268662",
+          "url" : "https://music.apple.com/jp/album/1734559540",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "https://music.amazon.co.jp/albums/B0BP7PFDHM",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8QCN41",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/6mxa6iWN8ria6caDkU8pgs",
+          "url" : "https://open.spotify.com/album/0iAR2DstWnC01mnIKejaPb",
           "isHiRes" : false
         },
         {
@@ -7376,32 +7411,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c532f5",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d459b",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/02fb68f5a17eff116666",
+          "url" : "https://s.awa.fm/album/7449428ab96335137424",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1024546280",
+          "url" : "https://music.tower.jp/album/detail/1034173319",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1658268662",
+          "url" : "https://itunes.apple.com/jp/album/id1734559540",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533009825/",
+          "url" : "https://mora.jp/package/43000087/LACA09944B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1024546280",
+          "url" : "https://recochoku.jp/album/A1034173319/",
           "isHiRes" : false
         },
         {
@@ -7416,7 +7451,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACA-9944_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX09944B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -7467,17 +7502,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1665694055",
+          "url" : "https://music.apple.com/jp/album/1734553272",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "https://music.amazon.co.jp/albums/B0BSG1DD73",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8NS9LF",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/5YyUeirmIV0Uo1cqf6Wi5x",
+          "url" : "https://open.spotify.com/album/3jDdRBZUXu8xLTezzD14x9",
           "isHiRes" : false
         },
         {
@@ -7487,32 +7522,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53165",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4593",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://mf.awa.fm/3JjFcQZ",
+          "url" : "https://s.awa.fm/album/fd132843938066632868",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1024873028",
+          "url" : "https://music.tower.jp/album/detail/1034169807",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1665694055",
+          "url" : "https://itunes.apple.com/jp/album/id1734553272",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011569/",
+          "url" : "https://mora.jp/package/43000087/LACA09946B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1024873028",
+          "url" : "https://recochoku.jp/album/A1034169807/",
           "isHiRes" : false
         },
         {
@@ -7527,7 +7562,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACA-9946_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX09946B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -7598,17 +7633,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1677546023",
+          "url" : "https://music.apple.com/jp/album/1734553065",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "https://music.amazon.co.jp/albums/B0BYNSSYP2",
+          "url" : "http://music.amazon.co.jp/albums/B0CX81BZ84",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/018dNsC2qYMZPWQlBYaHUk",
+          "url" : "https://open.spotify.com/album/3nfnKiWYY0kUBhyIbSH5k1",
           "isHiRes" : false
         },
         {
@@ -7618,32 +7653,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://lin.ee/1wuxz4S",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4577",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://mf.awa.fm/41SaghP",
+          "url" : "https://s.awa.fm/album/1c19d47ea4c873383377",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025699554",
+          "url" : "https://music.tower.jp/album/detail/1034170948",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1677546023",
+          "url" : "https://itunes.apple.com/jp/album/id1734553065",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533013792/",
+          "url" : "https://mora.jp/package/43000087/LACA09948B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025107540",
+          "url" : "https://recochoku.jp/album/A1034170948/",
           "isHiRes" : false
         },
         {
@@ -7658,7 +7693,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACA-9948_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX09948B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -8475,17 +8510,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675430026",
+          "url" : "https://open.spotify.com/album/1MyQe9rJiVL1dpthNy2gd6",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMVG7R",
+          "url" : "http://music.amazon.co.jp/albums/B0CX7X8NVS",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/4pGSbTyFnLv7jtF3pcXteM",
+          "url" : "https://open.spotify.com/album/2arw4uZd1bIjQKo7F2R1wq",
           "isHiRes" : false
         },
         {
@@ -8495,32 +8530,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c5308e",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d4494",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://mf.awa.fm/3JtJXYt",
+          "url" : "https://s.awa.fm/album/5155c9d0c08720e94010",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025492530",
+          "url" : "https://music.tower.jp/album/detail/1034166484",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675430026",
+          "url" : "https://itunes.apple.com/jp/album/id1734555622",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011170/",
+          "url" : "https://mora.jp/package/43000087/LACM24027B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025492530",
+          "url" : "https://recochoku.jp/album/A1034166484/",
           "isHiRes" : false
         },
         {
@@ -8535,7 +8570,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24027_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24027B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -8600,17 +8635,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1675550146",
+          "url" : "https://music.apple.com/jp/album/1734551764",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BXBMFGBX",
+          "url" : "http://music.amazon.co.jp/albums/B0CX863KQQ",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/7A4Smsvs75oTc1uHBwzlF4",
+          "url" : "https://open.spotify.com/album/1MyQe9rJiVL1dpthNy2gd6",
           "isHiRes" : false
         },
         {
@@ -8620,32 +8655,32 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002c53160",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d440d",
           "isHiRes" : false
         },
         {
           "name" : "AWA",
-          "url" : "https://s.awa.fm/album/bd70b7698ba79e823e31",
+          "url" : "https://s.awa.fm/album/95ff4b23ef10e538ed09",
           "isHiRes" : false
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1025492525",
+          "url" : "https://music.tower.jp/album/detail/1034172132",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1675550146",
+          "url" : "https://itunes.apple.com/jp/album/id1734551764",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011187/",
+          "url" : "https://mora.jp/package/43000087/LACM24165B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1025492525",
+          "url" : "https://recochoku.jp/album/A1034172132/",
           "isHiRes" : false
         },
         {
@@ -8660,7 +8695,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24165_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24165B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -8735,17 +8770,17 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://music.apple.com/jp/album/1655632835",
+          "url" : "https://music.apple.com/jp/album/1734550961",
           "isHiRes" : false
         },
         {
           "name" : "Spotify",
-          "url" : "http://open.spotify.com/album/6YOFCgbDa6mUrXjiRufDXT",
+          "url" : "https://open.spotify.com/album/2Jbt9C6scgrD9ucfQDFOF1",
           "isHiRes" : false
         },
         {
           "name" : "Amazon Music",
-          "url" : "http://music.amazon.co.jp/albums/B0BN87VC1C",
+          "url" : "http://music.amazon.co.jp/albums/B0CX8FN7SQ",
           "isHiRes" : false
         },
         {
@@ -8755,7 +8790,7 @@
         },
         {
           "name" : "LINE MUSIC",
-          "url" : "https://music.line.me/launch?target=album&item=mb0000000002a80138",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d43b7",
           "isHiRes" : false
         },
         {
@@ -8765,22 +8800,22 @@
         },
         {
           "name" : "TOWER RECORDS MUSIC",
-          "url" : "https://music.tower.jp/album/detail/1024378133",
+          "url" : "https://music.tower.jp/album/detail/1034169603",
           "isHiRes" : false
         },
         {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1655632835",
+          "url" : "https://itunes.apple.com/jp/album/id1734550961",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533011309/",
+          "url" : "https://mora.jp/package/43000087/LAZC02059B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1024378133",
+          "url" : "https://recochoku.jp/album/A1034169603/",
           "isHiRes" : false
         },
         {
@@ -8795,7 +8830,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LZC-2059_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX02059B00Z_96/",
           "isHiRes" : true
         }
       ],
@@ -8900,18 +8935,53 @@
       "artist" : "シャイニーカラーズ",
       "downloadSiteList" : [
         {
+          "name" : "Apple Music",
+          "url" : "https://music.apple.com/jp/album/1734552134",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Spotify",
+          "url" : "https://open.spotify.com/album/0II2obgZnEsbxHdKikCjAm",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Amazon Music",
+          "url" : "http://music.amazon.co.jp/albums/B0CX82T1ZB",
+          "isHiRes" : false
+        },
+        {
+          "name" : "Youtube Music",
+          "url" : "https://music.youtube.com/playlist",
+          "isHiRes" : false
+        },
+        {
+          "name" : "TOWER RECORDS MUSIC",
+          "url" : "https://music.tower.jp/album/detail/1034167148",
+          "isHiRes" : false
+        },
+        {
+          "name" : "LINE MUSIC",
+          "url" : "https://music.line.me/launch?target=album&item=mb00000000036d440e",
+          "isHiRes" : false
+        },
+        {
+          "name" : "AWA",
+          "url" : "https://s.awa.fm/album/21c47a17443b3fbe6097",
+          "isHiRes" : false
+        },
+        {
           "name" : "iTunes",
-          "url" : "https://music.apple.com/jp/album/1696124919",
+          "url" : "https://itunes.apple.com/jp/album/id1734552134",
           "isHiRes" : false
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000008/195533014362/",
+          "url" : "https://mora.jp/package/43000087/LACM24406B00Z/",
           "isHiRes" : false
         },
         {
           "name" : "レコチョク",
-          "url" : "https://recochoku.jp/album/A1028353963",
+          "url" : "https://recochoku.jp/album/A1034167148/",
           "isHiRes" : false
         },
         {
@@ -8921,7 +8991,7 @@
         },
         {
           "name" : "mora",
-          "url" : "https://mora.jp/package/43000152/LACM-24406_HI-24_96/",
+          "url" : "https://mora.jp/package/43000100/LAXX24406B00Z_96/",
           "isHiRes" : true
         }
       ],
