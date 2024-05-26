@@ -4,6 +4,14 @@ on:
   schedule:
     - cron: "0 6,15 * * *"
 
+  workflow_dispatch:
+    inputs:
+      force:
+        type: boolean
+        required: true
+        default: false
+        description: "強制データ更新"
+
 # 多重起動防止
 concurrency:
   group: "data_update"
