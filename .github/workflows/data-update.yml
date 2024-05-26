@@ -66,6 +66,9 @@ jobs:
         if: inputs.force == true
         run: gradle bootRun --quiet --args='--app-config.force=${{ inputs.force }}'
 
+      - name: cat data.json
+        run: cat ./result/data.json
+
       - name: Diff
         id: diff
         run: git diff --name-only --exit-code
