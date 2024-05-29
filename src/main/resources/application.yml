@@ -11,7 +11,7 @@ app-config:
   target-url: https://shinycolors.lantis.jp/discography/
   json-path: result/data.json
   jsoup:
-    timeout: 60000 # 60秒
+    timeout: 600000 # 10分
   process:
     retry-limit: 5
     cool-time: 5000 # 5秒
