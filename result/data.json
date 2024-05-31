@@ -1,5 +1,5 @@
 {
-  "createdAt" : 1716651383,
+  "createdAt" : 1717138788,
   "info" : [
     {
       "title" : "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6329,15 +6329,15 @@
       ]
     },
     {
-      "title" : "THE IDOLM@STER SHINY COLORS Song for Prism ニューシングル【A盤】",
+      "title" : "THE IDOLM@STER SHINY COLORS Song for Prism 時限式狂騒ワンダーランド / LINKs 【アンティーカ盤】",
       "recordNumbers" : [
         "LACM-24552"
       ],
       "releaseDate" : "2024-07-24",
-      "jacketUrl" : "/images/nowprinting.jpg",
+      "jacketUrl" : "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/05/LACM-24552.jpg",
       "limited" : false,
       "series" : "Song for Prism",
-      "artist" : "THE IDOLM@STER SHINY COLORS",
+      "artist" : "アンティーカ / ストレイライト",
       "downloadSiteList" : [ ],
       "purchaseSiteList" : [
         {
@@ -6363,15 +6363,15 @@
       ]
     },
     {
-      "title" : "THE IDOLM@STER SHINY COLORS Song for Prism ニューシングル【B盤】",
+      "title" : "THE IDOLM@STER SHINY COLORS Song for Prism 時限式狂騒ワンダーランド / LINKs 【ストレイライト盤】",
       "recordNumbers" : [
         "LACM-24553"
       ],
       "releaseDate" : "2024-07-24",
-      "jacketUrl" : "/images/nowprinting.jpg",
+      "jacketUrl" : "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/05/LACM-24553.jpg",
       "limited" : false,
       "series" : "Song for Prism",
-      "artist" : "THE IDOLM@STER SHINY COLORS",
+      "artist" : "アンティーカ / ストレイライト",
       "downloadSiteList" : [ ],
       "purchaseSiteList" : [
         {
@@ -8510,7 +8510,7 @@
       "downloadSiteList" : [
         {
           "name" : "Apple Music",
-          "url" : "https://open.spotify.com/album/1MyQe9rJiVL1dpthNy2gd6",
+          "url" : "https://music.apple.com/jp/album/1734555622",
           "isHiRes" : false
         },
         {
