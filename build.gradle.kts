@@ -26,8 +26,7 @@ dependencies {
     annotationProcessor(libs.spring.boot.configuration.processor)
 
     // Apache Commons
-    implementation(libs.commons.lang3)
-    implementation(libs.commons.collections4)
+    implementation(libs.bundles.apache.commons)
 
     // lombok
     compileOnly(libs.lombok)

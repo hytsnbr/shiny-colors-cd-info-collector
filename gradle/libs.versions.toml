@@ -24,6 +24,8 @@ jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoup" }
 
 jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310" }
 
+[bundles]
+apache-commons = ["commons-lang3", "commons-collections4"]
 
 [plugins]
 springframework-boot = { id = "org.springframework.boot", version.ref = "springframeworkBoot" }
