@@ -41,6 +41,9 @@ dependencies {
     // Jackson Datatype: JSR310（java.time系の読み込み用）
     implementation(libs.jackson.datatype.jsr310)
 
+    // Gson
+    implementation(libs.gson)
+
     // Unit Test
     testImplementation(libs.spring.boot.starter.test)
     testImplementation(libs.spring.batch.test)

@@ -4,6 +4,7 @@ springDependencyManagement = "1.1.5"
 commonsLang = "3.14.0"
 commonsCollections = "4.4"
 jsoup = "1.17.2"
+gson = "2.11.0"
 
 [libraries]
 spring-boot-starter-batch = { group = "org.springframework.boot", name = "spring-boot-starter-batch" }
@@ -23,6 +24,8 @@ h2 = { group = "com.h2database", name = "h2" }
 jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoup" }
 
 jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310" }
+
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 [bundles]
 apache-commons = ["commons-lang3", "commons-collections4"]

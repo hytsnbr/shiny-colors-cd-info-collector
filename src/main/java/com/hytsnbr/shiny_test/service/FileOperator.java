@@ -5,25 +5,20 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.core.util.DefaultIndenter;
-import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonParser;
 import com.hytsnbr.shiny_test.config.ApplicationConfig;
-import com.hytsnbr.shiny_test.dto.CdInfo;
-import com.hytsnbr.shiny_test.dto.JsonData;
 import com.hytsnbr.shiny_test.exception.SystemException;
 
-/**
- * ファイル操作
- */
+/** ファイル操作サービス */
 @Component
 public class FileOperator {
     
@@ -50,10 +45,10 @@ public class FileOperator {
     /**
      * JSONファイルを読み取ってオブジェクトで返却する
      */
-    public JsonData readJsonFile() {
+    public <T> T readJsonFile(final String jsonFileName, Class<T> clazz) {
         try {
-            var jsonFile = Paths.get(this.appConfig.getJsonPath()).toFile();
-            return objectMapper.readValue(jsonFile, JsonData.class);
+            var jsonFile = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName).toFile();
+            return objectMapper.readValue(jsonFile, clazz);
         } catch (FileNotFoundException e) {
             logger.debug("生成ファイルが存在しません");
             
@@ -66,8 +61,8 @@ public class FileOperator {
     /**
      * JSONファイルに出力
      */
-    public void outputToJsonFile(List<CdInfo> cdInfoList) {
-        var path = Paths.get(this.appConfig.getJsonPath());
+    public void outputToJsonFile(Object jsonData, String jsonFileName) {
+        var path = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName);
         try {
             Files.deleteIfExists(path);
             Files.createFile(path);
@@ -76,10 +71,14 @@ public class FileOperator {
         }
         
         try (var bufferedWriter = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
-            var prettyPrinter = new DefaultPrettyPrinter();
-            prettyPrinter.indentArraysWith(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE);
-            var jsonText = objectMapper.writer(prettyPrinter).writeValueAsString(JsonData.of(cdInfoList));
-            bufferedWriter.write(jsonText);
+            var jsonText = objectMapper.writeValueAsString(jsonData);
+            var json = new GsonBuilder()
+                .serializeNulls()
+                .setPrettyPrinting()
+                .disableHtmlEscaping()
+                .create()
+                .toJson(JsonParser.parseString(jsonText));
+            bufferedWriter.write(json);
         } catch (Exception e) {
             throw new SystemException(e);
         }

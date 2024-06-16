@@ -10,6 +10,7 @@ import lombok.Getter;
 /**
  * アプリ設定
  */
+@SuppressWarnings("UnusedAssignment")
 @Getter
 @AllArgsConstructor
 @ConfigurationProperties(prefix = "app-config")
@@ -19,7 +20,7 @@ public class ApplicationConfig {
     private final String targetUrl;
     
     /** JSONファイル生成先パス */
-    private final String jsonPath;
+    private final String jsonDirPath;
     
     /** jsoup 関連 */
     private final Jsoup jsoup;

@@ -9,7 +9,7 @@ spring:
 
 app-config:
   target-url: https://shinycolors.lantis.jp/discography/
-  json-path: result/data.json
+  json-dir-path: result
   jsoup:
     timeout: 600000 # 10分
   process:

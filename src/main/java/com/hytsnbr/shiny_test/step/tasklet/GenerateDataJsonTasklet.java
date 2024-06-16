@@ -1,4 +1,4 @@
-package com.hytsnbr.shiny_test.tasklet;
+package com.hytsnbr.shiny_test.step.tasklet;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
@@ -18,16 +18,15 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import com.hytsnbr.shiny_test.dto.CdInfo;
+import com.hytsnbr.shiny_test.dto.CdInfoListJson;
 import com.hytsnbr.shiny_test.service.FileOperator;
-import com.hytsnbr.shiny_test.service.GenerateJson;
 
+/** JSONデータ作成タスクレット */
 @Component
-public class MainTasklet implements Tasklet {
+public class GenerateDataJsonTasklet implements Tasklet {
     
     /** ロガー */
-    private static final Logger logger = LoggerFactory.getLogger(MainTasklet.class);
-    
-    private final GenerateJson generateJson;
+    private static final Logger logger = LoggerFactory.getLogger(GenerateDataJsonTasklet.class);
     
     private final FileOperator fileOperator;
     
@@ -36,11 +35,11 @@ public class MainTasklet implements Tasklet {
     private boolean isForce;
     
     /** コンストラクタ */
-    public MainTasklet(GenerateJson generateJson, FileOperator fileOperator) {
-        this.generateJson = generateJson;
+    public GenerateDataJsonTasklet(FileOperator fileOperator) {
         this.fileOperator = fileOperator;
     }
     
+    @SuppressWarnings("NullableProblems")
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) {
         // 前回作成したファイルの作成日チェック
@@ -50,11 +49,11 @@ public class MainTasklet implements Tasklet {
             return RepeatStatus.FINISHED;
         }
         
-        var cdInfoList = this.generateJson.createCdInfoList();
+        var cdInfoList = List.of(this.fileOperator.readJsonFile("CDInfoList.json", CdInfo[].class));
         
         // 前回処理後のデータと一致する場合はファイル出力しない
         if (!this.matchPrevCdInfoList(cdInfoList)) {
-            this.fileOperator.outputToJsonFile(cdInfoList);
+            this.fileOperator.outputToJsonFile(CdInfoListJson.of(cdInfoList), "data.json");
             
             logger.info("ファイルを作成しました");
         } else {
@@ -72,7 +71,7 @@ public class MainTasklet implements Tasklet {
     private boolean isCreationDateToday() {
         if (this.isForce) return false;
         
-        var data = this.fileOperator.readJsonFile();
+        var data = this.fileOperator.readJsonFile("data.json", CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
@@ -100,7 +99,7 @@ public class MainTasklet implements Tasklet {
     private boolean matchPrevCdInfoList(List<CdInfo> cdInfoList) {
         if (this.isForce) return false;
         
-        var data = this.fileOperator.readJsonFile();
+        var data = this.fileOperator.readJsonFile("data.json", CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
