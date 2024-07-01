@@ -3,12 +3,9 @@ package com.hytsnbr.shiny_test.dto;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 
-import lombok.Getter;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /** JSON関連基底クラス */
-@Getter
 public abstract class BaseJsonData {
     
     /** ファイル作成日（エポック日） */
@@ -17,4 +14,8 @@ public abstract class BaseJsonData {
         .now()
         .atZone(ZoneId.systemDefault())
         .toEpochSecond();
+    
+    public long getCreatedAt() {
+        return this.createdAt;
+    }
 }

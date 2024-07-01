@@ -28,10 +28,6 @@ dependencies {
     // Apache Commons
     implementation(libs.bundles.apache.commons)
 
-    // lombok
-    compileOnly(libs.lombok)
-    annotationProcessor(libs.lombok)
-
     // H2 Database
     runtimeOnly(libs.h2)
 
