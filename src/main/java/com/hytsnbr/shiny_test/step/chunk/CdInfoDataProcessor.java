@@ -310,7 +310,11 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
                     siteLink.select(".btn.music-service-list__btn").text(),
                     "ハイレゾDL"
                 );
-                var storeSite = new StoreSite(name, siteUrl, isHiRes);
+                var storeSite = StoreSite.builder()
+                                         .name(name)
+                                         .url(siteUrl)
+                                         .isHiRes(isHiRes)
+                                         .build();
                 logger.info("{}: {}", name, siteUrl);
                 siteList.add(storeSite);
             }

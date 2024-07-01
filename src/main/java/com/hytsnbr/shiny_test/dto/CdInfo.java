@@ -1,27 +1,19 @@
 package com.hytsnbr.shiny_test.dto;
 
 import java.time.LocalDate;
-import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
 import org.apache.commons.lang3.StringUtils;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 
 /** CD情報 */
-@Getter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
+@JsonDeserialize(builder = CdInfo.CdInfoBuilder.class)
 @JsonPropertyOrder({
     "title",
     "recordNumbers",
@@ -36,38 +28,53 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 public class CdInfo {
     
     /** CDタイトル */
-    private String title;
+    private final String title;
     
     /** 品番 */
-    private List<String> recordNumbers;
+    private final List<String> recordNumbers;
     
     /** リリース日 */
     @JsonDeserialize(using = LocalDateDeserializer.class)
     @JsonFormat(pattern = "yyyy-MM-dd")
-    private LocalDate releaseDate;
+    private final LocalDate releaseDate;
     
     /** CDジャケット画像URL */
-    private String jacketUrl;
+    private final String jacketUrl;
     
     /** 限定販売か */
-    private boolean limited;
+    private final boolean limited;
     
     /** シリーズ名 */
-    private String series;
+    private final String series;
     
     /** アーティスト名 */
-    private String artist;
+    private final String artist;
     
     /** ダウンロード・ストリーミングサイトリスト */
-    @Builder.Default
-    private List<StoreSite> downloadSiteList = Collections.emptyList();
+    private final List<StoreSite> downloadSiteList;
     
     /** CD販売サイトリスト */
-    @Builder.Default
-    private List<StoreSite> purchaseSiteList = Collections.emptyList();
+    private final List<StoreSite> purchaseSiteList;
+    
+    /** ビルダークラス用コンストラクタ（プライベート） */
+    private CdInfo(CdInfoBuilder builder) {
+        title = builder.title;
+        recordNumbers = builder.recordNumbers;
+        releaseDate = builder.releaseDate;
+        jacketUrl = builder.jacketUrl;
+        limited = builder.limited;
+        series = builder.series;
+        artist = builder.artist;
+        downloadSiteList = builder.downloadSiteList;
+        purchaseSiteList = builder.purchaseSiteList;
+    }
+    
+    /** ビルダー取得 */
+    public static CdInfoBuilder builder() {
+        return new CdInfoBuilder();
+    }
     
     // NOTE: 未定義の場合 SonarLint が警告を出すので対策として定義
-    @SuppressWarnings("EmptyMethod")
     @Override
     public int hashCode() {
         return super.hashCode();
@@ -105,5 +112,89 @@ public class CdInfo {
         }
         
         return true;
+    }
+    
+    /** ビルダークラス */
+    @JsonPOJOBuilder(withPrefix = "")
+    public static class CdInfoBuilder {
+        
+        private String title;
+        
+        private List<String> recordNumbers;
+        
+        private LocalDate releaseDate;
+        
+        private String jacketUrl;
+        
+        private boolean limited;
+        
+        private String series;
+        
+        private String artist;
+        
+        private List<StoreSite> downloadSiteList;
+        
+        private List<StoreSite> purchaseSiteList;
+        
+        /** CDタイトル */
+        public CdInfoBuilder title(String title) {
+            this.title = title;
+            return this;
+        }
+        
+        /** 品番 */
+        public CdInfoBuilder recordNumbers(List<String> recordNumbers) {
+            this.recordNumbers = recordNumbers;
+            return this;
+        }
+        
+        /** リリース日 */
+        @JsonDeserialize(using = LocalDateDeserializer.class)
+        @JsonFormat(pattern = "yyyy-MM-dd")
+        public CdInfoBuilder releaseDate(LocalDate releaseDate) {
+            this.releaseDate = releaseDate;
+            return this;
+        }
+        
+        /** CDジャケット画像URL */
+        public CdInfoBuilder jacketUrl(String jacketUrl) {
+            this.jacketUrl = jacketUrl;
+            return this;
+        }
+        
+        /** 限定販売か */
+        public CdInfoBuilder limited(boolean limited) {
+            this.limited = limited;
+            return this;
+        }
+        
+        /** シリーズ名 */
+        public CdInfoBuilder series(String series) {
+            this.series = series;
+            return this;
+        }
+        
+        /** アーティスト名 */
+        public CdInfoBuilder artist(String artist) {
+            this.artist = artist;
+            return this;
+        }
+        
+        /** ダウンロード・ストリーミングサイトリスト */
+        public CdInfoBuilder downloadSiteList(List<StoreSite> downloadSiteList) {
+            this.downloadSiteList = downloadSiteList;
+            return this;
+        }
+        
+        /** CD販売サイトリスト */
+        public CdInfoBuilder purchaseSiteList(List<StoreSite> purchaseSiteList) {
+            this.purchaseSiteList = purchaseSiteList;
+            return this;
+        }
+        
+        /** ビルド */
+        public CdInfo build() {
+            return new CdInfo(this);
+        }
     }
 }

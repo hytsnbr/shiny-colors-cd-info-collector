@@ -5,10 +5,7 @@ import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-@AllArgsConstructor
+/** ストア情報定数 */
 public enum Store {
     
     AMAZON_CD(
@@ -156,19 +153,23 @@ public enum Store {
         "KKBOX",
         List.of()
     ),
-    
     ;
     
     /** ストア名 */
-    @Getter
     private final String name;
     
     /** HTMLから取得した際のストア名 */
     private final String htmlName;
     
     /** URLに含むクエリパラメータ名 */
-    @Getter
     private final List<String> includeQueryParams;
+    
+    /** コンストラクタ */
+    Store(String name, String htmlName, List<String> includeQueryParams) {
+        this.name = name;
+        this.htmlName = htmlName;
+        this.includeQueryParams = includeQueryParams;
+    }
     
     /**
      * HTMLから取得したストア名から逆引きする
@@ -184,5 +185,13 @@ public enum Store {
                      .filter(e -> StringUtils.equals(e.htmlName, htmlName))
                      .findFirst()
                      .orElseThrow(() -> new IllegalArgumentException("Invalid: " + htmlName));
+    }
+    
+    public String getName() {
+        return this.name;
+    }
+    
+    public List<String> getIncludeQueryParams() {
+        return this.includeQueryParams;
     }
 }
