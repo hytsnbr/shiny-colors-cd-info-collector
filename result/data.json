@@ -1,5 +1,5 @@
 {
-  "createdAt": 1718553275,
+  "createdAt": 1720183271,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5094,7 +5094,7 @@
         },
         {
           "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734550532",
+          "url": "https://music.apple.com/jp/album/1710011695",
           "isHiRes": false
         },
         {
@@ -5113,6 +5113,11 @@
           "isHiRes": false
         },
         {
+          "name": "KKBOX",
+          "url": "https://www.kkbox.com/jp/ja/album/HYph34lgU1EtVjYkCO",
+          "isHiRes": false
+        },
+        {
           "name": "LINE MUSIC",
           "url": "https://music.line.me/launch?target=album&item=mb00000000036d43f7",
           "isHiRes": false
@@ -5124,7 +5129,7 @@
         },
         {
           "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734550532",
+          "url": "https://music.apple.com/jp/album/1710011695",
           "isHiRes": false
         },
         {
@@ -5345,7 +5350,28 @@
       "limited": false,
       "series": "ECHOES",
       "artist": "アンティーカ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://itunes.apple.com/jp/album/id1749225310",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000087/LACM24542B00Z/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1036181826",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000100/LAXX24542B00Z_96/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -5389,7 +5415,28 @@
       "limited": false,
       "series": "ECHOES",
       "artist": "放課後クライマックスガールズ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1750618945",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740055/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1036330370",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740055_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -6200,23 +6247,58 @@
       "artist": "シーズ / イルミネーションスターズ",
       "downloadSiteList": [
         {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/1745451770",
+          "isHiRes": false
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/0H6fkbkjVcRCgjyuBXryqW",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "http://music.amazon.co.jp/albums/B0D3PRL9SC",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/d9a66ba0b314b76aa983",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb00000000039e1770",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1035769545",
+          "isHiRes": false
+        },
+        {
           "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1732192961",
+          "url": "https://itunes.apple.com/jp/album/id1745451770",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000087/LACM24528B00Z/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1033866111",
+          "url": "https://recochoku.jp/album/A1035769545",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02719B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02719B00Z_96/",
+          "url": "https://mora.jp/package/43000100/LAXX24528B00Z_96/",
           "isHiRes": true
         }
       ],
@@ -6270,23 +6352,58 @@
       "artist": "シーズ / イルミネーションスターズ",
       "downloadSiteList": [
         {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/1745447730",
+          "isHiRes": false
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/4qzUoamkzsZmsD56UIBdZ4",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "http://music.amazon.co.jp/albums/B0D3PFNTRR",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/9beb1b24a0df803e8382",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb00000000039e1771",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1035769556",
+          "isHiRes": false
+        },
+        {
           "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1737147996",
+          "url": "https://itunes.apple.com/jp/album/id1745447730",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02720B00Z/",
+          "url": "https://mora.jp/package/43000087/LACM24529B00Z/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034851331",
+          "url": "https://recochoku.jp/album/A1035769556",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02720B00Z_96/",
+          "url": "https://mora.jp/package/43000100/LAXX24529B00Z_96/",
           "isHiRes": true
         }
       ],
@@ -7841,6 +7958,19 @@
       ]
     },
     {
+      "title": "アニメ『アイドルマスター シャイニーカラーズ 2nd season』オープニング主題歌「プリズムフレア」",
+      "recordNumbers": [
+        "LACM-24580"
+      ],
+      "releaseDate": "2024-10-09",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "アニメ",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
       "title": "THE IDOLM@STER SHINY COLORS シャイニーPRオファー Vol.1",
       "recordNumbers": [
         "LACM-24531"
@@ -8350,6 +8480,33 @@
       ],
       "releaseDate": null,
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/02/LACZ-10199.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS LIVE FUN!! -Beyond the Blue sky part1-",
+      "recordNumbers": [
+        "LACZ-10218"
+      ],
+      "releaseDate": "2024-07-27",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/07/LACZ-10218.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS LIVE FUN!! -Beyond the Blue sky part2-",
+      "recordNumbers": [
+        "LACZ-10227",
+        "LACZ-10228"
+      ],
+      "releaseDate": "2024-07-27",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/07/LACZ-10227.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",

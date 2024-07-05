@@ -114,6 +114,51 @@ public class CdInfo {
         return true;
     }
     
+    @SuppressWarnings("unused")
+    public String getTitle() {
+        return this.title;
+    }
+    
+    @SuppressWarnings("unused")
+    public List<String> getRecordNumbers() {
+        return this.recordNumbers;
+    }
+    
+    @SuppressWarnings("unused")
+    public LocalDate getReleaseDate() {
+        return this.releaseDate;
+    }
+    
+    @SuppressWarnings("unused")
+    public String getJacketUrl() {
+        return this.jacketUrl;
+    }
+    
+    @SuppressWarnings("unused")
+    public boolean isLimited() {
+        return this.limited;
+    }
+    
+    @SuppressWarnings("unused")
+    public String getSeries() {
+        return this.series;
+    }
+    
+    @SuppressWarnings("unused")
+    public String getArtist() {
+        return this.artist;
+    }
+    
+    @SuppressWarnings("unused")
+    public List<StoreSite> getDownloadSiteList() {
+        return Objects.nonNull(this.downloadSiteList) ? this.downloadSiteList : List.of();
+    }
+    
+    @SuppressWarnings("unused")
+    public List<StoreSite> getPurchaseSiteList() {
+        return Objects.nonNull(this.purchaseSiteList) ? this.purchaseSiteList : List.of();
+    }
+    
     /** ビルダークラス */
     @JsonPOJOBuilder(withPrefix = "")
     public static class CdInfoBuilder {
@@ -137,18 +182,21 @@ public class CdInfo {
         private List<StoreSite> purchaseSiteList;
         
         /** CDタイトル */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder title(String title) {
             this.title = title;
             return this;
         }
         
         /** 品番 */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder recordNumbers(List<String> recordNumbers) {
             this.recordNumbers = recordNumbers;
             return this;
         }
         
         /** リリース日 */
+        @SuppressWarnings("UnusedReturnValue")
         @JsonDeserialize(using = LocalDateDeserializer.class)
         @JsonFormat(pattern = "yyyy-MM-dd")
         public CdInfoBuilder releaseDate(LocalDate releaseDate) {
@@ -157,36 +205,42 @@ public class CdInfo {
         }
         
         /** CDジャケット画像URL */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder jacketUrl(String jacketUrl) {
             this.jacketUrl = jacketUrl;
             return this;
         }
         
         /** 限定販売か */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder limited(boolean limited) {
             this.limited = limited;
             return this;
         }
         
         /** シリーズ名 */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder series(String series) {
             this.series = series;
             return this;
         }
         
         /** アーティスト名 */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder artist(String artist) {
             this.artist = artist;
             return this;
         }
         
         /** ダウンロード・ストリーミングサイトリスト */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder downloadSiteList(List<StoreSite> downloadSiteList) {
             this.downloadSiteList = downloadSiteList;
             return this;
         }
         
         /** CD販売サイトリスト */
+        @SuppressWarnings("UnusedReturnValue")
         public CdInfoBuilder purchaseSiteList(List<StoreSite> purchaseSiteList) {
             this.purchaseSiteList = purchaseSiteList;
             return this;

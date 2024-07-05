@@ -39,6 +39,16 @@ public class StoreSite {
         return new StoreSiteBuilder();
     }
     
+    @SuppressWarnings("unused")
+    public String getName() {
+        return this.name;
+    }
+    
+    @SuppressWarnings("unused")
+    public String getUrl() {
+        return this.url;
+    }
+    
     @JsonGetter("isHiRes")
     private boolean isHiRes() {
         return this.isHiRes;
