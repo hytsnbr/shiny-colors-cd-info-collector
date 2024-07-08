@@ -1,5 +1,5 @@
 {
-  "createdAt": 1720193879,
+  "createdAt": 1720453255,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -901,125 +901,8 @@
       "limited": false,
       "series": "FR@GMENT WING",
       "artist": "アンティーカ",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734552402",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8NSNFT",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/0a4UWvFaBcf8lNBSeo5yrT",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d2",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/2fcbddf41f263e4bda46",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034169915",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734552402",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02297B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034169915/",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=v50WoPM3",
-          "isHiRes": false
-        },
-        {
-          "name": "e-onkyo music",
-          "url": "https://www.e-onkyo.com/music/album/lzc2297/",
-          "isHiRes": true
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02297B00Z_96/",
-          "isHiRes": true
-        }
-      ],
-      "purchaseSiteList": [
-        {
-          "name": "A-on STORE",
-          "url": "https://a-onstore.jp/item/item-1000205114/",
-          "isHiRes": false
-        },
-        {
-          "name": "A-on STORE Powered by A!SMART",
-          "url": "https://www.asmart.jp/Form/Product/ProductDetail.aspx?pid=10019437",
-          "isHiRes": false
-        },
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+FR%40GMENT+WING+03/pd/1605702/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYTZ3X/ref=sr_1_1",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+FR%40GMENT+WING+03/pd/10434842/",
-          "isHiRes": false
-        },
-        {
-          "name": "セブンネットショッピング",
-          "url": "https://7net.omni7.jp/detail/1301413447",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/4850438/THE-IDOLM@STER-SHINY-COLORS-FR@GMENT-WING-03",
-          "isHiRes": false
-        },
-        {
-          "name": "TSUTAYA オンラインショッピング",
-          "url": "https://shop.tsutaya.co.jp/cd/product/4540774148639/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006599882/",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/15770302/",
-          "isHiRes": false
-        }
-      ]
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS FR@GMENT WING 04",
@@ -2331,73 +2214,7 @@
       "limited": false,
       "series": "L@YERED WING",
       "artist": "シャイニーカラーズ",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551848",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8JJFC7",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/3yMpwMv5JCIddFx2OeNPYG",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d9",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/b7a4bd0818b495868432",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034168828",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551848",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02301B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034168828/",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=M9MEUf2Y",
-          "isHiRes": false
-        },
-        {
-          "name": "e-onkyo music",
-          "url": "https://www.e-onkyo.com/music/album/lzc2301/",
-          "isHiRes": true
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02301B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "A-on STORE",
@@ -5148,53 +4965,7 @@
           "isHiRes": true
         }
       ],
-      "purchaseSiteList": [
-        {
-          "name": "A-on STORE",
-          "url": "https://a-onstore.jp/item/item-1000226419/",
-          "isHiRes": false
-        },
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pd/2200326/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-%E2%80%9CCANVAS%E2%80%9D-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98/dp/B0BR3MSM2L/ref=sr_1_3",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91+THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D+07/%E3%82%B7%E3%83%BC%E3%82%BA/pd/10638178/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/5626809/THE-IDOLM@STER-SHINY-COLORS--CANVAS--07",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17387624/",
-          "isHiRes": false
-        },
-        {
-          "name": "ソフマップ",
-          "url": "https://a.sofmap.com/product_detail.aspx",
-          "isHiRes": false
-        },
-        {
-          "name": "TSUTAYA オンラインショッピング",
-          "url": "https://shop.tsutaya.co.jp/cd/product/4540774243679/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006644997/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS “CANVAS” 08",
@@ -5263,33 +5034,7 @@
           "isHiRes": false
         }
       ],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D+08+%E3%82%B3%E3%83%A1%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/pd/2300940/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-%E2%80%9CCANVAS%E2%80%9D/dp/B0CCJRXP87/ref=sr_1_1",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+%E2%80%9CCANVAS%E2%80%9D+08/%E3%82%B3%E3%83%A1%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/pd/10667349/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/5869310/THE-IDOLM@STER-SHINY-COLORS--CANVAS--08",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17577238/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS ECHOES 01",
@@ -5410,28 +5155,7 @@
       "limited": false,
       "series": "ECHOES",
       "artist": "放課後クライマックスガールズ",
-      "downloadSiteList": [
-        {
-          "name": "iTunes",
-          "url": "https://music.apple.com/us/album/1750618945",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740055/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1036330370",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740055_HD/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -6904,58 +6628,7 @@
           "isHiRes": true
         }
       ],
-      "purchaseSiteList": [
-        {
-          "name": "A-on STORE",
-          "url": "https://a-onstore.jp/item/item-1000218344/",
-          "isHiRes": false
-        },
-        {
-          "name": "A-on STORE Powered by A!SMART",
-          "url": "https://www.asmart.jp/Form/Product/ProductDetail.aspx?pid=10026956",
-          "isHiRes": false
-        },
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+COLORFUL+FE%40THERS+-Sol-/pd/1863458/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-COLORFUL-THERS/dp/B08M6WDVYC/ref=sr_1_1",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+COLORFUL+FE%40THERS+-Sol-/pd/10524176/",
-          "isHiRes": false
-        },
-        {
-          "name": "セブンネットショッピング",
-          "url": "https://7net.omni7.jp/detail/1301475686",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/5113721/THE-IDOLM@STER-SHINY-COLORS-COLORFUL-FE@THERS--Sol-",
-          "isHiRes": false
-        },
-        {
-          "name": "TSUTAYA オンラインショッピング",
-          "url": "https://shop.tsutaya.co.jp/cd/product/4540774158638/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006617899/",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/16490882/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -SHHis-",
@@ -7500,73 +7173,7 @@
       "limited": false,
       "series": "OFF VOCAL COLLECTION",
       "artist": "シャイニーカラーズ",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734559540",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8QCN41",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/0iAR2DstWnC01mnIKejaPb",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d459b",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/7449428ab96335137424",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034173319",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734559540",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACA09944B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034173319/",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=sNfSHzAa",
-          "isHiRes": false
-        },
-        {
-          "name": "e-onkyo music",
-          "url": "https://www.e-onkyo.com/music/album/laca9944/",
-          "isHiRes": true
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX09944B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "A-on STORE",
