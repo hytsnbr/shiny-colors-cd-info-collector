@@ -1,5 +1,5 @@
 {
-  "createdAt": 1720193879,
+  "createdAt": 1720507617,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -1098,58 +1098,7 @@
           "isHiRes": true
         }
       ],
-      "purchaseSiteList": [
-        {
-          "name": "A-on STORE",
-          "url": "https://a-onstore.jp/item/item-1000205116/",
-          "isHiRes": false
-        },
-        {
-          "name": "A-on STORE Powered by A!SMART",
-          "url": "https://www.asmart.jp/Form/Product/ProductDetail.aspx?pid=10019438",
-          "isHiRes": false
-        },
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+FR%40GMENT+WING+04/pd/1605703/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/IDOLM-STER-SHINY-COLORS-GMENT/dp/B07MNYR3VM/ref=sr_1_1",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/products/list.php",
-          "isHiRes": false
-        },
-        {
-          "name": "セブンネットショッピング",
-          "url": "https://7net.omni7.jp/detail/1301413448",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/4850458/THE-IDOLM@STER-SHINY-COLORS-FR@GMENT-WING-04",
-          "isHiRes": false
-        },
-        {
-          "name": "TSUTAYA オンラインショッピング",
-          "url": "https://shop.tsutaya.co.jp/cd/product/4540774148646/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006599883/",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/15770303/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS FR@GMENT WING 05",
@@ -1941,73 +1890,7 @@
       "limited": false,
       "series": "GR@DATE WING",
       "artist": "アルストロメリア",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551901",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8K5LKS",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/5cZAkYR4FnidPXupcyH8EU",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43d3",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/f9c6e9e20eb6bbb17556",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034170330",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551901",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACM14986B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034170330/",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=65nwG9nz",
-          "isHiRes": false
-        },
-        {
-          "name": "e-onkyo music",
-          "url": "https://www.e-onkyo.com/music/album/lacm14986/",
-          "isHiRes": true
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX14986B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "A-on STORE",
@@ -4486,73 +4369,7 @@
       "limited": false,
       "series": "CANVAS",
       "artist": "アンティーカ",
-      "downloadSiteList": [
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734550996",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACM24362B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034165813/",
-          "isHiRes": false
-        },
-        {
-          "name": "music.jp",
-          "url": "https://music-book.jp/music/Artist/2143911/Album/aaai9ktl",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://pc.animelo.jp/portals/album/70699387",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX24362B00Z_96/",
-          "isHiRes": true
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/3i4BWx4gbO8WIIzz3TFEbD",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8JL943",
-          "isHiRes": false
-        },
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734550996",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/02fb66f4a372f8116666",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d44d1",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034165813",
-          "isHiRes": false
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "A-on STORE",
@@ -5471,7 +5288,7 @@
         "LACM-24544"
       ],
       "releaseDate": "2024-08-07",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/07/LACM-24544.jpg",
       "limited": false,
       "series": "ECHOES",
       "artist": "アルストロメリア",
@@ -5790,68 +5607,7 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "放課後クライマックスガールズ / アルストロメリア",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1725132077",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CRZ6XFNY",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/3LnyFXxtKtRzFGQvhYxkVB",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/1b07fcce884102729e43",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000035362b2",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1032048554",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1725132077",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACM24475B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1032048554",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://pc.animelo.jp/portals/album/70854739",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX24475B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "A-on STORE",
@@ -6577,73 +6333,7 @@
       "limited": false,
       "series": "COLORFUL FE@THERS",
       "artist": "Team.Stella",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734555460",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8NZR5Q",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/74prwHEgq8jNAtlOzotmFR",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d44c9",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/b5dd9c15a671c9171e70",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034171622",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734555460",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACA15861B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034171622/",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=8K42l6yA",
-          "isHiRes": false
-        },
-        {
-          "name": "e-onkyo music",
-          "url": "https://www.e-onkyo.com/music/album/laca15861/",
-          "isHiRes": true
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX15861B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "A-on STORE",
@@ -6967,68 +6657,7 @@
       "limited": false,
       "series": "COLORFUL FE@THERS",
       "artist": "シーズ",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734552367",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/3GNm6Qe7Fjz9xlWthUF7ic",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX84735P",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/5155cdd5c08a20e94010",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034172162",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43df",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734552367",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACM24395B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034172162/",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=BWyr26NL",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX24395B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -9269,68 +8898,7 @@
       "limited": false,
       "series": "OTHER",
       "artist": "コメティック",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1709694080",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CK52KS3J",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/1en1jydyZYvHAW3ECwqmpj",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000031d7927",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1029769393",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000008/195533015529/",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://music.apple.com/jp/album/1709694080",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1029769393",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=ajeyzSip",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000152/LZC-2562_HI-24_96/",
-          "isHiRes": true
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/32761341886983d26748",
-          "isHiRes": false
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": []
     },
     {
