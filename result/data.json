@@ -2533,7 +2533,58 @@
           "isHiRes": true
         }
       ],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "A-on STORE",
+          "url": "https://a-onstore.jp/item/item-1000218998/",
+          "isHiRes": false
+        },
+        {
+          "name": "A-on STORE Powered by A!SMART",
+          "url": "https://www.asmart.jp/Form/Product/ProductDetail.aspx?pid=10027527",
+          "isHiRes": false
+        },
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+L%40YERED+WING+02+%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/pd/1886298/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98/dp/B08RFF81CZ/ref=tmm_acd_title_0",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+L%40YERED+WING+02/%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/pd/10534421/",
+          "isHiRes": false
+        },
+        {
+          "name": "セブンネットショッピング",
+          "url": "https://7net.omni7.jp/detail/1301471769",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/5147325/THE-IDOLM@STER-SHINY-COLORS-L@YERED-WING-02",
+          "isHiRes": false
+        },
+        {
+          "name": "TSUTAYA オンラインショッピング",
+          "url": "https://shop.tsutaya.co.jp/cd/product/4540774241125/",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ecs.toranoana.jp/tora/ec/item/210006619556/",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/16598495/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS L@YERED WING 03",
