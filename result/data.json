@@ -1,5 +1,5 @@
 {
-  "createdAt": 1720539468,
+  "createdAt": 1720593872,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5413,22 +5413,22 @@
       "downloadSiteList": [
         {
           "name": "iTunes",
-          "url": "https://music.apple.com/us/album/1750618945",
+          "url": "https://music.apple.com/us/album/1751457742",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740055/",
+          "url": "https://mora.jp/package/43000011/4540774245437/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1036330370",
+          "url": "https://recochoku.jp/album/A1036404015",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740055_HD/",
+          "url": "https://mora.jp/package/43000011/4540774245437_HD/",
           "isHiRes": true
         }
       ],
@@ -6507,6 +6507,32 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
+      "recordNumbers": [
+        "LACM-24609"
+      ],
+      "releaseDate": "2024-09-25",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
+      "recordNumbers": [
+        "LACM-24610"
+      ],
+      "releaseDate": "2024-09-25",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
