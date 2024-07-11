@@ -99,20 +99,33 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
         
         var releaseContentsBox = releaseSection.getElementsByClass("release_contents").getFirst();
         var infoTexts = releaseContentsBox.children();
+        
+        String artistName;
+        List<String> recordNumbers = new ArrayList<>();
+        LocalDate releaseDate;
         for (var element : infoTexts) {
             for (var childNode : element.childNodes()) {
-                if (!(childNode instanceof TextNode)) {
+                if (!(childNode instanceof TextNode textNode)) {
                     continue;
                 }
                 
                 // アーティスト名を取得
-                this.getArtistName(cdInfoBuilder, (TextNode) childNode);
+                if (StringUtils.contains(textNode.toString(), "アーティスト：")) {
+                    artistName = this.getArtistName((TextNode) childNode);
+                    cdInfoBuilder.artist(artistName);
+                }
                 
                 // 品番を取得
-                this.getRecordNumber(cdInfoBuilder, (TextNode) childNode);
+                if (StringUtils.contains(textNode.toString(), "品番：")) {
+                    recordNumbers = this.getRecordNumbers((TextNode) childNode);
+                    cdInfoBuilder.recordNumbers(recordNumbers);
+                }
                 
                 // 発売日を取得
-                this.getReleaseDate(cdInfoBuilder, (TextNode) childNode);
+                if (StringUtils.contains(textNode.toString(), "発売日：")) {
+                    releaseDate = this.getReleaseDate((TextNode) childNode);
+                    cdInfoBuilder.releaseDate(releaseDate);
+                }
             }
         }
         
@@ -140,16 +153,22 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
         // ダウンロードサイトリスト
         logger.info("ダウンロードサイト");
         var downloadSiteList = this.getStoreData(downloadSiteLinkPageUrl);
+        // CD詳細ページにダウンロードサイトリストのURLが載っていない場合
+        if (downloadSiteList.isEmpty()) {
+            downloadSiteLinkPageUrl = "https://lnk.to/%ss".formatted(recordNumbers.getFirst());
+            downloadSiteList = this.getStoreData(downloadSiteLinkPageUrl);
+        }
         cdInfoBuilder.downloadSiteList(downloadSiteList);
-        // クールタイム
-        this.coolTime();
         
         // CDショップサイト
         logger.info("ショップサイト");
         var purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
+        // CD詳細ページにショップサイトリストのURLが載っていない場合
+        if (purchaseSiteList.isEmpty()) {
+            shopSiteLinkPageUrl = "https://lnk.to/%sc".formatted(recordNumbers.getFirst());
+            purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
+        }
         cdInfoBuilder.purchaseSiteList(purchaseSiteList);
-        // クールタイム
-        this.coolTime();
         
         return cdInfoBuilder.build();
     }
@@ -157,23 +176,24 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
     /**
      * アーティスト名を取得する
      */
-    private void getArtistName(CdInfo.CdInfoBuilder cdInfoBuilder, TextNode node) {
+    private String getArtistName(TextNode node) throws CdInfoWebScrapingException {
         if (!StringUtils.contains(node.toString(), "アーティスト：")) {
-            return;
+            throw new CdInfoWebScrapingException("CD情報ページからアーティスト名が欠落しています");
         }
         
         // アーティスト：シャイニーカラーズ の形式なのでアーティスト名だけ取り出し
         var artistText = node.toString().replace("アーティスト：", "");
         logger.info("CD Artist Name: {}", artistText);
-        cdInfoBuilder.artist(artistText);
+        
+        return artistText;
     }
     
     /**
      * 品番を取得する
      */
-    private void getRecordNumber(CdInfo.CdInfoBuilder cdInfoBuilder, TextNode node) throws CdInfoWebScrapingException {
+    private List<String> getRecordNumbers(TextNode node) throws CdInfoWebScrapingException {
         if (!StringUtils.contains(node.toString(), "品番：")) {
-            return;
+            throw new CdInfoWebScrapingException("CD情報ページから品番が欠落しています");
         }
         
         // 品番：LACM-14781 の形式なので品番だけ取り出し
@@ -183,29 +203,33 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
                                    .trim()
                                    .replace("品番：", "");
         logger.info("CD Record Number: {}", recordNumberText);
+        
         // 複数枚の場合を考慮して品番リスト取得処理を噛ませる
-        cdInfoBuilder.recordNumbers(this.getRecordNumberList(recordNumberText));
+        return this.getRecordNumberList(recordNumberText);
     }
     
     /**
      * 発売日を取得する
      */
-    private void getReleaseDate(CdInfo.CdInfoBuilder cdInfoBuilder, TextNode node) throws CdInfoWebScrapingException {
+    private LocalDate getReleaseDate(TextNode node) throws CdInfoWebScrapingException {
         if (!StringUtils.contains(node.toString(), "発売日：")) {
-            return;
+            throw new CdInfoWebScrapingException("CD情報ページから発売日が欠落しています");
         }
         
         // 発売日：2018/6/6 の形式なので日付だけ取り出し
         var releaseDateText = node.toString().replace("発売日：", "");
         logger.info("CD Release Date: {}", releaseDateText);
+        LocalDate releaseDate = null;
         if (StringUtils.isNotBlank(releaseDateText)) {
             try {
                 // java.time.LocalDate に変換
-                cdInfoBuilder.releaseDate(LocalDate.parse(releaseDateText, releaseDateTimeFormatter));
+                releaseDate = LocalDate.parse(releaseDateText, releaseDateTimeFormatter);
             } catch (DateTimeParseException e) {
                 throw new CdInfoWebScrapingException("リリース日：日付変換に失敗しました", e);
             }
         }
+        
+        return releaseDate;
     }
     
     /**
@@ -268,6 +292,8 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
      * ストア一覧ページURLが空の場合、ストア一覧ページ情報の取得に失敗した場合は空のリストを返却する
      */
     private List<StoreSite> getStoreData(String url) throws CdInfoWebScrapingException {
+        logger.info("処理対象ページURL：{}", url);
+        
         // ページ取得時リトライ上限
         final var retryLimit = this.appConfig.getProcess().getRetryLimit();
         
