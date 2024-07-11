@@ -64,9 +64,10 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
      * @throws CdInfoWebScrapingException スクレイピング中にエラーが発生した場合
      */
     private CdInfo createCdInfo(final DiscographyData discographyData) throws CdInfoWebScrapingException {
-        final var cdDetailUrl = discographyData.getUrl();
-        
         var cdInfoBuilder = CdInfo.builder();
+        
+        final var cdDetailUrl = discographyData.getUrl();
+        cdInfoBuilder.cdInfoPageUrl(cdDetailUrl);
         cdInfoBuilder.series(discographyData.getSeriesName());
         
         // CD詳細ページに接続

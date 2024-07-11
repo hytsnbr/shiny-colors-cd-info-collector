@@ -18,6 +18,7 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
     "title",
     "recordNumbers",
     "releaseDate",
+    "cdInfoPageUrl",
     "jacketUrl",
     "limited",
     "series",
@@ -37,6 +38,9 @@ public class CdInfo {
     @JsonDeserialize(using = LocalDateDeserializer.class)
     @JsonFormat(pattern = "yyyy-MM-dd")
     private final LocalDate releaseDate;
+    
+    /** CD情報ページURL */
+    private final String cdInfoPageUrl;
     
     /** CDジャケット画像URL */
     private final String jacketUrl;
@@ -61,6 +65,7 @@ public class CdInfo {
         title = builder.title;
         recordNumbers = builder.recordNumbers;
         releaseDate = builder.releaseDate;
+        cdInfoPageUrl = builder.cdInfoPageUrl;
         jacketUrl = builder.jacketUrl;
         limited = builder.limited;
         series = builder.series;
@@ -94,6 +99,7 @@ public class CdInfo {
             }
         }
         if (!Objects.equals(this.releaseDate, cdInfo.releaseDate)) return false;
+        if (!StringUtils.equals(this.cdInfoPageUrl, cdInfo.cdInfoPageUrl)) return false;
         if (!StringUtils.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
         if (this.limited != cdInfo.limited) return false;
         if (!StringUtils.equals(this.series, cdInfo.series)) return false;
@@ -127,6 +133,11 @@ public class CdInfo {
     @SuppressWarnings("unused")
     public LocalDate getReleaseDate() {
         return this.releaseDate;
+    }
+    
+    @SuppressWarnings("unused")
+    public String getCdInfoPageUrl() {
+        return this.cdInfoPageUrl;
     }
     
     @SuppressWarnings("unused")
@@ -169,6 +180,8 @@ public class CdInfo {
         
         private LocalDate releaseDate;
         
+        private String cdInfoPageUrl;
+        
         private String jacketUrl;
         
         private boolean limited;
@@ -201,6 +214,13 @@ public class CdInfo {
         @JsonFormat(pattern = "yyyy-MM-dd")
         public CdInfoBuilder releaseDate(LocalDate releaseDate) {
             this.releaseDate = releaseDate;
+            return this;
+        }
+        
+        /** CD情報ページURL */
+        @SuppressWarnings("UnusedReturnValue")
+        public CdInfoBuilder cdInfoPageUrl(String cdInfoPageUrl) {
+            this.cdInfoPageUrl = cdInfoPageUrl;
             return this;
         }
         
