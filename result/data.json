@@ -1,5 +1,5 @@
 {
-  "createdAt": 1720712053,
+  "createdAt": 1721230638,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6003,120 +6003,8 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "放課後クライマックスガールズ / アルストロメリア",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1725126133",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CRZ7RCH5",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/7x0Bomz5mJjVH2j8zqZS0j",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/db9a7c96323fc773f542",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000035362c6",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1032048489",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1725126133",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACM24476B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1032048489",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://pc.animelo.jp/portals/album/70854738",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX24476B00Z_96/",
-          "isHiRes": true
-        }
-      ],
-      "purchaseSiteList": [
-        {
-          "name": "A-on STORE",
-          "url": "https://a-onstore.jp/item/item-1000229531/",
-          "isHiRes": false
-        },
-        {
-          "name": "アソビストア",
-          "url": "https://shop.asobistore.jp/products/detail/193493-00-00-00",
-          "isHiRes": false
-        },
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/【キャラクターソング】THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+ニューシングル+B盤/pd/2360711/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/【Amazon-co-jp限定】-IDOLM-SHINY-COLORS-Prismニューシングル【B盤】（メガジャケ付き）/dp/B0CNH3S7TG/ref=tmm_acd_title_0",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/【マキシシングル】THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+ニューシングル+【B盤】/pd/10693626/",
-          "isHiRes": false
-        },
-        {
-          "name": "ソフマップ",
-          "url": "https://www.sofmap.com/product_detail.aspx",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6226787/THE-IDOLM@STER-SHINY-COLORS-Song-for-Prism-ニューシングル＜B盤＞",
-          "isHiRes": false
-        },
-        {
-          "name": "TSUTAYA オンラインショッピング",
-          "url": "https://shop.tsutaya.co.jp/cd/product/4540774244768/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ec.toranoana.jp/joshi_r/ec/item/210006651413/",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17704665/",
-          "isHiRes": false
-        }
-      ]
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prism ハナムケのハナタバ / 青空 【コメティック盤】",
