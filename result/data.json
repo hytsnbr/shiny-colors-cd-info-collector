@@ -1,5 +1,5 @@
 {
-  "createdAt": 1720712053,
+  "createdAt": 1721316986,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6230,63 +6230,7 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "コメティック / ノクチル",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1737148868",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CYP6RCQ4",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/6rYTv9UdXhPva38BN6nCJj",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/fec5268b602ec3aea928",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000037ed88a",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034857619",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1737148868",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACM24526B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034857619",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX24526B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -8665,7 +8609,7 @@
       "purchaseSiteList": []
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS LIVE FUN!! -Beyond the Blue sky part1-",
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -Beyond the Blue sky part1-",
       "recordNumbers": [
         "LACZ-10218"
       ],
@@ -8679,7 +8623,7 @@
       "purchaseSiteList": []
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS LIVE FUN!! -Beyond the Blue sky part2-",
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -Beyond the Blue sky part2-",
       "recordNumbers": [
         "LACZ-10227",
         "LACZ-10228"
