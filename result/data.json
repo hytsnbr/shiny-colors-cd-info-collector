@@ -1,5 +1,5 @@
 {
-  "createdAt": 1720712053,
+  "createdAt": 1721716880,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6544,28 +6544,7 @@
       "series": "Song for Prism",
       "artist": "アンティーカ / ストレイライト",
       "downloadSiteList": [],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91/pd/2566166/",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB+%E3%80%90A%E7%9B%A4%E3%80%91/pd/10728536/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6360949/THE-IDOLM@STER-SHINY-COLORS-Song-for-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%EF%BC%9CA%E7%9B%A4%EF%BC%9E",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17875947/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prism 時限式狂騒ワンダーランド / LINKs 【ストレイライト盤】",
@@ -8665,7 +8644,7 @@
       "purchaseSiteList": []
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS LIVE FUN!! -Beyond the Blue sky part1-",
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -Beyond the Blue sky part1-",
       "recordNumbers": [
         "LACZ-10218"
       ],
@@ -8679,7 +8658,7 @@
       "purchaseSiteList": []
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS LIVE FUN!! -Beyond the Blue sky part2-",
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -Beyond the Blue sky part2-",
       "recordNumbers": [
         "LACZ-10227",
         "LACZ-10228"
