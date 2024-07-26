@@ -1,5 +1,5 @@
 {
-  "createdAt": 1721748767,
+  "createdAt": 1721976061,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5647,38 +5647,7 @@
       "series": "ECHOES",
       "artist": "ノクチル",
       "downloadSiteList": [],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pd/2385648/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-ECHOES-06%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0CQXVP3YS/ref=sr_1_2",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+ECHOES+06/%E3%83%8E%E3%82%AF%E3%83%81%E3%83%AB/pd/10701838/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6254518/THE-IDOLM@STER-SHINY-COLORS-ECHOES-06",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17742121/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006652337/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS ECHOES 07",
@@ -5692,38 +5661,7 @@
       "series": "ECHOES",
       "artist": "シーズ",
       "downloadSiteList": [],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pd/2385649/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-ECHOES-07%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0CQXW3CHL/ref=sr_1_11",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+ECHOES+07/%E3%82%B7%E3%83%BC%E3%82%BA/pd/10701839/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6254519/THE-IDOLM@STER-SHINY-COLORS-ECHOES-07",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17742122/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006652338/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS ECHOES 08",
@@ -8212,6 +8150,61 @@
       "artist": "シャイニーカラーズ",
       "downloadSiteList": [],
       "purchaseSiteList": []
+    },
+    {
+      "title": "アニメ『アイドルマスター シャイニーカラーズ 2nd season』ハロウィンアルバム「Happy Surprise Trick!」",
+      "recordNumbers": [
+        "LACA-25127"
+      ],
+      "releaseDate": "2024-10-30",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25127/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "アニメ",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC+%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA+2nd+season%E3%80%8F%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8CHappy+Surprise+Trick%21%E3%80%8D/pd/2923092/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/s",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/products/list.php",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://a.sofmap.com/search_result.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6421588/Happy-Surprise-Trick!",
+          "isHiRes": false
+        },
+        {
+          "name": "TSUTAYA オンラインショッピング",
+          "url": "https://shop.tsutaya.co.jp/search_result/error.html",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ecs.toranoana.jp/tora/ec/item/210006656714/",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/17952411/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS シャイニーPRオファー Vol.1",
