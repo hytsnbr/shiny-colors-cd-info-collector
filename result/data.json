@@ -1,5 +1,5 @@
 {
-  "createdAt": 1721748767,
+  "createdAt": 1722094353,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5338,7 +5338,7 @@
       "recordNumbers": [
         "LACM-24541"
       ],
-      "releaseDate": null,
+      "releaseDate": "2025-01-22",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24541/",
       "jacketUrl": "/images/nowprinting.jpg",
       "limited": false,
@@ -5769,6 +5769,20 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS ECHOES 09",
+      "recordNumbers": [
+        "LACA-25115"
+      ],
+      "releaseDate": "2025-01-22",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25115/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "ECHOES",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prism 星の声",
@@ -8214,6 +8228,61 @@
       "purchaseSiteList": []
     },
     {
+      "title": "アニメ『アイドルマスター シャイニーカラーズ 2nd season』ハロウィンアルバム「Happy Surprise Trick!」",
+      "recordNumbers": [
+        "LACA-25127"
+      ],
+      "releaseDate": "2024-10-30",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25127/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "アニメ",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC+%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA+2nd+season%E3%80%8F%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8CHappy+Surprise+Trick%21%E3%80%8D/pd/2923092/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/s",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/products/list.php",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://a.sofmap.com/search_result.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6421588/Happy-Surprise-Trick!",
+          "isHiRes": false
+        },
+        {
+          "name": "TSUTAYA オンラインショッピング",
+          "url": "https://shop.tsutaya.co.jp/search_result/error.html",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ecs.toranoana.jp/tora/ec/item/210006656714/",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/17952411/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
       "title": "THE IDOLM@STER SHINY COLORS シャイニーPRオファー Vol.1",
       "recordNumbers": [
         "LACM-24531"
@@ -9784,6 +9853,20 @@
           "isHiRes": true
         }
       ],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "『アイドルマスター』シリーズ 20周年記念曲 「アイ NEED YOU（FOR WONDERFUL STORY）」【シャイニーカラーズ盤】",
+      "recordNumbers": [
+        "LACM-24643"
+      ],
+      "releaseDate": "2024-12-11",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24643/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/07/LACM-24643.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "THE IDOLM@STER BRILLIANT STARS",
+      "downloadSiteList": [],
       "purchaseSiteList": []
     }
   ]
