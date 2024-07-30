@@ -1,5 +1,5 @@
 {
-  "createdAt": 1722094353,
+  "createdAt": 1722353686,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5556,7 +5556,28 @@
       "limited": false,
       "series": "ECHOES",
       "artist": "アルストロメリア",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1755320405",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740062/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1036630396",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740062_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -6648,85 +6669,8 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "アンティーカ / ストレイライト",
-      "downloadSiteList": [
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/4jE2dC882GMnscJSe8KrMt",
-          "isHiRes": false
-        },
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1753379967",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "https://music.amazon.co.jp/albums/B0D7PKBX5L",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/7f19b4aa0208d7f7de96",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1036543891",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb0000000003b3fce5",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://music.apple.com/us/album/1753379967",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774245536/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1036543891",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774245536_HD/",
-          "isHiRes": true
-        }
-      ],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90B%E7%9B%A4%E3%80%91/pd/2566167/",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB+%E3%80%90B%E7%9B%A4%E3%80%91/pd/10728537/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6360952/THE-IDOLM@STER-SHINY-COLORS-Song-for-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%EF%BC%9CB%E7%9B%A4%EF%BC%9E",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17876268/",
-          "isHiRes": false
-        }
-      ]
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
