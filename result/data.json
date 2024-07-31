@@ -1,5 +1,5 @@
 {
-  "createdAt": 1722094353,
+  "createdAt": 1722439876,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5556,7 +5556,28 @@
       "limited": false,
       "series": "ECHOES",
       "artist": "アルストロメリア",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1755320405",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740062/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1036630396",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740062_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -6729,32 +6750,48 @@
       ]
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism After Run / mellow mellow 【シーズ盤】",
       "recordNumbers": [
         "LACM-24609"
       ],
       "releaseDate": "2024-09-25",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24609/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/07/LACM-24609.jpg",
       "limited": false,
       "series": "Song for Prism",
-      "artist": "THE IDOLM@STER SHINY COLORS",
+      "artist": "シーズ / アルストロメリア",
       "downloadSiteList": [],
       "purchaseSiteList": []
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism After Run / mellow mellow 【アルストロメリア盤】",
       "recordNumbers": [
         "LACM-24610"
       ],
       "releaseDate": "2024-09-25",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24610/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/07/LACM-24610.jpg",
       "limited": false,
       "series": "Song for Prism",
-      "artist": "THE IDOLM@STER SHINY COLORS",
+      "artist": "シーズ / アルストロメリア",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/2912969/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90B%E7%9B%A4%E3%80%91-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D/dp/B0D94LQPJN/ref=tmm_acd_title_0",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB+%E3%80%90B%E7%9B%A4%E3%80%91/pd/10739652/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
