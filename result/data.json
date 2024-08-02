@@ -1,5 +1,5 @@
 {
-  "createdAt": 1722526344,
+  "createdAt": 1722612732,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5758,38 +5758,7 @@
       "series": "ECHOES",
       "artist": "コメティック",
       "downloadSiteList": [],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pd/2385650/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-ECHOES-08%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0CQXTCKST/ref=sr_1_3",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+ECHOES+08/%E3%82%B3%E3%83%A1%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/pd/10701840/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6254522/THE-IDOLM@STER-SHINY-COLORS-ECHOES-08",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/17742123/",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006652339/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS ECHOES 09",
@@ -5816,63 +5785,7 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "シャイニーカラーズ",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1710326715",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/4RpXoR73etZDdlvyhxEtMD",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CKDZCZF7",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000031cdb18",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/watch",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/43bc00dd0999dd7cd040",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1029815867",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1710326715",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LACM24437B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1029815867",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX24437B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "animate",
