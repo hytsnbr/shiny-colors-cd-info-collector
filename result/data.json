@@ -1,5 +1,5 @@
 {
-  "createdAt": 1722439876,
+  "createdAt": 1722526344,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6761,7 +6761,23 @@
       "series": "Song for Prism",
       "artist": "シーズ / アルストロメリア",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91/pd/2912968/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91-%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D/dp/B0D94KSGWW/ref=tmm_acd_title_0",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/products/list.php",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prism After Run / mellow mellow 【アルストロメリア盤】",
