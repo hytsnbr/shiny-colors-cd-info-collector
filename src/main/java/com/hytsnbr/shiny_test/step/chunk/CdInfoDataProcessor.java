@@ -171,6 +171,9 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
         }
         cdInfoBuilder.purchaseSiteList(purchaseSiteList);
         
+        // 処理終了後クールタイム
+        this.coolTime();
+        
         return cdInfoBuilder.build();
     }
     
