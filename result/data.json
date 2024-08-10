@@ -1,5 +1,5 @@
 {
-  "createdAt": 1723099600,
+  "createdAt": 1723272253,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5492,8 +5492,43 @@
       "artist": "放課後クライマックスガールズ",
       "downloadSiteList": [
         {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/73iGtI7gAIUiiR8zZh93Cf",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1751457742",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0D6R3FPWY",
+          "isHiRes": false
+        },
+        {
           "name": "iTunes",
           "url": "https://music.apple.com/us/album/1751457742",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/96b1cb6a60e26c4f3644",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000003af216a",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1036404015",
           "isHiRes": false
         },
         {
