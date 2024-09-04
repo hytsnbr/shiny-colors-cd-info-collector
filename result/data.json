@@ -1,5 +1,5 @@
 {
-  "createdAt": 1723217938,
+  "createdAt": 1725432344,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5657,7 +5657,28 @@
       "limited": false,
       "series": "ECHOES",
       "artist": "ストレイライト",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1760278975",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740079/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/song/S1024598704/single",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740079_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
