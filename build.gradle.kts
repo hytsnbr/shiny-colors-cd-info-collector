@@ -48,9 +48,6 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
-tasks.build {
-    dependsOn("clean")
-}
 tasks.compileJava {
     dependsOn("processResources")
 }
