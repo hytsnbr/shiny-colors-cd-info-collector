@@ -1,5 +1,5 @@
 {
-  "createdAt": 1725864518,
+  "createdAt": 1726210095,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5695,22 +5695,22 @@
       "downloadSiteList": [
         {
           "name": "iTunes",
-          "url": "https://music.apple.com/jp/album/1760278975",
+          "url": "https://music.apple.com/us/album/1761316223",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740079/",
+          "url": "https://mora.jp/package/43000011/4540774245451/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/song/S1024598704/single",
+          "url": "https://recochoku.jp/album/A1037043720",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740079_HD/",
+          "url": "https://mora.jp/package/43000011/4540774245451_HD/",
           "isHiRes": true
         }
       ],
@@ -6909,6 +6909,50 @@
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25133/",
       "jacketUrl": "/images/nowprinting.jpg",
       "limited": true,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
+      "recordNumbers": [
+        "LACM-24628"
+      ],
+      "releaseDate": "2024-11-27",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24628/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91/pd/2956437/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-Prism-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8C%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A%E3%80%8D%E3%80%90A%E7%9B%A4%E3%80%91/dp/B0DGLRJ527/ref=sr_1_1",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6455326",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
+      "recordNumbers": [
+        "LACM-24629"
+      ],
+      "releaseDate": "2024-11-27",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24629/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
       "series": "Song for Prism",
       "artist": "THE IDOLM@STER SHINY COLORS",
       "downloadSiteList": [],
