@@ -1,5 +1,5 @@
 {
-  "createdAt": 1726674198,
+  "createdAt": 1727192466,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6851,7 +6851,63 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "シーズ / アルストロメリア",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/5ggnseeQQ9BgVcOftzkTD9",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1765060490",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DF7ZVLNB",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/f7ed273d7cf5c527e057",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000003d6ca9c",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1037220311",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1765060490",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1037220311",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246090/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246090_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -6881,7 +6937,63 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "シーズ / アルストロメリア",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/3YNKiPWjEw3iKQqZNCbRi1",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1764932455",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DF81Z5ZK",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/e7b726367dbbcb26c858",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000003d74aae",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1037220330",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1764932455",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246106/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1037220330",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246106_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
