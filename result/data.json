@@ -1,5 +1,5 @@
 {
-  "createdAt": 1727419788,
+  "createdAt": 1727851643,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5758,7 +5758,28 @@
       "limited": false,
       "series": "ECHOES",
       "artist": "ノクチル",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1765678525",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740086/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1037279476",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774740086_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
