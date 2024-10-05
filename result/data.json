@@ -1,5 +1,5 @@
 {
-  "createdAt": 1727797319,
+  "createdAt": 1728142799,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5820,7 +5820,7 @@
       ],
       "releaseDate": "2024-11-13",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24547/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2023/12/LACM_24547.jpg",
       "limited": false,
       "series": "ECHOES",
       "artist": "シーズ",
@@ -8630,6 +8630,20 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "アニメ『アイドルマスター シャイニーカラーズ 2nd season』主題歌アルバム「Over the prism」【通常盤】",
+      "recordNumbers": [
+        "LACA-25138"
+      ],
+      "releaseDate": "2024-12-25",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25138/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "アニメ",
+      "artist": null,
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS シャイニーPRオファー Vol.1",
