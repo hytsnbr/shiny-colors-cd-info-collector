@@ -1,5 +1,5 @@
 {
-  "createdAt": 1728197201,
+  "createdAt": 1728370076,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8630,6 +8630,21 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "アニメ『アイドルマスター シャイニーカラーズ 2nd season』主題歌アルバム「Over the prism」【初回限定盤】",
+      "recordNumbers": [
+        "LACA-35138",
+        "LACA-35139"
+      ],
+      "releaseDate": "2024-12-25",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-35138_9/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "アニメ",
+      "artist": null,
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "アニメ『アイドルマスター シャイニーカラーズ 2nd season』主題歌アルバム「Over the prism」【通常盤】",
