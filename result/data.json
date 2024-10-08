@@ -1,5 +1,5 @@
 {
-  "createdAt": 1728370076,
+  "createdAt": 1728402204,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5761,22 +5761,22 @@
       "downloadSiteList": [
         {
           "name": "iTunes",
-          "url": "https://music.apple.com/us/album/1765678525",
+          "url": "https://music.apple.com/us/album/1766936193",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740086/",
+          "url": "https://mora.jp/package/43000011/4540774245468/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1037279476",
+          "url": "https://recochoku.jp/album/A1037354426",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740086_HD/",
+          "url": "https://mora.jp/package/43000011/4540774245468_HD/",
           "isHiRes": true
         }
       ],
@@ -9964,68 +9964,7 @@
       "limited": false,
       "series": "OTHER",
       "artist": "コメティック",
-      "downloadSiteList": [
-        {
-          "name": "iTunes",
-          "url": "https://music.apple.com/jp/album/1705391021",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000008/195533014737/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1029251173",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=Ur4A4ZxB",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000152/LZC-2489_HI-24_96/",
-          "isHiRes": true
-        },
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1705391021",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/0k5KJl1a8QYF7rEAwwKSbi",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CH345HQ4",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/1b07fecb8f470e729e43",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1029251173",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000031463bf",
-          "isHiRes": false
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": []
     },
     {
