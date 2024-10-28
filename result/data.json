@@ -1,5 +1,5 @@
 {
-  "createdAt": 1729784472,
+  "createdAt": 1730098192,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8605,11 +8605,88 @@
       "releaseDate": "2024-10-09",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24580/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/07/LACM-24580.jpg",
-      "limited": true,
+      "limited": false,
       "series": "アニメ",
       "artist": "シャイニーカラーズ",
-      "downloadSiteList": [],
-      "purchaseSiteList": []
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/2zsX1l7uqv7lZUPgxDTaLZ",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1767335205",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DGG1H439",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/bd73b76d88a195823e31",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1037364943",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000003ddfa49",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1767336143",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774245802/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1037364958",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774245802_HD/",
+          "isHiRes": true
+        }
+      ],
+      "purchaseSiteList": [
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/dp/B0D8SKDGLM/ref=sr_1_2",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC+%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA+2nd+season%E3%80%8F%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0%E3%83%95%E3%83%AC%E3%82%A2%E3%80%8D/%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA/pd/10738912/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6405485/%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0%E3%83%95%E3%83%AC%E3%82%A2",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/17931592/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "アニメ『アイドルマスター シャイニーカラーズ 2nd season』ハロウィンアルバム「Happy Surprise Trick!」",
