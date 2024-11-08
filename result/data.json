@@ -1,5 +1,5 @@
 {
-  "createdAt": 1730875582,
+  "createdAt": 1731048640,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5921,7 +5921,7 @@
       ],
       "releaseDate": "2024-12-11",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24548/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/11/LACM-24548.jpg",
       "limited": false,
       "series": "ECHOES",
       "artist": "コメティック",
@@ -7188,6 +7188,34 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
+      "recordNumbers": [
+        "LACM-24634"
+      ],
+      "releaseDate": "2025-01-29",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24634/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
+      "recordNumbers": [
+        "LACM-24635"
+      ],
+      "releaseDate": "2025-01-29",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24635/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
