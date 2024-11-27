@@ -3,7 +3,7 @@ springframeworkBoot = "3.4.0"
 springDependencyManagement = "1.1.6"
 commonsLang = "3.17.0"
 commonsCollections = "4.4"
-jsoup = "1.18.1"
+jsoup = "1.18.2"
 gson = "2.11.0"
 
 [libraries]
