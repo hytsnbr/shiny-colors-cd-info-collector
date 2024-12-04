@@ -1,5 +1,5 @@
 {
-  "createdAt": 1733240633,
+  "createdAt": 1733295100,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8013,11 +8013,88 @@
       "releaseDate": "2024-12-04",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25134/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/11/LACA-25134.jpg",
-      "limited": true,
+      "limited": false,
       "series": "COLORFUL FE@THERS",
       "artist": "コメティック",
-      "downloadSiteList": [],
-      "purchaseSiteList": []
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/0WiJBKXPnlaSWdTRIEsIE4",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1778169036",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DM4DR6NB",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/778297dfe091b7030087",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000003fa504c",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1039186733",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1778169036",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774251346/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1039186733",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774251346_HD/",
+          "isHiRes": true
+        }
+      ],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+COLORFUL+FE%40THERS+-CoMETIK-/pd/2956543/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-COLORFUL-CoMETIK-%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0DH8NQ3HS/ref=tmm_acd_title_0",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+COLORFUL+FE%40THERS+-CoMETIK-/%E3%82%B3%E3%83%A1%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/pd/10751281/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6455727",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Synthe-Side 01",
