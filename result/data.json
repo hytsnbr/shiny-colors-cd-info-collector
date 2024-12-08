@@ -1,5 +1,5 @@
 {
-  "createdAt": 1733295100,
+  "createdAt": 1733640685,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -7643,73 +7643,7 @@
       "limited": false,
       "series": "COLORFUL FE@THERS",
       "artist": "Team.Luna",
-      "downloadSiteList": [
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1734551773",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "http://music.amazon.co.jp/albums/B0CX8QBXDK",
-          "isHiRes": false
-        },
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/6MaXi555q3x0l7OTIIz0ks",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb00000000036d43fa",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/ee5ada160efd360e4f71",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1034168963",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://itunes.apple.com/jp/album/id1734551773",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000087/LAZC02300B00Z/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1034168963/",
-          "isHiRes": false
-        },
-        {
-          "name": "animelo mix",
-          "url": "https://r.animelo.jp/?id=a000NCj1",
-          "isHiRes": false
-        },
-        {
-          "name": "e-onkyo music",
-          "url": "https://www.e-onkyo.com/music/album/lzc2300/",
-          "isHiRes": true
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000100/LAXX02300B00Z_96/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "A-on STORE",
