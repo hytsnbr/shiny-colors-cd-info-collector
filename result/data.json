@@ -1,5 +1,5 @@
 {
-  "createdAt": 1733295100,
+  "createdAt": 1733813377,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -7425,7 +7425,33 @@
       "series": "Song for Prism",
       "artist": "THE IDOLM@STER SHINY COLORS",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91/pd/2994887/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0DM9863V2/ref=sr_1_4",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91/pd/10761138/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6645038",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18063303/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
@@ -7439,7 +7465,33 @@
       "series": "Song for Prism",
       "artist": "THE IDOLM@STER SHINY COLORS",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/2994888/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90B%E7%9B%A4%E3%80%91%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0DM95CY9W/ref=tmm_acd_title_0",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90B%E7%9B%A4%E3%80%91/pd/10761139/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6645071",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18063304/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
