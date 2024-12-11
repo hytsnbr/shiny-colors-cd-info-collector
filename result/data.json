@@ -1,5 +1,5 @@
 {
-  "createdAt": 1733813377,
+  "createdAt": 1733899854,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5340,7 +5340,7 @@
       ],
       "releaseDate": "2025-01-22",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24541/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/12/LACM-24541.jpg",
       "limited": false,
       "series": "ECHOES",
       "artist": "イルミネーションスターズ",
@@ -5963,22 +5963,22 @@
       "downloadSiteList": [
         {
           "name": "iTunes",
-          "url": "https://music.apple.com/us/album/1778311758",
+          "url": "https://music.apple.com/us/album/1779610724",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740109/",
+          "url": "https://mora.jp/package/43000011/4540774245482/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1039186686",
+          "url": "https://recochoku.jp/album/A1039399763",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740109_HD/",
+          "url": "https://mora.jp/package/43000011/4540774245482_HD/",
           "isHiRes": true
         }
       ],
