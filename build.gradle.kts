@@ -3,6 +3,9 @@ plugins {
     id("idea")
     alias(libs.plugins.springframework.boot)
     alias(libs.plugins.spring.dependency.management)
+
+    // コードフォーマッター
+    alias(libs.plugins.spotless)
 }
 
 group = "com.hytsnbr"
@@ -43,6 +46,37 @@ dependencies {
     // Unit Test
     testImplementation(libs.spring.boot.starter.test)
     testImplementation(libs.spring.batch.test)
+}
+
+spotless {
+    // origin/mainブランチとの差分のみをフォーマット対象とする
+    ratchetFrom("origin/main")
+
+    java {        
+        // フォーマット対象
+        target("src/**/*.java")
+        // フォーマット対象外
+        targetExclude("$rootProject.layout.buildDirectory/**/*.java")
+
+        // フォーマット時、使用するコードスタイル
+        googleJavaFormat().aosp()
+
+        // 変数・フィールドなどに付随するアノテーションもフォーマット対象にする
+        formatAnnotations()
+
+        // インポート順
+        importOrder("java|javax", "org", "com", "jp", "", "\\#")
+        // フォーマット時に不必要なインポートを除去する
+        removeUnusedImports()
+    }
+
+    kotlinGradle {
+        // フォーマット対象
+        target("*.gradle.kts")
+
+        // 使用するフォーマッター
+        ktlint()
+    }
 }
 
 tasks.test {
