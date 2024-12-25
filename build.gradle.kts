@@ -52,7 +52,7 @@ spotless {
     // origin/mainブランチとの差分のみをフォーマット対象とする
     ratchetFrom("origin/main")
 
-    java {        
+    java {
         // フォーマット対象
         target("src/**/*.java")
         // フォーマット対象外
