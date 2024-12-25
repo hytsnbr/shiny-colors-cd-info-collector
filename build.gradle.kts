@@ -79,13 +79,44 @@ spotless {
     }
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
-tasks.compileJava {
-    dependsOn("processResources")
-}
-tasks.jar {
-    enabled = false
-    dependsOn("bootJar")
+tasks {
+    withType<Wrapper> {
+        // 下記タスクも並行して実行させる
+        dependsOn("installGitHooks")
+    }
+
+    withType<Test> {
+        // JUnit Platform を使用する
+        useJUnitPlatform()
+    }
+
+    withType<Delete> {
+        doLast {
+            // デフォルトのcleanタスクでは削除されない「bin」ディレクトリを削除する
+            val binDir = file("./bin")
+            binDir.deleteRecursively()
+        }
+    }
+
+    withType<JavaCompile> {
+        // ビルド時に下記タスクも並行して実行させる
+        dependsOn("processResources")
+
+        doLast {
+            // additional-spring-configuration-metadata.json を自動生成させる
+            copy {
+                from("./build/classes/java/main/META-INF/spring-configuration-metadata.json")
+                into("./src/main/resources/META-INF")
+
+                rename {
+                    "additional-spring-configuration-metadata.json"
+                }
+            }
+        }
+    }
+
+    withType<Jar> {
+        // 標準生成されるJarファイルでは動作しないのでタスクを無効化
+        enabled = false
+    }
 }
