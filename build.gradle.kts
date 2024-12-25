@@ -1,6 +1,7 @@
 plugins {
     id("java")
-    id("idea")
+
+    // Spring Boot
     alias(libs.plugins.springframework.boot)
     alias(libs.plugins.spring.dependency.management)
 
@@ -12,6 +13,7 @@ group = "com.hytsnbr"
 
 java {
     toolchain {
+        // JDKバージョン指定
         languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
