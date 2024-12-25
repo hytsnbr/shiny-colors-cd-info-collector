@@ -38,7 +38,7 @@ jobs:
           echo "${{ env.process_date }}"
           echo "${{ env.branch_name }}"
 
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
