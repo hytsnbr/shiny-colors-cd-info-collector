@@ -43,19 +43,12 @@ jobs:
         if: steps.spotlessJavaCheck.outcome == 'failure'
         run: gradle spotlessJavaApply
 
-      - name: Create Branch & Checkout
-        run: git checkout -b "${{ env.branch_name }}"
-
       - name: Commit & Push
         id: commit_push
         if: steps.spotlessJavaCheck.outcome == 'failure'
-        run: |
-          set -x
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add .
-          git commit -m "chore: Spotlessによるコードフォーマットを適用"
-          git push --set-upstream origin ${{ env.branch_name }}
+        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        with: 
+          commit_message: "chore: Spotlessによるコードフォーマットを適用"
 
   kotlinGradle:
     runs-on: ubuntu-latest
@@ -90,16 +83,9 @@ jobs:
         if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
         run: gradle spotlessKotlinGradleApply
 
-      - name: Create Branch & Checkout
-        run: git checkout -b "${{ env.branch_name }}"
-
       - name: Commit & Push
         id: commit_push
         if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
-        run: |
-          set -x
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add .
-          git commit -m "chore: Spotlessによるコードフォーマットを適用"
-          git push --set-upstream origin ${{ env.branch_name }}
+        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        with: 
+          commit_message: "chore: Spotlessによるコードフォーマットを適用"
