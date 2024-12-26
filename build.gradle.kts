@@ -82,11 +82,6 @@ spotless {
 }
 
 tasks {
-    withType<Wrapper> {
-        // 下記タスクも並行して実行させる
-        dependsOn("installGitHooks")
-    }
-
     withType<Test> {
         // JUnit Platform を使用する
         useJUnitPlatform()
