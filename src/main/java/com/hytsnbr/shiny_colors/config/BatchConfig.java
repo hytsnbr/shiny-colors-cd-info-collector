@@ -3,7 +3,6 @@ package com.hytsnbr.shiny_colors.config;
 import java.nio.file.Paths;
 
 import org.springframework.batch.core.Job;
-import org.springframework.batch.core.JobExecutionListener;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.job.builder.JobBuilder;
 import org.springframework.batch.core.repository.JobRepository;
