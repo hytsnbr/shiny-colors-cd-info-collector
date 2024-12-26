@@ -23,34 +23,35 @@ import com.hytsnbr.shiny_colors.util.JsoupUtil;
 /** ディスコグラフィー情報リスト作成タスクレット */
 @Component
 public class CreateDiscographyListTasklet implements Tasklet {
-    
+
     /** ロガー */
-    private static final Logger logger = LoggerFactory.getLogger(CreateDiscographyListTasklet.class);
-    
+    private static final Logger logger =
+            LoggerFactory.getLogger(CreateDiscographyListTasklet.class);
+
     /** アプリ設定 */
     private final ApplicationConfig appConfig;
-    
+
     private final FileOperator fileOperator;
-    
+
     /** コンストラクタ */
     public CreateDiscographyListTasklet(ApplicationConfig appConfig, FileOperator fileOperator) {
         this.appConfig = appConfig;
         this.fileOperator = fileOperator;
     }
-    
+
     @SuppressWarnings("NullableProblems")
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) {
         var discographyList = this.createDiscographyList();
-        
+
         this.fileOperator.outputToJsonFile(discographyList, "DiscographyList.json");
-        
+
         return RepeatStatus.FINISHED;
     }
-    
+
     private List<DiscographyData> createDiscographyList() {
         List<DiscographyData> discographyList = new ArrayList<>();
-        
+
         // ランティスのシャニマスサイト（ディスコグラフィーページ）に接続
         Document document;
         try {
@@ -58,13 +59,13 @@ public class CreateDiscographyListTasklet implements Tasklet {
         } catch (HttpStatusException e) {
             throw new SystemException("ディスコグラフィーページの取得に失敗しました");
         }
-        
+
         // 上記ページのディスコグラフィー一覧を取得
         var discographySection = document.getElementById("discographys");
         if (Objects.isNull(discographySection)) {
             throw new SystemException("ディスコグラフィー情報がページ内に存在しません");
         }
-        
+
         // ディスコグラフィーページ内に「CD」と「Blu-ray」のセクションがあるので「CD」の方だけ取得
         var cdArea = discographySection.getElementsByClass("CD_area").getFirst();
         // CDシリーズをリストで取得
@@ -72,19 +73,19 @@ public class CreateDiscographyListTasklet implements Tasklet {
         for (var dscBoxElement : dscBox) {
             var seriesName = dscBoxElement.select("h4 > span").text().replace("■", "");
             logger.info("Series Name: {}", seriesName);
-            
+
             // CDシリーズ内のCD一覧を取得
             var dscList = dscBoxElement.select("a");
             for (var dsc : dscList) {
                 var cdDetailUrl = dsc.attr("href");
                 logger.info("CD Detail URL: {}", cdDetailUrl);
-                
+
                 var discographyData = DiscographyData.of(cdDetailUrl, seriesName);
-                
+
                 discographyList.add(discographyData);
             }
         }
-        
+
         return discographyList;
     }
 }

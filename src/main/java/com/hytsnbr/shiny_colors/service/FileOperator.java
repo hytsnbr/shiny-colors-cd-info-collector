@@ -21,14 +21,14 @@ import com.hytsnbr.shiny_colors.exception.SystemException;
 /** ファイル操作サービス */
 @Component
 public class FileOperator {
-    
+
     private static final ObjectMapper objectMapper;
-    
+
     /** ロガー */
     private static final Logger logger = LoggerFactory.getLogger(FileOperator.class);
-    
+
     private final ApplicationConfig appConfig;
-    
+
     /* staticイニシャライザー */
     static {
         objectMapper = new ObjectMapper();
@@ -36,31 +36,27 @@ public class FileOperator {
         objectMapper.registerModule(new JavaTimeModule());
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
     }
-    
+
     /** コンストラクタ */
     public FileOperator(ApplicationConfig appConfig) {
         this.appConfig = appConfig;
     }
-    
-    /**
-     * JSONファイルを読み取ってオブジェクトで返却する
-     */
+
+    /** JSONファイルを読み取ってオブジェクトで返却する */
     public <T> T readJsonFile(final String jsonFileName, Class<T> clazz) {
         try {
             var jsonFile = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName).toFile();
             return objectMapper.readValue(jsonFile, clazz);
         } catch (FileNotFoundException e) {
             logger.debug("生成ファイルが存在しません");
-            
+
             return null;
         } catch (IOException e) {
             throw new SystemException("生成ファイルの読み込みに失敗しました", e);
         }
     }
-    
-    /**
-     * JSONファイルに出力
-     */
+
+    /** JSONファイルに出力 */
     public void outputToJsonFile(Object jsonData, String jsonFileName) {
         var path = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName);
         try {
@@ -69,15 +65,16 @@ public class FileOperator {
         } catch (IOException e) {
             throw new SystemException("ファイル作成に失敗しました", e);
         }
-        
+
         try (var bufferedWriter = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
             var jsonText = objectMapper.writeValueAsString(jsonData);
-            var json = new GsonBuilder()
-                .serializeNulls()
-                .setPrettyPrinting()
-                .disableHtmlEscaping()
-                .create()
-                .toJson(JsonParser.parseString(jsonText));
+            var json =
+                    new GsonBuilder()
+                            .serializeNulls()
+                            .setPrettyPrinting()
+                            .disableHtmlEscaping()
+                            .create()
+                            .toJson(JsonParser.parseString(jsonText));
             bufferedWriter.write(json);
         } catch (Exception e) {
             throw new SystemException(e);

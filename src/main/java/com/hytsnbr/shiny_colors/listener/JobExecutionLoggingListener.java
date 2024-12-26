@@ -10,15 +10,15 @@ import org.springframework.stereotype.Component;
 @JobScope
 @Component
 public class JobExecutionLoggingListener implements JobExecutionListener {
-    
+
     /** ロガー */
     private static final Logger logger = LoggerFactory.getLogger(JobExecutionLoggingListener.class);
-    
+
     @Override
     public void beforeJob(JobExecution jobExecution) {
         logger.info("Before Job");
     }
-    
+
     @Override
     public void afterJob(JobExecution jobExecution) {
         logger.info("After Job");

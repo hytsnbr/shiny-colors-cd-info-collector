@@ -24,45 +24,45 @@ import com.hytsnbr.shiny_colors.service.FileOperator;
 /** JSONデータ作成タスクレット */
 @Component
 public class GenerateDataJsonTasklet implements Tasklet {
-    
+
     /** ロガー */
     private static final Logger logger = LoggerFactory.getLogger(GenerateDataJsonTasklet.class);
-    
+
     private final FileOperator fileOperator;
-    
+
     /** 強制更新 */
     @Value("${app-config.force}")
     private boolean isForce;
-    
+
     /** コンストラクタ */
     public GenerateDataJsonTasklet(FileOperator fileOperator) {
         this.fileOperator = fileOperator;
     }
-    
+
     @SuppressWarnings("NullableProblems")
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) {
         // 前回作成したファイルの作成日チェック
         if (this.isCreationDateToday()) {
             logger.info("前回のファイル作成処理から日付が変わっていないため処理は中止されました");
-            
+
             return RepeatStatus.FINISHED;
         }
-        
+
         var cdInfoList = List.of(this.fileOperator.readJsonFile("CDInfoList.json", CdInfo[].class));
-        
+
         // 前回処理後のデータと一致する場合はファイル出力しない
         if (!this.matchPrevCdInfoList(cdInfoList)) {
             this.fileOperator.outputToJsonFile(CdInfoListJson.of(cdInfoList), "data.json");
-            
+
             logger.info("ファイルを作成しました");
         } else {
             logger.info("前回処理時とデータ内容に変化がないためファイルは作成されませんでした");
         }
-        
+
         return RepeatStatus.FINISHED;
     }
-    
+
     /**
      * 作成済みのファイルの作成日が現在日と一致するか<br>
      * 一致する場合：<code>true</code><br>
@@ -70,46 +70,45 @@ public class GenerateDataJsonTasklet implements Tasklet {
      */
     private boolean isCreationDateToday() {
         if (this.isForce) return false;
-        
+
         var data = this.fileOperator.readJsonFile("data.json", CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
-        
+
         final var formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
-        final var createdAt = LocalDateTime.ofInstant(
-            Instant.ofEpochSecond(data.getCreatedAt()),
-            ZoneId.systemDefault()
-        ).format(formatter);
+        final var createdAt =
+                LocalDateTime.ofInstant(
+                                Instant.ofEpochSecond(data.getCreatedAt()), ZoneId.systemDefault())
+                        .format(formatter);
         final var today = LocalDateTime.now().format(formatter);
-        
+
         logger.info("ファイル作成日: {}", createdAt);
         logger.info("処理日: {}", today);
-        
+
         return StringUtils.equals(createdAt, today);
     }
-    
+
     /**
      * 前回処理時のデータと一致するか
      *
      * @param cdInfoList CD情報リスト
-     *
      * @return 一致する場合は true
      */
     private boolean matchPrevCdInfoList(List<CdInfo> cdInfoList) {
         if (this.isForce) return false;
-        
+
         var data = this.fileOperator.readJsonFile("data.json", CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
-        
+
         for (var cdInfo : cdInfoList) {
             if (!data.getCdInfoList().contains(cdInfo)) {
                 return false;
             }
         }
-        
+
         return true;
     }
 }
