@@ -3,7 +3,6 @@ package com.hytsnbr.shiny_colors.config;
 import java.nio.file.Paths;
 
 import org.springframework.batch.core.Job;
-import org.springframework.batch.core.JobExecutionListener;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.job.builder.JobBuilder;
 import org.springframework.batch.core.repository.JobRepository;
@@ -45,14 +44,12 @@ public class BatchConfig {
             Step createDiscographyListStep,
             Step createCdInfoListStep,
             Step generateDataJsonStep,
-            Step cleanupStep,
-            JobExecutionListener jobExecutionListener) {
+            Step cleanupStep) {
         return new JobBuilder("main_job", jobRepository)
                 .start(createDiscographyListStep)
                 .next(createCdInfoListStep)
                 .next(generateDataJsonStep)
                 .next(cleanupStep)
-                .listener(jobExecutionListener)
                 .build();
     }
 
