@@ -45,14 +45,12 @@ public class BatchConfig {
             Step createDiscographyListStep,
             Step createCdInfoListStep,
             Step generateDataJsonStep,
-            Step cleanupStep,
-            JobExecutionListener jobExecutionListener) {
+            Step cleanupStep) {
         return new JobBuilder("main_job", jobRepository)
                 .start(createDiscographyListStep)
                 .next(createCdInfoListStep)
                 .next(generateDataJsonStep)
                 .next(cleanupStep)
-                .listener(jobExecutionListener)
                 .build();
     }
 
