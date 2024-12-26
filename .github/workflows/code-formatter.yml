@@ -43,6 +43,9 @@ jobs:
         if: steps.spotlessJavaCheck.outcome == 'failure'
         run: gradle spotlessJavaApply
 
+      - name: Create Branch & Checkout
+        run: git checkout -b "${{ env.branch_name }}"
+
       - name: Commit & Push
         id: commit_push
         if: steps.spotlessJavaCheck.outcome == 'failure'
@@ -86,6 +89,9 @@ jobs:
       - name: Spotless Kotlin Gradle Apply
         if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
         run: gradle spotlessKotlinGradleApply
+
+      - name: Create Branch & Checkout
+        run: git checkout -b "${{ env.branch_name }}"
 
       - name: Commit & Push
         id: commit_push
