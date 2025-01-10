@@ -1,5 +1,5 @@
 {
-  "createdAt": 1736491826,
+  "createdAt": 1736523714,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5996,6 +5996,41 @@
       "series": "ECHOES",
       "artist": "コメティック",
       "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/7rmEiU8A1qm3Lhseb3OAAT",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1779614258",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DMV9PXXB",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/fec52b8a6a2dcdaea928",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1039399763",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000003fdc8c3",
+          "isHiRes": false
+        },
         {
           "name": "iTunes",
           "url": "https://music.apple.com/us/album/1779610724",
