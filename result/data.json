@@ -1,5 +1,5 @@
 {
-  "createdAt": 1735054754,
+  "createdAt": 1736491826,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6057,12 +6057,28 @@
       ],
       "releaseDate": "2025-01-22",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25115/",
-      "jacketUrl": "/images/nowprinting.jpg",
-      "limited": true,
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/01/LACA-25115.jpg",
+      "limited": false,
       "series": "ECHOES",
       "artist": "シャイニーカラーズ",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/2924553/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+ECHOES+09/pd/10742811/",
+          "isHiRes": false
+        },
+        {
+          "name": "アソビストア",
+          "url": "https://shop.asobistore.jp/products/detail/203933-00-00-00",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prism 星の声",
@@ -7527,6 +7543,34 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
+      "recordNumbers": [
+        "LACM-24636"
+      ],
+      "releaseDate": "2025-03-26",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24636/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
+      "recordNumbers": [
+        "LACM-24637"
+      ],
+      "releaseDate": "2025-03-26",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24637/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",

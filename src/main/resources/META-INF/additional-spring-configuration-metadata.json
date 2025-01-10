@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "app-config",
+      "type": "com.hytsnbr.shiny_colors.config.ApplicationConfig",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig"
+    },
+    {
+      "name": "app-config.jsoup",
+      "type": "com.hytsnbr.shiny_colors.config.ApplicationConfig$Jsoup",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig",
+      "sourceMethod": "getJsoup()"
+    },
+    {
+      "name": "app-config.process",
+      "type": "com.hytsnbr.shiny_colors.config.ApplicationConfig$Process",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig",
+      "sourceMethod": "getProcess()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app-config.json-dir-path",
+      "type": "java.lang.String",
+      "description": "JSONファイル生成先パス",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig"
+    },
+    {
+      "name": "app-config.jsoup.timeout",
+      "type": "java.lang.Integer",
+      "description": "タイムアウト秒数（ミリ秒)<br> デフォルト値: 30000（30秒）",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig$Jsoup",
+      "defaultValue": 0
+    },
+    {
+      "name": "app-config.process.cool-time",
+      "type": "java.lang.Integer",
+      "description": "ショップサイト取得時のクールタイム（ミリ秒）<br> デフォルト値: 5000（秒）",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig$Process",
+      "defaultValue": 0
+    },
+    {
+      "name": "app-config.process.retry-limit",
+      "type": "java.lang.Integer",
+      "description": "ショップサイト取得時の再試行回数（回）<br> デフォルト値: 5",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig$Process",
+      "defaultValue": 0
+    },
+    {
+      "name": "app-config.target-url",
+      "type": "java.lang.String",
+      "description": "対象URL",
+      "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig"
+    }
+  ],
+  "hints": []
+}
