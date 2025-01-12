@@ -77,7 +77,7 @@ jobs:
       - name: Commit & Push
         id: commit_push
         if: steps.diff.outcome == 'failure'
-        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        uses: stefanzweifel/git-auto-commit-action@v5.1.0
         with: 
           commit_message: "Update: ${{ env.process_date }}"
           branch: ${{ env.branch_name }}

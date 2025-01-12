@@ -46,7 +46,7 @@ jobs:
       - name: Commit & Push
         id: commit_push
         if: steps.spotlessJavaCheck.outcome == 'failure'
-        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        uses: stefanzweifel/git-auto-commit-action@v5.1.0
         with: 
           commit_message: "chore: Spotlessによるコードフォーマットを適用"
 
@@ -86,6 +86,6 @@ jobs:
       - name: Commit & Push
         id: commit_push
         if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
-        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        uses: stefanzweifel/git-auto-commit-action@v5.1.0
         with: 
           commit_message: "chore: Spotlessによるコードフォーマットを適用"
