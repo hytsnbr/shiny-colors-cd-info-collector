@@ -1,5 +1,5 @@
 [versions]
-springframeworkBoot = "3.4.1"
+springframeworkBoot = "3.4.2"
 springDependencyManagement = "1.1.7"
 spotless = "7.0.2"
 commonsLang = "3.17.0"
