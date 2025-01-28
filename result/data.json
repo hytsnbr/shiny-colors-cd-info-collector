@@ -1,5 +1,5 @@
 {
-  "createdAt": 1736869310,
+  "createdAt": 1738078959,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5347,22 +5347,22 @@
       "downloadSiteList": [
         {
           "name": "iTunes",
-          "url": "https://music.apple.com/us/album/1783918600",
+          "url": "https://music.apple.com/jp/album/1785016439",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740031/",
+          "url": "https://mora.jp/package/43000011/4540774245413/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1040090769",
+          "url": "https://recochoku.jp/album/A1040169969",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774740031_HD/",
+          "url": "https://mora.jp/package/43000011/4540774245413_HD/",
           "isHiRes": true
         }
       ],
@@ -6120,22 +6120,22 @@
       "downloadSiteList": [
         {
           "name": "iTunes",
-          "url": "https://music.apple.com/us/album/1783919003",
+          "url": "https://music.apple.com/jp/album/1785015324",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774742646/",
+          "url": "https://mora.jp/package/43000011/4540774251155/",
           "isHiRes": false
         },
         {
           "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1040090280",
+          "url": "https://recochoku.jp/album/A1040170385",
           "isHiRes": false
         },
         {
           "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774742646_HD/",
+          "url": "https://mora.jp/package/43000011/4540774251155_HD/",
           "isHiRes": true
         }
       ],
@@ -7552,7 +7552,63 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "イルミネーションスターズ / 放課後クライマックスガールズ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/6bkETHkjoH2i2eKevEs90M",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1787241924",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DRCCMK7N",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/62f9456edb462fc74862",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000412a5f9",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1040316734",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1787242272",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246342/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1040316734",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246342_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -7592,7 +7648,63 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "イルミネーションスターズ / 放課後クライマックスガールズ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/4ZBDFDgfbIg54ti9MwyZO8",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1787242364",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DRCBN9YN",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/c642bb6b79819616d265",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000412a5f5",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1040316745",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1787242364",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246359/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1040316745",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246359_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
