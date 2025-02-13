@@ -1,5 +1,5 @@
 {
-  "createdAt": 1738078959,
+  "createdAt": 1739429306,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -7734,30 +7734,30 @@
       ]
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism Real Mind Shakes / THE LAST PRIDE 【ストレイライト盤】",
       "recordNumbers": [
         "LACM-24636"
       ],
       "releaseDate": "2025-03-26",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24636/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/01/LACM-24636.jpg",
       "limited": false,
       "series": "Song for Prism",
-      "artist": "THE IDOLM@STER SHINY COLORS",
+      "artist": "ストレイライト / アンティーカ",
       "downloadSiteList": [],
       "purchaseSiteList": []
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism Real Mind Shakes / THE LAST PRIDE 【アンティーカ盤】",
       "recordNumbers": [
         "LACM-24637"
       ],
       "releaseDate": "2025-03-26",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24637/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/01/LACM-24637.jpg",
       "limited": false,
       "series": "Song for Prism",
-      "artist": "THE IDOLM@STER SHINY COLORS",
+      "artist": "ストレイライト / アンティーカ",
       "downloadSiteList": [],
       "purchaseSiteList": []
     },
@@ -10269,6 +10269,66 @@
       "releaseDate": "2024-10-05",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10230_1/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/09/LACZ-10230_1.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part1-",
+      "recordNumbers": [
+        "LACZ-10262",
+        "LACZ-10263"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10262_3/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10262_3.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part2-",
+      "recordNumbers": [
+        "LACZ-10264",
+        "LACZ-10265"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10264_5/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10264_5.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part3-",
+      "recordNumbers": [
+        "LACZ-10266",
+        "LACZ-10267"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10266_7/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10266_7.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part4-",
+      "recordNumbers": [
+        "LACZ-10268",
+        "LACZ-10269"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10268_9/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10268_9.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",
