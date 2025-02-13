@@ -1,5 +1,5 @@
 {
-  "createdAt": 1738078959,
+  "createdAt": 1739461312,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -7734,32 +7734,84 @@
       ]
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【A盤】",
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism Real Mind Shakes / THE LAST PRIDE 【ストレイライト盤】",
       "recordNumbers": [
         "LACM-24636"
       ],
       "releaseDate": "2025-03-26",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24636/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/01/LACM-24636.jpg",
       "limited": false,
       "series": "Song for Prism",
-      "artist": "THE IDOLM@STER SHINY COLORS",
+      "artist": "ストレイライト / アンティーカ",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3038368/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90A%E7%9B%A4%E3%80%91%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0DSKW6T14/ref=sr_1_3",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%80%8CReal+Mind+Shakes/THE+LAST+PRIDE%E3%80%8D/%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AB+%E3%80%90%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88%E7%9B%A4%E3%80%91/pd/10772359/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6763023",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18119720/",
+          "isHiRes": false
+        }
+      ]
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS Song for Prismニューシングル【B盤】",
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism Real Mind Shakes / THE LAST PRIDE 【アンティーカ盤】",
       "recordNumbers": [
         "LACM-24637"
       ],
       "releaseDate": "2025-03-26",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24637/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/01/LACM-24637.jpg",
       "limited": false,
       "series": "Song for Prism",
-      "artist": "THE IDOLM@STER SHINY COLORS",
+      "artist": "ストレイライト / アンティーカ",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3038369/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-Prism%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%90B%E7%9B%A4%E3%80%91%EF%BC%88%E3%83%A1%E3%82%AC%E3%82%B8%E3%83%A3%E3%82%B1%E4%BB%98%E3%81%8D%EF%BC%89/dp/B0DSKYDB63/ref=tmm_acd_title_0",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%80%8CReal+Mind+Shakes/THE+LAST+PRIDE%E3%80%8D/%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AB+%E3%80%90%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AB%E7%9B%A4%E3%80%91/pd/10772360/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6763116",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18119721/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
@@ -10269,6 +10321,66 @@
       "releaseDate": "2024-10-05",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10230_1/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2024/09/LACZ-10230_1.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part1-",
+      "recordNumbers": [
+        "LACZ-10262",
+        "LACZ-10263"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10262_3/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10262_3.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part2-",
+      "recordNumbers": [
+        "LACZ-10264",
+        "LACZ-10265"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10264_5/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10264_5.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part3-",
+      "recordNumbers": [
+        "LACZ-10266",
+        "LACZ-10267"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10266_7/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10266_7.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -2nd season LIVE Over the prism part4-",
+      "recordNumbers": [
+        "LACZ-10268",
+        "LACZ-10269"
+      ],
+      "releaseDate": "2025-03-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10268_9/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10268_9.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",
