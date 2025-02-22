@@ -1,5 +1,5 @@
 {
-  "createdAt": 1739461312,
+  "createdAt": 1740238589,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -5346,6 +5346,41 @@
       "artist": "イルミネーションスターズ",
       "downloadSiteList": [
         {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/3BwoB9owTSzldPp2ulvtcv",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1785014635",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DQ7LQK71",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/5155c4dbc88121e94010",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb00000000040c53ae",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1040169944",
+          "isHiRes": false
+        },
+        {
           "name": "iTunes",
           "url": "https://music.apple.com/jp/album/1785016439",
           "isHiRes": false
@@ -6118,6 +6153,41 @@
       "series": "ECHOES",
       "artist": "シャイニーカラーズ",
       "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/5LDN9aAxuy0VFU3Rfn7EvJ",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1785014673",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DQ7JCNXW",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/1d090145c4adf70b5b07",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1040170346",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb00000000040c53bb",
+          "isHiRes": false
+        },
         {
           "name": "iTunes",
           "url": "https://music.apple.com/jp/album/1785015324",
