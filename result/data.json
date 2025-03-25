@@ -1,5 +1,5 @@
 {
-  "createdAt": 1740238589,
+  "createdAt": 1742917269,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -7814,7 +7814,63 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "ストレイライト / アンティーカ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/03ov63lFUG6C1YF6nGhJWT",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1797688556",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DXVK9K31",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/2e13d8083e41fd474518",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000431d7a9",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1040976229",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1797688556",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246366/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246366_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1040976229",
+          "isHiRes": false
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -7854,7 +7910,63 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "ストレイライト / アンティーカ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/3wjV3o7x3wSsA3GrRhOlDU",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1797688823",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0DXVG1YJB",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/948b4eaac17cc5c9ee19",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://music.tower.jp/album/detail/1040976212",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000431d7ad",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1797688823",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246373/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774246373_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1040976212",
+          "isHiRes": false
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
