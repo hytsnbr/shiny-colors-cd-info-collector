@@ -1,7 +1,7 @@
 [versions]
 springframeworkBoot = "3.4.5"
 springDependencyManagement = "1.1.7"
-spotless = "7.0.3"
+spotless = "7.0.4"
 commonsLang = "3.17.0"
 commonsCollections = "4.5.0"
 jsoup = "1.20.1"
