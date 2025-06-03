@@ -53,5 +53,8 @@
       "sourceType": "com.hytsnbr.shiny_colors.config.ApplicationConfig"
     }
   ],
-  "hints": []
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
 }
