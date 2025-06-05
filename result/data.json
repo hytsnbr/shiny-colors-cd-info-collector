@@ -1,5 +1,5 @@
 {
-  "createdAt": 1749053068,
+  "createdAt": 1749138375,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -10724,6 +10724,51 @@
       "releaseDate": "2025-03-01",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10268_9/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/02/LACZ-10268_9.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -7th UNITLIVE TOUR 円環 -Halo around- part1-",
+      "recordNumbers": [
+        "LACZ-10296",
+        "LACZ-10297"
+      ],
+      "releaseDate": "2025-06-21",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10296_7/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/06/LACZ-10296_7.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -7th UNITLIVE TOUR 円環 -Halo around- part2-",
+      "recordNumbers": [
+        "LACZ-10298",
+        "LACZ-10299"
+      ],
+      "releaseDate": "2025-06-21",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10298_9/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/06/LACZ-10298_9.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -7th UNITLIVE TOUR 円環 -Halo around- part3-",
+      "recordNumbers": [
+        "LACZ-10300",
+        "LACZ-10301"
+      ],
+      "releaseDate": "2025-06-21",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10300_1/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/06/LACZ-10300_1.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",
