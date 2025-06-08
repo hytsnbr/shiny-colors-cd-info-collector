@@ -1,5 +1,5 @@
 {
-  "createdAt": 1749192819,
+  "createdAt": 1749397431,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -9918,63 +9918,7 @@
       "limited": false,
       "series": "アニメ",
       "artist": "シャイニーカラーズ",
-      "downloadSiteList": [
-        {
-          "name": "Spotify",
-          "url": "https://open.spotify.com/album/6HwgXMSMlehPoZnkrcKqT5",
-          "isHiRes": false
-        },
-        {
-          "name": "Apple Music",
-          "url": "https://music.apple.com/jp/album/1782023877",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon Music",
-          "url": "https://www.amazon.co.jp/gp/product/B0DP2FWB3L",
-          "isHiRes": false
-        },
-        {
-          "name": "Youtube Music",
-          "url": "https://music.youtube.com/playlist",
-          "isHiRes": false
-        },
-        {
-          "name": "AWA",
-          "url": "https://s.awa.fm/album/9b19b0fb260e8b188f84",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS MUSIC",
-          "url": "https://music.tower.jp/album/detail/1039815466",
-          "isHiRes": false
-        },
-        {
-          "name": "LINE MUSIC",
-          "url": "https://music.line.me/launch?target=album&item=mb0000000004040a2a",
-          "isHiRes": false
-        },
-        {
-          "name": "iTunes",
-          "url": "https://music.apple.com/jp/album/1782023923",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774742608/",
-          "isHiRes": false
-        },
-        {
-          "name": "レコチョク",
-          "url": "https://recochoku.jp/album/A1039815466",
-          "isHiRes": false
-        },
-        {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774742608_HD/",
-          "isHiRes": true
-        }
-      ],
+      "downloadSiteList": [],
       "purchaseSiteList": [
         {
           "name": "animate",
