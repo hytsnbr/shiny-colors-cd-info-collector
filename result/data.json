@@ -1,5 +1,5 @@
 {
-  "createdAt": 1749192819,
+  "createdAt": 1749538446,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8155,6 +8155,20 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism ニューアルバム",
+      "recordNumbers": [
+        "LACA-25155"
+      ],
+      "releaseDate": "2025-09-03",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25155/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
