@@ -74,6 +74,9 @@ jobs:
         run: git diff --name-only --exit-code
         continue-on-error: true
 
+      - name: Create Branch & Checkout
+        run: git checkout -b "${{ env.branch_name }}"
+
       - name: Commit & Push
         id: commit_push
         if: steps.diff.outcome == 'failure'
