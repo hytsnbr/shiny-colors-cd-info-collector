@@ -1,5 +1,5 @@
 {
-  "createdAt": 1749570325,
+  "createdAt": 1750336539,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6262,6 +6262,16 @@
       ],
       "purchaseSiteList": [
         {
+          "name": "A-on STORE",
+          "url": "https://a-onstore.jp/item/item-1000234700/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/dp/B0F2SH55Q2/",
+          "isHiRes": false
+        },
+        {
           "name": "animate",
           "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+%22%E5%86%86%E7%92%B0+-Halo+around-%22+01+%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AB%C3%97%E3%82%B7%E3%83%BC%E3%82%BA/pd/3091745/",
           "isHiRes": false
@@ -6279,6 +6289,16 @@
         {
           "name": "Rakuten ブックス",
           "url": "https://books.rakuten.co.jp/rb/18178840/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://a.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ecs.toranoana.jp/tora/ec/item/210006660840/",
           "isHiRes": false
         }
       ]
