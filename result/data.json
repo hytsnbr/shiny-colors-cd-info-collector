@@ -1,5 +1,5 @@
 {
-  "createdAt": 1750693697,
+  "createdAt": 1751439328,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6344,7 +6344,28 @@
       "limited": false,
       "series": "\"円環 -Halo around-\"",
       "artist": "放課後クライマックスガールズ×ストレイライト",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1818074675",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774247028/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774247028_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A2005436853",
+          "isHiRes": false
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
