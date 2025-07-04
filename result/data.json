@@ -1,5 +1,5 @@
 {
-  "createdAt": 1751439328,
+  "createdAt": 1751643872,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6346,6 +6346,36 @@
       "artist": "放課後クライマックスガールズ×ストレイライト",
       "downloadSiteList": [
         {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/25jyF9Awrh8pOMZvQGgH5O",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1818073109",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0FBM7Y1L5",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/366ee41ecac92f131547",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000472f01a",
+          "isHiRes": false
+        },
+        {
           "name": "iTunes",
           "url": "https://music.apple.com/us/album/1818074675",
           "isHiRes": false
@@ -6356,14 +6386,14 @@
           "isHiRes": false
         },
         {
-          "name": "mora",
-          "url": "https://mora.jp/package/43000011/4540774247028_HD/",
-          "isHiRes": true
-        },
-        {
           "name": "レコチョク",
           "url": "https://recochoku.jp/album/A2005436853",
           "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774247028_HD/",
+          "isHiRes": true
         }
       ],
       "purchaseSiteList": [
