@@ -1,5 +1,5 @@
 {
-  "createdAt": 1751643872,
+  "createdAt": 1751816594,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6420,41 +6420,6 @@
       ]
     },
     {
-      "title": "THE IDOLM@STER SHINY COLORS “円環 -Halo around-” 03",
-      "recordNumbers": [
-        "LACM-24703"
-      ],
-      "releaseDate": "2025-08-06",
-      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24703/",
-      "jacketUrl": "/images/nowprinting.jpg",
-      "limited": false,
-      "series": "\"円環 -Halo around-\"",
-      "artist": "アルストロメリア×コメティック",
-      "downloadSiteList": [],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pd/3092869/",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+%27%27%E5%86%86%E7%92%B0+-Halo+around-%27%27+03/%E3%82%A2%E3%83%AB%E3%82%B9%E3%83%88%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2%C3%97%E3%82%B3%E3%83%A1%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/pd/10790727/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6815571",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/18192257/",
-          "isHiRes": false
-        }
-      ]
-    },
-    {
       "title": "THE IDOLM@STER SHINY COLORS “円環 -Halo around-” 04",
       "recordNumbers": [
         "LACM-24704"
@@ -6485,6 +6450,41 @@
         {
           "name": "Rakuten ブックス",
           "url": "https://books.rakuten.co.jp/rb/18192258/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS “円環 -Halo around-” 03",
+      "recordNumbers": [
+        "LACM-24703"
+      ],
+      "releaseDate": "2025-08-06",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24703/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/07/LACM-24703.jpg",
+      "limited": false,
+      "series": "\"円環 -Halo around-\"",
+      "artist": "アルストロメリア×コメティック",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3092869/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+%27%27%E5%86%86%E7%92%B0+-Halo+around-%27%27+03/%E3%82%A2%E3%83%AB%E3%82%B9%E3%83%88%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2%C3%97%E3%82%B3%E3%83%A1%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/pd/10790727/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6815571",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18192257/",
           "isHiRes": false
         }
       ]
