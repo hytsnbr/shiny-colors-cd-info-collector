@@ -2,7 +2,7 @@
 springframeworkBoot = "3.5.3"
 springDependencyManagement = "1.1.7"
 spotless = "7.1.0"
-commonsLang = "3.17.0"
+commonsLang = "3.18.0"
 commonsCollections = "4.5.0"
 jsoup = "1.21.1"
 gson = "2.13.1"
