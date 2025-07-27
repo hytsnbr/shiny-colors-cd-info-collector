@@ -1,5 +1,5 @@
 {
-  "createdAt": 1753340301,
+  "createdAt": 1753619001,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -9745,6 +9745,68 @@
         {
           "name": "Rakuten ブックス",
           "url": "https://books.rakuten.co.jp/rb/17331325/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS -28 colors- COLLECTION 【数量限定盤】",
+      "recordNumbers": [
+        "LACA-39134",
+        "LACA-39135"
+      ],
+      "releaseDate": "2025-10-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-39134_5/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "-28 Colors- COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "TOWER RECORDS MUSIC",
+          "url": "https://tower.jp/item/6929074",
+          "isHiRes": false
+        },
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+-28+colors-+COLLECTION%E3%80%90%E6%95%B0%E9%87%8F%E9%99%90%E5%AE%9A%E7%9B%A4%E3%80%91/pd/3186014/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+-28+colors-+COLLECTION+%E3%80%90%E6%95%B0%E9%87%8F%E9%99%90%E5%AE%9A%E7%9B%A4%E3%80%91/pd/10819113/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS -28 colors- COLLECTION 【通常盤】",
+      "recordNumbers": [
+        "LACA-19134",
+        "LACA-19135"
+      ],
+      "releaseDate": "2025-10-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-19134_5/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "-28 Colors- COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3186015/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+-28+colors-+COLLECTION+%E3%80%90%E9%80%9A%E5%B8%B8%E7%9B%A4%E3%80%91/pd/10819114/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/6929072",
           "isHiRes": false
         }
       ]
