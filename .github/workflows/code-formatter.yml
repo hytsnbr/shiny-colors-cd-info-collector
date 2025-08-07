@@ -71,7 +71,7 @@ jobs:
   java:
     name: Format Java
     runs-on: ubuntu-latest
-    if: ${{ !cancelled() }}
+    if: needs.check-java.outputs.has_java == 'true'
     needs: check-java
     
     steps:
@@ -114,7 +114,7 @@ jobs:
   kotlinGradle:
     name: Format KotlinGradle
     runs-on: ubuntu-latest
-    if: ${{ !cancelled() }}
+    if: needs.check-kotlin-gradle.outputs.has_kotlin_gradle == 'true'
     needs: check-kotlin-gradle
     
     steps:
