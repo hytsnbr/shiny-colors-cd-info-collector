@@ -18,7 +18,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  process:
+  update-data:
+    name: Update Data
     runs-on: ubuntu-latest
 
     env:
@@ -104,3 +105,9 @@ jobs:
             --body "${{ env.process_date }} 時点 更新データ" \
             --label "${{ env.LABEL_NAME }}"
         continue-on-error: true
+
+  format-json:
+    name: Format JSON
+    uses: ./.github/workflows/json-formatter.yml
+    if: ${{ !cancelled() }}
+    needs: update-data

@@ -10,8 +10,15 @@ on:
       - synchronize # PRのコミット更新時
 
 jobs:
+  build:
+    name: Build
+    uses: ./.github/workflows/build.yml
+
   java:
+    name: Format Java
     runs-on: ubuntu-latest
+    if: ${{ !cancelled() }}
+    needs: build
     
     steps:
       - name: Checkout Repository
@@ -51,7 +58,10 @@ jobs:
           commit_message: "chore: Spotlessによるコードフォーマットを適用"
 
   kotlinGradle:
+    name: Format KotlinGradle
     runs-on: ubuntu-latest
+    if: ${{ !cancelled() }}
+    needs: build
     
     steps:
       - name: Checkout Repository
