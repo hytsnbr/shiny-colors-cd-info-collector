@@ -1,0 +1,37 @@
+name: Check JSON Changes
+
+on:
+  # 他のワークフローから呼べるようにする
+  workflow_call:
+    output:
+      result:
+        description: "JSONファイル変更チェック結果"
+        value: ${{ jobs.check-json.outputs.result }}
+
+jobs:
+  check-json:
+    name: Check JSON Changes
+    runs-on: ubuntu-latest
+    outputs:
+      result: ${{ steps.check.outputs.result }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Check for .json changes
+        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
+        id: filter
+        with:
+          filters: |
+            result:
+              - 'result/*.json'
+
+      - name: Result
+        id: result
+        if: steps.filter.outputs.json == 'true'
+        run: |
+          echo "✅ JSONファイルの更新がありました"
+          echo "result=true" >> $GITHUB_OUTPUT
