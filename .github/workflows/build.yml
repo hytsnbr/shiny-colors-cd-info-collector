@@ -1,11 +1,6 @@
 name: Build
 
 on:
-  push:
-    branches:
-      - "**"
-      - "!json_update"
-
   # 他のワークフローから呼べるようにする
   workflow_call:
 

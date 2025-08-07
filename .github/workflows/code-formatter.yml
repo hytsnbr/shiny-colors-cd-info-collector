@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has_java: ${{ steps.check.outputs.has_java_changes }}
+    needs: build
 
     steps:
       - name: Checkout Repository
@@ -46,6 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has_kotlin_gradle: ${{ steps.check.outputs.has_kotlin_gradle_changes }}
+    needs: build
 
     steps:
       - name: Checkout Repository
