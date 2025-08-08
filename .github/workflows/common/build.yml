@@ -1,0 +1,60 @@
+name: Build
+
+on:
+  # 他のワークフローから呼べるようにする
+  workflow_call:
+    inputs:
+      build-key:
+        required: true
+        type: string
+
+# 多重起動防止
+concurrency:
+  # ジョブのグループ名（同じグループ名のジョブは同時に実行されない）
+  group: build-${{ inputs.build-key }}
+
+  # 同じグループのジョブが実行中の場合は実行しない
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Restore build cache
+        id: cache
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.2.4
+        with:
+          path: build/
+          key: build-artifact-${{ inputs.build-key }}
+
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4.7.1
+        with:
+          java-version: 21
+          distribution: adopt
+          cache: "gradle"
+
+      - name: Validate Gradle wrapper
+        uses: gradle/actions/wrapper-validation@017a9effdb900e5b5b2fddfb590a105619dca3c3 # v4.4.2
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@017a9effdb900e5b5b2fddfb590a105619dca3c3 # v4.4.2
+        with:
+          gradle-version: wrapper
+
+      - name: Build with Gradle
+        run: gradle build
+
+      - name: Upload build
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: ${{ inputs.build-key }}
+          path: build/
+

@@ -14,7 +14,10 @@ on:
 
 # 多重起動防止
 concurrency:
+  # ジョブのグループ名（同じグループ名のジョブは同時に実行されない）
   group: "data_update"
+
+  # 同じグループのジョブが実行中の場合はキャンセルして新しいジョブを実行する
   cancel-in-progress: true
 
 jobs:
@@ -39,7 +42,7 @@ jobs:
           echo "${{ env.process_date }}"
           echo "${{ env.branch_name }}"
 
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           fetch-depth: 0
