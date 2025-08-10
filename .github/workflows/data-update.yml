@@ -85,10 +85,10 @@ jobs:
         id: commit_push
         if: steps.diff.outcome == 'failure'
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
-        with: 
+        with:
           commit_message: "Update: ${{ env.process_date }}"
           branch: ${{ env.branch_name }}
-          create_branch: true
+          file_pattern: "result/data.json"
 
       - name: Label Create
         run: |
@@ -111,6 +111,6 @@ jobs:
 
   format-json:
     name: Format JSON
-    uses: ./.github/workflows/json-formatter.yml
+    uses: ./.github/workflows/formatter/json-formatter.yml
     if: ${{ !cancelled() }}
     needs: update-data
