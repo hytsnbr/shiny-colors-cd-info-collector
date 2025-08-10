@@ -3,7 +3,7 @@ name: Check KotlinGradle Code Changes
 on:
   # 他のワークフローから呼べるようにする
   workflow_call:
-    output:
+    outputs:
       result:
         description: "KotlioGradleファイル変更チェック結果"
         value: ${{ jobs.check-kotlin-gradle.outputs.result }}
@@ -13,7 +13,7 @@ jobs:
     name: Check KotlinGradle Code Changes
     runs-on: ubuntu-latest
     outputs:
-      result: ${{ steps.check.outputs.result }}
+      result: ${{ steps.result.outputs.result }}
 
     steps:
       - name: Checkout repository
