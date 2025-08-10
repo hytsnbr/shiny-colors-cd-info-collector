@@ -1,19 +1,19 @@
-name: Check JSON Changes
+name: Check Java Code Changes
 
 on:
   # 他のワークフローから呼べるようにする
   workflow_call:
-    output:
+    outputs:
       result:
-        description: "JSONファイル変更チェック結果"
-        value: ${{ jobs.check-json.outputs.result }}
+        description: "Javaファイル変更チェック結果"
+        value: ${{ jobs.check-java.outputs.result }}
 
 jobs:
-  check-json:
-    name: Check JSON Changes
+  check-java:
+    name: Check Java Code Changes
     runs-on: ubuntu-latest
     outputs:
-      result: ${{ steps.check.outputs.result }}
+      result: ${{ steps.result.outputs.result }}
 
     steps:
       - name: Checkout repository
@@ -21,17 +21,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check for .json changes
+      - name: Check for .java changes
         uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
         id: filter
         with:
           filters: |
             result:
-              - 'result/*.json'
+              - 'result/*.java'
 
       - name: Result
         id: result
-        if: steps.filter.outputs.json == 'true'
+        if: steps.filter.outputs.result == 'true'
         run: |
-          echo "✅ JSONファイルの更新がありました"
+          echo "✅ Javaファイルの更新がありました"
           echo "result=true" >> $GITHUB_OUTPUT

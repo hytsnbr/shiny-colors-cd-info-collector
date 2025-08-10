@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     name: Build
-    uses: ./.github/workflows/common/build.yml
+    uses: ./.github/workflows/build.yml
     with:
       build-key: ${{ github.sha }}
 
@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     if: needs.check-java.outputs.has_java == 'true'
     needs: check-java
-    
+
     steps:
       - name: Check build result
         uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5.0.0
@@ -96,5 +96,5 @@ jobs:
         id: commit_push
         if: steps.spotlessJavaCheck.outcome == 'failure'
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
-        with: 
+        with:
           commit_message: "chore: Spotlessによるコードフォーマットを適用"

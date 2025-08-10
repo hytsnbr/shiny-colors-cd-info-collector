@@ -111,6 +111,6 @@ jobs:
 
   format-json:
     name: Format JSON
-    uses: ./.github/workflows/formatter/json-formatter.yml
+    uses: ./.github/workflows/json-formatter.yml
     if: ${{ !cancelled() }}
     needs: update-data
