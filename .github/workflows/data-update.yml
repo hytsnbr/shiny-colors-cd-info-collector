@@ -88,7 +88,7 @@ jobs:
         with: 
           commit_message: "Update: ${{ env.process_date }}"
           branch: ${{ env.branch_name }}
-          create_branch: true
+          file_pattern: "result/data.json"
 
       - name: Label Create
         run: |
