@@ -1,0 +1,87 @@
+name: KotlinGradle Code Formatter
+
+on:
+  pull_request:
+    paths:
+      - "**/*.gradle.kts"
+    branches:
+      - "**"
+      - "!json_update"
+    types:
+      - opened # PR作成時
+      - synchronize # PRのコミット更新時
+
+jobs:
+  check-kotlin-gradle:
+    name: Check KotlinGradle Code Changes
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    outputs:
+      result: ${{ steps.result.outputs.result }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Check for .gradle.kts changes
+        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
+        id: filter
+        with:
+          filters: |
+            kotlin_gradle:
+              - '**/*.gradle.kts'
+
+      - name: Result
+        id: result
+        if: steps.filter.outputs.kotlin_gradle == 'true'
+        run: |
+          echo "✅ KotlinGradleファイルの更新がありました"
+          echo "has_kotlin_gradle_changes=true" >> $GITHUB_OUTPUT
+
+  kotlinGradle:
+    name: Format KotlinGradle
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    if: needs.check-kotlin-gradle.outputs.result == 'true'
+    needs: check-kotlin-gradle
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4.7.1
+        with:
+          java-version: 21
+          distribution: adopt
+          cache: "gradle"
+
+      - name: Validate Gradle wrapper
+        uses: gradle/actions/wrapper-validation@017a9effdb900e5b5b2fddfb590a105619dca3c3 # v4.4.2
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@017a9effdb900e5b5b2fddfb590a105619dca3c3 # v4.4.2
+        with:
+          gradle-version: wrapper
+
+      - name: Spotless Kotlin Gradle Check
+        id: spotlessKotlinGradleCheck
+        run: gradle spotlessKotlinGradleCheck
+        continue-on-error: true
+
+      - name: Spotless Kotlin Gradle Apply
+        if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
+        run: gradle spotlessKotlinGradleApply
+
+      - name: Commit & Push
+        id: commit_push
+        if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
+        uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
+        with:
+          commit_message: "chore: Spotlessによるコードフォーマットを適用"
