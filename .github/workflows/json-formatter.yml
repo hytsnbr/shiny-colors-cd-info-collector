@@ -1,5 +1,3 @@
-permissions:
-  contents: write
 name: JSON Formatter
 
 on:
@@ -16,6 +14,8 @@ jobs:
   check-json:
     name: Check JSON Changes
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       result: ${{ steps.result.outputs.result }}
 

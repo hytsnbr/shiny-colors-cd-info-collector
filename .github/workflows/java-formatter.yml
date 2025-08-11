@@ -1,5 +1,3 @@
-permissions:
-  contents: read
 name: Java Code Formatter
 
 on:
@@ -23,6 +21,8 @@ jobs:
   check-java:
     name: Check Java Code Changes
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       result: ${{ steps.result.outputs.result }}
     needs: build
