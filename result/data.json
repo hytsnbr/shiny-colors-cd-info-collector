@@ -1,5 +1,5 @@
 {
-  "createdAt": 1754463650,
+  "createdAt": 1754895584,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6431,6 +6431,36 @@
       "series": "\"円環 -Halo around-\"",
       "artist": "アルストロメリア×コメティック",
       "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/5VturOz14q5HPscCAAXquX",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1825101865",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0FGXZ6R5Y",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000004869e43",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/9d108aa3e989bc6d3499",
+          "isHiRes": false
+        },
         {
           "name": "iTunes",
           "url": "https://music.apple.com/us/album/1825103169",
