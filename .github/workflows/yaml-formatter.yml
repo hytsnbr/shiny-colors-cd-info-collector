@@ -14,6 +14,8 @@ on:
 jobs:
   check-yaml:
     name: Check YAML Changes
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     outputs:
       result: ${{ steps.result.outputs.result }}
