@@ -24,7 +24,7 @@ jobs:
     name: Check Java Code Changes
     runs-on: ubuntu-latest
     outputs:
-      has_java: ${{ steps.check.outputs.has_java_changes }}
+      result: ${{ steps.result.outputs.result }}
     needs: build
 
     steps:
@@ -43,20 +43,22 @@ jobs:
         id: filter
         with:
           filters: |
-            java:
+            result:
               - 'src/**/*.java'
 
-      - name: Has Java Code Changes
-        id: check
-        if: steps.filter.outputs.java == 'true'
+      - name: Result
+        id: result
+        if: steps.filter.outputs.result == 'true'
         run: |
           echo "✅ Javaファイルの更新がありました"
-          echo "has_java_changes=true" >> $GITHUB_OUTPUT
+          echo "result=true" >> $GITHUB_OUTPUT
 
   java:
     name: Format Java
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    if: needs.check-java.outputs.has_java == 'true'
+    if: needs.check-java.outputs.result == 'true'
     needs: check-java
 
     steps:
