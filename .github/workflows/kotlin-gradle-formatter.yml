@@ -31,15 +31,15 @@ jobs:
         id: filter
         with:
           filters: |
-            kotlin_gradle:
+            result:
               - '**/*.gradle.kts'
 
       - name: Result
         id: result
-        if: steps.filter.outputs.kotlin_gradle == 'true'
+        if: steps.filter.outputs.result == 'true'
         run: |
           echo "✅ KotlinGradleファイルの更新がありました"
-          echo "has_kotlin_gradle_changes=true" >> $GITHUB_OUTPUT
+          echo "result=true" >> $GITHUB_OUTPUT
 
   kotlinGradle:
     name: Format KotlinGradle

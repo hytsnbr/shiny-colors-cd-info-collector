@@ -37,7 +37,7 @@ jobs:
 
       - name: Result
         id: result
-        if: steps.filter.outputs.yaml == 'true'
+        if: steps.filter.outputs.result == 'true'
         run: |
           echo "✅ YAMLファイルの更新がありました"
           echo "result=true" >> $GITHUB_OUTPUT
