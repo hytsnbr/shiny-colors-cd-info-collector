@@ -19,6 +19,17 @@ java {
 }
 
 repositories {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     mavenCentral()
 }
 

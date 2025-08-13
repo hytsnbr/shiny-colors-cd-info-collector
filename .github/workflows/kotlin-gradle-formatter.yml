@@ -12,42 +12,11 @@ on:
       - synchronize # PRのコミット更新時
 
 jobs:
-  check-kotlin-gradle:
-    name: Check KotlinGradle Code Changes
-    permissions:
-      contents: read
-    runs-on: ubuntu-latest
-    outputs:
-      result: ${{ steps.result.outputs.result }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-        with:
-          fetch-depth: 0
-
-      - name: Check for .gradle.kts changes
-        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
-        id: filter
-        with:
-          filters: |
-            kotlin_gradle:
-              - '**/*.gradle.kts'
-
-      - name: Result
-        id: result
-        if: steps.filter.outputs.kotlin_gradle == 'true'
-        run: |
-          echo "✅ KotlinGradleファイルの更新がありました"
-          echo "has_kotlin_gradle_changes=true" >> $GITHUB_OUTPUT
-
-  kotlinGradle:
+  format-kotlinGradle:
     name: Format KotlinGradle
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
-    if: needs.check-kotlin-gradle.outputs.result == 'true'
-    needs: check-kotlin-gradle
 
     steps:
       - name: Checkout repository
