@@ -12,43 +12,11 @@ on:
   workflow_call:
 
 jobs:
-  check-yaml:
-    name: Check YAML Changes
-    permissions:
-      contents: read
-    runs-on: ubuntu-latest
-    outputs:
-      result: ${{ steps.result.outputs.result }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-        with:
-          fetch-depth: 0
-
-      - name: Check for .yaml changes
-        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
-        id: filter
-        with:
-          filters: |
-            result:
-              - '**/*.yaml'
-              - '**/*.yml'
-
-      - name: Result
-        id: result
-        if: steps.filter.outputs.result == 'true'
-        run: |
-          echo "✅ YAMLファイルの更新がありました"
-          echo "result=true" >> $GITHUB_OUTPUT
-
   format-yaml:
     name: Format YAML
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
-    if: needs.check-yaml.outputs.result == 'true'
-    needs: check-yaml
 
     steps:
       - name: Checkout repository
