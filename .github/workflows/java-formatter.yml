@@ -44,13 +44,8 @@ jobs:
           distribution: adopt
           cache: "gradle"
 
-      - name: Validate Gradle wrapper
-        uses: gradle/actions/wrapper-validation@017a9effdb900e5b5b2fddfb590a105619dca3c3 # v4.4.2
-
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@017a9effdb900e5b5b2fddfb590a105619dca3c3 # v4.4.2
-        with:
-          gradle-version: wrapper
 
       - name: Spotless Java Check
         id: spotlessJavaCheck
