@@ -4,9 +4,6 @@ on:
   pull_request:
     paths:
       - "src/**/*.java"
-    branches:
-      - "**"
-      - "!json_update"
     types:
       - opened # PR作成時
       - synchronize # PRのコミット更新時
@@ -18,7 +15,7 @@ jobs:
     with:
       build-key: ${{ github.sha }}
 
-  java:
+  format-java:
     name: Format Java
     runs-on: ubuntu-latest
     permissions:

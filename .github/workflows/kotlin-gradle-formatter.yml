@@ -4,19 +4,24 @@ on:
   pull_request:
     paths:
       - "**/*.gradle.kts"
-    branches:
-      - "**"
-      - "!json_update"
-    types:
+    types:           
       - opened # PR作成時
       - synchronize # PRのコミット更新時
 
 jobs:
+  build:
+    name: Build
+    uses: ./.github/workflows/build.yml
+    with:
+      build-key: ${{ github.sha }}
+
   format-kotlinGradle:
     name: Format KotlinGradle
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    if: ${{ !cancelled() }}
+    needs: build
 
     steps:
       - name: Checkout repository

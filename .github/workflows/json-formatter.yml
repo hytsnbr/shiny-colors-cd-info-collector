@@ -7,8 +7,6 @@ on:
     types:
       - opened # PR作成時
       - synchronize # PRのコミット更新時
-  # 他のワークフローから呼べるようにする
-  workflow_call:
 
 jobs:
   format-json:
