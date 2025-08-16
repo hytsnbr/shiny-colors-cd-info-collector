@@ -7,46 +7,13 @@ on:
     types:
       - opened # PR作成時
       - synchronize # PRのコミット更新時
-  # 他のワークフローから呼べるようにする
-  workflow_call:
 
 jobs:
-  check-json:
-    name: Check JSON Changes
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    outputs:
-      result: ${{ steps.result.outputs.result }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-        with:
-          fetch-depth: 0
-
-      - name: Check for .json changes
-        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
-        id: filter
-        with:
-          filters: |
-            result:
-              - 'result/*.json'
-
-      - name: Result
-        id: result
-        if: steps.filter.outputs.changes == 'true'
-        run: |
-          echo "✅ JSONファイルの更新がありました"
-          echo "result=true" >> $GITHUB_OUTPUT
-
   format-json:
     name: Format JSON
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    if: needs.check-json.outputs.result == 'true'
-    needs: check-json
 
     steps:
       - name: Checkout repository
@@ -64,7 +31,6 @@ jobs:
 
       - name: Commit & Push
         id: commit_push
-        if: steps.formatJson.outcome == 'failure'
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
         with:
           commit_message: "chore: JSONファイルをフォーマット"
