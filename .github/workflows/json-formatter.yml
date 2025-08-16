@@ -25,7 +25,7 @@ jobs:
         id: formatJson
         run: |
           # JSONファイルをフォーマットする
-          find ./result -name "*.json" | while read file; do
+          find . -name "*.json" | while read file; do
             jq . "$file" > tmp.json && mv tmp.json "$file"
           done
 
