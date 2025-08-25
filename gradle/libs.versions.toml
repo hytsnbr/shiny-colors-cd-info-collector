@@ -4,7 +4,7 @@ springDependencyManagement = "1.1.7"
 spotless = "7.2.1"
 commonsLang = "3.18.0"
 commonsCollections = "4.5.0"
-jsoup = "1.21.1"
+jsoup = "1.21.2"
 gson = "2.13.1"
 
 [libraries]
