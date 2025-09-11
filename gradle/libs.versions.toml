@@ -5,7 +5,7 @@ spotless = "7.2.1"
 commonsLang = "3.18.0"
 commonsCollections = "4.5.0"
 jsoup = "1.21.2"
-gson = "2.13.1"
+gson = "2.13.2"
 
 [libraries]
 spring-boot-starter-batch = { group = "org.springframework.boot", name = "spring-boot-starter-batch" }
