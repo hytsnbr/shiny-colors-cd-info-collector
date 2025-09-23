@@ -1,5 +1,5 @@
 {
-  "createdAt": 1754895584,
+  "createdAt": 1758005577,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6512,11 +6512,32 @@
       ],
       "releaseDate": "2025-09-10",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24704/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/06/LACM-24704.jpg",
       "limited": false,
       "series": "\"円環 -Halo around-\"",
       "artist": "イルミネーションスターズ×ノクチル",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/us/album/1830422499",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774247042/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774247042_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1043228551",
+          "isHiRes": false
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -8319,7 +8340,58 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "ノクチル、シーズ、ストレイライト、イルミネーションスターズ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/2s1pLtZ6g4woaatM5pwpsR",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/1829877808",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0FKG4LY4G",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/5154c9d7c88622e94010",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/webapp/album/mb00000000049352b6",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1829877808",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774251551/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774251551_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A2005584434/album",
+          "isHiRes": false
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -8342,6 +8414,20 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism ニューアルバム",
+      "recordNumbers": [
+        "LACA-25180"
+      ],
+      "releaseDate": "2025-12-24",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25180/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
@@ -9808,7 +9894,7 @@
       ],
       "releaseDate": "2025-10-01",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-39134_5/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/07/LACA-39134.jpg",
       "limited": false,
       "series": "-28 Colors- COLLECTION",
       "artist": "シャイニーカラーズ",
@@ -9839,7 +9925,7 @@
       ],
       "releaseDate": "2025-10-01",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-19134_5/",
-      "jacketUrl": "/images/nowprinting.jpg",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/07/LACA-19134.jpg",
       "limited": false,
       "series": "-28 Colors- COLLECTION",
       "artist": "シャイニーカラーズ",
