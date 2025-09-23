@@ -9,17 +9,26 @@ on:
       - synchronize # PRのコミット更新時
 
 jobs:
+  build:
+    name: Build
+    uses: ./.github/workflows/build.yml
+    with:
+      build-key: ${{ github.sha }}
+
   format-java:
     name: Format Java
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    if: ${{ !cancelled() }}
+    needs: build
 
     steps:
       - name: Check build result
         uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5.0.0
         with:
           name: ${{ github.sha }}
+        continue-on-error: true
 
       - name: Checkout repository
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
@@ -39,7 +48,6 @@ jobs:
       - name: Spotless Java Check
         id: spotlessJavaCheck
         run: gradle spotlessJavaCheck
-        continue-on-error: true
 
       - name: Spotless Java Apply
         if: steps.spotlessJavaCheck.outcome == 'failure'
@@ -50,11 +58,3 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
         with:
           commit_message: "chore: Spotlessによるコードフォーマットを適用"
-
-  build:
-    name: Build
-    uses: ./.github/workflows/build.yml
-    with:
-      build-key: ${{ github.sha }}
-    if: ${{ !cancelled() }}
-    needs: format-java
