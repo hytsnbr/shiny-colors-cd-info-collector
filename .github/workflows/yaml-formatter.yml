@@ -27,6 +27,7 @@ jobs:
         uses: yk-lab/yamlfmt-action@09b479266d67ef9a3baa347affa8320204271677 # v1.0.0
         with:
           path: ".github/workflows"
+        continue-on-error: true
 
       - name: Commit & Push
         id: commit_push
