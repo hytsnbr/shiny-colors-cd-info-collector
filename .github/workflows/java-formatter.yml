@@ -36,9 +36,7 @@ jobs:
         run: gradle spotlessJavaCheck
 
       - name: Spotless Java Apply
-        if: steps.spotlessJavaCheck.outcome == 'failure'
         run: gradle spotlessJavaApply
-        continue-on-error: true
 
       - name: Commit & Push
         id: commit_push
