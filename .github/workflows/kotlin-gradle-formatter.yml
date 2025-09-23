@@ -9,19 +9,11 @@ on:
       - synchronize # PRのコミット更新時
 
 jobs:
-  build:
-    name: Build
-    uses: ./.github/workflows/build.yml
-    with:
-      build-key: ${{ github.sha }}
-
   format-kotlinGradle:
     name: Format KotlinGradle
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    if: ${{ !cancelled() }}
-    needs: build
 
     steps:
       - name: Checkout repository
