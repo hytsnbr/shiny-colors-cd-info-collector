@@ -31,16 +31,10 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@4d9f0ba0025fe599b4ebab900eb7f3a1d93ef4c2 # v5.0.0
 
-      - name: Spotless Java Check
-        id: spotlessJavaCheck
-        run: gradle spotlessJavaCheck
-
       - name: Spotless Java Apply
         run: gradle spotlessJavaApply
 
       - name: Commit & Push
-        id: commit_push
-        if: steps.spotlessJavaCheck.outcome == 'failure'
         uses: stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3 # v7.0.0
         with:
           commit_message: "chore: Spotlessによるコードフォーマットを適用"
