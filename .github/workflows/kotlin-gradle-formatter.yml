@@ -4,50 +4,16 @@ on:
   pull_request:
     paths:
       - "**/*.gradle.kts"
-    branches:
-      - "**"
-      - "!json_update"
-    types:
+    types:           
       - opened # PR作成時
       - synchronize # PRのコミット更新時
 
 jobs:
-  check-kotlin-gradle:
-    name: Check KotlinGradle Code Changes
-    permissions:
-      contents: read
-    runs-on: ubuntu-latest
-    outputs:
-      result: ${{ steps.result.outputs.result }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-        with:
-          fetch-depth: 0
-
-      - name: Check for .gradle.kts changes
-        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
-        id: filter
-        with:
-          filters: |
-            kotlin_gradle:
-              - '**/*.gradle.kts'
-
-      - name: Result
-        id: result
-        if: steps.filter.outputs.kotlin_gradle == 'true'
-        run: |
-          echo "✅ KotlinGradleファイルの更新がありました"
-          echo "has_kotlin_gradle_changes=true" >> $GITHUB_OUTPUT
-
-  kotlinGradle:
+  format-kotlinGradle:
     name: Format KotlinGradle
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
-    if: needs.check-kotlin-gradle.outputs.result == 'true'
-    needs: check-kotlin-gradle
 
     steps:
       - name: Checkout repository
@@ -65,18 +31,10 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@4d9f0ba0025fe599b4ebab900eb7f3a1d93ef4c2 # v5.0.0
 
-      - name: Spotless Kotlin Gradle Check
-        id: spotlessKotlinGradleCheck
-        run: gradle spotlessKotlinGradleCheck
-        continue-on-error: true
-
       - name: Spotless Kotlin Gradle Apply
-        if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
         run: gradle spotlessKotlinGradleApply
 
       - name: Commit & Push
-        id: commit_push
-        if: steps.spotlessKotlinGradleCheck.outcome == 'failure'
         uses: stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3 # v7.0.0
         with:
           commit_message: "chore: Spotlessによるコードフォーマットを適用"
