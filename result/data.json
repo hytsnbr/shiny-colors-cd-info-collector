@@ -1,5 +1,5 @@
 {
-  "createdAt": 1758005577,
+  "createdAt": 1759938229,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -6518,6 +6518,36 @@
       "artist": "イルミネーションスターズ×ノクチル",
       "downloadSiteList": [
         {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/2AH1eijkQtb9VqotZCaiiY",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1830421551",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0FKT3Z5WT",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/1d080c4ac8aaf70b5b07",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000494e882",
+          "isHiRes": false
+        },
+        {
           "name": "iTunes",
           "url": "https://music.apple.com/us/album/1830422499",
           "isHiRes": false
@@ -9929,7 +9959,58 @@
       "limited": false,
       "series": "-28 Colors- COLLECTION",
       "artist": "シャイニーカラーズ",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/5QuA8lLxDIoEKkXSDgoIFj",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1836353222",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0FP4NX8VT",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/814fa8479766cc156115",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000004a2dc80",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1836353222",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774191345/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774191345_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://rosso.recochoku.jp/fw/dfw/mango/album_detail/prof",
+          "isHiRes": false
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -11104,6 +11185,21 @@
       "releaseDate": "2025-06-21",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10300_1/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/06/LACZ-10300_1.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -7th LIVE TOUR 螺旋 -Halo around- “The origin on the axes” –",
+      "recordNumbers": [
+        "LACZ-10320",
+        "LACZ-10321"
+      ],
+      "releaseDate": null,
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10320/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/10/BNML_SC7_5th-CDpkg_H1.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",
