@@ -78,7 +78,7 @@ spotless {
         target("*.gradle.kts")
 
         // 使用するフォーマッター
-        ktlint()
+        ktlint("1.5.0")
     }
 }
 
