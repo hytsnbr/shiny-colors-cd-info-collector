@@ -7,68 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /** ストア情報定数 */
 public enum Store {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     AMAZON_CD("Amazon CD", "Amazon CD", List.of()),
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     AMAZON_MUSIC("Amazon Music", "Amazon Music (Streaming)", List.of()),
     ANIMATE("animate", "animate", List.of()),
     ANIMELO_MIX("animelo mix", "animelomix", List.of("id")),
