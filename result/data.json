@@ -1,5 +1,5 @@
 {
-  "createdAt": 1761493331,
+  "createdAt": 1762584806,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8456,6 +8456,20 @@
       "limited": true,
       "series": "Song for Prism",
       "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism カウントダウンラブ / KAWAII♡めたもる交響曲",
+      "recordNumbers": [
+        "LACM-24821"
+      ],
+      "releaseDate": "2026-01-07",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24821/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "Song for Prism",
+      "artist": "I’m a Cutie Finder",
       "downloadSiteList": [],
       "purchaseSiteList": []
     },
