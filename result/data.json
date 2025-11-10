@@ -1,5 +1,5 @@
 {
-  "createdAt": 1762584806,
+  "createdAt": 1762758029,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8470,6 +8470,34 @@
       "limited": true,
       "series": "Song for Prism",
       "artist": "I’m a Cutie Finder",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism ニューアルバム",
+      "recordNumbers": [
+        "LACA-25234"
+      ],
+      "releaseDate": "2026-01-28",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25234/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism ニューシングル",
+      "recordNumbers": [
+        "LACM-24822"
+      ],
+      "releaseDate": "2026-02-04",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24822/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
       "downloadSiteList": [],
       "purchaseSiteList": []
     },
