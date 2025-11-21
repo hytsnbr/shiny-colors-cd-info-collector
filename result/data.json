@@ -1,5 +1,5 @@
 {
-  "createdAt": 1762758029,
+  "createdAt": 1763708428,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -11242,6 +11242,36 @@
       "releaseDate": null,
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10320/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/10/BNML_SC7_5th-CDpkg_H1.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -M@STERS OF IDOL WORLD 2025 part1-",
+      "recordNumbers": [
+        "LACZ-10322",
+        "LACZ-10323"
+      ],
+      "releaseDate": "2025-12-13",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10322_3/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/11/LACZ-10322.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -M@STERS OF IDOL WORLD 2025 part2-",
+      "recordNumbers": [
+        "LACZ-10330",
+        "LACZ-10331"
+      ],
+      "releaseDate": "2025-12-13",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10330_1/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/11/LACZ-10330.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",
