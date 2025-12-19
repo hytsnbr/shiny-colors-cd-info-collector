@@ -1,5 +1,5 @@
 {
-  "createdAt": 1765523043,
+  "createdAt": 1766127773,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -12305,6 +12305,34 @@
       "limited": true,
       "series": "OTHER",
       "artist": "THE IDOLM@STER BRILLIANT STARS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS 乱舞る / 疾風ザブングル【初回限定盤】",
+      "recordNumbers": [
+        "LACM-34808"
+      ],
+      "releaseDate": "2026-01-14",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-34808/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/12/LACM-34808.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "放課後クライマックスガールズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS 乱舞る / 疾風ザブングル【通常盤】",
+      "recordNumbers": [
+        "LACM-24808"
+      ],
+      "releaseDate": "2026-01-14",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24808/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/12/LACM-24808.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "放課後クライマックスガールズ",
       "downloadSiteList": [],
       "purchaseSiteList": []
     }
