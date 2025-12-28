@@ -1,5 +1,5 @@
 {
-  "createdAt": 1766732619,
+  "createdAt": 1766936960,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -12333,6 +12333,35 @@
       "limited": true,
       "series": "OTHER",
       "artist": "放課後クライマックスガールズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "283 Production MUSICAL Performance 騎士団のヴェール – Veil of Order – Music Collection【初回限定盤】",
+      "recordNumbers": [
+        "LACA-35264",
+        "LACA-35265"
+      ],
+      "releaseDate": "2026-03-11",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-35264/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "アンティーカ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "283 Production MUSICAL Performance 騎士団のヴェール – Veil of Order – Music Collection【通常盤】",
+      "recordNumbers": [
+        "LACA-25264"
+      ],
+      "releaseDate": "2026-03-11",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25264/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "アンティーカ",
       "downloadSiteList": [],
       "purchaseSiteList": []
     }
