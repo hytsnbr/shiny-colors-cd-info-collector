@@ -1,5 +1,5 @@
 {
-  "createdAt": 1766936960,
+  "createdAt": 1767942483,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8529,6 +8529,20 @@
       ],
       "releaseDate": "2026-03-04",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24823/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "THE IDOLM@STER SHINY COLORS",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism ニューシングル",
+      "recordNumbers": [
+        "LACM-24824"
+      ],
+      "releaseDate": "2026-04-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24824/",
       "jacketUrl": "/images/nowprinting.jpg",
       "limited": false,
       "series": "Song for Prism",
