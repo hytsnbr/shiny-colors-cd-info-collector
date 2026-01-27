@@ -1,5 +1,5 @@
 {
-  "createdAt": 1769497756,
+  "createdAt": 1769529671,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8484,7 +8484,58 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "アンティーカ / 放課後クライマックスガールズ / アルストロメリア / コメティック",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/5D8XL4PWEuwBy7RjzgQdl6",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/1862692640",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0G8YJ14LT",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000004e4d5f5",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/02f968f4a472fd116666",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1862692640",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774252343/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774252343_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1045406929",
+          "isHiRes": false
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
