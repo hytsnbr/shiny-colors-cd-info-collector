@@ -1,5 +1,5 @@
 {
-  "createdAt": 1769529671,
+  "createdAt": 1769616293,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -11379,6 +11379,35 @@
       "purchaseSiteList": []
     },
     {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -シャニマス大感謝祭！ 〜283スポーツフェスティバル〜 part1-",
+      "recordNumbers": [
+        "LACZ-10332",
+        "LACZ-10333"
+      ],
+      "releaseDate": "2026-02-14",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10332_3/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/01/LACZ-10332.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -シャニマス大感謝祭！ 〜283スポーツフェスティバル〜 part2-",
+      "recordNumbers": [
+        "LACZ-10334"
+      ],
+      "releaseDate": "2026-02-14",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10334/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/01/LACZ-10334.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
       "title": "THE IDOLM@STER SHINY COLORS FUTURITY SMILE",
       "recordNumbers": [
         "LACM-14906"
@@ -12427,6 +12456,48 @@
       "limited": true,
       "series": "OTHER",
       "artist": "アンティーカ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS シャニマス大感謝祭！ 〜283スポーツフェスティバル〜 -Stella-",
+      "recordNumbers": [
+        "LACZ-10335"
+      ],
+      "releaseDate": "2026-02-14",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10335/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/01/LACZ-10335.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS シャニマス大感謝祭！ 〜283スポーツフェスティバル〜 -Luna-",
+      "recordNumbers": [
+        "LACZ-10336"
+      ],
+      "releaseDate": "2026-02-14",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10336/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/01/LACZ-10336.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS シャニマス大感謝祭！ 〜283スポーツフェスティバル〜 -Sol-",
+      "recordNumbers": [
+        "LACZ-10337"
+      ],
+      "releaseDate": "2026-02-14",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10337/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/01/LACZ-10337.jpg",
+      "limited": true,
+      "series": "OTHER",
+      "artist": "シャイニーカラーズ",
       "downloadSiteList": [],
       "purchaseSiteList": []
     }
