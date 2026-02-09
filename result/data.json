@@ -1,5 +1,5 @@
 {
-  "createdAt": 1770135605,
+  "createdAt": 1770654418,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -10655,43 +10655,7 @@
       "series": "アニメ",
       "artist": "シャイニーカラーズ",
       "downloadSiteList": [],
-      "purchaseSiteList": [
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91TV+%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC+%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA+2nd+season%E3%80%8F%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8COver+the+prism%E3%80%8D%E3%80%90%E9%80%9A%E5%B8%B8%E7%9B%A4%E3%80%91/pd/2973751/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://amzn.asia/d/fKj4xpL",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91%E3%82%A2%E3%83%8B%E3%83%A1+%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC+%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA+2nd+season+%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%8COver+the+prism%E3%80%8D+%E3%80%90%E9%80%9A%E5%B8%B8%E7%9B%A4%E3%80%91/pd/10755448/",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/6592154",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/18029554/",
-          "isHiRes": false
-        },
-        {
-          "name": "ソフマップ",
-          "url": "https://www.sofmap.com/product_detail.aspx",
-          "isHiRes": false
-        },
-        {
-          "name": "とらのあな",
-          "url": "https://ecs.toranoana.jp/tora/ec/item/210006658150/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS シャイニーPRオファー Vol.1",
