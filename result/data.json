@@ -1,5 +1,5 @@
 {
-  "createdAt": 1770135605,
+  "createdAt": 1770913485,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8685,53 +8685,7 @@
       "series": "SE@SONAL WINTER",
       "artist": "シャイニーカラーズ",
       "downloadSiteList": [],
-      "purchaseSiteList": [
-        {
-          "name": "A-on STORE",
-          "url": "https://a-onstore.jp/item/item-1000205067/",
-          "isHiRes": false
-        },
-        {
-          "name": "A-on STORE Powered by A!SMART",
-          "url": "https://www.asmart.jp/Form/Product/ProductDetail.aspx?pid=10018215",
-          "isHiRes": false
-        },
-        {
-          "name": "animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+SE%40SONAL+WINTER/pd/1567427/",
-          "isHiRes": false
-        },
-        {
-          "name": "Amazon CD",
-          "url": "https://www.amazon.co.jp/IDOLM-SHINY-COLORS-SONAL-WINTER/dp/B07H7PNJ28/ref=sr_1_1",
-          "isHiRes": false
-        },
-        {
-          "name": "GAMERS",
-          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+SE%40SONAL+WINTER/pd/10419599/",
-          "isHiRes": false
-        },
-        {
-          "name": "セブンネットショッピング",
-          "url": "https://7net.omni7.jp/detail/1301403410",
-          "isHiRes": false
-        },
-        {
-          "name": "TOWER RECORDS ONLINE",
-          "url": "https://tower.jp/item/4803123/THE-IDOLM@STER-SHINY-COLORS-SE@SONAL-WINTER",
-          "isHiRes": false
-        },
-        {
-          "name": "TSUTAYA オンラインショッピング",
-          "url": "https://shop.tsutaya.co.jp/cd/product/4540774148202/",
-          "isHiRes": false
-        },
-        {
-          "name": "Rakuten ブックス",
-          "url": "https://books.rakuten.co.jp/rb/15631232/",
-          "isHiRes": false
-        }
-      ]
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS COLORFUL FE@THERS -Stella-",
