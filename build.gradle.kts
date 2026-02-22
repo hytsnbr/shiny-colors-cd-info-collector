@@ -19,7 +19,6 @@ java {
 }
 
 repositories {
-
     mavenCentral()
 }
 
@@ -84,6 +83,10 @@ spotless {
 
 tasks {
     withType<Test> {
+        doFirst {
+            logging.level = LogLevel.DEBUG
+        }
+
         // JUnit Platform を使用する
         useJUnitPlatform()
     }
