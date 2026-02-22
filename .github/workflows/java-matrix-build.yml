@@ -34,4 +34,4 @@ jobs:
         uses: gradle/actions/setup-gradle@f29f5a9d7b09a7c6b29859002d29d24e1674c884 # v5.0.1
 
       - name: Build with Gradle
-        run: gradle build --info
+        run: gradle build
