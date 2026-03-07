@@ -27,17 +27,10 @@ repositories {
 
 dependencies {
     // Spring Boot Starter
-    implementation(libs.spring.boot.starter.batch)
-    implementation(libs.spring.boot.starter.validation)
-
-    // Spring Boot Configuration Processor
-    annotationProcessor(libs.spring.boot.configuration.processor)
+    implementation(libs.bundles.spring.boot.starter)
 
     // Apache Commons
     implementation(libs.bundles.apache.commons)
-
-    // H2 Database
-    runtimeOnly(libs.h2)
 
     // Jsoup Java HTML Parser
     implementation(libs.jsoup)
@@ -48,9 +41,14 @@ dependencies {
     // Gson
     implementation(libs.gson)
 
+    // Spring Boot Configuration Processor
+    annotationProcessor(libs.spring.boot.configuration.processor)
+
+    // H2 Database
+    runtimeOnly(libs.h2)
+
     // Unit Test
-    testImplementation(libs.spring.boot.starter.test)
-    testImplementation(libs.spring.batch.test)
+    testImplementation(libs.bundles.spring.boot.test)
 }
 
 spotless {

@@ -21,6 +21,8 @@ jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "ja
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 [bundles]
+spring-boot-starter = ["spring-boot-starter-batch", "spring-boot-starter-validation"]
+spring-boot-test = ["spring-boot-starter-test", "spring-batch-test"]
 apache-commons = ["commons-lang3", "commons-collections4"]
 
 [plugins]
