@@ -112,19 +112,19 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
 
                 // アーティスト名を取得
                 if (StringUtils.contains(textNode.toString(), "アーティスト：")) {
-                    artistName = this.getArtistName((TextNode) childNode);
+                    artistName = getArtistName((TextNode) childNode);
                     cdInfoBuilder.artist(artistName);
                 }
 
                 // 品番を取得
                 if (StringUtils.contains(textNode.toString(), "品番：")) {
-                    recordNumbers = this.getRecordNumbers((TextNode) childNode);
+                    recordNumbers = getRecordNumbers((TextNode) childNode);
                     cdInfoBuilder.recordNumbers(recordNumbers);
                 }
 
                 // 発売日を取得
                 if (StringUtils.contains(textNode.toString(), "発売日：")) {
-                    releaseDate = this.getReleaseDate((TextNode) childNode);
+                    releaseDate = getReleaseDate((TextNode) childNode);
                     cdInfoBuilder.releaseDate(releaseDate);
                 }
             }
@@ -153,26 +153,26 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
 
         // ダウンロードサイトリスト
         logger.info("ダウンロードサイト");
-        var downloadSiteList = this.getStoreData(downloadSiteLinkPageUrl);
+        var downloadSiteList = getStoreData(downloadSiteLinkPageUrl);
         // CD詳細ページにダウンロードサイトリストのURLが載っていない場合
         if (downloadSiteList.isEmpty()) {
             downloadSiteLinkPageUrl = "https://lnk.to/%ss".formatted(recordNumbers.getFirst());
-            downloadSiteList = this.getStoreData(downloadSiteLinkPageUrl);
+            downloadSiteList = getStoreData(downloadSiteLinkPageUrl);
         }
         cdInfoBuilder.downloadSiteList(downloadSiteList);
 
         // CDショップサイト
         logger.info("ショップサイト");
-        var purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
+        var purchaseSiteList = getStoreData(shopSiteLinkPageUrl);
         // CD詳細ページにショップサイトリストのURLが載っていない場合
         if (purchaseSiteList.isEmpty()) {
             shopSiteLinkPageUrl = "https://lnk.to/%sc".formatted(recordNumbers.getFirst());
-            purchaseSiteList = this.getStoreData(shopSiteLinkPageUrl);
+            purchaseSiteList = getStoreData(shopSiteLinkPageUrl);
         }
         cdInfoBuilder.purchaseSiteList(purchaseSiteList);
 
         // 処理終了後クールタイム
-        this.coolTime();
+        coolTime();
 
         return cdInfoBuilder.build();
     }
@@ -202,7 +202,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
         logger.info("CD Record Number: {}", recordNumberText);
 
         // 複数枚の場合を考慮して品番リスト取得処理を噛ませる
-        return this.getRecordNumberList(recordNumberText);
+        return getRecordNumberList(recordNumberText);
     }
 
     /** 発売日を取得する */
@@ -288,7 +288,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
         logger.info("処理対象ページURL：{}", url);
 
         // ページ取得時リトライ上限
-        final var retryLimit = this.appConfig.getProcess().getRetryLimit();
+        final var retryLimit = appConfig.getProcess().getRetryLimit();
 
         if (StringUtils.isBlank(url)) {
             return Collections.emptyList();
@@ -307,7 +307,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
             tryCount++;
 
             // 再試行前クールタイム
-            this.coolTime();
+            coolTime();
         }
         if (Objects.isNull(siteLinkPage)) {
             logger.info("ストア一覧ページの取得ができませんでした");
@@ -323,7 +323,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
                         Store.getByHtmlName(
                                 siteLink.select(".music-service-list__content > img").attr("alt"));
                 var name = store.getName();
-                var siteUrl = this.getNormalizationStoreSiteUrl(siteLink.attr("href"), store);
+                var siteUrl = getNormalizationStoreSiteUrl(siteLink.attr("href"), store);
                 var isHiRes =
                         StringUtils.equals(
                                 siteLink.select(".btn.music-service-list__btn").text(), "ハイレゾDL");
@@ -339,7 +339,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
             }
 
             // 再試行前クールタイム
-            this.coolTime();
+            coolTime();
         }
 
         return siteList;
@@ -383,7 +383,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
     /** クールタイム */
     private void coolTime() throws CdInfoWebScrapingException {
         try {
-            Thread.sleep(this.appConfig.getProcess().getCoolTime());
+            Thread.sleep(appConfig.getProcess().getCoolTime());
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
 

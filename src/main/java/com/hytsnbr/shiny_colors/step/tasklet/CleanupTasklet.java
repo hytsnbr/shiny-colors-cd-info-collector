@@ -27,8 +27,8 @@ public class CleanupTasklet implements Tasklet {
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext)
             throws Exception {
         // 処理中に作成したコミット対象外のファイルを削除する
-        Files.deleteIfExists(Paths.get(this.appConfig.getJsonDirPath(), "CDInfoList.json"));
-        Files.deleteIfExists(Paths.get(this.appConfig.getJsonDirPath(), "DiscographyList.json"));
+        Files.deleteIfExists(Paths.get(appConfig.getJsonDirPath(), "CDInfoList.json"));
+        Files.deleteIfExists(Paths.get(appConfig.getJsonDirPath(), "DiscographyList.json"));
 
         return RepeatStatus.FINISHED;
     }

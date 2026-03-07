@@ -43,17 +43,17 @@ public class GenerateDataJsonTasklet implements Tasklet {
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) {
         // 前回作成したファイルの作成日チェック
-        if (this.isCreationDateToday()) {
+        if (isCreationDateToday()) {
             logger.info("前回のファイル作成処理から日付が変わっていないため処理は中止されました");
 
             return RepeatStatus.FINISHED;
         }
 
-        var cdInfoList = List.of(this.fileOperator.readJsonFile("CDInfoList.json", CdInfo[].class));
+        var cdInfoList = List.of(fileOperator.readJsonFile("CDInfoList.json", CdInfo[].class));
 
         // 前回処理後のデータと一致する場合はファイル出力しない
-        if (!this.matchPrevCdInfoList(cdInfoList)) {
-            this.fileOperator.outputToJsonFile(CdInfoListJson.of(cdInfoList), "data.json");
+        if (!matchPrevCdInfoList(cdInfoList)) {
+            fileOperator.outputToJsonFile(CdInfoListJson.of(cdInfoList), "data.json");
 
             logger.info("ファイルを作成しました");
         } else {
@@ -69,9 +69,9 @@ public class GenerateDataJsonTasklet implements Tasklet {
      * 一致しない場合、ファイルが存在しない・読み込みに失敗した場合：<code>false</code>
      */
     private boolean isCreationDateToday() {
-        if (this.isForce) return false;
+        if (isForce) return false;
 
-        var data = this.fileOperator.readJsonFile("data.json", CdInfoListJson.class);
+        var data = fileOperator.readJsonFile("data.json", CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
@@ -96,9 +96,9 @@ public class GenerateDataJsonTasklet implements Tasklet {
      * @return 一致する場合は true
      */
     private boolean matchPrevCdInfoList(List<CdInfo> cdInfoList) {
-        if (this.isForce) return false;
+        if (isForce) return false;
 
-        var data = this.fileOperator.readJsonFile("data.json", CdInfoListJson.class);
+        var data = fileOperator.readJsonFile("data.json", CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }

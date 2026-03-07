@@ -45,7 +45,7 @@ public class FileOperator {
     /** JSONファイルを読み取ってオブジェクトで返却する */
     public <T> T readJsonFile(final String jsonFileName, Class<T> clazz) {
         try {
-            var jsonFile = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName).toFile();
+            var jsonFile = Paths.get(appConfig.getJsonDirPath(), jsonFileName).toFile();
             return objectMapper.readValue(jsonFile, clazz);
         } catch (FileNotFoundException e) {
             logger.debug("生成ファイルが存在しません");
@@ -58,7 +58,7 @@ public class FileOperator {
 
     /** JSONファイルに出力 */
     public void outputToJsonFile(Object jsonData, String jsonFileName) {
-        var path = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName);
+        var path = Paths.get(appConfig.getJsonDirPath(), jsonFileName);
         try {
             Files.deleteIfExists(path);
             Files.createFile(path);

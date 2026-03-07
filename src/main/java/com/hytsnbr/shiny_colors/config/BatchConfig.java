@@ -80,7 +80,7 @@ public class BatchConfig {
                 .writer(cdInfoJsonWriter)
                 .allowStartIfComplete(true)
                 .faultTolerant()
-                .retryLimit(this.appConfig.getProcess().getRetryLimit())
+                .retryLimit(appConfig.getProcess().getRetryLimit())
                 .retry(CdInfoWebScrapingException.class)
                 .build();
     }
@@ -112,7 +112,7 @@ public class BatchConfig {
     /** ディスコグラフィーデータJSONファイル読み込み処理設定 */
     @Bean
     public JsonItemReader<DiscographyData> discographyDataListJsonReader() {
-        final var jsonPath = Paths.get(this.appConfig.getJsonDirPath(), "DiscographyList.json");
+        final var jsonPath = Paths.get(appConfig.getJsonDirPath(), "DiscographyList.json");
 
         return new JsonItemReaderBuilder<DiscographyData>()
                 .jsonObjectReader(new JacksonJsonObjectReader<>(DiscographyData.class))
@@ -124,7 +124,7 @@ public class BatchConfig {
     /** CD情報JSON書き込み設定 */
     @Bean
     public JsonFileItemWriter<CdInfo> cdInfoJsonWriter() {
-        final var jsonPath = Paths.get(this.appConfig.getJsonDirPath(), "CDInfoList.json");
+        final var jsonPath = Paths.get(appConfig.getJsonDirPath(), "CDInfoList.json");
 
         final var objectMapper = new ObjectMapper();
         // Jacksonで Java8 の LocalDate 関係を処理できるようにする
