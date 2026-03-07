@@ -7,6 +7,9 @@ plugins {
 
     // コードフォーマッター
     alias(libs.plugins.spotless)
+
+    // カバレッジツール
+    id("jacoco")
 }
 
 group = "com.hytsnbr"
@@ -19,7 +22,6 @@ java {
 }
 
 repositories {
-
     mavenCentral()
 }
 
@@ -82,10 +84,27 @@ spotless {
     }
 }
 
+jacoco {
+    toolVersion = "0.8.12"
+}
+
 tasks {
     withType<Test> {
         // JUnit Platform を使用する
         useJUnitPlatform()
+
+        // カバレッジレポート作成
+        finalizedBy(jacocoTestReport)
+    }
+
+    jacocoTestReport {
+        dependsOn(test)
+
+        reports {
+            csv.required.set(false)
+            xml.required.set(true)
+            html.required.set(true)
+        }
     }
 
     withType<Delete> {
