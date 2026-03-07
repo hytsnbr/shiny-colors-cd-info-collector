@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Objects;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.jsoup.HttpStatusException;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.TextNode;
@@ -111,19 +112,19 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
                 }
 
                 // アーティスト名を取得
-                if (StringUtils.contains(textNode.toString(), "アーティスト：")) {
+                if (Strings.CS.contains(textNode.toString(), "アーティスト：")) {
                     artistName = getArtistName((TextNode) childNode);
                     cdInfoBuilder.artist(artistName);
                 }
 
                 // 品番を取得
-                if (StringUtils.contains(textNode.toString(), "品番：")) {
+                if (Strings.CS.contains(textNode.toString(), "品番：")) {
                     recordNumbers = getRecordNumbers((TextNode) childNode);
                     cdInfoBuilder.recordNumbers(recordNumbers);
                 }
 
                 // 発売日を取得
-                if (StringUtils.contains(textNode.toString(), "発売日：")) {
+                if (Strings.CS.contains(textNode.toString(), "発売日：")) {
                     releaseDate = getReleaseDate((TextNode) childNode);
                     cdInfoBuilder.releaseDate(releaseDate);
                 }
@@ -143,10 +144,10 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
         var downloadSiteLinkPageUrl = "";
         var shopSiteLinkPageUrl = "";
         for (var storeLinkPage : storeLinkPageList) {
-            if (StringUtils.equals(storeLinkPage.childNode(0).attr("alt"), "配信サイトで購入")) {
+            if (Strings.CS.equals(storeLinkPage.childNode(0).attr("alt"), "配信サイトで購入")) {
                 downloadSiteLinkPageUrl = storeLinkPage.attr("href");
             }
-            if (StringUtils.equals(storeLinkPage.childNode(0).attr("alt"), "ストアで購入")) {
+            if (Strings.CS.equals(storeLinkPage.childNode(0).attr("alt"), "ストアで購入")) {
                 shopSiteLinkPageUrl = storeLinkPage.attr("href");
             }
         }
@@ -179,7 +180,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
 
     /** アーティスト名を取得する */
     private String getArtistName(TextNode node) throws CdInfoWebScrapingException {
-        if (!StringUtils.contains(node.toString(), "アーティスト：")) {
+        if (!Strings.CS.contains(node.toString(), "アーティスト：")) {
             throw new CdInfoWebScrapingException("CD情報ページからアーティスト名が欠落しています");
         }
 
@@ -192,7 +193,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
 
     /** 品番を取得する */
     private List<String> getRecordNumbers(TextNode node) throws CdInfoWebScrapingException {
-        if (!StringUtils.contains(node.toString(), "品番：")) {
+        if (!Strings.CS.contains(node.toString(), "品番：")) {
             throw new CdInfoWebScrapingException("CD情報ページから品番が欠落しています");
         }
 
@@ -207,7 +208,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
 
     /** 発売日を取得する */
     private LocalDate getReleaseDate(TextNode node) throws CdInfoWebScrapingException {
-        if (!StringUtils.contains(node.toString(), "発売日：")) {
+        if (!Strings.CS.contains(node.toString(), "発売日：")) {
             throw new CdInfoWebScrapingException("CD情報ページから発売日が欠落しています");
         }
 
@@ -325,7 +326,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
                 var name = store.getName();
                 var siteUrl = getNormalizationStoreSiteUrl(siteLink.attr("href"), store);
                 var isHiRes =
-                        StringUtils.equals(
+                        Strings.CS.equals(
                                 siteLink.select(".btn.music-service-list__btn").text(), "ハイレゾDL");
                 var storeSite =
                         StoreSite.builder().name(name).url(siteUrl).isHiRes(isHiRes).build();

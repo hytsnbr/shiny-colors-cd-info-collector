@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Objects;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.StepContribution;
@@ -88,7 +88,7 @@ public class GenerateDataJsonTasklet implements Tasklet {
         logger.info("ファイル作成日: {}", createdAt);
         logger.info("処理日: {}", today);
 
-        return StringUtils.equals(createdAt, today);
+        return Strings.CS.equals(createdAt, today);
     }
 
     /**
