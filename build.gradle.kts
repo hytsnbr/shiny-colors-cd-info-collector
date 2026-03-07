@@ -10,6 +10,11 @@ plugins {
 
     // カバレッジツール
     id("jacoco")
+
+    // 静的解析ツール
+    id("checkstyle")
+    id("pmd")
+    alias(libs.plugins.spotbugs)
 }
 
 group = "com.hytsnbr"
@@ -86,6 +91,38 @@ spotless {
 
 jacoco {
     toolVersion = "0.8.14"
+}
+
+checkstyle {
+    toolVersion = "13.0.0"
+
+    configFile = file("config/checkstyle/checkstyle.xml")
+    isIgnoreFailures = false // 違反がある場合にビルドを失敗させる
+    maxWarnings = 0
+}
+
+pmd {
+    toolVersion = "7.0.0"
+
+    isConsoleOutput = true
+    isIgnoreFailures = false
+
+    // ルールセットを指定
+    ruleSets =
+        listOf(
+            "category/java/errorprone.xml",
+            "category/java/bestpractices.xml",
+            "category/java/codestyle.xml",
+            "category/java/design.xml",
+        )
+}
+
+spotbugs {
+    toolVersion = "4.8.3"
+
+    ignoreFailures = false // 違反がある場合にビルドを失敗させる    
+    effort.set(com.github.spotbugs.snom.Effort.MAX)
+    reportLevel.set(com.github.spotbugs.snom.Confidence.MEDIUM)
 }
 
 tasks {
