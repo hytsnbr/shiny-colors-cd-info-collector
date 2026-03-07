@@ -17,6 +17,7 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import com.hytsnbr.shiny_colors.constant.JsonFileName;
 import com.hytsnbr.shiny_colors.dto.CdInfo;
 import com.hytsnbr.shiny_colors.dto.CdInfoListJson;
 import com.hytsnbr.shiny_colors.service.FileOperator;
@@ -49,11 +50,12 @@ public class GenerateDataJsonTasklet implements Tasklet {
             return RepeatStatus.FINISHED;
         }
 
-        var cdInfoList = List.of(fileOperator.readJsonFile("CDInfoList.json", CdInfo[].class));
+        var cdInfoList =
+                List.of(fileOperator.readJsonFile(JsonFileName.CD_INFO_LIST_JSON, CdInfo[].class));
 
         // 前回処理後のデータと一致する場合はファイル出力しない
         if (!matchPrevCdInfoList(cdInfoList)) {
-            fileOperator.outputToJsonFile(CdInfoListJson.of(cdInfoList), "data.json");
+            fileOperator.outputToJsonFile(CdInfoListJson.of(cdInfoList), JsonFileName.DATA_JSON);
 
             logger.info("ファイルを作成しました");
         } else {
@@ -71,7 +73,7 @@ public class GenerateDataJsonTasklet implements Tasklet {
     private boolean isCreationDateToday() {
         if (isForce) return false;
 
-        var data = fileOperator.readJsonFile("data.json", CdInfoListJson.class);
+        var data = fileOperator.readJsonFile(JsonFileName.DATA_JSON, CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
@@ -98,7 +100,7 @@ public class GenerateDataJsonTasklet implements Tasklet {
     private boolean matchPrevCdInfoList(List<CdInfo> cdInfoList) {
         if (isForce) return false;
 
-        var data = fileOperator.readJsonFile("data.json", CdInfoListJson.class);
+        var data = fileOperator.readJsonFile(JsonFileName.DATA_JSON, CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
