@@ -2,6 +2,7 @@
 springframeworkBoot = "3.5.11"
 springDependencyManagement = "1.1.7"
 spotless = "8.3.0"
+spotbugs = "6.0.7"
 commonsLang = "3.20.0"
 commonsCollections = "4.5.0"
 jsoup = "1.22.1"
@@ -27,3 +28,4 @@ apache-commons = ["commons-lang3", "commons-collections4"]
 springframework-boot = { id = "org.springframework.boot", version.ref = "springframeworkBoot" }
 spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "springDependencyManagement" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+spotbugs = { id = "com.github.spotbugs", version.ref = "spotbugs" }

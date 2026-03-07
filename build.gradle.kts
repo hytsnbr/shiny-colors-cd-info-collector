@@ -14,6 +14,7 @@ plugins {
     // 静的解析ツール
     id("checkstyle")
     id("pmd")
+    alias(libs.plugins.spotbugs)
 }
 
 group = "com.hytsnbr"
@@ -114,6 +115,14 @@ pmd {
             "category/java/codestyle.xml",
             "category/java/design.xml",
         )
+}
+
+spotbugs {
+    toolVersion = "4.8.3"
+
+    ignoreFailures = false // 違反がある場合にビルドを失敗させる    
+    effort.set(com.github.spotbugs.snom.Effort.MAX)
+    reportLevel.set(com.github.spotbugs.snom.Confidence.MEDIUM)
 }
 
 tasks {
