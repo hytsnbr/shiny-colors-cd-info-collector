@@ -13,6 +13,7 @@ plugins {
 
     // 静的解析ツール
     id("checkstyle")
+    id("pmd")
 }
 
 group = "com.hytsnbr"
@@ -97,6 +98,22 @@ checkstyle {
     configFile = file("config/checkstyle/checkstyle.xml")
     isIgnoreFailures = false // 違反がある場合にビルドを失敗させる
     maxWarnings = 0
+}
+
+pmd {
+    toolVersion = "7.0.0"
+
+    isConsoleOutput = true
+    isIgnoreFailures = false
+
+    // ルールセットを指定
+    ruleSets =
+        listOf(
+            "category/java/errorprone.xml",
+            "category/java/bestpractices.xml",
+            "category/java/codestyle.xml",
+            "category/java/design.xml",
+        )
 }
 
 tasks {
