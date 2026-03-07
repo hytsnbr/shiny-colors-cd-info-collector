@@ -10,6 +10,9 @@ plugins {
 
     // カバレッジツール
     id("jacoco")
+
+    // 静的解析ツール
+    id("checkstyle")
 }
 
 group = "com.hytsnbr"
@@ -86,6 +89,14 @@ spotless {
 
 jacoco {
     toolVersion = "0.8.12"
+}
+
+checkstyle {
+    toolVersion = "13.0.0"
+
+    configFile = file("config/checkstyle/checkstyle.xml")
+    isIgnoreFailures = false // 違反がある場合にビルドを失敗させる
+    maxWarnings = 0
 }
 
 tasks {
