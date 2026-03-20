@@ -1,0 +1,71 @@
+name: PR Auto Collect New Commit
+
+on:
+  pull_request:
+    types: [
+      opened,
+      synchronize,
+      reopened
+    ]
+
+jobs:
+  pr-auto-collect-new-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PR_NUMBER: ${{ github.event.pull_request.number }}
+      BASE_BRANCH: ${{ github.event.pull_request.base.ref }}
+      HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+
+      - name: コミットログ差分取得
+        run: |
+          # origin/mainブランチからのコミット差分を取得
+          # origin/ブランチ名が解決できない問題を避けるため、確実な SHA を使用
+          # 実行結果を一度シェル変数に入れ、空の場合でもヒアドキュメントが壊れないようにする
+          LOG_CONTENT=$(git log ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} --pretty=format:"* [%h] %s")
+          {
+            echo "COMMIT_LOG<<EOF"
+            echo "$LOG_CONTENT"
+            echo "EOF"
+          } >> "$GITHUB_ENV"
+
+      - name: プルリクエスト本文取得
+        run: |
+          # 現在のPR本文を取得
+          # 実行結果を一度シェル変数に入れ、空の場合でもヒアドキュメントが壊れないようにする
+          BODY_CONTENT=$(gh pr view "$PR_NUMBER" --json body --template '{{.body}}')
+          {
+            echo "CURRENT_BODY<<EOF"
+            echo "$BODY_CONTENT"
+            echo "EOF"
+          } >> "$GITHUB_ENV"
+
+      - name: 差分コミットログをプルリクエスト本文に挿入
+        run: |
+          # Perlを使用して「### 変更内容」から「次の見出し」までの間を置換
+          # パターン解説:
+          # (### 変更内容\s*) : 開始地点（見出しとそれに続く空白・改行）
+          # (.*?) : 置換対象（最小一致で次のパターンまでを拾う）
+          # (?=\n###|$) : 終了地点の「先読み」。次の「###」から始まる行、または文末
+          # インジェクション対策として Perl 内では $ENV{...} を使用
+          UPDATED=$(echo "$CURRENT_BODY" | perl -0777 -pe 's/(### 変更内容\s*).*?(?=\n###|$)/$1\n$ENV{COMMIT_LOG}\n\n/s')
+          {
+            echo "UPDATED_BODY<<EOF"
+            echo "$UPDATED"
+            echo "EOF"
+          } >> "$GITHUB_ENV"
+
+      - name: プルリクエスト本文を更新
+        # 重要: if 文の中では ${{ }} を使わず、env.変数名 で直接比較する
+        if: env.CURRENT_BODY != env.UPDATED_BODY
+        run: |
+          gh pr edit "$PR_NUMBER" --body "$UPDATED_BODY"
