@@ -1,5 +1,5 @@
 {
-  "createdAt": 1775030677,
+  "createdAt": 1775463251,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8823,6 +8823,46 @@
         {
           "name": "Rakuten ブックス",
           "url": "https://books.rakuten.co.jp/rb/18500138/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism Ring Ring Ringの魔法 / 街角メランコリー",
+      "recordNumbers": [
+        "LACM-24825"
+      ],
+      "releaseDate": "2026-04-29",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24825/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACM_24825-1.webp",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "ザ・ふたりトラベラー",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/3397228/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/dp/B0GMGR14MY/ref=sr_1_4",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/10873706/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7971891",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18531776/",
           "isHiRes": false
         }
       ]
