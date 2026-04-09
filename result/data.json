@@ -1,5 +1,5 @@
 {
-  "createdAt": 1775463251,
+  "createdAt": 1775722045,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -11667,6 +11667,36 @@
       "releaseDate": "2026-02-14",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10334/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/01/LACZ-10334.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -∞th LIVE iと夢 part1-",
+      "recordNumbers": [
+        "LACZ-10349",
+        "LACZ-10350"
+      ],
+      "releaseDate": "2026-04-25",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10349_50/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACZ-10349_50.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -∞th LIVE iと夢 part2-",
+      "recordNumbers": [
+        "LACZ-10351",
+        "LACZ-10352"
+      ],
+      "releaseDate": "2026-04-25",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10351_2/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACZ-10351_2.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",
