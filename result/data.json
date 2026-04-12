@@ -1,5 +1,5 @@
 {
-  "createdAt": 1775722045,
+  "createdAt": 1776009849,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -12796,6 +12796,101 @@
       "artist": "シャイニーカラーズ",
       "downloadSiteList": [],
       "purchaseSiteList": []
+    },
+    {
+      "title": "283 Production XXXX Performance XXX= S/N-GUL4R1TY MUSIC COLLECTION【初回限定盤】",
+      "recordNumbers": [
+        "LACM-34828"
+      ],
+      "releaseDate": "2026-04-22",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-34828/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACM-34828.jpg",
+      "limited": false,
+      "series": "OTHER",
+      "artist": "ストレイライト",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/pd/3396903/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/dp/B0GLXMQM7D/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/pd/10873478/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://a.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7971642",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ecs.toranoana.jp/tora/ec/item/210006666353/",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18530583/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "283 Production XXXX Performance XXX= S/N-GUL4R1TY MUSIC COLLECTION【通常盤】",
+      "recordNumbers": [
+        "LACM-24828"
+      ],
+      "releaseDate": "2026-04-22",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24828/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACM-24828.jpg",
+      "limited": false,
+      "series": "OTHER",
+      "artist": "ストレイライト",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/pd/3396904/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/dp/B0GLX9WPPJ/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/pd/10873479/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7971852",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18530584/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://a.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        }
+      ]
     }
   ]
 }
