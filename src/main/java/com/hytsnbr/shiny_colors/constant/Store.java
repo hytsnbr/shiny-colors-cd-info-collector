@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 public enum Store {
     AMAZON_CD("Amazon CD", "Amazon CD", List.of()),
     AMAZON_MUSIC("Amazon Music", "Amazon Music (Streaming)", List.of()),
-    ANIMATE("animate", "animate", List.of()),
+    ANIMATE("animate", "Animate", List.of()),
     ANIMELO_MIX("animelo mix", "animelomix", List.of("id")),
     APPLE_MUSIC("Apple Music", "Apple Music", List.of()),
     ASOBI_STORE("アソビストア", "asobistore", List.of()),
