@@ -1,5 +1,5 @@
 {
-  "createdAt": 1777396929,
+  "createdAt": 1779100757,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8914,6 +8914,56 @@
         {
           "name": "Rakuten ブックス",
           "url": "https://books.rakuten.co.jp/rb/18531776/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism 散花-sanka- / 紅花-benibana-",
+      "recordNumbers": [
+        "LACM-24826"
+      ],
+      "releaseDate": "2026-06-03",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24826/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/05/LACM-24826.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "彼岸流",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/3420812/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/dp/B0GRGXT1FP",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/10880817/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://www.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7991599",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ec.toranoana.jp/joshi_r/ec/item/210006666638/",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18563700/",
           "isHiRes": false
         }
       ]
