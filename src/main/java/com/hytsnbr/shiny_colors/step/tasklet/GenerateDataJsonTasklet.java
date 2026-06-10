@@ -14,9 +14,9 @@ import org.springframework.batch.core.StepContribution;
 import org.springframework.batch.core.scope.context.ChunkContext;
 import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.repeat.RepeatStatus;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import com.hytsnbr.shiny_colors.config.ApplicationConfig;
 import com.hytsnbr.shiny_colors.constant.JsonFileName;
 import com.hytsnbr.shiny_colors.dto.CdInfo;
 import com.hytsnbr.shiny_colors.dto.CdInfoListJson;
@@ -29,14 +29,12 @@ public class GenerateDataJsonTasklet implements Tasklet {
     /** ロガー */
     private static final Logger logger = LoggerFactory.getLogger(GenerateDataJsonTasklet.class);
 
+    private final ApplicationConfig appConfig;
     private final FileOperator fileOperator;
 
-    /** 強制更新 */
-    @Value("${app-config.force}")
-    private boolean isForce;
-
     /** コンストラクタ */
-    public GenerateDataJsonTasklet(FileOperator fileOperator) {
+    public GenerateDataJsonTasklet(ApplicationConfig appConfig, FileOperator fileOperator) {
+        this.appConfig = appConfig;
         this.fileOperator = fileOperator;
     }
 
@@ -71,7 +69,7 @@ public class GenerateDataJsonTasklet implements Tasklet {
      * 一致しない場合、ファイルが存在しない・読み込みに失敗した場合：<code>false</code>
      */
     private boolean isCreationDateToday() {
-        if (isForce) return false;
+        if (appConfig.isForce()) return false;
 
         var data = fileOperator.readJsonFile(JsonFileName.DATA_JSON, CdInfoListJson.class);
         if (Objects.isNull(data)) {
@@ -98,7 +96,7 @@ public class GenerateDataJsonTasklet implements Tasklet {
      * @return 一致する場合は true
      */
     private boolean matchPrevCdInfoList(List<CdInfo> cdInfoList) {
-        if (isForce) return false;
+        if (appConfig.isForce()) return false;
 
         var data = fileOperator.readJsonFile(JsonFileName.DATA_JSON, CdInfoListJson.class);
         if (Objects.isNull(data)) {

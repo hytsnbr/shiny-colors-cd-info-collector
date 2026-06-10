@@ -6,24 +6,38 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "app-config")
 public class ApplicationConfig {
 
+    /** データを強制更新するか */
+    private final boolean isForce;
+
     /** 対象URL */
     private final String targetUrl;
 
     /** JSONファイル生成先パス */
     private final String jsonDirPath;
 
-    /** jsoup 関連 */
+    /** jsoup関連 */
     private final Jsoup jsoup;
 
     /** 処理関連 */
     private final Process process;
 
     /** コンストラクタ */
-    public ApplicationConfig(String targetUrl, String jsonDirPath, Jsoup jsoup, Process process) {
+    public ApplicationConfig(
+            boolean isForce,
+            String targetUrl,
+            String jsonDirPath,
+            Jsoup jsoup,
+            Process process
+    ) {
+        this.isForce = isForce;
         this.targetUrl = targetUrl;
         this.jsonDirPath = jsonDirPath;
         this.jsoup = jsoup;
         this.process = process;
+    }
+
+    public boolean isForce() {
+        return isForce;
     }
 
     public String getTargetUrl() {
@@ -42,7 +56,7 @@ public class ApplicationConfig {
         return this.process;
     }
 
-    /** jsoup 関連 */
+    /** jsoup関連 */
     public static class Jsoup {
 
         /**
