@@ -1,5 +1,6 @@
 package com.hytsnbr.shiny_colors.step.tasklet;
 
+import java.nio.file.Paths;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -49,7 +50,11 @@ public class GenerateDataJsonTasklet implements Tasklet {
         }
 
         var cdInfoList =
-                List.of(fileOperator.readJsonFile(JsonFileName.CD_INFO_LIST_JSON, CdInfo[].class));
+                List.of(
+                        fileOperator.readJsonFile(
+                                Paths.get(
+                                        appConfig.getJsonDirPath(), JsonFileName.CD_INFO_LIST_JSON),
+                                CdInfo[].class));
 
         // 前回処理後のデータと一致する場合はファイル出力しない
         if (!matchPrevCdInfoList(cdInfoList)) {
@@ -71,7 +76,10 @@ public class GenerateDataJsonTasklet implements Tasklet {
     private boolean isCreationDateToday() {
         if (appConfig.isForce()) return false;
 
-        var data = fileOperator.readJsonFile(JsonFileName.DATA_JSON, CdInfoListJson.class);
+        var data =
+                fileOperator.readJsonFile(
+                        Paths.get(appConfig.getJsonDirPath(), JsonFileName.DATA_JSON),
+                        CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
@@ -98,7 +106,10 @@ public class GenerateDataJsonTasklet implements Tasklet {
     private boolean matchPrevCdInfoList(List<CdInfo> cdInfoList) {
         if (appConfig.isForce()) return false;
 
-        var data = fileOperator.readJsonFile(JsonFileName.DATA_JSON, CdInfoListJson.class);
+        var data =
+                fileOperator.readJsonFile(
+                        Paths.get(appConfig.getJsonDirPath(), JsonFileName.DATA_JSON),
+                        CdInfoListJson.class);
         if (Objects.isNull(data)) {
             return false;
         }
