@@ -3,6 +3,9 @@ package com.hytsnbr.shiny_colors.constant;
 /** ステップ名定義 */
 public final class StepName {
 
+    /** 前処理ステップ */
+    public static final String PRE_PROCESS_STEP = "前処理ステップ";
+
     /** ディスコグラフィー情報作成ステップ */
     public static final String CREATE_DISCOGRAPHY_LIST_STEP = "ディスコグラフィー情報作成ステップ";
 

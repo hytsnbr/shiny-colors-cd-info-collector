@@ -44,16 +44,30 @@ public class BatchConfig {
     @Bean
     public Job mainJob(
             JobRepository jobRepository,
+            Step preProcessStep,
             Step createDiscographyListStep,
             Step createCdInfoListStep,
             Step generateDataJsonStep,
             Step cleanupStep) {
         return new JobBuilder(JobName.MAIN_JOB, jobRepository)
                 .preventRestart() // ジョブが途中停止しても再起動させない
-                .start(createDiscographyListStep)
+                .start(preProcessStep)
+                .next(createDiscographyListStep)
                 .next(createCdInfoListStep)
                 .next(generateDataJsonStep)
                 .next(cleanupStep)
+                .build();
+    }
+
+    /** 前処理ステップ設定 */
+    @Bean
+    public Step preProcessStep(
+            JobRepository jobRepository,
+            Tasklet preProcessTasklet,
+            PlatformTransactionManager transactionManager) {
+        return new StepBuilder(StepName.PRE_PROCESS_STEP, jobRepository)
+                .tasklet(preProcessTasklet, transactionManager)
+                .allowStartIfComplete(true)
                 .build();
     }
 
