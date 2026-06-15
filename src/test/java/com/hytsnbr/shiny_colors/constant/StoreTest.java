@@ -19,12 +19,12 @@ class StoreTest {
 
     @BeforeAll
     static void setUpAll() {
-        logger.info("{} 開始", JobNameTest.class.getSimpleName());
+        logger.info("{} 開始", StoreTest.class.getSimpleName());
     }
 
     @AfterAll
     static void tearDownAll() {
-        logger.info("{} 終了", JobNameTest.class.getSimpleName());
+        logger.info("{} 終了", StoreTest.class.getSimpleName());
     }
 
     @Test
@@ -53,13 +53,25 @@ class StoreTest {
 
         assertEquals(excepted, actual);
     }
-
+    
     @Test
     @DisplayName("getIncludeQueryParams：取得テスト")
     void getIncludeQueryParams_取得テスト() {
         final var excepted = List.of();
         final var actual = Store.ASOBI_STORE.getIncludeQueryParams();
-
+        
         assertEquals(excepted, actual);
+    }
+    
+    @Test
+    @DisplayName("htmlNames：複数個候補がある場合の照会テスト")
+    void htmlNames_複数個候補がある場合の照会テスト() {
+        final var excepted = Store.ANIMATE;
+        
+        final var actual1 = Store.getByHtmlName("animate");        
+        assertEquals(excepted, actual1);
+        
+        final var actual2 = Store.getByHtmlName("Animate");        
+        assertEquals(excepted, actual2);
     }
 }

@@ -1,7 +1,5 @@
 package com.hytsnbr.shiny_colors.constant;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -13,16 +11,6 @@ class StepNameTest {
 
     /** ロガー */
     private static final Logger logger = LoggerFactory.getLogger(StepNameTest.class);
-
-    @BeforeAll
-    static void setUpAll() {
-        logger.info("{} 開始", JobNameTest.class.getSimpleName());
-    }
-
-    @AfterAll
-    static void tearDownAll() {
-        logger.info("{} 終了", JobNameTest.class.getSimpleName());
-    }
 
     @Test
     @DisplayName("StepName：正常系 コンストラクタ 呼び出しテスト")
