@@ -4,6 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class ApplicationConfigTest {
 
@@ -11,13 +12,25 @@ class ApplicationConfigTest {
     @DisplayName("ApplicationConfigの各getterが正しい値を返すこと")
     void testApplicationConfigGetters() {
         // 準備
+        var batchJobParamNames =
+                new ApplicationConfig.BatchJobParamNames("2025-11-03", "2025-11-03T20:00:00");
         var jsoup = new ApplicationConfig.Jsoup(10000);
         var process = new ApplicationConfig.Process(3, 2000);
 
         // インスタンス化
-        var config = new ApplicationConfig("https://example.com", "/tmp/json", jsoup, process);
+        var config =
+                new ApplicationConfig(
+                        true,
+                        batchJobParamNames,
+                        "https://example.com",
+                        "/tmp/json",
+                        jsoup,
+                        process);
 
         // 検証
+        assertTrue(config.isForce());
+        assertEquals("2025-11-03", config.getBatchJobParamNames().getExecuteDate());
+        assertEquals("2025-11-03T20:00:00", config.getBatchJobParamNames().getExecuteDatetime());
         assertEquals("https://example.com", config.getTargetUrl());
         assertEquals("/tmp/json", config.getJsonDirPath());
         assertEquals(10000, config.getJsoup().getTimeout());
