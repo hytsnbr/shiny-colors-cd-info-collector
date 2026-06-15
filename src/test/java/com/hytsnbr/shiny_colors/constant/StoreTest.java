@@ -53,25 +53,25 @@ class StoreTest {
 
         assertEquals(excepted, actual);
     }
-    
+
     @Test
     @DisplayName("getIncludeQueryParams：取得テスト")
     void getIncludeQueryParams_取得テスト() {
         final var excepted = List.of();
         final var actual = Store.ASOBI_STORE.getIncludeQueryParams();
-        
+
         assertEquals(excepted, actual);
     }
-    
+
     @Test
     @DisplayName("htmlNames：複数個候補がある場合の照会テスト")
     void htmlNames_複数個候補がある場合の照会テスト() {
         final var excepted = Store.ANIMATE;
-        
-        final var actual1 = Store.getByHtmlName("animate");        
+
+        final var actual1 = Store.getByHtmlName("animate");
         assertEquals(excepted, actual1);
-        
-        final var actual2 = Store.getByHtmlName("Animate");        
+
+        final var actual2 = Store.getByHtmlName("Animate");
         assertEquals(excepted, actual2);
     }
 }
