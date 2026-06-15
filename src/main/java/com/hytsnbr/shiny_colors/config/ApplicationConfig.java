@@ -23,12 +23,7 @@ public class ApplicationConfig {
 
     /** コンストラクタ */
     public ApplicationConfig(
-            boolean isForce,
-            String targetUrl,
-            String jsonDirPath,
-            Jsoup jsoup,
-            Process process
-    ) {
+            boolean isForce, String targetUrl, String jsonDirPath, Jsoup jsoup, Process process) {
         this.isForce = isForce;
         this.targetUrl = targetUrl;
         this.jsonDirPath = jsonDirPath;
