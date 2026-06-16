@@ -118,7 +118,7 @@ pmd {
 spotbugs {
     toolVersion = "4.8.3"
 
-    ignoreFailures = false // 違反がある場合にビルドを失敗させる    
+    ignoreFailures = false // 違反がある場合にビルドを失敗させる
     effort.set(com.github.spotbugs.snom.Effort.MAX)
     reportLevel.set(com.github.spotbugs.snom.Confidence.MEDIUM)
 }
