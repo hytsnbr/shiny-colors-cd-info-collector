@@ -48,28 +48,38 @@ jobs:
         # 💡 ReviewdogにXMLを渡すため、Gradleタスク自体がエラーになってもステップを落とさないようにする
         continue-on-error: true
 
-      # 各ツールのXMLレポートをReviewdogに読み込ませてPRにコメント投稿
-      - name: Run Reviewdog to Comment on PR
+      - name: Checkstyle
+        run: |
+          reviewdog \
+            -f=checkstyle \
+            -name="checkstyle" \
+            -reporter=github-pr-review \
+            -level=warning \
+            -fail-on-error=false \
+            < build/reports/checkstyle/main.xml
         env:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: PMD
         run: |
-          echo "=== Reviewdog Checkstyle ==="
-          if [ -f build/reports/checkstyle/main.xml ]; then
-            cat build/reports/checkstyle/main.xml | reviewdog -f=checkstyle -reporter=github-pr-review -level=warning
-          else
-            echo "Checkstyle XML report not found."
-          fi
+          reviewdog \
+            -f=checkstyle \
+            -name="pmd" \
+            -reporter=github-pr-review \
+            -level=warning \
+            -fail-on-error=false \
+            < build/reports/pmd/main.xml
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          echo "=== Reviewdog PMD ==="
-          if [ -f build/reports/pmd/main.xml ]; then
-            cat build/reports/pmd/main.xml | reviewdog -f=pmd -reporter=github-pr-review -level=warning
-          else
-            echo "PMD XML report not found."
-          fi
-
-          echo "=== Reviewdog SpotBugs ==="
-          if [ -f build/reports/spotbugs/main.xml ]; then
-            cat build/reports/spotbugs/main.xml | reviewdog -f=findbugs -reporter=github-pr-review -level=warning
-          else
-            echo "SpotBugs XML report not found."
-          fi
+      - name: SpotBugs
+        run: |
+          reviewdog \
+            -f=checkstyle \
+            -name="spotbugs" \
+            -reporter=github-pr-review \
+            -level=warning \
+            -fail-on-error=false \
+            < build/reports/spotbugs/main.xml
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
