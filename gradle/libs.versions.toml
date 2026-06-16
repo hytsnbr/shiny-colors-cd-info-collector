@@ -1,12 +1,12 @@
 [versions]
-springframeworkBoot = "3.5.11"
+springframeworkBoot = "3.5.15"
 springDependencyManagement = "1.1.7"
-spotless = "8.3.0"
+spotless = "8.6.0"
 spotbugs = "6.0.7"
 commonsLang = "3.20.0"
 commonsCollections = "4.5.0"
-jsoup = "1.22.1"
-gson = "2.13.2"
+jsoup = "1.22.2"
+gson = "2.14.0"
 
 [libraries]
 spring-boot-starter-batch = { group = "org.springframework.boot", name = "spring-boot-starter-batch" }
@@ -22,6 +22,8 @@ jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "ja
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 [bundles]
+spring-boot-starter = ["spring-boot-starter-batch", "spring-boot-starter-validation"]
+spring-boot-test = ["spring-boot-starter-test", "spring-batch-test"]
 apache-commons = ["commons-lang3", "commons-collections4"]
 
 [plugins]

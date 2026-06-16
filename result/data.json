@@ -1,5 +1,5 @@
 {
-  "createdAt": 1772781690,
+  "createdAt": 1780568728,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -8453,11 +8453,88 @@
       "releaseDate": "2025-12-24",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25180/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/10/LACA_25180.jpg",
-      "limited": true,
+      "limited": false,
       "series": "Song for Prism",
       "artist": "シャイニーカラーズ",
-      "downloadSiteList": [],
-      "purchaseSiteList": []
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/02Z1EScGNsVwF7PS9Y4Xxu",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/1854333470",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0G31Z37ZV",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000004d49cde",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/32771441886881d26748",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1854333470",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774251803/",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774251803_HD/",
+          "isHiRes": true
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1045009093",
+          "isHiRes": false
+        }
+      ],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/pd/3258126/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E7%89%B9%E5%85%B8%E3%81%82%E3%82%8A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/dp/B0FQVBCDC5/ref=sr_1_2",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/pd/10834194/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7034750",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18378761/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prism カウントダウンラブ / KAWAII♡めたもる交響曲",
@@ -8467,11 +8544,78 @@
       "releaseDate": "2026-01-07",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24821/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2025/11/LACM-24821.jpg",
-      "limited": true,
+      "limited": false,
       "series": "Song for Prism",
       "artist": "I’m a Cutie Finder",
-      "downloadSiteList": [],
-      "purchaseSiteList": []
+      "downloadSiteList": [
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/1JKkF3lHBSqlaCGrVWNu0F",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/1856531493",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0G48DG1MG",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000004d8e8ad",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/18817c3d6033f45b5364",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1856531493",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774248216/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1045077295",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774248216_HD/",
+          "isHiRes": true
+        }
+      ],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%83%80%E3%82%A6%E3%83%B3%E3%83%A9%E3%83%96+/+KAWAII%E3%83%BB%E3%82%81%E3%81%9F%E3%82%82%E3%82%8B%E4%BA%A4%E9%9F%BF%E6%9B%B2/pd/3300037/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism%E3%80%8C%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%83%80%E3%82%A6%E3%83%B3%E3%83%A9%E3%83%96/KAWAII%E2%99%A1%E3%82%81%E3%81%9F%E3%82%82%E3%82%8B%E4%BA%A4%E9%9F%BF%E6%9B%B2%E3%80%8D/I%27m+a+Cutie+Finder/pd/10848188/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7347485",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Song for Prism QUEEN OF THE PIRATES / キラピコ.exe / Sleepless Nights / アイノウ",
@@ -8747,7 +8891,58 @@
       "limited": false,
       "series": "Song for Prism",
       "artist": "∑ Desire",
-      "downloadSiteList": [],
+      "downloadSiteList": [
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/0uxM9uTKS3iAGU40FPj3t4",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/us/album/1881491326",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0GQRDCF82",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb0000000005136406",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/cda94e1bf6bffb9a1f91",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1881491326",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774748419/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A2006210503/album",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774748419_HD/",
+          "isHiRes": true
+        }
+      ],
       "purchaseSiteList": [
         {
           "name": "animate",
@@ -8772,6 +8967,198 @@
         {
           "name": "Rakuten ブックス",
           "url": "https://books.rakuten.co.jp/rb/18500138/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism Ring Ring Ringの魔法 / 街角メランコリー",
+      "recordNumbers": [
+        "LACM-24825"
+      ],
+      "releaseDate": "2026-04-29",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24825/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACM_24825-1.webp",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "ザ・ふたりトラベラー",
+      "downloadSiteList": [
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/6sKVZpXuXiwU4DjUh8C7Nd",
+          "isHiRes": false
+        },
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/1889131850",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0GVFHMNPR",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000528bcc9",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/f7eb20367ff6c927e057",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/1889131850",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774748822/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1047190549",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774748822_HD/",
+          "isHiRes": true
+        }
+      ],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/3397228/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/dp/B0GMGR14MY/ref=sr_1_4",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/10873706/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7971891",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18531776/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism 散花-sanka- / 紅花-benibana-",
+      "recordNumbers": [
+        "LACM-24826"
+      ],
+      "releaseDate": "2026-06-03",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24826/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/05/LACM-24826.jpg",
+      "limited": false,
+      "series": "Song for Prism",
+      "artist": "彼岸流",
+      "downloadSiteList": [
+        {
+          "name": "Apple Music",
+          "url": "https://music.apple.com/jp/album/6764758058",
+          "isHiRes": false
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/album/6w2xwtCF357CG1CdQ0o43Y",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon Music",
+          "url": "https://www.amazon.co.jp/gp/product/B0GZ2XYD6M",
+          "isHiRes": false
+        },
+        {
+          "name": "Youtube Music",
+          "url": "https://music.youtube.com/playlist",
+          "isHiRes": false
+        },
+        {
+          "name": "LINE MUSIC",
+          "url": "https://music.line.me/launch?target=album&item=mb000000000540c82a",
+          "isHiRes": false
+        },
+        {
+          "name": "AWA",
+          "url": "https://s.awa.fm/album/229a9fe7c78005d85405",
+          "isHiRes": false
+        },
+        {
+          "name": "iTunes",
+          "url": "https://music.apple.com/jp/album/6764758058",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774748969/",
+          "isHiRes": false
+        },
+        {
+          "name": "レコチョク",
+          "url": "https://recochoku.jp/album/A1047678874",
+          "isHiRes": false
+        },
+        {
+          "name": "mora",
+          "url": "https://mora.jp/package/43000011/4540774748969_HD/",
+          "isHiRes": true
+        }
+      ],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/3420812/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/dp/B0GRGXT1FP",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%83%9E%E3%82%AD%E3%82%B7%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+Song+for+Prism+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB/pd/10880817/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://www.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7991599",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ec.toranoana.jp/joshi_r/ec/item/210006666638/",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18563700/",
           "isHiRes": false
         }
       ]
@@ -11583,6 +11970,36 @@
       "purchaseSiteList": []
     },
     {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -∞th LIVE iと夢 part1-",
+      "recordNumbers": [
+        "LACZ-10349",
+        "LACZ-10350"
+      ],
+      "releaseDate": "2026-04-25",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10349_50/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACZ-10349_50.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION -∞th LIVE iと夢 part2-",
+      "recordNumbers": [
+        "LACZ-10351",
+        "LACZ-10352"
+      ],
+      "releaseDate": "2026-04-25",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10351_2/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACZ-10351_2.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
       "title": "THE IDOLM@STER SHINY COLORS FUTURITY SMILE",
       "recordNumbers": [
         "LACM-14906"
@@ -12675,6 +13092,101 @@
       "artist": "シャイニーカラーズ",
       "downloadSiteList": [],
       "purchaseSiteList": []
+    },
+    {
+      "title": "283 Production XXXX Performance XXX= S/N-GUL4R1TY MUSIC COLLECTION【初回限定盤】",
+      "recordNumbers": [
+        "LACM-34828"
+      ],
+      "releaseDate": "2026-04-22",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-34828/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACM-34828.jpg",
+      "limited": false,
+      "series": "OTHER",
+      "artist": "ストレイライト",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/pd/3396903/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/dp/B0GLXMQM7D/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/pd/10873478/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://a.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7971642",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ecs.toranoana.jp/tora/ec/item/210006666353/",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18530583/",
+          "isHiRes": false
+        }
+      ]
+    },
+    {
+      "title": "283 Production XXXX Performance XXX= S/N-GUL4R1TY MUSIC COLLECTION【通常盤】",
+      "recordNumbers": [
+        "LACM-24828"
+      ],
+      "releaseDate": "2026-04-22",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24828/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACM-24828.jpg",
+      "limited": false,
+      "series": "OTHER",
+      "artist": "ストレイライト",
+      "downloadSiteList": [],
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/pd/3396904/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/dp/B0GLX9WPPJ/",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/pd/10873479/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/7971852",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18530584/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://a.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        }
+      ]
     }
   ]
 }
