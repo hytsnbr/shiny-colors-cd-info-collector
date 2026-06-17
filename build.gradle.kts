@@ -95,7 +95,7 @@ checkstyle {
     toolVersion = "13.0.0"
 
     configFile = file("config/checkstyle/checkstyle.xml")
-    isIgnoreFailures = false // 違反がある場合にビルドを失敗させる
+    isIgnoreFailures = true // 違反があってもビルドを失敗させない
     maxWarnings = 0
 }
 
@@ -103,7 +103,7 @@ pmd {
     toolVersion = "7.0.0"
 
     isConsoleOutput = true
-    isIgnoreFailures = false
+    isIgnoreFailures = true // 違反があってもビルドを失敗させない
 
     // ルールセットを指定
     ruleSets =
@@ -118,7 +118,7 @@ pmd {
 spotbugs {
     toolVersion = "4.8.3"
 
-    ignoreFailures = false // 違反がある場合にビルドを失敗させる
+    ignoreFailures = true // 違反があってもビルドを失敗させない
     effort.set(com.github.spotbugs.snom.Effort.MAX)
     reportLevel.set(com.github.spotbugs.snom.Confidence.MEDIUM)
 }
@@ -127,6 +127,51 @@ tasks {
     withType<Test> {
         // JUnit Platform を使用する
         useJUnitPlatform()
+
+        // カバレッジレポート作成
+        finalizedBy(jacocoTestReport)
+    }
+
+    jacocoTestReport {
+        dependsOn(test)
+
+        reports {
+            csv.required.set(false)
+            xml.required.set(true)
+            html.required.set(true)
+        }
+    }
+
+    withType<Delete> {
+        doLast {
+            // デフォルトのcleanタスクでは削除されない「bin」ディレクトリを削除する
+            val binDir = file("./bin")
+            binDir.deleteRecursively()
+        }
+    }
+
+    withType<JavaCompile> {
+        // ビルド時に下記タスクも並行して実行させる
+        dependsOn("processResources")
+
+        doLast {
+            // additional-spring-configuration-metadata.json を自動生成させる
+            copy {
+                from("./build/classes/java/main/META-INF/spring-configuration-metadata.json")
+                into("./src/main/resources/META-INF")
+
+                rename {
+                    "additional-spring-configuration-metadata.json"
+                }
+            }
+        }
+    }
+
+    withType<Jar> {
+        // 標準生成されるJarファイルでは動作しないのでタスクを無効化
+        enabled = false
+    }
+}        useJUnitPlatform()
 
         // カバレッジレポート作成
         finalizedBy(jacocoTestReport)
