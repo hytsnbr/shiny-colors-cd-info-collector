@@ -92,7 +92,7 @@ jacoco {
 }
 
 checkstyle {
-    toolVersion = "13.0.0"
+    toolVersion = "13.6.0"
 
     configFile = file("config/checkstyle/checkstyle.xml")
     isIgnoreFailures = true // 違反があってもビルドを失敗させない
