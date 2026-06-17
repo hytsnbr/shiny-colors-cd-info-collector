@@ -171,49 +171,4 @@ tasks {
         // 標準生成されるJarファイルでは動作しないのでタスクを無効化
         enabled = false
     }
-}        useJUnitPlatform()
-
-        // カバレッジレポート作成
-        finalizedBy(jacocoTestReport)
-    }
-
-    jacocoTestReport {
-        dependsOn(test)
-
-        reports {
-            csv.required.set(false)
-            xml.required.set(true)
-            html.required.set(true)
-        }
-    }
-
-    withType<Delete> {
-        doLast {
-            // デフォルトのcleanタスクでは削除されない「bin」ディレクトリを削除する
-            val binDir = file("./bin")
-            binDir.deleteRecursively()
-        }
-    }
-
-    withType<JavaCompile> {
-        // ビルド時に下記タスクも並行して実行させる
-        dependsOn("processResources")
-
-        doLast {
-            // additional-spring-configuration-metadata.json を自動生成させる
-            copy {
-                from("./build/classes/java/main/META-INF/spring-configuration-metadata.json")
-                into("./src/main/resources/META-INF")
-
-                rename {
-                    "additional-spring-configuration-metadata.json"
-                }
-            }
-        }
-    }
-
-    withType<Jar> {
-        // 標準生成されるJarファイルでは動作しないのでタスクを無効化
-        enabled = false
-    }
 }
