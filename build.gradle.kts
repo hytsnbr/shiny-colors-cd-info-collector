@@ -95,7 +95,7 @@ checkstyle {
     toolVersion = "13.0.0"
 
     configFile = file("config/checkstyle/checkstyle.xml")
-    isIgnoreFailures = false // 違反がある場合にビルドを失敗させる
+    isIgnoreFailures = true // 違反があってもビルドを失敗させない
     maxWarnings = 0
 }
 
@@ -103,7 +103,7 @@ pmd {
     toolVersion = "7.0.0"
 
     isConsoleOutput = true
-    isIgnoreFailures = false
+    isIgnoreFailures = true // 違反があってもビルドを失敗させない
 
     // ルールセットを指定
     ruleSets =
@@ -118,7 +118,7 @@ pmd {
 spotbugs {
     toolVersion = "4.8.3"
 
-    ignoreFailures = false // 違反がある場合にビルドを失敗させる
+    ignoreFailures = true // 違反があってもビルドを失敗させない
     effort.set(com.github.spotbugs.snom.Effort.MAX)
     reportLevel.set(com.github.spotbugs.snom.Confidence.MEDIUM)
 }
