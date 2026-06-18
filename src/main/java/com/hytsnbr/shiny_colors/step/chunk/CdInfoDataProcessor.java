@@ -64,6 +64,9 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
      */
     private CdInfo createCdInfo(final DiscographyData discographyData)
             throws CdInfoWebScrapingException {
+        // システム日付
+        final var systemDate = LocalDate.now();
+
         var cdInfoBuilder = CdInfo.builder();
 
         final var cdDetailUrl = discographyData.getUrl();
@@ -103,7 +106,7 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
 
         String artistName;
         List<String> recordNumbers = new ArrayList<>();
-        LocalDate releaseDate;
+        LocalDate releaseDate = null;
         for (var element : infoTexts) {
             for (var childNode : element.childNodes()) {
                 if (!(childNode instanceof TextNode textNode)) {
@@ -131,11 +134,15 @@ public class CdInfoDataProcessor implements ItemProcessor<DiscographyData, CdInf
         }
 
         var storeLinkPageList = infoTexts.select(".shopbanc > .banshopint");
-        // ショップサイトのリンクが無い場合は限定販売とする
+        // 以下の条件に合致する場合は限定販売とする
+        // 1. ショップサイトのリンクが無い場合
+        // 2. リリース日がシステム日付を含まない過去日の場合
         if (storeLinkPageList.isEmpty()) {
-            cdInfoBuilder.limited(true);
+            if (Objects.nonNull(releaseDate) && releaseDate.isBefore(systemDate)) {
+                cdInfoBuilder.limited(true);
 
-            return cdInfoBuilder.build();
+                return cdInfoBuilder.build();
+            }
         }
 
         // ダウンロードサイト & CDショップサイト URL取得
