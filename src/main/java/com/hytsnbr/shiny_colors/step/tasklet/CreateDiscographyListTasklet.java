@@ -42,9 +42,9 @@ public class CreateDiscographyListTasklet implements Tasklet {
     @SuppressWarnings("NullableProblems")
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) {
-        var discographyList = this.createDiscographyList();
+        var discographyList = createDiscographyList();
 
-        this.fileOperator.outputToJsonFile(discographyList, "DiscographyList.json");
+        fileOperator.outputToJsonFile(discographyList, "DiscographyList.json");
 
         return RepeatStatus.FINISHED;
     }

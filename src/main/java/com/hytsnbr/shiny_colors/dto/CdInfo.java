@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
@@ -91,7 +91,7 @@ public class CdInfo {
             return super.equals(obj);
         }
 
-        if (!StringUtils.equals(this.title, cdInfo.title)) return false;
+        if (!Strings.CS.equals(this.title, cdInfo.title)) return false;
         if (this.recordNumbers.size() != cdInfo.recordNumbers.size()) return false;
         for (var recordNumber : cdInfo.recordNumbers) {
             if (!this.recordNumbers.contains(recordNumber)) {
@@ -99,11 +99,11 @@ public class CdInfo {
             }
         }
         if (!Objects.equals(this.releaseDate, cdInfo.releaseDate)) return false;
-        if (!StringUtils.equals(this.cdInfoPageUrl, cdInfo.cdInfoPageUrl)) return false;
-        if (!StringUtils.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
+        if (!Strings.CS.equals(this.cdInfoPageUrl, cdInfo.cdInfoPageUrl)) return false;
+        if (!Strings.CS.equals(this.jacketUrl, cdInfo.jacketUrl)) return false;
         if (this.limited != cdInfo.limited) return false;
-        if (!StringUtils.equals(this.series, cdInfo.series)) return false;
-        if (!StringUtils.equals(this.artist, cdInfo.artist)) return false;
+        if (!Strings.CS.equals(this.series, cdInfo.series)) return false;
+        if (!Strings.CS.equals(this.artist, cdInfo.artist)) return false;
         if (this.downloadSiteList.size() != cdInfo.downloadSiteList.size()) return false;
         for (var storeSite : cdInfo.downloadSiteList) {
             if (!this.downloadSiteList.contains(storeSite)) {

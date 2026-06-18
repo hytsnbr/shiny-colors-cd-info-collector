@@ -21,6 +21,9 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.hytsnbr.shiny_colors.constant.JobName;
+import com.hytsnbr.shiny_colors.constant.JsonFileName;
+import com.hytsnbr.shiny_colors.constant.StepName;
 import com.hytsnbr.shiny_colors.dto.CdInfo;
 import com.hytsnbr.shiny_colors.dto.DiscographyData;
 import com.hytsnbr.shiny_colors.exception.CdInfoWebScrapingException;
@@ -41,15 +44,30 @@ public class BatchConfig {
     @Bean
     public Job mainJob(
             JobRepository jobRepository,
+            Step preProcessStep,
             Step createDiscographyListStep,
             Step createCdInfoListStep,
             Step generateDataJsonStep,
             Step cleanupStep) {
-        return new JobBuilder("main_job", jobRepository)
-                .start(createDiscographyListStep)
+        return new JobBuilder(JobName.MAIN_JOB, jobRepository)
+                .preventRestart() // ジョブが途中停止しても再起動させない
+                .start(preProcessStep)
+                .next(createDiscographyListStep)
                 .next(createCdInfoListStep)
                 .next(generateDataJsonStep)
                 .next(cleanupStep)
+                .build();
+    }
+
+    /** 前処理ステップ設定 */
+    @Bean
+    public Step preProcessStep(
+            JobRepository jobRepository,
+            Tasklet preProcessTasklet,
+            PlatformTransactionManager transactionManager) {
+        return new StepBuilder(StepName.PRE_PROCESS_STEP, jobRepository)
+                .tasklet(preProcessTasklet, transactionManager)
+                .allowStartIfComplete(true)
                 .build();
     }
 
@@ -59,7 +77,7 @@ public class BatchConfig {
             JobRepository jobRepository,
             Tasklet createDiscographyListTasklet,
             PlatformTransactionManager transactionManager) {
-        return new StepBuilder("create_discography_list_step", jobRepository)
+        return new StepBuilder(StepName.CREATE_DISCOGRAPHY_LIST_STEP, jobRepository)
                 .tasklet(createDiscographyListTasklet, transactionManager)
                 .allowStartIfComplete(true)
                 .build();
@@ -73,14 +91,14 @@ public class BatchConfig {
             JsonItemReader<DiscographyData> discographyDataListJsonReader,
             CdInfoDataProcessor cdInfoDataProcessor,
             JsonFileItemWriter<CdInfo> cdInfoJsonWriter) {
-        return new StepBuilder("generate_data_json_step", jobRepository)
+        return new StepBuilder(StepName.CREATE_CD_INFO_LIST_STEP, jobRepository)
                 .<DiscographyData, CdInfo>chunk(1, transactionManager)
                 .reader(discographyDataListJsonReader)
                 .processor(cdInfoDataProcessor)
                 .writer(cdInfoJsonWriter)
                 .allowStartIfComplete(true)
                 .faultTolerant()
-                .retryLimit(this.appConfig.getProcess().getRetryLimit())
+                .retryLimit(appConfig.getProcess().getRetryLimit())
                 .retry(CdInfoWebScrapingException.class)
                 .build();
     }
@@ -91,7 +109,7 @@ public class BatchConfig {
             JobRepository jobRepository,
             Tasklet generateDataJsonTasklet,
             PlatformTransactionManager transactionManager) {
-        return new StepBuilder("generate_data_json_step", jobRepository)
+        return new StepBuilder(StepName.GENERATE_DATA_JSON_STEP, jobRepository)
                 .tasklet(generateDataJsonTasklet, transactionManager)
                 .allowStartIfComplete(true)
                 .build();
@@ -103,7 +121,7 @@ public class BatchConfig {
             JobRepository jobRepository,
             Tasklet cleanupTasklet,
             PlatformTransactionManager transactionManager) {
-        return new StepBuilder("cleanup_step", jobRepository)
+        return new StepBuilder(StepName.CLEANUP_STEP, jobRepository)
                 .tasklet(cleanupTasklet, transactionManager)
                 .allowStartIfComplete(true)
                 .build();
@@ -112,8 +130,8 @@ public class BatchConfig {
     /** ディスコグラフィーデータJSONファイル読み込み処理設定 */
     @Bean
     public JsonItemReader<DiscographyData> discographyDataListJsonReader() {
-        final var jsonPath = Paths.get(this.appConfig.getJsonDirPath(), "DiscographyList.json");
-
+        final var jsonPath =
+                Paths.get(appConfig.getJsonDirPath(), JsonFileName.DISCOGRAPHY_LIST_JSON);
         return new JsonItemReaderBuilder<DiscographyData>()
                 .jsonObjectReader(new JacksonJsonObjectReader<>(DiscographyData.class))
                 .resource(new FileSystemResource(jsonPath))
@@ -124,9 +142,8 @@ public class BatchConfig {
     /** CD情報JSON書き込み設定 */
     @Bean
     public JsonFileItemWriter<CdInfo> cdInfoJsonWriter() {
-        final var jsonPath = Paths.get(this.appConfig.getJsonDirPath(), "CDInfoList.json");
-
-        final var objectMapper = new ObjectMapper();
+        var jsonPath = Paths.get(appConfig.getJsonDirPath(), JsonFileName.CD_INFO_LIST_JSON);
+        var objectMapper = new ObjectMapper();
         // Jacksonで Java8 の LocalDate 関係を処理できるようにする
         objectMapper.registerModule(new JavaTimeModule());
 

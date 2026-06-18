@@ -24,11 +24,12 @@ public final class JsoupUtil {
     /**
      * ページ取得
      *
-     * @param url ページURL
+     * @param appConfig アプリ設定
+     * @param url 対象ページURL
      * @throws HttpStatusException ページ情報の取得に失敗した場合
      */
     public static Document connectJsoup(ApplicationConfig appConfig, String url)
-            throws HttpStatusException {
+            throws HttpStatusException, SystemException {
         final var timeout = appConfig.getJsoup().getTimeout();
         logger.debug("接続先: {} / タイムアウト設定: {}", url, timeout);
 

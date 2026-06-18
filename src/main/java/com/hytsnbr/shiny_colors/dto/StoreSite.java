@@ -1,6 +1,6 @@
 package com.hytsnbr.shiny_colors.dto;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -63,7 +63,7 @@ public class StoreSite {
         }
 
         // NOTE: ショップサイトURLはページ読み込みごとに異なるクエリパラメータが付与される事例があったので比較対象にしない
-        if (!StringUtils.equals(this.name, storeSite.name)) return false;
+        if (!Strings.CS.equals(this.name, storeSite.name)) return false;
         return this.isHiRes == storeSite.isHiRes;
     }
 
