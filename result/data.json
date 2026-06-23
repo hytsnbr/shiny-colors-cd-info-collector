@@ -1,5 +1,5 @@
 {
-  "createdAt": 1780568728,
+  "createdAt": 1782236649,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -9164,6 +9164,20 @@
       ]
     },
     {
+      "title": "THE IDOLM@STER SHINY COLORS Song for Prism Tokyo自由系*ガール / My time",
+      "recordNumbers": [
+        "LACM-24827"
+      ],
+      "releaseDate": "2026-07-01",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacm-24827/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/06/LACM-24827.jpg",
+      "limited": true,
+      "series": "Song for Prism",
+      "artist": "No 1 feel alone",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
       "title": "THE IDOLM@STER SHINY COLORS SE@SONAL WINTER",
       "recordNumbers": [
         "LACM-14820"
@@ -9817,6 +9831,48 @@
           "isHiRes": false
         }
       ]
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS HOPEFUL FE@THERS -Stella-",
+      "recordNumbers": [
+        "LACA-25301"
+      ],
+      "releaseDate": "2026-09-16",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25301/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "HOPEFUL FE@THERS",
+      "artist": "Team.Stella",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS HOPEFUL FE@THERS -Luna-",
+      "recordNumbers": [
+        "LACA-25302"
+      ],
+      "releaseDate": "2026-09-16",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25302/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "HOPEFUL FE@THERS",
+      "artist": "Team.Luna",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS HOPEFUL FE@THERS -Sol-",
+      "recordNumbers": [
+        "LACA-25303"
+      ],
+      "releaseDate": "2026-09-16",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25303/",
+      "jacketUrl": "/images/nowprinting.jpg",
+      "limited": true,
+      "series": "HOPEFUL FE@THERS",
+      "artist": "Team.Sol",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Synthe-Side 01",
