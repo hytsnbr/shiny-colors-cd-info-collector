@@ -10,6 +10,7 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.stereotype.Component;
 
 import com.hytsnbr.shiny_colors.config.ApplicationConfig;
+import com.hytsnbr.shiny_colors.constant.JsonFileName;
 
 /** クリーンアップ処理タスクレット */
 @Component
@@ -27,8 +28,9 @@ public class CleanupTasklet implements Tasklet {
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext)
             throws Exception {
         // 処理中に作成したコミット対象外のファイルを削除する
-        Files.deleteIfExists(Paths.get(this.appConfig.getJsonDirPath(), "CDInfoList.json"));
-        Files.deleteIfExists(Paths.get(this.appConfig.getJsonDirPath(), "DiscographyList.json"));
+        Files.deleteIfExists(Paths.get(appConfig.getJsonDirPath(), JsonFileName.CD_INFO_LIST_JSON));
+        Files.deleteIfExists(
+                Paths.get(appConfig.getJsonDirPath(), JsonFileName.DISCOGRAPHY_LIST_JSON));
 
         return RepeatStatus.FINISHED;
     }

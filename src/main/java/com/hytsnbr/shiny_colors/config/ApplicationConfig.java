@@ -6,24 +6,46 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "app-config")
 public class ApplicationConfig {
 
+    /** データを強制更新するか */
+    private final boolean isForce;
+
+    /** バッチ処理内パラメータ名 */
+    private final BatchJobParamNames batchJobParamNames;
+
     /** 対象URL */
     private final String targetUrl;
 
     /** JSONファイル生成先パス */
     private final String jsonDirPath;
 
-    /** jsoup 関連 */
+    /** jsoup関連 */
     private final Jsoup jsoup;
 
     /** 処理関連 */
     private final Process process;
 
     /** コンストラクタ */
-    public ApplicationConfig(String targetUrl, String jsonDirPath, Jsoup jsoup, Process process) {
+    public ApplicationConfig(
+            boolean isForce,
+            BatchJobParamNames batchJobParamNames,
+            String targetUrl,
+            String jsonDirPath,
+            Jsoup jsoup,
+            Process process) {
+        this.isForce = isForce;
+        this.batchJobParamNames = batchJobParamNames;
         this.targetUrl = targetUrl;
         this.jsonDirPath = jsonDirPath;
         this.jsoup = jsoup;
         this.process = process;
+    }
+
+    public boolean isForce() {
+        return isForce;
+    }
+
+    public BatchJobParamNames getBatchJobParamNames() {
+        return batchJobParamNames;
     }
 
     public String getTargetUrl() {
@@ -42,7 +64,30 @@ public class ApplicationConfig {
         return this.process;
     }
 
-    /** jsoup 関連 */
+    /** バッチ処理内パラメータ名 */
+    public static class BatchJobParamNames {
+
+        /** バッチ処理日 */
+        private final String executeDate;
+
+        /** バッチ処理日時 */
+        private final String executeDatetime;
+
+        public BatchJobParamNames(String executeDate, String executeDatetime) {
+            this.executeDate = executeDate;
+            this.executeDatetime = executeDatetime;
+        }
+
+        public String getExecuteDate() {
+            return this.executeDate;
+        }
+
+        public String getExecuteDatetime() {
+            return this.executeDatetime;
+        }
+    }
+
+    /** jsoup関連 */
     public static class Jsoup {
 
         /**
