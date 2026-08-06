@@ -1,0 +1,85 @@
+name: Java Static Analysis
+
+on:
+  pull_request:
+    paths:
+      - "src/**/*.java"
+      - "config/checkstyle/checkstyle.xml"
+      - "build.gradle.kts"
+    types:
+      - opened # PR作成時
+      - synchronize # PRのコミット更新時
+    
+jobs:
+  static-analysis:
+    name: Run Lint and Reviewdog
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write # PRにインラインコメントを書き込むため
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5.2.0
+        with:
+          java-version: 21
+          distribution: adopt
+          cache: "gradle"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92 # v6.2.0
+
+      - name: Setup reviewdog
+        uses: reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f
+        with:
+          reviewdog_version: latest
+
+      # 静的解析タスクの実行
+      # 通常警告があるとタスクが「失敗」扱いになり後移行の処理が止まるため、
+      # Gradleの引数に `--continue` を付与してすべての解析を強制完遂させる
+      - name: Run Checkstyle, PMD and SpotBugs
+        run: gradle checkstyleMain pmdMain spotbugsMain --continue
+        # 💡 ReviewdogにXMLを渡すため、Gradleタスク自体がエラーになってもステップを落とさないようにする
+        continue-on-error: true
+
+      - name: Checkstyle
+        run: |
+          reviewdog \
+            -f=checkstyle \
+            -name="checkstyle" \
+            -reporter=github-pr-review \
+            -level=warning \
+            -fail-on-error=false \
+            < build/reports/checkstyle/main.xml
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: PMD
+        run: |
+          reviewdog \
+            -f=checkstyle \
+            -name="pmd" \
+            -reporter=github-pr-review \
+            -level=warning \
+            -fail-on-error=false \
+            < build/reports/pmd/main.xml
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: SpotBugs
+        run: |
+          reviewdog \
+            -f=checkstyle \
+            -name="spotbugs" \
+            -reporter=github-pr-review \
+            -level=warning \
+            -fail-on-error=false \
+            < build/reports/spotbugs/main.xml
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
