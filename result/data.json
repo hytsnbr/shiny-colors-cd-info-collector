@@ -1,5 +1,5 @@
 {
-  "createdAt": 1782236649,
+  "createdAt": 1787674304,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -9839,12 +9839,48 @@
       ],
       "releaseDate": "2026-09-16",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25301/",
-      "jacketUrl": "/images/nowprinting.jpg",
-      "limited": true,
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/08/LACA-25301.jpg",
+      "limited": false,
       "series": "HOPEFUL FE@THERS",
       "artist": "Team.Stella",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9F%B3%E6%A5%BD%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+HOPEFUL+FE%40THERS+-Stella-/pd/3516466/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-HOPEFUL-Stella/dp/B0H69HGM64/ref=pd_bxgy_d_sccl_2/356-7600103-5972907",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+HOPEFUL+FE%40THERS+-Stella-/Team.Stella/pd/10909079/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/8052869",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18673721/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://www.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ec.toranoana.jp/joshi_r/ec/item/210006667248/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS HOPEFUL FE@THERS -Luna-",
@@ -9853,12 +9889,48 @@
       ],
       "releaseDate": "2026-09-16",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25302/",
-      "jacketUrl": "/images/nowprinting.jpg",
-      "limited": true,
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/08/LACA-25302.jpg",
+      "limited": false,
       "series": "HOPEFUL FE@THERS",
       "artist": "Team.Luna",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3516467/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-COLORS-HOPEFUL-Luna/dp/B0H699TLXF/ref=pd_bxgy_d_sccl_2/356-7600103-5972907",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+HOPEFUL+FE%40THERS+-Luna-/Team.Luna/pd/10909080/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/8052865",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18673722/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://www.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ec.toranoana.jp/joshi_r/ec/item/210006667249/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS HOPEFUL FE@THERS -Sol-",
@@ -9867,12 +9939,48 @@
       ],
       "releaseDate": "2026-09-16",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/laca-25303/",
-      "jacketUrl": "/images/nowprinting.jpg",
-      "limited": true,
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/08/LACA-25303.jpg",
+      "limited": false,
       "series": "HOPEFUL FE@THERS",
       "artist": "Team.Sol",
       "downloadSiteList": [],
-      "purchaseSiteList": []
+      "purchaseSiteList": [
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3516468/",
+          "isHiRes": false
+        },
+        {
+          "name": "Amazon CD",
+          "url": "https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91-IDOLM-SHINY-COLORS-HOPEFUL/dp/B0H69CQ6TC/ref=pd_bxgy_d_sccl_1/356-7600103-5972907",
+          "isHiRes": false
+        },
+        {
+          "name": "GAMERS",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%91THE+IDOLM%40STER+SHINY+COLORS+HOPEFUL+FE%40THERS+-Sol-/Team.Sol/pd/10909081/",
+          "isHiRes": false
+        },
+        {
+          "name": "TOWER RECORDS ONLINE",
+          "url": "https://tower.jp/item/8052867",
+          "isHiRes": false
+        },
+        {
+          "name": "Rakuten ブックス",
+          "url": "https://books.rakuten.co.jp/rb/18673723/",
+          "isHiRes": false
+        },
+        {
+          "name": "ソフマップ",
+          "url": "https://www.sofmap.com/product_detail.aspx",
+          "isHiRes": false
+        },
+        {
+          "name": "とらのあな",
+          "url": "https://ec.toranoana.jp/joshi_r/ec/item/210006667250/",
+          "isHiRes": false
+        }
+      ]
     },
     {
       "title": "THE IDOLM@STER SHINY COLORS Synthe-Side 01",
