@@ -3,7 +3,7 @@ package com.hytsnbr.shiny_colors.constant;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 
 /** ストア情報定数 */
 public enum Store {
@@ -64,7 +64,7 @@ public enum Store {
      */
     public static Store getByHtmlName(String htmlName) {
         return Arrays.stream(Store.values())
-                .filter(e -> StringUtils.equals(e.htmlName, htmlName))
+                .filter(e -> Strings.CS.equals(e.htmlName, htmlName))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Invalid: " + htmlName));
     }

@@ -6,7 +6,7 @@ on:
 
   workflow_dispatch:
     inputs:
-      force:
+      is-force:
         type: boolean
         required: true
         default: false

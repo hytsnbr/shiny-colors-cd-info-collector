@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import org.slf4j.Logger;
@@ -27,8 +28,6 @@ public class FileOperator {
     /** ロガー */
     private static final Logger logger = LoggerFactory.getLogger(FileOperator.class);
 
-    private final ApplicationConfig appConfig;
-
     /* staticイニシャライザー */
     static {
         objectMapper = new ObjectMapper();
@@ -38,17 +37,20 @@ public class FileOperator {
     }
 
     /** コンストラクタ */
-    public FileOperator(ApplicationConfig appConfig) {
-        this.appConfig = appConfig;
-    }
+    public FileOperator(ApplicationConfig appConfig) {}
 
-    /** JSONファイルを読み取ってオブジェクトで返却する */
-    public <T> T readJsonFile(final String jsonFileName, Class<T> clazz) {
+    /**
+     * JSONファイルを読み取ってオブジェクトで返却する
+     *
+     * @param jsonFilePath 読み込み対象JSONファイルパス
+     * @throws SystemException JSONファイル読み込みに失敗した場合
+     */
+    public <T> T readJsonFile(Path jsonFilePath, Class<T> clazz) throws SystemException {
         try {
-            var jsonFile = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName).toFile();
+            var jsonFile = jsonFilePath.toFile();
             return objectMapper.readValue(jsonFile, clazz);
         } catch (FileNotFoundException e) {
-            logger.debug("生成ファイルが存在しません");
+            logger.info("生成ファイルが存在しません");
 
             return null;
         } catch (IOException e) {
@@ -56,9 +58,15 @@ public class FileOperator {
         }
     }
 
-    /** JSONファイルに出力 */
-    public void outputToJsonFile(Object jsonData, String jsonFileName) {
-        var path = Paths.get(this.appConfig.getJsonDirPath(), jsonFileName);
+    /**
+     * データをJSONファイルに出力する
+     *
+     * @param jsonData 出力対象データ
+     * @param jsonFileName データ出力先JSONファイル名
+     * @throws SystemException データ出力に失敗した場合
+     */
+    public void outputToJsonFile(Object jsonData, String jsonFileName) throws SystemException {
+        var path = Paths.get(jsonFileName);
         try {
             Files.deleteIfExists(path);
             Files.createFile(path);
