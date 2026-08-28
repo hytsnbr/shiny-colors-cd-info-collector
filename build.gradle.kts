@@ -100,7 +100,7 @@ checkstyle {
 }
 
 pmd {
-    toolVersion = "7.26.0"
+    toolVersion = "7.27.0"
 
     isConsoleOutput = true
     isIgnoreFailures = true // 違反があってもビルドを失敗させない
