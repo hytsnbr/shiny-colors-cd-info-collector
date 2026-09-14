@@ -1,5 +1,5 @@
 {
-  "createdAt": 1787674304,
+  "createdAt": 1789389599,
   "info": [
     {
       "title": "THE IDOLM@STER SHINY COLORS BRILLI@NT WING 01 Spread the Wings!!",
@@ -12157,6 +12157,20 @@
       "releaseDate": "2026-04-25",
       "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10351_2/",
       "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/04/LACZ-10351_2.jpg",
+      "limited": true,
+      "series": "SOLO COLLECTION",
+      "artist": "シャイニーカラーズ",
+      "downloadSiteList": [],
+      "purchaseSiteList": []
+    },
+    {
+      "title": "THE IDOLM@STER SHINY COLORS SOLO COLLECTION 283 PRODUCTION Solo Live Collection -Master ShowPiece-",
+      "recordNumbers": [
+        "LACZ-10374"
+      ],
+      "releaseDate": "2026-09-26",
+      "cdInfoPageUrl": "https://shinycolors.lantis.jp/releaseinfo/lacz-10374/",
+      "jacketUrl": "https://shinycolors.lantis.jp/X9pa5jNY/wp-content/uploads/2026/09/LACZ-10374.jpg",
       "limited": true,
       "series": "SOLO COLLECTION",
       "artist": "シャイニーカラーズ",
