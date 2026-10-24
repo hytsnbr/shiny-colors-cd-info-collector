@@ -6,7 +6,7 @@ spotbugs = "6.5.13"
 commonsLang = "3.21.0"
 commonsCollections = "4.6.0"
 jsoup = "1.23.2"
-gson = "2.14.0"
+gson = "2.15.0"
 
 [libraries]
 spring-boot-starter-batch = { group = "org.springframework.boot", name = "spring-boot-starter-batch" }
